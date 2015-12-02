@@ -1,0 +1,54 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Shift circular origin to specified nucleotides" geneiousVersion="7.0.2" uniqueId="8845caf4-2c91-4cdc-941d-5b046b0b7708" revisionNumber="20" description="&lt;html&gt;&lt;center&gt;Shifts the origin of circular sequences to the specified nucleotides&lt;br&gt;&#xA;Note: The standard way to shift origins is to use 'Change Numbering' in the Sequence menu&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>// An example operation that shifts the origin of circular sequences so they start with the specified nucleotides
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	options.addStringOption("originSequence","Nucleotides at origin:","GATT").setDescription(
+		"Sets the origin to be immediately prior to the first occurrence of these nucleotides");
+	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+															 ProgressListener progressListener) throws DocumentOperationException {
+	final String originSequence = ((String) options.getValue("originSequence")).toLowerCase();
+	SequenceDocument.Transformer transformer = new SequenceDocument.Transformer() {
+		public SequenceDocument transformSequence(SequenceDocument originalSequence) {
+			if (!originalSequence.isCircular())
+				return originalSequence;
+			String seqString = originalSequence.getSequenceString() + originalSequence.getSequenceString(); // 2 copies so we can find sequences that span the origin
+			int originPosition = seqString.toLowerCase().indexOf(originSequence);
+			if (originPosition&gt;0) {
+				SequenceExtractionUtilities.ExtractionOptions extractionOptions = 
+					new SequenceExtractionUtilities.ExtractionOptions(originPosition+1, originPosition+originalSequence.getSequenceLength());
+			    extractionOptions.setMustGenerateDefaultSequenceDocument(true);					
+				extractionOptions.setTruncateAnnotationsIfNecessary(true);
+				DefaultSequenceDocument result = (DefaultSequenceDocument) SequenceExtractionUtilities.extract(originalSequence, extractionOptions);
+				result.setCircular(true);
+				result.setName(originalSequence.getName());				
+				result.setAnnotations(removeAnnotationsOfType(result.getSequenceAnnotations(),
+					SequenceAnnotation.TYPE_EXTRACTED_REGION)); // Remove invisible numbering annotations that aren't valid on circular sequences
+				return result;				
+			}
+			else {
+				return originalSequence;
+			}
+		}
+	};
+	return SequenceUtilities.createNewDocumentsByTransformingSequences(
+			documents, transformer, progressListener, "origin shifted ");
+}
+
+private static List&lt;SequenceAnnotation&gt; removeAnnotationsOfType(List&lt;SequenceAnnotation&gt; annotations, String typeToRemove) {
+	List&lt;SequenceAnnotation&gt; results = new ArrayList&lt;SequenceAnnotation&gt;();
+	for(SequenceAnnotation annotation:annotations) {
+		if (!annotation.getType().equals(typeToRemove)) 
+			results.add(annotation);
+	}
+	return results;
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC70lEQVR42u3X/U7TUBQA8MLovgqjwBhl3WjLR7P/1kfgETTRGE10SKIQiUqChmDAVY0kxg9QjJpoHEZJwCBEE8RAYknQQKJmvEEfobzB8dwFxmXdYN36Jzf5pUnvOefe9t7bbAxz0py0P0wv85eZZv4xG3i1EOyx9u5N52Lcbp4tT1/Ndo2JoEwms8X0VT0w+5vVajdrs55ND9j8KouBE5ErGtxreE+xP1mrzqiDKlmswWqOBvev+3u9a14oat0L7Dpr4DVdIEv6SmHXypwEt8JpvhWf5V/xg++77xDvqjfNLDN8yWTsw7ipwrycH1hz1X/8cgS+BrIICpjcMlf2ayQPEfgWMBEUMI5OXORSCIJfggcWg1l+meed7iGSQ3KDS1iDwi1xqdITmOfM+vl6oHGfOa3SU0Ry6xewzkKuzj6zePAcpzV8agBa6GNIr/Yoh+ZCesMc1qOQseyBmdBUY6YR8mYbgc84f/W2pcjwcuhDCAqk7YFveQMBZcOtLympxb/Dmvve8/bN2Pyq2ULQ/DpPd2sCpFbTmyag2PdBy4sWoIWfh12bQHgmrLfMYN2XB2xBrc9agRZ5GnFvAlNhHQHNFhR5FLEQUFybQORxREeQ9yRiXwJhUjCEhwJQXNuEbZNtGwgo9k0o3BPS7Xo70GRdrvoYCrogt9/HehThgWA/huKEmBTHRaDFxmNVL0P0blSPTkSBRsYqGiyOimZsNAY08bZY8adYvCNqsTGsQxHHRLNkQsdIRwoBLT4S35GHnS8FyYnfiu8ioJExjkyUrkuGdEOCQ25Ku1hQczC4Jg1LuwgKGMcmK0OKpFxTLAQ2Q8qsPCiX/FFB+uQheRZBERapXdYTKANKsvNKJ3ReLWkH6XmDaADvDWBfcRap6WgN1X412X2520JAdPV3VcpS+h0Onn8TFxSp52KPgcDmUhkwl9So+kumnldTyERQJhKbcv0fknpaTSbOJNKJswkDmQj2mLl72KeeU5PMSXPQ/gMeT14hbjXVFQAAAABJRU5ErkJggg==</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

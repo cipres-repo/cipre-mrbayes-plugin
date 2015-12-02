@@ -1,0 +1,45 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Truncate Annotations" geneiousVersion="7.0.1" uniqueId="759632df-e805-406a-96cf-fa707fa88030" revisionNumber="15" description="&lt;html&gt;&lt;center&gt;Sets or clears the truncated status on the ends of each annotation.&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>// An example operation that sets each annotation of the type chosen by the user to be truncated.
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	options.addStringOption("annotationType","Annotation type to truncate:","CDS");
+	options.addBooleanOption("truncateLeft","Truncate left-hand side",true);
+	options.addBooleanOption("truncateRight","Truncate right-hand side",true);
+	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+				ProgressListener progressListener) throws DocumentOperationException {
+    final boolean truncateLeft = (Boolean) options.getValue("truncateLeft");
+    final boolean truncateRight = (Boolean) options.getValue("truncateRight");
+	final String annotationType = (String) options.getValue("annotationType");
+	SequenceDocument.Transformer transformer = new SequenceDocument.Transformer() {
+		public SequenceDocument transformSequence(SequenceDocument originalSequence) {
+			DefaultSequenceDocument newSequence = SequenceUtilities.createSequenceCopyEditable(originalSequence);
+			List&lt;SequenceAnnotation&gt; annotations = newSequence.getSequenceAnnotations();
+			for(SequenceAnnotation annotation:annotations) {
+				if (annotation.getType().equalsIgnoreCase(annotationType)) {
+					List&lt;SequenceAnnotationInterval&gt; intervals = annotation.getIntervals();
+					List&lt;SequenceAnnotationInterval&gt; newIntervals = new ArrayList&lt;SequenceAnnotationInterval&gt;();
+					for(SequenceAnnotationInterval interval: intervals) {
+						newIntervals.add(new SequenceAnnotationInterval(
+							interval.getMinimumIndex(), interval.getMaximumIndex(), 
+							interval.getDirection(), truncateLeft, truncateRight));
+					}
+					annotation.setIntervals(newIntervals);
+				}
+			}
+			newSequence.setAnnotations(annotations);
+			return newSequence;
+		}
+    };
+	return SequenceUtilities.createNewDocumentsByTransformingSequences(
+		documents,transformer,progressListener,"truncated ");													  
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA9UlEQVR42mNgoAfYvJLtP5BiA2JmsgzYtJzh/7Y1vCBDBLAasmUV63+QInz41eP0/1tX82AasnU1x/9Xj0L///9WCMRFULoQiY/AIHXb1nCjGrJlFfP//19jicavHroCDeFEGAJy3peXxiThV/e1/4NcDjYEZMC7u/Ik4/vnJYCGAGMHZMCDS6ThS0cZ/m9ZxQ5ygS7YgBunicfnDoI0gwPSAIiVwQac2sfw/8JhiMkgGoZBfGQMUoeiGRKQDJyE0gAIH9sFdzayZnBUMkM5CkCshg2DDMClGQZAHE4g5sWGNy5n+Q81TBlnciYAQIaLkasZLwAA4mZjtsdKpisAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

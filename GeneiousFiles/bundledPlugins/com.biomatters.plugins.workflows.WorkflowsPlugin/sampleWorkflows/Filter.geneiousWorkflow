@@ -1,0 +1,29 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Filter" geneiousVersion="7.0.0" uniqueId="97d8b026-1909-405a-bc00-e64c43154e3c" revisionNumber="14" description="&lt;html&gt;&lt;center&gt;Filters sequences or documents that match a given criteria&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementForEach" />
+    <workflowElement id="FilterOperation" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="match">all</option>
+        <multiOption name="filter">
+          <option name="field">anyField</option>
+          <option name="condition">contains</option>
+          <option name="value" />
+          <value>
+            <option name="field">sequence_length</option>
+            <option name="condition">greater_than</option>
+            <option name="value">100</option>
+          </value>
+        </multiOption>
+      </Options>
+      <optionToExpose optionName="match" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">Filtered </option>
+        <option name="middle">2</option>
+        <option name="suffix"></option>
+      </options>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADDElEQVR42tWTyU9TURjF+QdcuHflkj/AhMSN7jAmJmxMSFgZFgiBIMiQghAVZCxglTa1DBUiFYW0hdeWqTJVqUBlCGEoFGQqVSml7XuvtLTHe19TFmx4ICz8ki/35i5+59xzvxsXd47yeDzX9Z9GH0hyFEhLfY28Jy14UdKNhkotDIaJG3H/WmVFbVsl5b2H7X3rYGbcGFjxQzfphkq/heflQ6go7cCF4dIqHabnthEKR+DkjzH6k0fPIoe+NQ6jezx0sxwqFGvIy2o+v4i0xoixyU3EanieB0OAzSYf3uq8aB3ygbFzGFzlUdVkR26mXLyIQWuLV6itcAWOcRSMwMuFwVg5aCwsOib80FhZdH5nhdXoIDda4fDs1RDUKv1jUQJKxchC1/gm5veDsNgD6Bj1Q2X0QTvDglni0O/gMezkYd7lYVwmcbl4tJp2kJvRAIVC8fBMgaoKI8nZA/MaydnGCQLdP1gB+G0/gEl3ALaDI0yRtpK9hZz1kAHIyngnVoDByB4nxCHv8UIzxaKPREFBFLzoDWLZF+0FsqeCEy4Weflt4gSqK00YcHiESJSMT8iauqeOKXSbCwlTRXuDDWHGc4Tx7UPkF7wXJ1BXa0bn2I7weGpzNB46ltT9qj+E3+Tx/aGw0HQQ5g+DMC+5kJX+RpxA98dJaYPKhsF1Hp9t7IkAdRoToH8jHImAP47AQc40hllUlraIEzBI078WS0xQ9+3CvBH9XDQiegM7iWiHROMJhk/+iH3zD4oLo/GcKcBI03HQXwMbWfMKjGgfdGJ4m4flV0CYmDlP9B3oTajI1q4bMplRHLyrPAp3fJCASUvC0+x6FBUzkKlt0NqcGN85xOxBANNOL8ZXXOgksdTV9p4PTp1TeE3KPUhIJyXehbRa35CZ3W4tLNKgrEILqWwAdfX9aG350iKXy29dCJ6TmCDAGxsbbzY1NV0jkPiY01grlcr7tEVnfhou6upnOad5/3/wl6nJVwenJUlJwlBh8gmcgi8NHqtHdxIu3/npSr6dANpXAo/VVcD/Ah3rWIViQ/9HAAAAAElFTkSuQmCC</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

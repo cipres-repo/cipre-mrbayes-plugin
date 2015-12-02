@@ -1,0 +1,47 @@
+All platforms:
+
+autoconf
+./configure --with-beagle=no
+make
+
+Note, there is a problem when building on VMs because it seems SSE can't be enabled.
+Best really to do these builds on real machines if possible.
+
+Windows:
+
+Use MinGW environment and compile the standard UNIX code.  This only produces
+a 32 bit binary but it will run on all Windows machines without issue.
+
+The binary installers from SourceForge require .Net installed so can't be bundled
+with our plugins.
+
+Linux:
+
+Probably best to build on 32 and 64 bit platforms separately.  Compiling 32 bit
+on 64 bit Linux (CentOS 5.8 in this case) doesn't work so just have VMs for
+CentOS 5.8 32 and 64 bit versions with devtools installed.
+
+Mac:
+
+Can't compile on Lion or Mountain Lion due to the change to llvm-gcc in
+Xcode 4.2 so best to compile on Leopard.  Shane has a Leopard VM with Xcode
+installed but this won't produce SSE enabled code.  Richard has a Leopard
+bootable partition which can boot the old Core2Duo MacBook Pro so this would be
+the best environment to compile since the downloadable version is 64 bit only and
+we still need to support 32 bit Intel Macs.
+
+Run the same configure as for other platforms but edit the Makefile and add
+"-arch x86_64 -arch i386" to the CFLAGS line and this will build a universal binary.
+Also edit the config.h to make sure that #define _64BIT 1 is set since this includes
+patches to the source to allow it to run on 64 bit.  Make sure the SSE_ENABLED flag
+is set in config.h otherwise the code will be much slower.
+
+Alternatively, the binary downloaded from SourceForge which is 64 bit only, can be
+merged with a 32 bit build using lipo to create a universal binary.
+
+Beagle:
+
+Instructions can be added to the plugin for users who want to add their own binaries
+compiled with whatever support they want.  For Beagle user they need to edit the
+command block and add set usebeagle=yes; and set beagledevice=gpu; if they want to use
+a CUDA card.

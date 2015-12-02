@@ -1,0 +1,71 @@
+/* UNIX/Linux specific css file */
+
+body { font-family: sans-serif; color:#000000 }
+
+hr { color:#999999; }
+
+p, td, tr { border-width:0px; }
+
+.prgmKeyword, .optionTitle {
+  font-weight:bold;
+  color:#333333;
+}
+
+table.flatBorder {
+    border-width:1px;
+    border-style:solid;
+    border-color:#aaaaaa;
+    border-collapse:collapse
+}
+
+a:link { color:#000000 }
+
+a:visited { color:#999999 }
+
+a:hover { color:#F47B20 }
+
+.articleTitle { font-size: 14pt; font-weight: bold;}
+
+.dialog { font-family: Dialog, Serif; font-size: 13pt; };
+
+.orangeHeading {color:#F47B20}
+
+.orange {color:#F47B20}
+
+.TitleText {color:#F47B20;
+			font: sans-serif;
+			font-size:36px;
+			font-weight:bold
+}
+
+.SummaryText {color: #F47B20;
+			  font:sans-serif;
+			  font-size:20px;
+			  font-weight:bold
+}
+
+.SmallHeading {color: #F47B20;
+			   font:sans-serif;
+			   font-size:22px;
+			   font-weight:bold
+}
+
+a.ImageLink{color:#FFFFFF}
+
+ol.clustalwInstall { font:sans-serif }
+ol.clustalwInstall li { margin-top: 3pt; margin-bottom:3pt }
+
+.fileName { font: sans-serif;
+			font-size:12px;
+			font-weight:bold;
+}
+
+.fileType { font: sans-serif;
+            color: #777777;
+            font-size:12px;
+			font-weight:bold;
+}
+
+ul.noBullet {
+    list-style-type: none;
+}

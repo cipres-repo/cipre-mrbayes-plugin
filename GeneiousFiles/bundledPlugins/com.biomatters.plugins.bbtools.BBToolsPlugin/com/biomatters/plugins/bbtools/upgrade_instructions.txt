@@ -1,0 +1,2 @@
+To upgrade BBTools, shut down Geneious, delete the existing sub-folder and place the newer version here.
+If multiple versions exists, Geneious will use the one with the highest version number.

@@ -1,0 +1,5 @@
+package com.cipres.mrBayesPlugin;
+
+public class MenuItem extends DocumentOperation{
+
+}

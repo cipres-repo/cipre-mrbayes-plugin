@@ -1,0 +1,349 @@
+DROME$AC5C_01        TATAAAA R00047 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+DROME$ADH_03         TCTCAGTGCA R00055 T00009; Adf-2a;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_06         GCTGCtGCTGCatcCGTCGaCGTCG R00058 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_07         GCCGCTGCTGCTGCA R00059 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_08         CCGTCGACGTCGAC R00060 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_09         TATTTAA R00061 T00797; TBP;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_12         TACTAA R00064 T00010; Adf-2b;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_14         GCAGCGCTGCCGTCGccggctgaGCAGC R00066 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_15         GCAGCCTGCGTA R00067 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_15         GCTGCCGTCGCC R00067 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_16         GAGATCGCGTAACGGTAGATAA R00068
+DROME$ANTP_01        ACTAATAGTATATATAATAATTTTAATAGTATGTTATATAAAT R00129 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_01        ATAATATAATAATAAAAATAATAATAATAATAATATAAT R00129 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_02        GTCGCAGTCGCTGCC R00130 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_03        CGCTGTTGCGGCCGACGCTGACGCA R00131 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_04        CGCCGCCGCCGCCG R00132 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_04        CGCTGCCACCGCTG R00132 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$DDC_01         CAGCGGCTGCGGA R00293 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$DDC_02         TGAACCGGTCCTGCGG R00294
+DROME$EN_01          TAAATTAAATgTCAATTAAATaTCAATCAATT R00411 T02099; Zen-2;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_02          ACATTTAACTGGTTAATTGA R00412 T02099; Zen-2;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_03          TCATTTAAAT R00413 T02099; Zen-2;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_04          TCAATTAAAT R00414 T00646; Oct-2.1;Quality: 6; Species: human, Homo sapiens.
+DROME$EVE_01         TCAGCACCG R00418 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_02         TCAGCACCGcacgaTTAGCACCG R00419 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+BOMMO$F_02           TAAGAACAATAAGATCAATTAAATCATAATTAATCACATTGTTC R00449 T00747; SGF-4;Quality: 6; Species: silk moth, Bombyx mori.
+BOMMO$F_03           TCACAATTTAATTTACTTCATACGTTGTATT R00450 T00747; SGF-4;Quality: 6; Species: silk moth, Bombyx mori.
+BOMMO$F_04           TAAATAAAAAGATTAATTTCTATGTAATTGT R00451 T00747; SGF-4;Quality: 6; Species: silk moth, Bombyx mori.
+BOMMO$F_05           TATAAAA R00452
+BOMMO$F_06           AAATCAGCATCAGTTC R00453
+DROME$FTZ_01         TGATTCGGTATCGAAA R00481 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_02         GGGAGCTGTTTTTTCC R00482 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_03         AATAAGGGTGTAGAGT R00483 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_03         TCGGATGGTTTTATAT R00483 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_04         CTTTCTGGTTTTGCAG R00484 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_05         GTCTCAAGGTCGCCGA R00485 T00296; FTZ-F1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$GYP_01         AAAAAATAAGTGCTGCATACTTTTTAG R00625 T00774; su(Hw);Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$GYP_02         GTTGTGTATCTGGCCACGTAATAAGT R00626 T00773; su(f);Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$H3_01          TATAAGTA R00674 T00061; B factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HH4_10         TATA R00689 T00061; B factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP27_04       GACAAGgGttcaatgCaCTTGTC R00750 T00217; EcR;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_01       aaataaaGAAtaTTCtaGaatccc R00751 T00386; HSTF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_02       CgaGAAatTTCtctggccgt R00752 T00386; HSTF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_03       CTgcGAAtgTTCgcG R00753 T00386; HSTF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_04       CtcGttgcTTCgaGAgagcgcgcCtcGaaTgTTCgcGAaaA R00754 T02104; HSF1 (short);Quality: 6; Species: human, Homo sapiens.
+DROME$HSP70_05       CtcGTTgcTTCgaG R00755 T00386; HSTF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_06       gcCtcGAAtgTTCgcGaagtttcg R00756 T00386; HSTF;Quality: 4; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_07       TATAAATAGAGGCGC R00757 T00777; TAB;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP70_09       TATAAATA R00759 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+DROME$HSP83_01       GAAGcCTCTAGAAgtTTCTAGAGaCTTC R00773 T00386; HSTF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP83_02       TATAAAAGCAGACGC R00774 T00777; TAB;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$PCNA_01        aacaTTAAAGTAAATGTAATCTATTTCA R01281 T00272; Eve;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$PCNA_02        aacaTTAAAGTAAATGTAATCTATTTCA R01282 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$PCNA_03        GTGGAATGATTAAAGCT R01283 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$PCNA_04        GCGTTAATGTATTGTCATTTTGTAATAATTTATTAATTTTAATTT R01284 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_02         ATGAACGAGAGGCGC R01517 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_03         CGAGTGAGTTGAGT R01518 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_03         CACTCG R01518 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_03         TGAGCG R01518 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_03         CGCTCA R01518 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_03         CACTCA R01518 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_04         GAACACTCAAGAGAGA R01519 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_05         AAGAGAGAGCGCAAGAGC R01520 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_06         AGAGCGCTCAAAAAC R01521 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_07         AACAATCTGGTTTTGAGCG R01522 T01019; Elf-1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_08         TTTGAGCGTTTCGCT R01523 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$UBX_09         CTGGCTCTCTGTTTCT R01524 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_10         TTTTCCACTCGTTTTTAGG R01525 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$UBX_11         GAGTGAGTTGAGTCGG R01526 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_12         GAGTGAGTTGAGTCGGCAGAG R01527 T02100; Zeste;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$UBX_13         GCAACGGATTGGATAACAGGC R01528 T00253; En;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_15         CGCTCGCCCACGCGTCCGCC R01530 T02099; Zen-2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$WHLO_01        CACTCG R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        TGAGTGCACTCA R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        ACTCA R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        TGAGTG R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        TGAGCC R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        CACTCA R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        TGAGTG R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$WHLO_01        CGAGTG R01599 T02100; Zeste;Quality: 2; Species: fruit fly, Drosophila virilis.
+DROME$TWI_01         cGAGAAAATCG R01716 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_02         CGATTTTCTCg R01717 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_03         aGAGAAAACCC R01718 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_04         GACTTTTCGCt R01719 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_05         aCAGAAAAATC R01720 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_06         TATTTTTCTGGCGATTTTCGGA R01721 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_07         GCATTTTCCCa R01722 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$ZEN_01         TGGTTTTCCCG R01723 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_05          ggTCAATTAAAttataatt R01781 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_06          CCAATTAGCc R01782 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_07          CTAATTAGag R01783 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROVI$EN_01          GAGCAATTAAAT R01784 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROVI$EN_02          CCAATTAGCT R01785 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROVI$EN_03          TCAATTAGCT R01786 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_01         GCTCCCTACTCTCTTTGGCTCTCCCT R01862 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_02         GCATTCCGCTCTCTTA R01863 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_03         CGCTTGCGCTCTCTAC R01864 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_04         TGAAGTTCAGAGCGTGAA R01865 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_05         GCGTTTCTCTG R01866 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_06         GTGTGCGTGAGCGGGTCT R01867 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_07         TGAGCG R01868 T02100; Zeste;Quality: 6; Species: fruit fly, Drosophila virilis.
+DROME$E74_08         TGAGCG R01869 T02100; Zeste;Quality: 6; Species: fruit fly, Drosophila virilis.
+DROME$ANTP_05        TAAAAAAATACTTA R01871
+DROME$ANTP_06        GCGTTCTCCAGCCGGCGAGAGTGTGTGTGTGCTTGC R01872
+DROME$ANTP_07        GCAACATGTTGC R01873 T00201; DTF-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_07        GATGTTGC R01873 T00201; DTF-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_07        CGTGTTGC R01873 T00201; DTF-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_08        GCAACATG R01874 T00201; DTF-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_09        GGCTCATTGTGATTCACTGGCGTT R01875
+DROME$ANTP_10        TGATTCA R01876 T01132; AP-1;Quality: 5; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_11        AAATAGACGTGCCGC R01877
+DROME$ADH_17         GTATTACACGTATGCAAATTAAGCCG R01952
+DROOR$ADH_01         GTATTACACGTATGGAAATTAAGCCG R01953
+DROOR$ADH_02         CGAGCGCAGCAACAACACGAGCTTGC R01954
+DROME$ADH_18         GACCGCAGCAACAACACGATCTT R01955 T01513; AEF-1;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_19         GACATTCACAAGGTCAAAG R01956 T01511; DEP2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROOR$ADH_03         GACATTCACAAGGTCGAAG R01957
+DROOR$ADH_04         CACAAAATTACATTATGCATTCTTC R01958
+DROME$ADH_20         AACAGGTG R01959 T01511; DEP2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_21         GTTTCTCAGTGCACTTTCTGGTGT R01960
+DROOR$ADH_05         AATTTTTTCTCAGTGCACTTCCTGGT R01961
+DROOR$ADH_06         ACCCGGCGTTTGTTTGCAGATCACTT R01962
+DROME$ADH_22         TTTACCCCGCATTTGTTTGCAGATCACTTGCTTGC R01963
+DROME$ADH_23         ATTTTTATTGCATTTTACATATTACACATTA R01964
+DROOR$ADH_07         TATTATTATAGCATTTTACACATTA R01965
+DROOR$ADH_08         TCGCTGCTGCAGCCGCTGTCGACGTCAACTGCACTCGCC R01966 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROOR$ADH_09         CACGACAAAACGGTATTTAAGGCGC R01967
+DROME$ADH_24         CACGAGAGAACAGTATTTAAGGAGC R01968
+DROME$ADH_25         GTCTCAGTGCAGTTGTCAGTTGCAGTT R01969
+DROOR$ADH_10         GTCTCAGTGCAGTTGTCAGTTGCAGTT R01970
+DROOR$ADH_11         CAAATTTACCTAATTGATCAAGT R01971
+DROME$ADH_26         CAAATTTACTTAATTGATCAAGT R01972
+DROME$ADH_27         TTGTTTAATTGAATTTATTATGCAAGT R01973
+DROOR$ADH_12         TGGGAAAGGGACCTCATTATGC R01974
+DROOR$ADH_13         AATGCAAACCGGCAC R01975
+DROME$ADH_28         ATATATAATCAAATTTATTCAATCAGAA R01976
+DROME$ADH_29         CTCAATTAAT R01977
+DROME$ADH_30         GAAAATCACCTGTTAGTT R01978
+DROOR$ADH_14         AAATCACCTGTTGTTT R01979
+DROOR$ADH_15         TTGGGCATAAATTATAAACAT R01980
+DROME$ADH_31         TATAATATACTAATACTAATACTAATACTAATATAAGAATACTAATATAGA R01981
+DROOR$ADH_16         ATGAATACTAATATAGA R01982
+DROOR$ADH_17         GCTTTGCCGCCA R01983
+DROME$ADH_32         GCTTTGCCGGTA R01984
+DROME$ADH_33         AGATCGCGTAACGGTAGATAATGAAAAGCTCTACGTAA R01985
+DROOR$ADH_18         GAGCAGCGTTGCCGTCGTTGCGG R01986 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROOR$ADH_19         GAGATCGCGTAATGATAGATAAAGAAAGCTCTACGTAA R01987
+DROME$EVE_03         GCTCCTGC R02057 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_04         ttcgttCGCTCatcg R02058 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_05         CTCTCTCTCTCTC R02059 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_06         GGTCCTGC R02060 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_06         CCAGGACC R02060 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_07         GGTCCTGC R02061 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_08         CGCTCagcaccGAGAG R02062 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_09         taaCTCTCagcacc R02063 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_10         CGCTCaggCTGTCccgCTCGC R02064 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_11         CGCTCCC R02065 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_12         ctgcCAGAGCGcagc R02066 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_13         gctGAGAGcagcac R02067 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_14         ACTAACTGCCTTCGTTAATATCCTC R02068
+DROME$KR_01          CGTGTGAGCGGGAGA R02266 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_02          GAGTGAGAATCT R02267 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_03          CGAGACAGAGCGT R02268 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_04          ACCGCGAGTAATAT R02269 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_05          AACTACCTCATTTTGC R02270 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_06          AATCTCTCTACC R02271 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_08          tggaAGGGTGGaagt R02272 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_07          CTGCTTTAACTTAATC R02274 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_08          ACGGATTAA R02275 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_09          ATTAAATTTTT R02276 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_10          AATAATCC R02277 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_11          AATAATCCAgccttaagcatgGTGATTAA R02278 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_12          GTAATATTGA R02279 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_13          TTAAATCCGtctGTTAATCTC R02280 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_14          GTTAATCTCCGG R02281 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_15          GCAATTAAGAAGTCAAATT R02282 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_16          ACTGAACTAAATCCGG R02283 T00445; Kni;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_17          ACTAAATCCG R02284 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_18          GATTCTTGC R02285 T00789; Tll;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_06         TTATCCTTATTAGATGTTGAT R02286 T00843; Ttk 69K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_07         GACGTTATCCTTATTAGAT R02287 T00843; Ttk 69K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$RH1_01         GTGGAAACCCTTGAAATGCCTTT R02288 T00329; Glass;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$S15_01         TAGTGTATATAGGTCACGT R02293 T00120; CF2-II;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$S15_02         GTGTATATAGGTCACGTAAATG R02294 T00117; CF1;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$S15_03         AAAATTTGCGTATAAAAGCGAGCG R02295 T00120; CF2-II;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$CF2_01         TATATTATA R02316 T00119; CF2-I;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_08         ACAAAATGTCTTTTACA R02351 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_09         GAAACATTACTGCCATTACAG R02352 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_10         TCTCGCATTAGACTGATGTTCT R02353 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_11         GTTTATGGATAGTAAATGCA R02354 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_12         GGGTCCTTAAGCGTCTTAATTGCCCGCATA R02355 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_13         AGCGCAATTGGTTTCCAAGGCGGAAATATTATTGGCACATCATAAAACTATAAAAC R02356 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_14         ATTGTTAATGGACGTTATCCTTATTAGA R02357 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_15         TTAGGTATTAAGATCTGA R02358 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_16         CTTCATTATATTATAGATTA R02359 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_17         TTGTTATAGTGCTCGGA R02360 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_18         CACAAGGTACAAGGT R02361 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_19         ACATGACATTAT R02362 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_20         AAAAAGCCATCAA R02363 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_21         TAGGGGCCATAAGCAG R02364 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_22         ACGGGGTCATCATTGCTATTTAAAAG R02365 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_23         CAGGACAATTCGAATAAGT R02366 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_24         GACAGGAGCAATTACAG R02367 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_25         CAGGCAATTCAAGGA R02368 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_26         GACTTTGATTGGTGCC R02369 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_27         ATATCCACCCATTGAG R02370 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_28         GAAGATTACTTCATTTA R02371 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_09         aataaCCGGAAGTaact R02386 T02068; PU.1;Quality: 5; Species: human, Homo sapiens.
+DROME$E74_10         tgatcAGGAAttatg R02387 T00208; E74A;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$E74_11         cagtAGGAAcaacagcaat R02388 T00208; E74A;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$AC5C_02        AAAATGTG R02467
+AS$EN_02             TGCCATGTAATTACCTA R02483 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_01          CGTAATCCC R02484 T00699; Prd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_15         ATAACCCAAT R02486 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_16         GTTAATCCG R02487 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_17         TTAATCCGTT R02488 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_18         GAGATTATT R02489 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_19         CGAGATTATTAGTCAATTGCAGTTGC R02490 T00328; Gt;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_20         GACTTTATTGCAGCATCTTGAACAATCGTCGCAGTTTGGTAACAC R02491 T00328; Gt;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_21         TATAATCGC R02492 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_22         ACCGGGTTGC R02493 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_23         GGGATTAGC R02494 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_24         ATAAAAACACATAATAATGA R02495 T00328; Gt;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_25         TCATAAAAACA R02496 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_26         TCGAAGGGATTAG R02497 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_27         GAAGGGATTAGgg R02498 T00063; Bcd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_28         ACTGGGTTAT R02499 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_29         TTATTTTTTT R02500 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_30         TTAACCCGTTT R02501 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_31         CGATTTTTTT R02502 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_29         TTTAGGgaacCATAAA R02503 T00079; Cad;Quality: 3; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_09          gagaaaAAGCCATTAGAG R02504 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_10          GCGTAATGTGTT R02505 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_31         GAGCAATTACAG R02506 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$DPP_01         CCATTACCATTACCATTATCATTACCGTTACTATTACCATTA R02509 T00863; Ubx;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$ANTP_12        CGTATATAATATATAAGCAATTAAGGTAAACAGT R02510 T00295; Ftz;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_17         cacACATAAAAAAcggttccctaaa R02554 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_18         ggaacgaTTTTTTAATGtttctc R02555 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_19         tgcaCTTTTTATGAcctCGTAAAAAAAct R02556 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_30         TTTATGtcTTTATG R02557 T00079; Cad;Quality: 3; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_32         cggctGAGAGtcgcgccCTCTCgctctg R02558 T00301; GAGA factor;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$FTZ_33         GGCCGTAATTACTGC R02559
+DROME$FTZ_34         TCAAGGTCGCCG R02560
+DROME$FTZ_35         GCGGATAAATCGCGATGATAATG R02561
+DROME$FTZ_36         GTACGGATAAAGTTGCCAGGACCTCGGATAACTTCC R02562
+DROME$FTZ_37         CTGCAAGGACATTTCG R02563
+DROME$AC5C_03        TCAAAGTTGTAGTTGCA R02597
+DROME$HB_02          TGCGGGACTTAA R02609 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_03          AAGGGGCATTTA R02610 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_04          ATAATTAAACAACTAT R02611 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_05          AAACGCAAAACGGGAA R02612 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_06          AGAAACAAAAAATTAT R02613 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_07          GGACTAAAAAAAAAAA R02614 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_08          TTGGGAAAAAAATTGG R02615 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_09          TAGCTTAAAAAGGTGG R02616 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_10          TTGCCCAAAAAACAAT R02617 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_11          GATGCCAAAAAACGGC R02618 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KNI_01         TTAGCGGCATAAAAGGGTTAAACAGG R02619 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KNI_02         AATGCGCGCCCATAAAAGGGTTAAG R02620 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$UBX_20         TAATAATCGTTCAAATCGTTAAAACCATAAAAATAATAATAATTGCAATAACAATAAACATAGTAATAATG R02622 T00026; Antp;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$DDC_03         ATGATGCCTGTTTATGC R02623
+DROME$DDC_04         ATGGTCATAAATCAAATTGTA R02624
+DROME$DDC_05         GCCACCCGTAAAGCAGCATAATGT R02625
+DROME$DDC_06         GTTGGGCGACTGGTGGCTG R02626
+DROME$DDC_07         ATAGTAATTAAAGGC R02627
+DROME$DDC_08         TTCCTGTCGTATTCCAGGATCATTAGCCGAG R02628
+DROME$DDC_09         AAAATATTTTGAAT R02629
+DROME$DDC_10         CCACATATTTATT R02630
+BOMMO$SER1_01        CCATGAATAAATTA R02645
+BOMMO$SER1_02        TTTACATAG R02646
+BOMMO$SER1_03        TACATTGTTTGCACAAATG R02647
+DROME$SGS3_01        GCGTACCTata R02663
+BOMMO$F_07           GTGTAGATGTTTATTC R02718 T00744; SGF-1;Quality: 6; Species: silk moth, Bombyx mori.
+BOMMO$F_08           CGAAAGTAAATACG R02719 T00744; SGF-1;Quality: 6; Species: silk moth, Bombyx mori.
+DROME$EVE_32         TCAGCACCGcacgaTTAGCACCG R02801 T01823; Pax-2;Quality: 6; Species: human, Homo sapiens.
+DROME$EVE_33         CCTGCTCCTCCGCTTTGTCCCGCCTCGTTATCG R02809 T00699; Prd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$ZEN_02         TGGATTTCCC R02852 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$ZEN_03         GGGTTTCTCCC R02853 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$ZEN_04         TGGTTTTCCC R02854 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SGS3_03        ATTTGTAAAGCTAAATTAAGCTAAATTTA R02901 T01162; GEBF-I;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SGS3_04        TCCTTATATATATTATATT R02902 T01162; GEBF-I;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_11          CAAATAAATAA R03022 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EN_12          TTTTTCAAGG R03023 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$DFD_01         CTATCATTAG R03025 T00193; Dfd;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$DFD_02         CAATTATC R03026 T00193; Dfd;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$DFD_03         GATGACTTAATTAC R03027 T00193; Dfd;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$DFD_04         AACATCATTAAGC R03028 T00193; Dfd;Quality: 1; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_34         AAAATATTATGGTGTgccccgct R03029 T00272; Eve;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_35         TGTTCTCGCA R03030 T00187; DENF1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_36         CACAGTCAGCGCGAATTTGCTGCggtgagtcgatgct R03031 T00272; Eve;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_37         CGCAGGACCTTC R03032 T00188; DENF2;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$EVE_38         CTCTTGCTCAGCCTGTCCCTGTTCCTCTG R03033 T00189; DENF3;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+BOMMO$CHOR_01        CATTGTTTCTCAACTA R03049 T00060; BCFII;Quality: 6; Species: silk moth, Bombyx mori.
+BOMMO$CHOR_02        GTTTCTTATCTCAAGGT R03050 T00059; BCFI;Quality: 6; Species: silk moth, Bombyx mori.
+DROME$PEL_01         taccgaagtatacacTTAAATTcagtg R03080 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+DROME$PEL_02         ATACACTTAA R03081
+DROME$MDG1_01        TCAGTTataaatcaggaatagatctggaatgtacactcgcttaa R03108
+DROME$KR_19          ATATTTTTTTGC R03262 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_19          ATCATAAAAAG R03262 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_20          GAAAAAGAAAAA R03263 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_21          ATTTTTTCAGA R03264 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_22          CGTTTTTTCGC R03265 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_23          TTGTTTTTTTTTCAG R03266 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$KR_24          CTTAAAAACAACAAAAAATgtcaaAGTAAAAACaaTGCAAAAAAG R03267 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$HSP23_01       ctcactTTCAATGgcagataatgcgtaattg R03319 T00217; EcR;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYBT_01       tCAGAGATGCGCa R03390 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYBT_02       cCAGTGCTGCGCa R03391 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYBT_03       gTAGAGATGCGAa R03392 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYBT_04       tCAGAGATGCGTc R03393 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYDT_01       cTAGAGATGGGGt R03395 T00767; Sry-delta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYDT_02       cTAGAGATGAGAa R03396 T00767; Sry-delta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYDT_03       tTAGAGATGGAAa R03397 T00767; Sry-delta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYDT_04       tTAGAGATGGGAc R03398 T00767; Sry-delta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SRYBT_05       cCAGTGATGAGCg R03399 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$YP1_02         CTACAATGT R03402 T00956; DSXM;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$YP1_03         CTACAAAGTgaTTACAAATT R03403 T00956; DSXM;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$YP1_04         CTGCTAAGT R03404 T00956; DSXM;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SEVL_01        ATATATGCACATATATATGTGTGACGAC R03454 T00700; PTF;Quality: 6; Species: rat, Rattus norvegicus.
+DROME$SEVL_02        AAAATACTAAATGCTTTCACATTTTCATTGTAATTA R03455
+DROME$SEVL_03        GCGCTTTGGATTAACCACTCCAGTTACCAG R03456
+DROME$SEVL_04        CGAACTCAAAGTGCAT R03457
+DROME$SEVL_05        CGTTCTCCTTCTCCAAGCAA R03458
+DROME$SEVL_06        TCCCTCTTG R03459
+DROME$TWI_08         GGGCAAAACCC R03460 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_09         GGGGAACTCC R03461 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$TWI_10         gaaTAACCCAAGAGAAA R03462 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$HB_12          tcccgCAGGTGtaa R03718 T01034; Da;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$AC_01          ggtagtcacgCAGGTGggatccc R03719 T01034; Da;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_01         CCCACCTGATAGGA R04101 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_02         atCCTACCTGTTTCA R04102 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_03         TCAACCTGTTGAAT R04103 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_04         GCAGGTTGTTTTCCccaggaTCAGGTAACAGatcct R04104 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_05         GCAAACAGGTGATTGCAg R04105 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SIM_06         AGCAAGTGCTGAGAA R04106 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$AC_02          GGCACGCGAC R04159 T01643; H;Quality: 1; Species: fruit fly, Drosophila virilis.
+DROME$ADH_34         CACAAGGTC R04280 T00296; FTZ-F1;Quality: 3; Species: fruit fly, Drosophila melanogaster.
+DROME$ADH_35         CCTACACTGTAAG R04281 T01512; DEP3;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_01         aaaGGGTTTTCCCcaa R04306 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_02         aagCGGAAAACACtgg R04307 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_03         agcGGGCCAACCCgac R04308 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_04         gtgCGGATTTTCCCgcg R04309 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_05         tccGGGATGACCCacc R04310 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_06         tggGGGTTTTCATtat R04311 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_07         gatGGGAAATTACttt R04312 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_08         gcaGGGAAATACGaaa R04313 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_09         aatTGGAATTCCGcgc R04314 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_10         gttGGGAAAGTTTCCCatc R04315 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_11         cgcaCACGTGcgag R04316 T01517; Twi;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DROME$SNA_12         ccacCAAATGgcga R04317 T01517; Twi;Quality: 2; Species: fruit fly, Drosophila melanogaster.

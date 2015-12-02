@@ -1,0 +1,135 @@
+------------------------------------------------------------------
+
+ *** TRANSFAC Release 3.2 (Export from 23.06.1997, 10.00 MEZ) ***
+
+------------------------------------------------------------------
+
+            T e c h n i c a l   I n f o r m a t i o n s 
+
+There are 6 TRANSFAC data files: 
+
+     site.dat
+     factor.dat
+     cell.dat
+     class.dat
+     matrix.dat
+     gene.dat
+
+The data files are  ASCII files,  all of them being written on IBM-PC
+compatible systems. 
+
+The compressed file  (transfac32.tar.Z)  has been generated using the
+Unix command "compress" - to decompress use "uncompress".
+The files have been converted with DOS2UNIX. 
+
+The compressed  file  (transfac32.zip)  has  been generated using the
+the DOS  ZIP-Programm  ftp://transfac.gbf.de/pub/transfac/pkzip.exe -
+to decompress use "pkunzip.exe -x [Filename]".
+
+If you use DOS version ftp://transfac.gbf.de/pub/transfac/pkunzip.exe 
+you have to rename the ZIP-file to the 8 + 3 limitation of DOS (e. g.
+"transfac.zip"). WinZip can extract the long filenames.
+
+---------------------------------------------------------------------
+
+			D I S C L A I M E R
+
+(c) Copyright 1997 by Bioinformation Systems e. V., Braunschweig.
+All rights reserved worldwide.
+
+The TRANSFAC  database is  free  for  non-commercial  use  and can be 
+distributed  freely,  provided  that  all  accessory  information and
+indication  of  its  origin  is  forwarded  also.  When  working with 
+TRANSFAC and using the results for publication, please cite: 
+
+  Wingender, E., Kel, A. E., Kel, O. V., Karas, H., Heinemeyer, T., 
+  Dietze, P., Kn"uppel, R., Romaschenko, A. G. and Kolchanov, N. A.
+  TRANSFAC, TRRD and COMPEL: Towards a federated database system on
+  transcriptional regulation.
+  Nucleic Acids Res. 25, 265-268 (1997) 
+
+No part of  http://transfac.gbf.de/ and ftp://transfac.gbf.de/ server
+(hereafter referred to as This Site) and all data therein may be used
+for commercial  approaches  without  the  express  written consent of
+Bioinformation Systems e. V.,  Braunschweig.  For  commercial  use of
+TRANSFAC databases and programs please contact:
+
+  Bioinformation Systems e. V.
+  Mascheroder Weg 1 b
+  D-38124 Braunschweig
+  Germany
+
+  url:	  http://www.bioinfo.de/
+  e-mail: admin@bioinfo.de
+  phone:  ++49 - 531 - 6181 295
+	  ++49 - 531 - 6181 426
+          ++49 - 531 - 6181 427
+          ++49 - 531 - 6181 428
+  fax:    ++49 - 531 - 6181 266
+
+        
+Bioinformation Systems e. V.  does  not  endorse,  nor  recommend the
+products,  services,  or  information advertised or discussed on This
+Site. Such advertisement or  discussion is provided for informational
+purposes only,  and  should  not  be construed as a recommendation or 
+endorsement of these products, services or information.
+Bioinformation Systems e. V. shall  not be liable for any third-party
+claims or losses of any  nature,  including, but not limited to, lost
+profits, punitive or  consequential  damages  due to the use of these
+products, services, or information. 
+        
+Neither Bioinformation Systems e.V., nor any providers of information
+for This Site make any warranties  express or implied, as to accuracy
+of, or results to be obtained from, use of such information, and make
+no express or implied warranties of merchantability, or fitness for a
+particular purpose or use, of such information.
+        
+Neither Bioinformation Systems e.V., nor any providers of information
+for This Site  shall  have  any  liability  for  the  accuracy of the
+information  contained  at  This Site,  or  for  delays  or omissions
+therein. None of the forgoing  parties shall be liable for any third-
+party claims or losses  of any nature, including, but not limited to,
+lost profits, punitive or consequential damages. 
+        
+Neither Bioinformation Systems e.V., nor any providers of information
+for This Site  shall  have  any  liability,  nor  responsibility, for
+information  linked  to  externally  from  This Site. These links are
+provided for informational  purposes only, and Bioinformation Systems
+e. V. make  no  warranties express  or implied as to the accuracy, or
+merchantability,  or  fitness  for  a  particular  purpose or use, of
+information contained at sites  external to This Site. Copyrights and
+resposibilities  for  information  external  to This Site are held by
+their respective owners. 
+
+-----------------------------------------------------------------------
+
+We highly appreciate any suggestions for continuing this work. 
+Please, send any requests, questions or suggestions to: 
+
+  Gesellschaft fuer Biotechnologische Forschung mbH
+  Dep. of Genome Analysis
+  Mascheroder Weg 1
+  D-38124 Braunschweig
+  Germany
+
+  url:	  http://transfac.gbf.de/ 
+  e-mail: transfac@gbf.de
+  phone:  ++49 - 531 - 6181 295
+	  ++49 - 531 - 6181 426
+          ++49 - 531 - 6181 427
+          ++49 - 531 - 6181 428
+  fax:    ++49 - 531 - 6181 266
+
+If you would like to have a look on a (possibly) more actual version, 
+you may use the following WWW page: 
+
+     http://transfac.gbf.de/
+
+To download the complete  ASCII flat files,  visit the following ftp-
+site: 
+
+     ftp://transfac.gbf.de/pub/transfac/ascii/
+
+
+23.06.1997 TRANSFAC-Team (THH)
+

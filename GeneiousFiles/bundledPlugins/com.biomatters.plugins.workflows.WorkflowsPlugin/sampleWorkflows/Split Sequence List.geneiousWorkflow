@@ -1,0 +1,60 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Split Sequence List" geneiousVersion="8.0.0" uniqueId="0ce2e0e1-94eb-450b-b656-86f7043d07e4" revisionNumber="7" description="&lt;html&gt;&#xA;&lt;center&gt;Splits a list of nucleotide sequences into a number of smaller lists&lt;/center&gt;&#xA;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>import jebl.util.CompositeProgressListener;
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	options.addIntegerOption("sequencesPerList","Sequences per list:",100000,2,999999999);
+ 	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+                                                             ProgressListener progressListener) throws DocumentOperationException {
+    int sequencesPerList = (Integer)options.getOption("sequencesPerList").getValue();
+    SequenceListOnDisk.Builder builder = null;
+    List&lt;AnnotatedPluginDocument&gt; results = new ArrayList&lt;AnnotatedPluginDocument&gt;();
+    CompositeProgressListener compositeProgressListener = new CompositeProgressListener(progressListener, documents.size());
+    for (AnnotatedPluginDocument document : documents) {
+        compositeProgressListener.beginSubtask();
+        final PluginDocument pluginDocument = document.getDocument();
+        if (!(pluginDocument instanceof SequenceListDocument))
+            throw new DocumentOperationException("Can only split sequence list documents");
+        PairedReads pairedReads = null;
+        List&lt;NucleotideSequenceDocument&gt; sequences = ((SequenceListDocument)pluginDocument).getNucleotideSequences();
+        if (pluginDocument instanceof PairedReads) {
+            pairedReads = (PairedReads) pluginDocument;
+        }
+        int doneFromThisList = 0;
+        int numberInThisList = sequences.size();
+        for(int i=0;i&lt;numberInThisList;i++) {
+            if (compositeProgressListener.setProgress(i,numberInThisList))
+                throw new DocumentOperationException.Canceled();
+            if (builder==null) {
+                builder = new SequenceListOnDisk.Builder(false, SequenceDocument.Alphabet.NUCLEOTIDE, false);
+            }
+            if (pairedReads!=null &amp;&amp; pairedReads.getMateIndex(i)&gt;=0) {
+                final int mateIndex = pairedReads.getMateIndex(i);
+                if (mateIndex &lt;i)
+                    continue; // already done
+                builder.addSequenceWithMate(sequences.get(i), sequences.get(mateIndex),pairedReads.getMateExpectedDistance(i),pairedReads.getMateExpectedDistance(mateIndex),ProgressListener.EMPTY);
+                doneFromThisList+=2;
+            }
+            else {
+                builder.addSequence(sequences.get(i),ProgressListener.EMPTY);
+                doneFromThisList++;
+            }
+            if (doneFromThisList==numberInThisList || builder.getNumberOfSequences()&gt;=sequencesPerList) {
+                final DefaultSequenceListDocument resultDocument = builder.toSequenceListDocument(ProgressListener.EMPTY);
+                resultDocument.setName(document.getName()+" Part "+(results.size()+1));
+                results.add(DocumentUtilities.createAnnotatedPluginDocument(resultDocument));
+                builder = null;
+            }
+        }
+    }
+    return results;
+}</code>
+    </workflowElement>
+    <icon>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</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

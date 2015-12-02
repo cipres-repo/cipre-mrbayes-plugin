@@ -1,0 +1,293 @@
+Y$ACT1_01            atttctCTGTCACCGgcctc R00020 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ADH2_01            TCTCC R00074 T00011; ADR1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ADH2_03            TCTCCAACTTATAAGTTGGAGA R00076 T00011; ADR1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$BCY_01             aacaaaGCACCCAATCACCacccttg R00166 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CFES_01            GTCACGTG R00200 T00324; GFII;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CSII_01            CTGATCATTCCCAACGAACCAATAG R00201 T01294; GFI;Quality: 6; Species: yeast, Kluyveromyces lactis.
+Y$CSVIII_02          ACCGTTCCACGTGACTAG R00204 T00778; TAF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC9_01            TTCATCATTACCCGGATGAT R00206 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CENIV_01           ATCACGTG R00208 T01293; GFII;Quality: 5; Species: yeast, Kluyveromyces lactis.
+Y$CTT1_01            AGAACCTCCGTTATCTCCATTCC R00253 T00346; HAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_01            ATCATATTCGACG R00254 T00778; TAF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_01            TCCGTGTGAGACGACATC R00254 T00778; TAF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_02            TCCGTGTGAGACGACATC R00255 T00778; TAF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_03            CCGA R00256 T00714; RAF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_04            TGGCCGGGGTTTACGGACGATGA R00257 T00346; HAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_05            GGCCGGGGTTTAC R00258 T00724; RC2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_06            GCCGGGGTTTA R00259 T00724; RC2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_07            GATGACC R00260 T00724; RC2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_08            TGACCGA R00261 T00724; RC2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_09            ctcatttggcgagcGTTGGt R00262 T00350; HAP3;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_10            ctcatttggcgagcGTTGGt R00263 T00349; HAP2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_11            ctcatttggcgagcGTTGGt R00264 T00350; HAP3;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC7_01            GCTAATAGCGATAATAGCGAGGG R00265 T00346; HAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$TEF1_01            AACACCCAAGCACAG R00372 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TEF2_01            ACCTCCGTACATTCatgttGCACCCACACATTTatACACCCAGACCGCG R00373 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO1_01            GCACCCAAACACCtgcaTATTTGG R00415 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO1_02            GCACCCAAACACCtgcaTATTTGG R00416 T01123; EBF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_02            AcTTATAT R00487
+Y$GAL1_03            CGGATTAGAAGCCGCCG R00488 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_04            CGGGTGACAGCCCTCCGA R00489 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_05            AGGAAGACTCTCCTCCG R00490 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_06            CGCGCCGCACTGCTCCGAACAAT R00491 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_07            GAgGA R00492 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_09            GAtAA R00494 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_10            AGCCT R00495 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_11            GGGG R00496 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_12            ATATAA R00497 T00302; GAL4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL2_01            CACCGGCGGTCTTTCGTCCGTGC R00499 T00302; GAL4;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL2_02            TATCGGGGCGGATCACTCCGAAC R00500 T00302; GAL4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL7_01            ATACTTCGGAGCACTGTTGAGCG R00502 T00302; GAL4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL7_02            AGCGCTCGGACAACTGTTGACC R00503 T00303; GAL80;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL80_01           CGGcgcActcTcgcCCG R00504 T00302; GAL4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_01            TGACGA R00644 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_02            GAGTCA R00645 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_03            TAGTCAgggAAGTCA R00646 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_04            TTACTC R00647 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_05            TGACTC R00648 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS3_06            ATGACTCAT R00649 T01306; SKO1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_07            TAATAGTGACTCCGGTAAATT R00650 T01027; BAS1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_08            TGACTC R00651 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_09            TAATAGTGACTCCGGTAAATTAGTTAATTAA R00652 T01027; BAS1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_10            GGTAAATTAGTTAATTAATT R00653 T00689; PHO2;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_12            TGACTC R00655 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_13            CAGTCA R00656 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HIS4_14            TGACTA R00657 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HML_01             ATGGGTTTTTG R00714 T00715; RAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$HMR_01             ATCAATACATCATAAAATACGAACGATC R00716 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HMR_02             tattgCAAAAACCCATcaaccttg R00717 T00715; RAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_01              ATGTTATTATTTACAT R00718 T00488; MATa1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_03              GATCCACGAAAA R00720 T01013; SWI6;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$HSP70_01           tttTTCcaGAAcgTTCca R00771 T00385; HSTF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$HSP70_02           TCGGCGGCA R00772 T00868; URSF;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ILV1_01            GAGTCA R00829 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ILV1_02            TGAGTG R00830 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ILV1_03            AAGTCA R00831 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ILV2_01            TGATTC R00832 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+KLULA$LAC4_01        CGGAAATTTGTGGTCCG R00962 T00458; LAC9;Quality: 1; Species: yeast, Kluyveromyces lactis.
+Y$LEU2_01            AGGTGAGAGGCCGGAACCGGCTTTTCATAT R00969 T00465; LEU3;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$LEU2_02            caatatTATTTAAggac R00970 T00815; TFIIA;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$LSR_01             GGTGTATGGGTGT R00972 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$MATAL_01           GATGTCTGGGTTTT R01019 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MEL1_01            TTCGGccatatgtcttCCGAA R01020 T00302; GAL4;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_01            TTGCTGTCAGTC R01040 T00179; CUP2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_02            AAGAGATTCTTTTGCTGGCATTTCTT R01041 T00179; CUP2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_04            CGATGCGTCTTTTCCGCTGAACCGTT R01043 T00385; HSTF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MFAL1_01           TTTCCGAATTAGGAAT R01045 T00500; MCM1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$MFAL1_02           TTTCCTAATTAGTCCTTCAATAGAAC R01046 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MFAL1_03           cttCCTAATTAGGccaTCAACGacag R01047 T00500; MCM1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$MFAL2_01           TTTCTTCATTGGTACATCAATGCCAG R01048 T00500; MCM1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$PGK_01             GAAATTACCGTCGCTCGTGATTTGTTTG R01198 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PGK_02             ACCCAGACACGCTCGA R01199 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO5_01            AATTAGCACGTTTTCGCATA R01207 T00690; PHO4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO5_02            GAATAGGCAATCTCTAAA R01208 T00689; PHO2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO5_03            GCACTCACACGTGGGA R01209 T00690; PHO4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO5_04            GAACCCATACACT R01210 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO5_05            ATACGTCATTAACGATGC R01211 T00778; TAF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$PYK1_01            ACACCCAGACATCGGGCTTCCAG R01289 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$RAP_01             caatggCCGCTACCCGcctctt R01304 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$RP51A_01           TACATCCGTACA R01334 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RP51A_01           AACATCCGTGCA R01334 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RP51A_02           TACCTCCGTACA R01335 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RPS33_01           CGTCTAGAGTGAC R01336 T00778; TAF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RPTCM_01           TCGTTTTGTACGTTTTTCA R01339 T00778; TAF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$STE2_01            AAGTACAT R01361 T00487; MATalpha2;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$STE2_02            ATGTAAAT R01362
+Y$STE2_03            ttcCTAATTGGgtaa R01363 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$STE3_01            CTGTCATTGTGACACTAATTAGGAAA R01364 T00501; MCM1+MATalpha1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$STE6_01            ATGTAATTACCTAATAGGGAAATTT R01365 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$STE6_02            GTCGACATGTAATTACCTAATAGGGAAATTTACACGCTC R01366 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TRP5_01            tatacctTTATTACCCGaaagg R01466 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$TRP1_01            acgcgcCGCTCACCCGcacgg R01467 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$TY1_01             TGACTTTCCAAATTGGGTTAAAA R01476 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TY1_02             ATCTCGGTGGTATTATTCCGACAGTAAACGGAAAA R01477 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TY917_01           CGTCTATGATGAC R01478 T00861; TyBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$TY917_02           GTTAGACGTTTCAGCTTCCAAAACAGAAGAATGTGAGAA R01479 T00772; STE12;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$X40_01             tcactgCACTTACCCTgCCATTACCCTaccatc R01600 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$Y30_01             tgttgtCTCTTACCCGgatgttca R01601 T00725; REB1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL61_01           TCTTGCAACTCGCTTAAACTCTCGCTTTTAGATAATATTTCT R01632 T00480; MAL63;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL61_02           GATTTATCCGGAAATTTTCGCGGAC R01633 T00480; MAL63;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$RPL2A_01           TAATaTCAcgtcACACGAC R01691 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RPL2B_01           GAAATATAATTATTTACGAAA R01692 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_12            CGGGTGACAGCCCTCCGaCGGGTGACAGCCCTCCGaCGGGTGACAGCCCTCCG R01791 T00302; GAL4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RNR2_01            ACACCCAGACCTC R01820 T00715; RAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$STE2_04            ATGAAACA R01838 T00772; STE12;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$MFA1_01            ATGAAACC R01842 T00772; STE12;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$MFA2_01            ATGAAACT R01843 T00772; STE12;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MFA2_02            TGTTTTCATTTGAAACA R01844 T00772; STE12;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_05            GCATTTCTTC R01845 T00179; CUP2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_06            gatGCGTCTTTTCCGCTGAACCGttc R01846 T00179; CUP2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$STE3_02            ACTAATTAGG R01890 T00765; SRF;Quality: 4; Species: mouse, Mus musculus.
+Y$STE3_03            ACTAATTAGG R01891 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$STE6_03            CCTAATAGGG R01892 T00500; MCM1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$STE6_04            CCTAATAGGG R01893 T00765; SRF;Quality: 4; Species: mouse, Mus musculus.
+Y$STE3_04            ACACTAATTAGGAA R01900 T00500; MCM1;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$MFAL1_04           CCTAATTAGG R01901 T00500; MCM1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC28_01           CCTAATTAGG R01902 T00500; MCM1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$YPT1_01            CCTAGGTCACTGTACACGTATA R01920 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$BAF1_01            TCCCCATTAACG R01922 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS1_02            ATTTCTTAGCATTTTTGACGAAATTTG R01951 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TRP4_01            TTGACTCTCtaaaaaATGATTCAT R02022 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TRP4_02            ATGACTAAT R02023 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$SUC2_01            CCCCGCaTTTTT R02024 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$SUC2_02            AATTAtCCGGGGGCG R02025 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_14            TTAGAAGCCGCCGAGCGGGTGACAGCCCT R02071 T01146; QBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_04              AAAAACCAGCATGCTATAATGCT R02114 T00776; SWI5;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CAR1_01            AGCCGCCGA R02319 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$MES1_01            TGTTAGCCGCCGAaacg R02320 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$SSA1_01            tccaTCGGCGGCAaaag R02321 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$TOP1_01            ctctAGCCGCCGAcgac R02322 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$PYK1_02            aaatAGCCGCCATgacc R02323 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CTA1_01            aattAGCCGCGCAagtt R02324 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$G3PDH_01           tatcccTGCGCGGCTaagt R02325 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CAR2_01            ggctAGCCGCCGAcgcc R02326 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ILV2_02            gcctAGCCGCCGGagcc R02327 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYB2_01            caagAACCGCCAAgaac R02328 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ARG4_01            tcttGTGGTGGTTactc R02329 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO1_03            tcctAGCCACCTCaagg R02330 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CTT1_02            ctctggCTGCAGGCTag R02331 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$HSF1_01            ttggAGCCGCCAAaaaa R02332 T00726; repressor of CAR1 expression;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$RPC160_01          ATCACTATATACGTGAA R02375 T00056; BAF1;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$RPC40_01           CGTTTATAGTGAC R02376 T00056; BAF1;Quality: 3; Species: yeast, Saccharomyces cerevisiae.
+Y$URA3_01            TTCGGTAATCTCCGAA R02407 T00695; PPR1-dependent protein;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$URA3_02            GAAGGAAGAACGAAGGAA R02408 T00297; GA-BF;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+Y$URA3_03            AGACTTAGATTG R02409 T00297; GA-BF;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+Y$URA3_04            AGAAACATGAAATTGCCCAGTATTCTT R02410 T00297; GA-BF;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+Y$PYK1_03            ATCTCTCGCAACG R02417 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MATAL_02           CCCAATGTAGAAAAGTACATCATATG R02482 T00488; MATa1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$RP3_01             ATCGTTTTGTACG R02578 T00778; TAF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO2_01            ggcgttatGTCACTAACGACGtgcacca R02798 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO2_02            ggcgttatGTCACTAACGACGTGCACCA R02799 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PDC1_01            TGCACCCATACCTT R02917 T00715; RAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS120_01          AAGTGCCGTGCATAATGATGTGGG R02925 T00056; BAF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CTA1_02            TCCCCACAGTGACAGAATTGGAGAAA R02962 T00011; ADR1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$PHO8_01            CCACGTGCAGCG R02975 T00690; PHO4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS307_01          ATTTATGTTTT R03065
+Y$RPL16A_01          ACATCCGTACAACGaGAACCCATACATTA R03124 T00715; RAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_13            caggcaTATATATATgtgt R03161 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_14            gtatgTATATAAAac R03162 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$LEU2_03            agcaaTATATATATAtattt R03163 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYC1_15            TTATACATT R03164 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_07            TATAAA R03172 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CUP1_08            TTCTAGAA R03320 T00385; HSTF;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$CYB2_02            CCTGCCGATATCTCCTTGCCCC R03326 T00346; HAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$INO1_01            ATGTGAAAA R03357 T01190; NBF;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$INO1_01            ATGTGAAAT R03357 T01190; NBF;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$INO1_02            AATTCACAT R03358 T01241; INO2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$INO1_02            ATGTGAAAA R03358 T01241; INO2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$INO1_03            ATGTGAAAT R03359 T01190; NBF;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$INO1_03            ATGCGGAAT R03359 T01190; NBF;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$SOD1_01            GACAGCGCAAATGCCGC R03493 T00179; CUP2;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$CYT1_01            GCGGCCGGTATTTCCGGCGGC R03498 T00346; HAP1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC9_02            ACGCGAaaACGCGT R03656 T01094; DSC1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$PYK1_04            ACACCCAGACATC R03676 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+FY$MAT1_01           tcTAAcg R03706 T01116; SAP1;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+FY$MAT1_02           CGCTACGCTAC R03707 T01116; SAP1;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$POL1_01            gcgACGCGTttta R03724 T01120; MCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$POL1_02            aACGCGTttg R03725 T01120; MCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC21_01           ACGCGT R03726 T01120; MCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC2_01            tattACGCGTaac R03727 T01120; MCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CDC6_01            gcgACGCGAggcctcACGCGTcgg R03728 T01120; MCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CLN2_01            CACGAAA R03735 T01013; SWI6;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CLN2_01            CACGAAA R03735 T01013; SWI6;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CLN2_01            CGCGAAA R03735 T01013; SWI6;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$POX1_01            gggtAGGGTAATaaaattaacccta R03741
+Y$CEN12_01           ATCACGTG R03743 T00080; CBF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CEN9_01            TTCACGTG R03744 T00080; CBF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$CEN6_01            ATCACGTG R03745 T00080; CBF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+CPF1$CONS            RTCACRTG R03746 T00080; CBF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$FOX3_01            CGGGGATAATAGTATTAACACCG R03748
+Y$DDR2_01            TTCTTTTCCCCTGTTTCCATTTTTGTCTTTTC R03749
+Y$DDR2_02            TGTCTTTTCTCACCCCTTATGGGGAC R03750
+FY$SSP1_01           GCGATTGCCACGAAGAAGGTTCTCGTTGTTAAGGTACTTG R03751 T01244; HSF;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$HO_05              CACGAAAA R03752 T01013; SWI6;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$RRNA_01            actGGGTTACCCGGggcacctg R03753 T01245; Reb1p;Quality: 2; Species: yeast, Kluyveromyces lactis.
+Y$CAR1_02            CTTAGCGGTAGCCGCCGAGGGGTCT R03757 T01248; BUF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_06              CTGCCGGTGCCTGCGATGAGATAC R03758 T01248; BUF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$SPO13_01           gaaaTAGCCGCCGAcaaaaaggaa R03780 T01247; UME6;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+Y$ICL1_01            GTTTCCATTCATCCGAGCGA R03789 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MLS1_01            GTTCGGATAAATTTT R03790
+Y$FBP1_01            CCATCCGTCCGGA R03791
+Y$TRX2_01            actcTTAGTAAagga R03792 T00028; AP-1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$TRX2_02            tcttttcTTACTAAgcgc R03793 T00028; AP-1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+FY$CDT1_01           AATAATATC R03794
+FY$CDT1_02           caaaatttATATAACGATGCATCCTG R03795 T01252; CDC10;Quality: 3; Species: fission yeast, Schizosaccharomyces pombe.
+FY$CDT1_03           ACTCGTATAAGAGA R03796
+Y$GAL2_03            aaaatgGGTCACGTGATCTATa R03797
+Y$GAL2_04            GGAGATATCTGCGCCGTT R03798
+Y$TY2_01             GATGACGTGT R03801 T01258; MSN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TY2_02             ATTATCAA R03802
+Y$TY2_03             AAACGTCACC R03803 T01258; MSN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TY2_04             ACCTGCGT R03804
+Y$TY2_05             ATTATCAA R03805
+Y$ENO2_03            CATCC R03806 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS1_03            AGTAGTATTTATTTAAGTATTGTTTGTGCA R03809 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS307_02          TTATAATCTTTTAGCATATATATATATATATTG R03810 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS307_03          TTTAAATAAGT R03811 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HMR_03             CAATTTAATACCTAAATATAAAAAATGTTATTATA R03812 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HMR_04             TATAAATAGTATCAATATATATATATATATATATATTTATTTG R03813 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARSH4_01           ATACAAAACATAAAAATAAAT R03814 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ARSH4_02           CCTTCTTTATTTACTTT R03815 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$AMT1_01            ATGATAAGCTAATTTGGCTGACTTAAAA R03816 T00925; AMT1;Quality: 2; Species: yeast, Candida glabrata.
+Y$CHA1_01            GCGGAgacatggatTCCGC R03817
+Y$CHA1_02            CcCAGcGGAAaTgtAaTTCC R03818
+Y$CHA1_03            TATATAAA R03819
+Y$CHA1_04            AATCACCGCGAACGGA R03820 T00056; BAF1;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS1_04            GTACAATCAATCAAAAAGC R03825 T01274; DBF-A;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS1_05            TTATC R03826 T01274; DBF-A;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ARS1_06            ATGCTTGCTTTTCAAAAGGCCTGCAGGCA R03827 T01274; DBF-A;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ERG11_01           GCCCGGGAATTACCGGGGGC R03831 T01274; DBF-A;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$ERG11_02           CACGAAAAACGAGACAAACGAA R03832
+Y$ERG11_03           AAACGAAACGAAACGAAACTAA R03833
+Y$ERG11_04           AAACCGATAATTGTAAAGCCATTAAGGTCGTAAACGA R03834
+Y$ERG11_05           TTACGTACTCGCATGTATT R03835
+Y$PHO8_02            ATATTAAGCGTGCGGGTAA R03837 T00690; PHO4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HSP26_01           ttTTCtaGAAaTTCtt R03838
+Y$LPD1_01            aGTCACATGatg R03845
+Y$LPD1_02            gtattgACGTCAacg R03846 T00049; ATF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$LPD1_03            tgaCGTCAACGGTGATatc R03847 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$LPD1_04            gatATCAAAATTAACGtag R03848 T00056; BAF1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+YL$XPR2_01           gtGTCTCac R03850
+YL$XPR2_02           aGTGCCGTGCAGt R03851
+YL$XPR2_03           CGCCCCC R03852
+YL$XPR2_04           CGCCCACCTC R03853
+YL$XPR2_05           GTCTTGGCGCGTCTTGGC R03854
+YL$XPR2_06           CGTGTTTCGTGACGCAA R03855
+Y$HO_07              ttcaCTCTACGGATGATCTGTGAGaaactga R03859 T01287; SIN1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_08              CAATTTAAA R03860 T00689; PHO2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$HO_09              TTTAAAAAAAAAACCAGC R03861 T00776; SWI5;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$SSA4_01            GAAGTACATTCTAGAAGTTCCTAGAACCTTATGGAAGC R03862 T00385; HSTF;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+Y$IME1_01            AAAAGAACCTCAAAAAGTCCA R03863 T00731; RME1;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$DAL7_01            GGTGCGATAGAATACCGCGGATTTTGGAAAATTGCGTTTGCTTTTCTTATCACATA R03864 T01291; DAL82;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$DAL7_02            GCTGAAAGTTGCGGTGCGATAGAATACCGCGGATTTTGGAA R03865 T01291; DAL82;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+Y$DAL4_01            CAATGAAAAATTTCTGCCAGGGAAAATGCGCCCGCTTTTTTTCCGGCC R03866 T01291; DAL82;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$SUC2_04            AGTACGTCAT R03907 T01306; SKO1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$PHR1_01            GTgAAAGTAtGctTACTTTgAC R03998 T01371; PRP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ADE4_01            TTGACTCTT R04022 T00321; GCN4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ADE4_02            ATGAATAAT R04023 T00321; GCN4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$ADE4_03            ATGACTGCT R04024 T00321; GCN4;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+Y$RRNA_02            atgatcCGGGTAAAAAcatgta R04027 T00725; REB1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TPI_01             agCTTCCtctat R04073 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$TPI_02             ttacacctggACACCCCTTTTCTggcatccagtt R04074 T00715; RAP1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+FY$MEI2_01           taacTTCTTTGTTCTctaattactgtatctc R04087 T01422; Ste11;Quality: 2; Species: fission yeast, Schizosaccharomyces pombe.
+FY$MATP_01           atcactaaTGCTTTGTTCCctctTTCTTTGTTCCttatgcg R04088 T01422; Ste11;Quality: 2; Species: fission yeast, Schizosaccharomyces pombe.
+KLULA$LAC4_02        CGGAATTCTGTTCACCG R04129 T00458; LAC9;Quality: 1; Species: yeast, Kluyveromyces lactis.
+KLULA$LAC12_01       CGGCCCACTGACTCCCG R04130 T00458; LAC9;Quality: 1; Species: yeast, Kluyveromyces lactis.
+KLULA$LAC12_02       CGGGATTCTTCCCTCCG R04131 T00458; LAC9;Quality: 1; Species: yeast, Kluyveromyces lactis.
+Y$TPI_03             tctggCATCCagttt R04136 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PGK_03             GACTTCCTGTCTTCCTATTGATTGC R04137 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ENO1_05            CTAATCCGAGCTTCCACTAGGATAG R04138 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$PYK1_05            AGACATCGGGCTTCCATAATTTCG R04139 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$ADH1_02            ACAATATGGACTTCCTCTTTTCTGG R04140 T00322; GCR1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL1_15            TTATTTCtGGGGTA R04145 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL3_01            CCCCAGcTATTC R04146 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$GAL4_01            CCCCAGaTTTTC R04147 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MEL1_02            ATTAAtGTGGGG R04148 T00509; MIG1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL2R_01           CCCCGGcTTTTA R04149 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL61_03           ATTTTtGTGGGG R04150 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL61_04           AATTGtGTGGGG R04151 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$MAL63_01           CCCCGGgTTTAA R04152 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$FBP1_02            CCCCACaCTATA R04153 T00509; MIG1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$PDC1_02            CCCCGCgTTTAT R04154 T00509; MIG1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+Y$HAP4_01            CCCCAGtTTTAT R04155 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+Y$FPS1_01            TTAAAAGCGGGG R04156 T00509; MIG1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.

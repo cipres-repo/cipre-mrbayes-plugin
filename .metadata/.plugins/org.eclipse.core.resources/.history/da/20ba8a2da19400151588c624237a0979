@@ -1,0 +1,7 @@
+package com.cipres.mrBayesPlugin;
+
+import com.biomatters.geneious.publicapi.plugin.DocumentViewer;
+
+public class CipresMrBayes extends DocumentViewer{
+
+}

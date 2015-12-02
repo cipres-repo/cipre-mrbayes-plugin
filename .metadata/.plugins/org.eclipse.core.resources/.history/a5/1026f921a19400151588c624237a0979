@@ -1,0 +1,20 @@
+package com.cipres.mrBayesPlugin;
+
+import java.awt.Font;
+
+import com.biomatters.geneious.publicapi.documents.sequence.SequenceDocument;
+import com.biomatters.geneious.publicapi.plugin.DocumentViewer;
+
+public class CipresMrBayes extends DocumentViewer {
+    final Font font = new Font("monospaced",Font.PLAIN,48);
+    final String residues;
+
+    public ExampleDocumentViewer(SequenceDocument sequence) {
+        residues = sequence.getSequenceString().toUpperCase();
+    }
+
+
+
+
+    
+}

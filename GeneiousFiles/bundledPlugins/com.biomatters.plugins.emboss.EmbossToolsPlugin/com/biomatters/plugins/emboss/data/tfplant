@@ -1,0 +1,146 @@
+MAIZE$ADH1_01        CGTGG R00069
+MAIZE$ADH1_02        CCCCGG R00070
+MAIZE$ADH1_03        CGTGG R00071
+MAIZE$ADH1_04        CCCACAGGC R00072
+PH$CHASYN_01         ACGTGGA R00209
+PH$CHASYN_02         TCCACGTGGC R00210 T01091; CPRF-1;Quality: 6; Species: parsley, Petroselium hortense.
+PH$CHASYN_03         AACCTAACCT R00211
+WHEAT$H3_01          ttcggCCACGTCAccaatccg R00679 T01395; HBP-1a(c14);Quality: 6; Species: wheat, Triticum aestivum.
+SOYBN$LEC_01         GAATTTAATTAA R00964 T00448; 60K protein;Quality: 6; Species: soybean, Glycine max.
+SOYBN$LEC_02         ATTAAATTTTAAATT R00965 T00448; 60K protein;Quality: 6; Species: soybean, Glycine max.
+SOYBN$LHGL_01        GATATATTAATATTTTATTTTATA R00967
+SOYBN$LHGL_02        CTTAAATTATTTATTT R00968
+PH$PAL_01            TCCACCT R01202
+PH$PAL_02            CTCC R01203
+PH$PAL_03            CTCCAACAAACCCCTTC R01204
+PH$PAL_04            CCGTCC R01205
+PH$PAL_05            attctcaCCTACCA R01206
+NEUCR$QA2Q_01        GGATGAGTTTTTAACC R01290 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA2_01         GGATAAATCCTAACCC R01291 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA2_02         GGGTAATCGCTTATCC R01292 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA4_01         GGCTAAGTGTTTAACA R01293 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA4_02         CGTTAATGCTTTATTC R01294 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA3_01         GGGTAAGTATTTAAGC R01295 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA3_02         GGCAAAACGCTCATCC R01296 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA3_03         GGGGAATAACTTATAG R01297 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QAY_01         GGGTAATGGCTTTTCC R01298 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QAY_02         GGTTATACATTCATCC R01299 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QAY_03         GGCTCAACACTCATCA R01300 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA1S_01        GGATGAGTGATTCTCC R01301 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA1F_01        GGATAAACAATTATCC R01302 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+NEUCR$QA1F_02        GGATAAACAATTATCC R01303 T00709; qa-1F;Quality: 2; Species: Neurospora crassa.
+AT$RS1A_01           CTTCCACGTGGCA R01315 T01187; GBF;Quality: 6; Species: mouse-ear cress, Arabidopsis thaliana.
+PEA$RS3A_01          GATTTACACT R01316 T00339; GT-1;Quality: 6; Species: pea, Pisum sativum.
+PEA$RS3A_02          GTGAGGTAATAT R01317 T00339; GT-1;Quality: 6; Species: pea, Pisum sativum.
+PEA$RS3A_03          GTGTGGTTAATATG R01318 T01089; GT-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+PEA$RS3A_04          ATCATTTTCACT R01319 T00339; GT-1;Quality: 6; Species: pea, Pisum sativum.
+TO$RS3A_05           TGACACGTGGCA R01320 T01187; GBF;Quality: 6; Species: mouse-ear cress, Arabidopsis thaliana.
+MAIZE$PMS1_01        tgCAAATtc R01603 T00914; YPF1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+MAIZE$PMS1_02        taTAAATATct R01604
+RICE$RAB16A_01       TACGTGGCgccaCCGCCGCGCCT R01708
+RICE$RAB16A_02       CCGCCGCGCT R01709
+AM$CHS_01            catgtCACGTGccaactg R01738 T00126; CG-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+PARS$CHS_01          tattcCACGTGgccatcc R01739 T00126; CG-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+NT$RS_01             tcttaCACGTGgcacctc R01740 T00126; CG-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+MAIZE$22Z2_01        TCATTCCACGTAGA R02296 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$22Z1_01        TCCACGTAGA R02297 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$22Z3_01        TCCACGTAGA R02298 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$22Z4_01        TCCACGTAGA R02299 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$PML1_01        TCCACATAGA R02300 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$PML2_01        TCCACGTAGA R02301 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$Z7_01          TCCAAGTATA R02302 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$ZA1_01         TCCACGTAGA R02303 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+NEUCR$CYS14_01       TTGAGAACATTGCGCCATGAAACCCCTGGGATGTCGTCATGTTAAAGG R02344 T00180; CYS3;Quality: 2; Species: Neurospora crassa.
+NEUCR$CYS14_02       TTTTCGCTTGGGGATGACGTGC R02345 T00180; CYS3;Quality: 2; Species: Neurospora crassa.
+NEUCR$CYS14_03       TGTTCGCTGATGCCATTCATT R02346 T00180; CYS3;Quality: 2; Species: Neurospora crassa.
+NEUCR$CYS3_01        CCGAGAATGGTGTCATTTCTCGTGACTTTGGGGGGATTGCACCATCGAGGGG R02347 T00180; CYS3;Quality: 2; Species: Neurospora crassa.
+MAIZE$SHR_01         CCTCTCCCGTC R02474 T00922; Zmhox1a;Quality: 6; Species: maize, Zea mays.
+MAIZE$SHR_02         GCTGCCCGTC R02475 T00922; Zmhox1a;Quality: 6; Species: maize, Zea mays.
+MAIZE$SHR_03         TAGGAGCAGCT R02476 T00922; Zmhox1a;Quality: 6; Species: maize, Zea mays.
+NEUCR$NIT3_01        tatacaTATCTA R02725 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+NEUCR$NIT3_01        TATCACa R02725 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+NEUCR$NIT3_02        TATCATgtacgTAGATA R02726 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+NEUCR$NIT3_03        TATCAAacctTATCAA R02727 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_01         TATCTA R02728 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_01         TATCTA R02728 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_02         TATCTC R02729 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_02         TATCGT R02729 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_02         TAGTAGAGATA R02729 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_03         TATCGCcggctcatTATCGT R02730 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_04         GAGATA R02731 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+ASPN$NIAD_04         TATCTC R02731 T00627; NIT2;Quality: 2; Species: Neurospora crassa.
+POT$PLN2_01          GAGGGTATtttcGTAA R02748
+RICE$GL51_01         tAAGTCATAACTGa R02819
+RICE$GL51_02         catCCATGTCATATT R02820
+RICE$GL51_03         AATGATGTGTCAAT R02821
+RICE$GL51_04         TTCCGTGTACCAC R02822
+RICE$GL51_05         atatcaTGAGTCActtca R02823
+MAIZE$B32_01         GTTGACGTGA R02934 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$B32_02         GATGACATGA R02935 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$B32_03         GATGATGTGG R02936 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$B32_04         GATGATATGG R02937 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+MAIZE$B32_05         GATGACATGG R02938 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+NEUCR$CPC1_01        GTGACTCAT R02976 T00160; CPC1;Quality: 6; Species: Neurospora crassa.
+NEUCR$CPC1_02        gcggcaaCCAATaagaacgcacagt R02977
+NEUCR$TRP3_01        CGGAGTCAC R02978 T00160; CPC1;Quality: 6; Species: Neurospora crassa.
+NEUCR$TRP3_01        GTGAGTCAA R02978 T00160; CPC1;Quality: 6; Species: Neurospora crassa.
+NEUCR$TRP3_02        ATGACTCAT R02979 T00160; CPC1;Quality: 6; Species: Neurospora crassa.
+AT$EF1A1_01          ACAGGGGCATAATGGTAATTTAAA R03062 T00808; TEF 1;Quality: 6; Species: mouse-ear cress, Arabidopsis thaliana.
+RICE$GLU2_01         atccacCTTTCGTGTACc R03071
+PV$CHS_01            ATTAAAAGTTAAAAACACA R03077 T01089; GT-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+PV$CHS_02            GGACGCACTGTGATTAAATAT R03078 T01089; GT-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+PV$CHS_03            ACCAATTATTGGTTACTAAATTTAACAG R03079 T01089; GT-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+ASPN$AMDS_01         aaaatTCGGCGAAgccAGCCAATca R03276 T00932; AnCF;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$AMDS_02         gccAGCCAATcaccagctaggcaccagctaaaccc R03277 T00932; AnCF;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+AT$DBP_01            acagaggTGACGTggcatca R03283 T00938; HBP-1b;Quality: 6; Species: wheat, Triticum aestivum.
+RICE$NITR_01         ttttgccACGTCAcatgctg R03284 T00938; HBP-1b;Quality: 6; Species: wheat, Triticum aestivum.
+PEA$LEGA_01          ctttcaaTGACGTgtccaac R03285 T00938; HBP-1b;Quality: 6; Species: wheat, Triticum aestivum.
+WHEAT$H4_01          CCACGTCACCG R03415 T01179; ssDBP-2;Quality: 6; Species: wheat, Triticum aestivum.
+MAIZE$PEPC_01        tacggTGCCCTTgGTAGAAcaacatccttatccctata R03628 T01060; MNB1b;Quality: 2; Species: maize, Zea mays, strain H84.
+AT$ADH_01            agaaatgCCACGTGGacgaatac R03630 T01080; GBF3;Quality: 6; Species: mouse-ear cress, Arabidopsis thaliana.
+MAIZE$Z15A_01        TGCAACGCAACATTCCAAAACCAT R03639 T01086; beta-1;Quality: 6; Species: maize, Zea mays.
+SOYBN$BCGA_01        TGTAATAATATATTTATATT R03645 T01100; SEF1;Quality: 6; Species: soybean, Glycine max.
+SOYBN$BCGA_02        GCATTTTTATCA R03646 T01101; SEF4;Quality: 6; Species: soybean, Glycine max.
+SOYBN$BCGA_03        TTTCTTGCGTTTTTTGGCATAT R03647 T01100; SEF1;Quality: 6; Species: soybean, Glycine max.
+SOYBN$BCGA_04        CATTTTTGT R03648 T01101; SEF4;Quality: 6; Species: soybean, Glycine max.
+SOYBN$BCGA_05        AACCCAtcatgagcccacacatttgttgtttctAACCCA R03649 T01102; SEF3;Quality: 6; Species: soybean, Glycine max.
+RICE$RAB16B_01       gGTACGTGGCG R03652 T01090; TAF-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+PETUN$RBCS611_01     GCCACGTGGC R03654 T01090; TAF-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+RICE$PHYA_01         GCGGTAATT R03677 T01097; GT-2;Quality: 6; Species: rice, Oryza sativa.
+WHEAT$EM_01          GGACACGTGGC R03678 T01395; HBP-1a(c14);Quality: 6; Species: wheat, Triticum aestivum.
+OAT$PHYA3_01         GTCATTATCGG R03708
+OAT$PHYA3_02         GGAAATAGCAAATGTTAAAAATA R03709 T01117; PF1;Quality: 6; Species: oat, Avena sativa.
+OAT$PHYA3_03         GAAAGAA R03710
+OAT$PHYA3_04         ACTAGCAGAA R03711
+OAT$PHYA3_05         GGTAAGAA R03712
+OAT$PHYA3_06         CACGGGTCGATCAGCCCG R03713
+OAT$PHYA3_07         GGTAAAGAAA R03714
+OAT$PHYA3_08         GGTTAAT R03715
+OAT$PHYA3_08         GGTTAAT R03715
+OAT$PHYA3_09         CCCATCCGCGCCGGTCA R03716 T01118; PF3;Quality: 6; Species: oat, Avena sativa.
+OAT$PHYA3_10         GGGCGCGGAACAAGGATCGGCGCGCCACGCC R03717 T01119; RF1;Quality: 6; Species: oat, Avena sativa.
+ASPN$YA_01           gtaCATTCCaatca R03759 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_01         ctttcaCATTCCagtcg R03760 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_02         cctcagCATTCCaaaca R03761 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_03         cttccaCATTCTctttc R03762 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_04         ctcttaCATTCTctctt R03763 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_05         tgttctCATTCTtggga R03764 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$BRLA_01         agcctaCATTCCtgg R03765 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$BRLA_02         ctcCATTCCggct R03766 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$BRLA_03         ttCATTCTttt R03767 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$BRLA_04         tttCATTCCttcact R03768 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$WETA_01         ttgCATTCCggcgg R03769 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$WETA_02         agtccgCATTCCtct R03770 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$WETA_03         acgactGGAATGcaaa R03771 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$WETA_03         tttgCATTCCagtcgt R03771 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$WETA_04         cgctgCATTCCatct R03772 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$YA_02           tgcaAGAATGtgaaa R03773 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$RODA_01         cgaGGAATGtgaact R03774 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$RODA_02         ttttGGAATGgcaagaa R03775 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$RODA_03         caggGGAATGagacag R03776 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$RODA_04         gtggtgCATTCCaaag R03777 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$RODA_05         gtccctCATTCTcaagc R03778 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$ABAA_06         acgctgCATTCCtctga R03784 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+ASPN$BRLA_05         cttCATTCTctctct R03785 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+RICE$ACT_01          GCCCAACCCAACCCAAC R04299
+RICE$ACT_02          AAAAAAAAAAAAAGAAAGAAAAAAAAGAAAAAGAAAAA R04300

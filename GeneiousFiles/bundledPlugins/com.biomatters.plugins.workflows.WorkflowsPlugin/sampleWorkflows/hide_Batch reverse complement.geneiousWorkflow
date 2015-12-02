@@ -1,0 +1,7 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Batch reverse complement" geneiousVersion="7.0.2" uniqueId="327ceeb6-1a82-4472-9857-47cfd2495b54" revisionNumber="7" description="&lt;html&gt;&lt;center&gt;Reverse complements each selected sequence, sequence list, or alignment&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementForEach" />
+    <workflowElement id="ReverseComplementOperation" exposeNoOptions="true" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement" />
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACE0lEQVR42oWTTUgbQRTHJ9mc18WCIEVIQShCSRfjB3pxKXjXm5fa0JIopZKIRxFzEQ8isQn06CZKwVtXe2hPdftxFFaj9KLWgFQoQneDivjV53vjTrLZBlx47O7M/P7v/2beMOZ7dD2jLC1lU4VC1sQAN0oYhq7nNEthypYslbbkoEXfNfDycm4AYccD2vi/Lv5RXEUwVZQlG+FwDYwLY2JhPp/N4OKwz5lKb8qOAnmf7ZwmMoqF4oF4pwqjHRrF5XDk9Z/eh3A68HgFEh1pSLSbfBGCmyRAJXCIgHjUgEQU7gtujWCqlcMj0QUx+e/N018X8y0HV7OPJtFJ31F38+x+awMcPmmKVCwWCm/TrkDszhaHbXJhrzPFMZmF4eA3bmAojfVDTf1C4Nvc+JDIfL74YAcBvomuiI2xudMi/aATqCtwMqZ9dm1TRiCAYFdEdb6w8uFEAFDAqCtwPdp1zh3E22MIxEik/JXxxdQwu8+Cez9bJdhWQpq/89SP79LVncVjo/GyyXQSOZoJmJjVodo3wk3v6cirgb1CihvP+4+FAFksNkgc+j0VgP3BII3BthycxgbTPV0K5J7RJB2NR8AbB0U5lPG2LYLf/xMotTVaBP991QPGRALWki8/rSaHI3W61XDhi4pApfNQ4Gak84zaWWRwL5ZZaztn0b7dleMToKDrjBMv3FsoxGwEPtC4//rfAizBzWCzRjIDAAAAAElFTkSuQmCC</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

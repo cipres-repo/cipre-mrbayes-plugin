@@ -1,0 +1,66 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Align DNA then build tree" geneiousVersion="7.0.1" uniqueId="d5c76d00-38db-4362-98fb-337930e48324" revisionNumber="9" description="&lt;html&gt;&lt;center&gt;Builds a DNA alignment (using MUSCLE) and then builds a tree from that alignment&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement id="MUSCLE" exposeNoOptions="false" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="-maxiters">8</option>
+        <option name="useCustomLocation">false</option>
+        <option name="muscleLocation">M:\src\g2\plugins\muscle\resources\com\biomatters\plugins\muscle\muscle.exe</option>
+        <option name="-maxtrees">1</option>
+        <option name="-stable">group</option>
+        <option name="-diags">false</option>
+        <option name="-noanchors">true</option>
+        <option name="keepTree1">false</option>
+        <option name="keepTree2">false</option>
+        <option name="-sp">false</option>
+        <option name="-center">-1.0</option>
+        <option name="amino acid-distance1">kmer6_6</option>
+        <option name="amino acid-distance2">pctidkimura</option>
+        <option name="nucleotide-distance1">kmer4_6</option>
+        <option name="nucleotide-distance2">pctidkimura</option>
+        <option name="-cluster1">upgmb</option>
+        <option name="-cluster2">upgmb</option>
+        <option name="-root1">pseudo</option>
+        <option name="-root2">pseudo</option>
+        <option name="-weight1">clustalw</option>
+        <option name="-weight2">clustalw</option>
+        <option name="-termgaps">half</option>
+        <option name="-objscore">spm</option>
+        <option name="-anchorspacing">32</option>
+        <option name="-gapopen">-1.0</option>
+        <option name="-diaglength">24</option>
+        <option name="-diagmargin">5</option>
+        <option name="amino acid-minbestcolscore">2.0</option>
+        <option name="amino acid-minsmoothscore">1.0</option>
+        <option name="nucleotide-minbestcolscore">90.0</option>
+        <option name="nucleotide-minsmoothscore">90.0</option>
+        <option name="-hydrofactor">1.2</option>
+        <option name="-hydro">5</option>
+        <option name="-maxmb">500</option>
+        <option name="restrictRuntime">false</option>
+        <option name="-maxhours">1.0</option>
+        <option name="extraOptions" />
+      </Options>
+      <optionToExpose optionName="-maxiters" label="Maximum number of MUSCLE alignment iterations" />
+    </workflowElement>
+    <workflowElement id="Build_Tree_From_Alignment_NUCLEOTIDE_" exposeNoOptions="false" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <childOption name="alignment">
+          <option name="determineDirection">false</option>
+          <option name="alignmentType">globalFreeEndGaps</option>
+          <option name="nucleotideCostMatrix">65% similarity</option>
+          <option name="gapOpenPenalty">12.0</option>
+          <option name="gapExtensionPenalty">3.0</option>
+          <option name="dontAlign">false</option>
+        </childOption>
+        <childOption name="treeBuilding">
+          <option name="distanceModel">Tamura-Nei</option>
+          <option name="buildMethod">Neighbor-Joining</option>
+          <option name="outgroup">none</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="treeBuilding.distanceModel" label="" />
+      <optionToExpose optionName="treeBuilding.buildMethod" label="" />
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAEq0lEQVR42q1WbUxTZxTudAzWRYJAgYlAFXBuKlSFMcgcZCTIiAjux74XSSTLRgzyg0hYgxTEdajQDmgp5cuJrMjQ8illFC4FS/lubGGwaVepsGYgXqBXCvjj7L6FboyWyRZO8uYm9z3nOe85z/OeeymUTdjyhJAxLw/GJxq9tZWX6AzKVtryRCXD0PserrvjB93FbkRZVkB2Xl6e/Xo/XCuia5ojWE08BuM/gFczDH0n8PHGgyDjOxJZzE8SBQJBJI/H81jrN6f8KknX8jauKPOavcKMirF2AAtb0nJiiYFT+MNGf8B4zkRm6gr42mDQi+mG/lPYuCQYuoQec1nMTxPW+1g10DfTEbiu+Qh08ndC+nlL8DnlF0l/dITjY2J/kOZ7/J7FPJ24KXBkC+qz5/StgdBb4ghcZhCHDIw2ByLCDX3RmE7yJvSUeULdZRcNm53xIekTjnyMehF9vvMwpm9yL98wAd4VjI1V74aGyztVCBz1HHClw9JIAmu+OxS0DX5wt4gGVd94StG+UCgMLSoqslm4F580IwvB79/ygqFr9gbyvXXCZ7uCsAc1u+BOvm8d6RRiHPky7mnfce0MFgi/1OyB9nx74KQGclbBGSg54kInCQJFqTuI2VSCu7IfaTUBoTgGM22vw2Q9DWZavWEG84eH9T7QU+xoCs5IPpFqrmxJmx1Ltgz/rfEotPNcoYzppLqQmnDGmtpM9kybH7bQH0Em2A/jYhr8LHKFvlInaOXYQQXL4a/ggoICJ+LeGe4TeQTcrz0AEi6NyE3xE65WFZKbm/uypXrIUhcGY7XTbf6gqnCE9u9soSXHBm6waApOSgBnbTAxeLp8oi0cFOV7oTKTpklLXlEan8/fu7H2R+LTZzvfAvUNZyhNc5dmZV1A6oheBQ40l0xykq7H3oXuUjoUpnqZ/BDRz5Uo0XMM0zX6Qke+HaBWIAKROtZXOa8Ih9HqPVDDpqnMRK/1w7WYw4Q8zlJBOHYIG61yAVneNkCB1vr47FFeKC4LgOGKHSBie/+AWvZ3cszBMPgBa0p6CFfdfC3ToqLZjoPYgx9poL72kimBtSoXh+M55EHgVxEVlKU2xFClT/6c7AjL0B1S+7j9MK6t8zZd0PJL/gIy+b5/BD/tP5k+I/Uh5ekEww0xxUb1Z2FGdVyYcfRsmFH1eRwx+DF3Xv4OPtlEh8ESW5DzXgD191QYr3UDze3dJrXVZ79CFKbskrJJXiwIXxyIUhJ3/eFJiytMN7vBtMQdHpNrWuJJjicf8i74wojoVZAXUkFyZRv8dJUC3fztaF5panO8pJyUQA57RRiRFvwtaa/GGgeOg0G2Hx6Jd4CyjDwh3xYUgpVnZ4EdyAps4fa3NEUOKVn2GoWZxwUCRUpbLwzK8pSYsah8HyfkR8n2OIOicDtcT6NqMs8FcC4mR6VmkCv9/EeJ6yVrAbTR53Bx6OQqOA16i2zgOpOqMWsbAaFbi9amRrHFaO4JNoHrG1ygR2ADNzNeJMzgmzrh88zQsQ+favaAgRI7uHWRAl8nRaFBFrkl4Mgmm96IGaty0ch524CbcsA0rFA7tvTPgeyzG2oJAv/XYfU/7E+KYxjh1ReiXQAAAABJRU5ErkJggg==</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

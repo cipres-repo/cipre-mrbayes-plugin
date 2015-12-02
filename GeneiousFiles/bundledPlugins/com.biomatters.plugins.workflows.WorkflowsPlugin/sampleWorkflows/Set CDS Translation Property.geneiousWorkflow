@@ -1,0 +1,57 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Set CDS Translation Property" geneiousVersion="8.0.0" uniqueId="df9bc185-88ad-4faa-a76e-f683c47a7232" revisionNumber="15" description="&lt;html&gt;&lt;center&gt;&#xA;&lt;b&gt;Adds a &quot;Translation&quot; annotation to each CDS annotation.&lt;/b&gt;&lt;br&gt;&#xA;The genetic code specified by the transl_table qualifier is used.&lt;br&gt;&#xA;Otherwise, uses the genetic code specified for the document.&lt;br&gt;&#xA;Otherwise, uses the default genetic code from cog icon in sequence viewer translation options.&lt;br&gt;&#xA;&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>// Adds a translation property to each CDS annotation
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+                                                             ProgressListener progressListener) throws DocumentOperationException {
+    List&lt;AnnotatedPluginDocument&gt; results = new ArrayList&lt;AnnotatedPluginDocument&gt;();
+    CompositeProgressListener compositeProgressListener = new CompositeProgressListener(progressListener, documents.size());
+    for (final AnnotatedPluginDocument document : documents) {
+        compositeProgressListener.beginSubtask();
+        if (compositeProgressListener.isCanceled())
+            throw new DocumentOperationException.Canceled();
+        SequenceDocument.Transformer transformer = new SequenceDocument.Transformer() {
+            public SequenceDocument transformSequence(SequenceDocument originalSequence) {
+                DefaultSequenceDocument newSequence = SequenceUtilities.createSequenceCopyEditable(originalSequence);
+                List&lt;SequenceAnnotation&gt; annotations = newSequence.getSequenceAnnotations();
+                addTranslationToAnnotations(annotations, originalSequence, document);
+                newSequence.setAnnotations(annotations);
+                SequenceTrack.Manager trackManager = SequenceTrack.getTrackManager(newSequence);
+                if (trackManager!=null) {
+                    for (SequenceTrack sequenceTrack : trackManager.getTracks()) {
+                        if (sequenceTrack.getSequenceAnnotationTypeCount(SequenceAnnotation.TYPE_CDS)&gt;0) {
+                            List&lt;SequenceAnnotation&gt; trackAnnotations = sequenceTrack.getSequenceAnnotations(ProgressListener.EMPTY);
+                            addTranslationToAnnotations(trackAnnotations, originalSequence, document);
+                            sequenceTrack.setAnnotations(trackAnnotations);
+                        }
+                    }
+                }
+                return newSequence;
+            }
+        };
+        results.addAll(SequenceUtilities.createNewDocumentsByTransformingSequences(
+                Collections.singletonList(document), transformer, progressListener, "translations added to "));
+    }
+    return results;
+}
+
+private static void addTranslationToAnnotations(List&lt;SequenceAnnotation&gt; annotations, SequenceDocument originalSequence, AnnotatedPluginDocument document) {
+    for(SequenceAnnotation annotation:annotations) {
+        if (SequenceAnnotation.TYPE_CDS.equalsIgnoreCase(annotation.getType())) {
+            String translation = SequenceAnnotation.getTranslation(document, originalSequence, annotation);
+            if (translation!=null) {
+                annotation.setQualifier("translation",translation);
+            }
+        }
+    }
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACL0lEQVR42o1TPUgbYRh+EYmDiD+zEBFEB0ldnDokIEhJl+jSNV0UO9Ti6hAXdfMnoQQHue/E0DEVytnW4UIJOJSSUtvFNJ5Kzf0m1x+HQoev75v7LnetDr7wcLn3+57ne573vgBgSVIuIcs5JsvbK/SUpM0huFHWBICjCaRvLMty9hjBfYRFZmetR5FI4xVAo9LR8Y0DXPJ/RHBzH5J++uS9vewnf01R6ilFMdxiUevzOo1FgCoJuOHTS4L8Wgg8A3CR4DAEj8VsvrpqHAR+HWlgoMGjUfsh4Oa0IKmeWK6ysHAQi0ScL0T2LDu8u/uSb20ZV4qil5aWzM+Dg02+tmbep9NfiswTIs5QoVAv4Ma4sJwB+Mp9J9jny8vmdTxee07DB2Fd8yc9PW1V5uZM7BnrgeV2bu69m/f82L5Aqb/feQLwTmxy+PDwBd/f1/OHh3qCgJF06uPvTHhuLYFMRtXHxqwXNJzOTu06EPEsE8j+6Kj96+io2UsCOLPvyHUhn3/bZOwcZ1BOevbcaE/P6RkJdHUZHAfWEhgft//Mz1sPBDntOc8xYKz2mwQYKx8Hmd0owKlLIiMjjrSxcfWYcofuzHn7sjGm/fAECCcfJElL+N+aBCYnDfW/C/fRO317pdVk7GIzEAiQStUxs8unpoynRKTLJXLjelZqm93ZqfUiQb1NIJk8sYMTW3Ax9yLcVru7Z/htq+uMvS8y9qY6M1Pmof+GSkRyAncrb2B3qb8sbr9S8Ci2xQAAAABJRU5ErkJggg==</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

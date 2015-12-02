@@ -1,0 +1,33 @@
+package com.biomatters.exampleDocumentViewerPlugin;
+
+import com.biomatters.geneious.publicapi.plugin.*;
+import com.biomatters.geneious.publicapi.documents.sequence.SequenceDocument;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.ActionEvent;
+import java.awt.print.PrinterException;
+import java.awt.print.Printable;
+import java.awt.font.FontRenderContext;
+import java.awt.geom.Rectangle2D;
+import java.awt.geom.AffineTransform;
+
+/**
+ * @author Matt Kearse
+ * @version $Id$
+ */
+
+public class CipresMrBayes extends DocumentViewer {
+    final Font font = new Font("monospaced",Font.PLAIN,48);
+    final String residues;
+
+    public ExampleDocumentViewer(SequenceDocument sequence) {
+        residues = sequence.getSequenceString().toUpperCase();
+    }
+
+
+
+
+    
+}

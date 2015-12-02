@@ -1,0 +1,88 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Merge mapped sequences" geneiousVersion="8.0.0" uniqueId="26aeada1-2bdf-4651-8fc2-ff5241217511" revisionNumber="14" description="&lt;html&gt;Given a contig which contains some sequences mapped to a reference sequence, extracts a list of&lt;br&gt;&#xA;sequences mapped with overlapping sequences merged together.&lt;br&gt;&lt;br&gt;&#xA;Overlapping sequences with disagreements are merged using default consensus calling options, which&lt;br&gt;&#xA;uses highest quality calling when quality information is available.&lt;br&gt;&lt;br&gt;&#xA;&lt;b&gt;This operation is not suitable for merging 100,000 or more sequences. It is intended for&lt;br&gt;&#xA;genome finishing by merging a few mapped contigs produced from a de novo assembly.&lt;/b&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>// This custom code iterates over sequences in a contig (after sorting by start position).
+// Adjacent sequences with sufficient overlap and similarity are merged into a single sequence
+// using the consensus sequence operation to resolve regions of disagreement.
+
+import jebl.util.CompositeProgressListener;
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	options.addIntegerOption("minimumOverlap","Minimum overlap to merge sequences:",3,1,1000)
+		.setDescription("The minimum number of bases that must overlap between two sequences to merge them.");
+    options.addIntegerOption("minimumIdentity","Minimum percentage identical in overlap region:",90,1,100);
+	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+                                                             ProgressListener progressListener) throws DocumentOperationException {
+    progressListener.setMessage("Finding and merging sequences");
+    if (documents.size()!=1)
+        throw new DocumentOperationException("This workflow requires a single contig document as input");
+    PluginDocument pluginDocument = documents.get(0).getDocument();
+    if (!(pluginDocument instanceof SequenceAlignmentDocument))
+        throw new DocumentOperationException("This workflow requires a single contig document as input");
+    SequenceAlignmentDocument contig = (SequenceAlignmentDocument) pluginDocument;
+    int referenceSequenceIndex = contig.getContigReferenceSequenceIndex();
+    if (referenceSequenceIndex&lt;0)
+        throw new DocumentOperationException("This workflow requires a single contig which has a reference sequence");
+    List&lt;SequenceDocument&gt; sequences = new ArrayList&lt;SequenceDocument&gt;();
+    for(int sequenceIndex = 0; sequenceIndex &lt; contig.getNumberOfSequences(); sequenceIndex++) {
+        if (sequenceIndex == referenceSequenceIndex)
+            continue;
+        sequences.add(contig.getSequence(sequenceIndex));
+    }
+    Collections.sort(sequences, new Comparator&lt;SequenceDocument&gt;() {
+        @Override
+        public int compare(SequenceDocument o1, SequenceDocument o2) {
+            return o1.getCharSequence().getLeadingGapsLength() - o2.getCharSequence().getLeadingGapsLength();
+        }
+    });
+    int minimumOverlap = (Integer)options.getValue("minimumOverlap");
+    int minimumPercentageIdentity = (Integer)options.getValue("minimumIdentity");
+    SequenceDocument currentSequence = null;
+    SequenceListOnDisk.Builder resultsBuilder = new SequenceListOnDisk.Builder(false, SequenceUtilities.getAlphabet(sequences.get(0)),false);
+	CompositeProgressListener compositeListener = new CompositeProgressListener(progressListener, 2);
+    for (int sequenceIndex=0;sequenceIndex&lt;sequences.size();sequenceIndex++) {
+		if (compositeListener.setProgress(sequenceIndex, sequences.size()))
+			throw new DocumentOperationException.Canceled();
+	    SequenceDocument sequence = sequences.get(sequenceIndex);
+        if (currentSequence==null) {
+            currentSequence = sequence;
+            continue;
+        }
+        SequenceCharSequence currentCharSequence = currentSequence.getCharSequence();
+        SequenceCharSequence thisCharSequence = sequence.getCharSequence();
+        int matches = 0;
+        int mismatches = 0;
+        for(int position = thisCharSequence.getLeadingGapsLength(); position&lt;currentCharSequence.getTrailingGapsStartIndex();position++) {
+            char c1 = thisCharSequence.charAt(position);
+            char c2 = currentCharSequence.charAt(position);
+            if (c1=='-' &amp;&amp; c2=='-')
+                continue;
+            if (Character.toUpperCase(c1)==Character.toUpperCase(c2))
+                matches++;
+            else
+                mismatches++;
+        }
+        if (matches+mismatches&gt;=minimumOverlap &amp;&amp; Math.round(((double)matches)*100/(matches+mismatches))&gt;=minimumPercentageIdentity) {
+            DefaultAlignmentDocument pairwiseAlignment = new DefaultAlignmentDocument("",currentSequence, sequence);
+            DefaultSequenceDocument consensusSequence = SequenceUtilities.createSequenceCopyEditable(SequenceUtilities.generateConsensus(pairwiseAlignment, ProgressListener.EMPTY));
+            consensusSequence.setName(StringUtilities.trimToLength(currentSequence.getName()+" &amp; "+sequence.getName(),100,true));
+            currentSequence = consensusSequence;
+        }
+        else {
+            resultsBuilder.addSequence(SequenceExtractionUtilities.removeGaps(currentSequence),ProgressListener.EMPTY);
+            currentSequence = sequence;
+        }
+    }
+    resultsBuilder.addSequence(SequenceExtractionUtilities.removeGaps(currentSequence),ProgressListener.EMPTY);
+	compositeListener.beginNextSubtask();
+    AnnotatedPluginDocument resultDocument  = DocumentUtilities.createAnnotatedPluginDocument(resultsBuilder.toSequenceListDocument(compositeListener));
+    return Collections.singletonList(resultDocument);
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABHElEQVR42uWSMUtCURiGHwJxixbBTYI4c9APyD1I+wU5Oro1B/2KFhtdBLdGB7cQBAfXICRKh4tDW2DvqSMc1JtePVcKP3jgwv3u833nPRf+Qk2hbklDfCR6YmqZQCOk/FREM3nQIRJV5sUzunCjlvy2eS+IP2FyD5dqMeJw67x9PmBwAWdqOxHZYHlbRtB0WxfEQRp5m7jMI516DDUt0bPPcQOuk+RtRRJWJG6Nfk74zRPc6nVm6ZB3qK7KWz1liR58qc8Qhr9evh0yn7e2LDppFCf2eYSrVVdiN8i7XJ/Xkb7oxB24q2kZfXu81sW/QSmB1DhxLtEvLFE7uNQvxXT+Cv2g0iWVSUO6UANFtAm7GGD2ZIArsyH/vL4AfjBV7knDYI8AAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

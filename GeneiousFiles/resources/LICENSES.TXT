@@ -1,0 +1,114 @@
+The license agreement for Geneious itself is in the file
+
+  GENEIOUS software license agreement for downloads.html
+  
+Geneious contains various third-party libraries and programs. The table 
+below lists the libraries and programs included with Geneious, the title of 
+the project they came from, and the license under which they are 
+distributed.
+
+Below the table, you will find information on where to find a copy of 
+these licenses.
+
+filename(s)         | Project title             | License
+--------------------+---------------------------+----------------------
+axis.jar            | Apache Axis               | Apache License 2.0 [1]
+batik*,pdf-transcod*| Apache Batik              | Apache License 2.0 [1]
+biojava*.jar        | BioJava                   | LGPL 2.1 [4]
+BBMap/*             | BBTools/BBMap             | proprietary license [16]
+clustalw2*          | Clustalw                  | LGPL 3.0 [4]
+cygwin1.dll         | Cygwin                    | GPL 3.0 [13]
+commons-maths3-3.5.jar | Apache Commons Mathematics Library | Apache License 2.0 + additional [17]
+dynclass.jar        | Dynamic Class Generation  | zlib/libpng license [6]
+EccpressoAll.jar    |                           | Flexera Software proprietary
+msbar,tcode,charge..| EMBOSS applications       | GPL 3.0 [13]
+flexlm.jar          |                           | Flexera Software proprietary
+freehep*.jar        | FreeHEP Graphics          | LGPL 2.1 [4]
+gag.jar             | Google Annotations Gallery| Apache License 2.0 [1]
+Garli-*             | Garli                     | GPL 3.0 [13]
+glazedlists.*.jar   | Glazed Lists (MODIFIED)   | MPL [10]
+guava-15.0.jar       | Guava                     | Apache License 2.0 [1]
+jsr305-1.3.9.jar    | JSR305                    | BSD 3-Clause [15]
+jakarta-regexp..jar | Jakarta Regexp            | Apache License (2.0?) [1]
+jaxrpc.jar          | Java API for XML based RPC| CDDL 1.0 [12]
+jdom-contrib.jar    | JDOM                      | Apache-like proprietary[2]
+jdom.jar            | JDOM                      | Apache-like proprietary[2]
+jebl.jar            | Java Evol. Biol. Library  | LGPL 3.0 [4]
+Jmol.jar            | Jmol                      | LGPL 3.0 [4]
+jna, platform.jar   | JNA                       | LGPL 3.0 [4]
+JRI*,REngine.jar    | JRI                       | LGPL 2.1 [4]
+jtds-1.2.5.jar      | The jTDS Project          | LGPL 3.0 [4]
+ln.zip, ln.exe      | ln                        | proprietary license [11]
+log4j-*.jar         | Apache log4j              | Apache License 2.0 [1]
+lucene-core...jar   | Apache Lucene             | Apache License 2.0 [1]
+MaskedShellFolderManager.jar |                  | Copyright Jeremy Wood (bricolage1@mac.com)
+MemoryEfficientHashMap.java |                   | Apache License 2.0 [1]
+muscle*             | MUSCLE                    | Public Domain
+pdf-transcoder.jar  | Apache Batik              | Apache License 2.0 [1]
+PDFBox-1.6.0.jar    | PDFBox                    | BSD License [3]
+fontbox-1.6.0.jar   | FontBox                   | BSD License [3]
+piccolo_xml.jar     | Piccolo XML Parser f.Java | Apache License 2.0 [1]
+postgresql-8.2...jar| PostgreSQL JDBC Driver    | BSD License [3]
+primer3*            | Primer3                   | GPL 3.0 [13]
+raxml*              | RAxML                     | GPL 2.0 [13]
+sam-1.46.jar        | Picard                    | MIT license [9]
+sigar*              | Sigar                     | Apache License 2.0 [1]
+smack.jar (MODIFIED)| Smack                     | Apache License 2.0 [1]
+Strings.java        | com.eekboom.utils         | BSD License [3]
+tffungi, tfinsect...| Transfac Database         | Non-commercial [14]
+truezip-6.8.3.jar   | TrueZIP                   | Apache License 2.0 [1]
+*t_coffee*          | T-Coffee                  | GPL 2.0 [13]
+jna-*.jar           | jna                       | Apache License 2.0 [1]
+jna-platform-*.jar  | jna                       | Apache License 2.0 [1]
+OpenSans-Semibold.ttf | OpenSans                | Apache License 2.0 [1]
+ObjCBridge.jar  | Java-Objective-C-Bridge       | Apache License 2.0 [1]
+
+The source code for third-party files we distribute under the LGPL 2.1 license can be
+downloaded from the same site we make Geneious available for download.
+
+The source code for third party files we distribute under LGPL 3.0 can be downloaded
+from the respective third-party software project sites.
+
+piccolo_xml.jar is based on Piccolo 1.0.4 (from http://piccolo.sourceforge.net/) but we have made some bug fixes to it.
+
+smack.jar is based on smack 2.2.0 by Jive Software, but it is not the
+original release. We have made some changes (bugfixes) to the Smack
+sourcecode and built smack.jar ourselves.
+
+Modifications made to Glazed Lists files are available in
+bundledPlugins/com.biomatters.plugins.annotationTableViewer.AnnotationTableViewerPlugin.jar
+in the file "glazedListsModifications.txt".
+The original Glazed Lists source code can be downloaded from http://www.glazedlists.com/
+
+Geneious also includes a compiled, modified version of the Text class from the 
+Javolution library. Their copyright notice is quoted below [8].
+
+The respective licenses can be found at the following locations:
+
+[1] Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0
+    or in the file licenses/apache-license.txt distributed with Geneious
+[2] Apache-like proprietary:  file LICENSE.txt in jdom.jar 
+    (extract jdom.jar with unzip or WinZip)
+[3] BSD License template: http://www.opensource.org/licenses/bsd-license.php
+    or in the file licenses/bsd-license-template.txt distributed with Geneious.
+[4] LGPL: http://www.gnu.org/licenses/lgpl.html
+    or v2.1 in the file licenses/lgpl.txt distributed with Geneious.
+    LGPL v3.0 is in the file licenses/lgpl-3.0.txt distributed with Geneious.
+[6] zlib/libpng license: http://www.gzip.org/zlib/zlib_license.html
+    or in the file licenses/zlib.txt distributed with Geneious.
+[8] Javolution comes under a BSD license (see [3]). The exact license text
+    is available at http://javolution.org/doc/license.txt or in the file
+    licenses/javolution-bsd-license.txt distributed with Geneious.
+[9] MIT license: http://www.opensource.org/licenses/mit-license.php or in the file
+    licenses/MIT.txt distributed with Geneious.
+[10] MPL license: http://www.mozilla.org/MPL/MPL-1.1.html or in the file licenses/mpl.txt
+    distributed with Geneious.
+[11] License terms are in files ln.txt and rj.txt that can be extracted
+     from ln.zip using unzip or WinZip
+[12] CDDL 1.0 license: http://glassfish.java.net/public/CDDLv1.0.html
+[13] GPL: http://www.gnu.org/copyleft/gpl.html
+     GPL v3.0 is in the file licenses/gpl-3.0.txt distributed with Geneious.
+[14] Refer to licenses/transfac.txt for full disclaimer
+[15] BSD 3-Clause: http://opensource.org/licenses/BSD-3-Clause
+[16] See bundledPlugins/com.biomatters.plugins.bbtools.BBToolsPlugin/com/biomatters/plugins/bbtools/BBMap_Version/bbmap/license.txt
+[17] See licences/apache-commons-math-license.txt

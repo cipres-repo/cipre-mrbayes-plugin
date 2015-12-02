@@ -1,0 +1,1172 @@
+AD$IVA2_01           ACCCCTCCCACTT R00004 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+CAMV$35SR_01         cTGACGtaagggaTGACGcac R00009 T00830; TGA1b;Quality: 6; Species: tobacco, Nicotiana tabacum.
+AMULV$AMULV_01       CCAAT R00101
+AMV$AMV_01           ATTACcaAA R00102 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+AMV$AMV_02           CTTGCgtCA R00103 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+AMV$AMV_03           TTgtGTAAc R00104 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+BKV$BKV_01           TTACCCATGGAATGCAGCCAAACC R00167 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+BKV$BKV_02           ATGACTGGGCAGCCAGCCAGTGGC R00168
+BKV$BKV_03           TACCCATGGAATGCAGCCAAACCATG R00169 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+BKV$BKV_04           CATGACTGGGCAGCCAGCCAGTG R00170
+BPV1$BPV1_01         GAACCACACCCGGTAC R00171 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_02         ACCGgcggCGGTaga R00172 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_03         GCACCGGCGGCGGTAG R00173 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_04         CGACCTATCCCGGTAA R00174 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_05         GGACCGAACACGTTAT R00175 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_06         GAACCAGAACTGGTAA R00176 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_07         ACCgccatcGGTgcACCgatataGGT R00177 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_07         ACCagtaatGGT R00177 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_08         CCACCAGTAATGGTGC R00178 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_09         ACCagtaatGGT R00179 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_10         ATCGGTGCACCGAT R00180 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_11         GTACCGCCATCGGTGC R00181 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_12         GCACCGATATAGGTTT R00182 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_13         TTGGGGctCCCCAA R00183 T00035; AP-2;Quality: 1; Species: human, Homo sapiens.
+BPV1$BPV1_14         ACCgtcttcGGT R00184 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_14         ACCgttgccGGT R00184 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_15         GTACCGTTGCCGGTCG R00185 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_16         AAACCGTCTTCGGTGC R00186 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_17         TCACCGAAACCGGTAA R00187 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_18         ACACCATCACCGTTTT R00188 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_19         CAAACGATAAAGGTAG R00189 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_20         AAAACAGCAGCGGTTC R00190 T00205; E2;Quality: 2; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_21         CTCCACCCCTCCTGGTAA R00191 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+BPV1$BPV1_22         AGAACCTAAACGGTGC R00192 T00205; E2;Quality: 2; Species: BPV-1, bovine papilloma virus type 1.
+BPV1$BPV1_23         GCACCATGGCCGGTGC R00193 T00205; E2;Quality: 2; Species: BPV-1, bovine papilloma virus type 1.
+EBV$BRLF1_01         TTATTTTGGTTCCT R00194 T00492; MBF1;Quality: 6; Species: human, Homo sapiens.
+EBV$BRLF1_02         CCCTGACCATCACATGGGGCATT R00195
+EBV$BSLF2_01         gaagcacTGACTCAtgaa R00196 T00923; Zta;Quality: 1; Species: EBV, Epstein-Barr virus.
+EBV$BZLF1_01         TGTCTAAAATAAgcTGGTGTCAAAAATAG R00197 T01005; MEF-2;Quality: 6; Species: human, Homo sapiens.
+EBV$BZLF1_02         TAGTTTCTAAAAGAG R00198 T01005; MEF-2;Quality: 6; Species: human, Homo sapiens.
+EBV$BZLF1_03         CTAAATTTAGGTGTG R00199 T01005; MEF-2;Quality: 6; Species: human, Homo sapiens.
+EBV$BZLF1_03         CTCTGTGATGTCATGGTTT R00199 T01005; MEF-2;Quality: 6; Species: human, Homo sapiens.
+AS$CEBP_01           tgcagATTGCGCAATctgca R00207 T01303; CREB-2;Quality: 6; Species: human, Homo sapiens.
+DIDI$CP1_01          AAAGGAATGGGGGTTC R00236 T00315; GBF;Quality: 6; Species: slime mould, Dictyostelium discoideum.
+DIDI$DG17_01         ATGTGTGTTCATGTGTGTTTGAGTGTGTT R00276 T00315; GBF;Quality: 6; Species: slime mould, Dictyostelium discoideum.
+DIDI$DG17_02         TTGGGGGTATGGTGGAGTT R00277 T00315; GBF;Quality: 6; Species: slime mould, Dictyostelium discoideum.
+EBV$DSL_01           TTGCTCA R00295 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_02           TGTGTCA R00296 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_03           TGTGCAA R00297 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_04           TGACACA R00298 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_05           TGACACA R00299 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_06           CCAAT R00300
+EBV$DSL_07           TGAGCAA R00301 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$DSL_08           TTACACA R00302 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+AD$E1A_01            GATGTGGTAAA R00307
+AD$E1A_02            GTTGTAGTAAA R00308
+AD$E1A_03            TGACGTGT R00309 T00163; CREB;Quality: 2; Species: human, Homo sapiens.
+AD$E1A_04            caatTTTCGCGcgg R00310 T00221; E2F;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_05            ccatTTTCGCGggaa R00311 T00232; E2F+E4;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_06            TACTGGACTAGTGCCAATATT R00312 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_07            TACTGGACTAGTGCCAATATTAAAATGAAGTGG R00313 T00535; NF-1;Quality: 6; Species: rat, Rattus norvegicus.
+AD$E1A_08            TGGAGGTGTGGCTTTGG R00314
+AD$E1B_03            GGGGCGGGGC R00315 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AD$E2AE1_02          GTGGGATTTCCTT R00317 T00248; EIIaE-Calpha;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_03          AGCGCCATTATGAG R00318 T00249; EIIaE-Cbeta;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_06          GACGTAGTTTTCGCGC R00321
+AD$E2AE1_07          CTACGTCA R00322 T00442; 47-kDa CRE bind. prot.;Quality: 6; Species: rat, Rattus norvegicus.
+AD$E2AE1_08          AAACTACGTCATCTCCA R00323 T00247; EIIaE-B;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_10          ACTACGTCATCTCCA R00324 T00247; EIIaE-B;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_11          GACGTAGTTTTCGCGCttaaatttgagaaagggcgcgaaactagtcctt R00325
+AD$E2AE1_12          aatttaaGCGCGAAAacta R00326 T01490; RBP60;Quality: 2; Species: mouse, Mus musculus.
+AD$E2AE1_13          GCGCCCTT R00327 T00246; EIIaE-A;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_15          gaaaggGCGCGAAActa R00329 T01277; spE2F;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+AD$E2AE1_16          GCGCGAAA R00330 T00221; E2F;Quality: 6; Species: human, Homo sapiens.
+AD$E2AE1_17          ACTCTTAAGG R00331
+AD$E2AE1_18          CTGACTCTTAAGGAC R00332
+AD$E2L_01            GGGGGGATTGGG R00333 T00323; G6 factor;Quality: 6; Species: human, Homo sapiens.
+AD$E2L_02            AACCCCCC R00334 T00323; G6 factor;Quality: 6; Species: human, Homo sapiens.
+AD$E2L_03            ATTGG R00335 T00170; CRF;Quality: 6; Species: human, Homo sapiens.
+AD$E2L_04            TGACgcA R00336 T02115; USF2;Quality: 6; Species: rat, Rattus norvegicus.
+AD$E2L_05            CGGGCGGGATTGG R00337 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+AD$E2L_06            TGGGCGTGGT R00338 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+AD$E3_02             tagTTGGCCCGCTGCCCTggtgta R00340 T00536; NF-1;Quality: 6; Species: clawed frog, Xenopus.
+AD$E3_03             gaagttcAGATGACTaactca R00341 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+AD$E3_05             ggcggcTTTCGTCAcagggtg R00343 T00968; ATF-1;Quality: 6; Species: human, Homo sapiens.
+AD$E3_06             gggcagggTATAActcacctga R00344 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+AD$E3_07             TAACTCA R00345 T00029; AP-1;Quality: 1; Species: human, Homo sapiens.
+AD$E4_02             GTGACGT R00348 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_03             GTGACGT R00349 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_05             GTGACGT R00351 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_06             TGACGTAAC R00352 T01428; E4BP4;Quality: 2; Species: human, Homo sapiens.
+AD$E4_07             TGACGTAT R00353
+AD$E4_08             GTGACGA R00354 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_08             ACGTaACGT R00354 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_09             TGACGTAAC R00355 T00222; E4F;Quality: 6; Species: human, Homo sapiens.
+AD$E4_10             TTACGTCA R00356 T01017; CRE-BP2;Quality: 6; Species: mouse, Mus musculus.
+AD$E4_11             AAAACGGAAGTGACG R00357 T01392; GABP-beta2;Quality: 6; Species: human, Homo sapiens.
+AD$E4_15             AAAAAATGACGTAACGGTTAAAGTCCACAAAAAACA R00361 T01018; CAP;Quality: 6; Species: E.coli, Escherichia coli.
+AD$E4_16             ACGTCA R00362 T01095; LRF-1;Quality: 6; Species: rat, Rattus norvegicus.
+AD$E4_17             CGTtACGt R00363 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_18             ACGTCAT R00364 T00223; E4F1;Quality: 6; Species: human, Homo sapiens.
+AD$E4_19             GTTACGTC R00365 T00222; E4F;Quality: 6; Species: human, Homo sapiens.
+AD$E4_20             TGACGTAA R00366 T00163; CREB;Quality: 2; Species: human, Homo sapiens.
+AD$E4_22             TGAC R00368 T00029; AP-1;Quality: 3; Species: human, Homo sapiens.
+AS$ER_01             CTAGAAAGTCAGGTCACAGTGACCTGATCAAT R00417 T00259; ER;Quality: 2; Species: mouse, Mus musculus.
+FSV$FSV_01           ATTACatAA R00480 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+AS$GAL4_01           CGGAGGACAGTACTCCG R00501 T01020; PGA4;Quality: 4; Species: fission yeast, Schizosaccharomyces pombe.
+GALV$GALV_01         AGAAATAGATGAGTCAACAGC R00505
+HBV$HBVE_01          GGGTTATGTCATTGGATGTT R00630
+HBV$HBVE_02          CCTATTGATTGGAAAGTATG R00631 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_03          TTTACACAATGTGGTTATCC R00632 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_04          CTTTCTCGCCAACTTACA R00633 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_06          cCGTTGCtcgGCAACGg R00635 T01077; c-abl;Quality: 2; Species: human, Homo sapiens.
+HBV$HBVE_07          CAACGGCCTGGTCTGTGCCAAGTGTTTG R00636 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_08          ccaagTGTTTGCTgacgcaaccccc R00637 T01107; EBP45;Quality: 6; Species: rat, Rattus norvegicus.
+HBV$HBVE_09          CAAGTGTTTG R00638 T00833; TGT3;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_10          TTGCtgacGCAA R00639 T00202; E;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_11          TGGGGCTTGGCCATAGGCCATCAGCGCAT R00640 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_12          gcccaaggtcttacatAAGAGGACTCTTgga R00641 T00159; CPBP;Quality: 6; Species: human, Homo sapiens.
+SP$HH1B_01           CAAGTTTTAAATCTGATTCTGTA R00661
+PM$H2BA_01           ATTTGCAT R00665
+PM$H2BA_02           ATTTGCATA R00666 T00641; Oct-1;Quality: 2; Species: human, Homo sapiens.
+SP$H2B1_01           ATTTGCAT R00667 T00639; OBF;Quality: 6; Species: sea urchin.
+SP$H2B1_02           ATTGG R00668 T00082; CBF (1);Quality: 6; Species: sea urchin.
+SP$H2B1_03           ATTGG R00669 T00099; CDF;Quality: 6; Species: sea urchin.
+SP$H2B1_04           ATTTGCAT R00670 T00639; OBF;Quality: 6; Species: sea urchin.
+SP$H2B1_05           TATA R00671
+HIV1$HIV1_02         GGAGTCAGatatcCACTGAC R00695 T00029; AP-1;Quality: 3; Species: human, Homo sapiens.
+HIV1$HIV1_03         TGCTACAAGCTAGTACCAgttgagcc R00696
+HIV1$HIV1_05         TAGCATTTcATC R00698 T00550; NFAT-1;Quality: 4; Species: human, Homo sapiens.
+HIV1$HIV1_06         GGGACTTTCCGCtgGGGACTTTCCAG R00699 T01924; NF-kappaB1 precursor;Quality: 3; Species: mouse, Mus musculus.
+HIV1$HIV1_07         GGGACTTTCC R00700 T01925; NF-kappaB1 precursor;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_08         GGGACTTTCC R00701 T00590; NF-kappaB;Quality: 2; Species: human, Homo sapiens.
+HIV1$HIV1_09         GGGACTTTCCgctgGGGACTTTCC R00702 T00213; EBP-1;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_10         GGGACTTTCC R00703 T00590; NF-kappaB;Quality: 2; Species: human, Homo sapiens.
+HIV1$HIV1_11         GGGGAGTGGC R00704 T00759; Sp1;Quality: 1; Species: human, Homo sapiens.
+HIV1$HIV1_11         TGGGCGGGAC R00704 T00759; Sp1;Quality: 1; Species: human, Homo sapiens.
+HIV1$HIV1_11         GGCGTGGC R00704 T00759; Sp1;Quality: 1; Species: human, Homo sapiens.
+HIV1$HIV1_12         TATAA R00705 T00835; TMF;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_13         CTCTCTGG R00706 T00862; UBP-1;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_13         TATAA R00706 T00862; UBP-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV8_01          GGTGAGTAGTTGCCAAA R00724 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV8_02          CTCAGTTTAGTGCCAGA R00725 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV8_03          TTAGGTCGCCTGCCAAG R00726 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV8_04          GTATTGATCTTGCCAAT R00727 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV8_05          TTTGGCAGCGCTTTTGGCA R00728 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV11_01         ATATGTTGTGTGCCAAG R00729 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV11_02         TGCCAAGTATCTTGCCAAC R00730 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV11_03         TGTGGATTGCAGCCAAA R00731 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV11_04         TTTGGCTTCTAGCTGAA R00732 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_01         TTTGGCACAAAATGTGT R00733 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_02         TTGCCATGCGTGCCAAA R00734 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_03         CTGCACTGCTTGCCAAC R00735 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_04         CTGAATCAC R00736 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+HPV$HPV16_05         ATGTACAttgTGTCATAT R00737 T00333; GR;Quality: 1; Species: rat, Rattus norvegicus.
+HPV$HPV16_06         AATCACTATGCGCCAAC R00738 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_07         TTTGGCTTGTTTTAACT R00739 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_08         TTTGGCATAAGGTTTAA R00740 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_09         AAACTTCTAAGGCCAAC R00741 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_10         GTTAGTCAT R00742 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+HPV$HPV18_07         ACCGaaaaCGGT R00743 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+HPV$HPV18_01         GCTGGCACTATTGCAAA R00744 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV18_02         ATGGCGCGCCTCTTTGGC R00745 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV18_03         CTTGGCTTGTACAACTA R00746 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_01         AGGCTCTGACGTCTCCCCCC R00777 T01313; ATF-3;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_02         AGGCTCTGACGTCTCCCCCCG R00778 T00846; TREB-1;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_03         AGGCCCTGACGTGTCCCCCTG R00779 T01502; TxRE BP;Quality: 2; Species: human, Homo sapiens.
+HT1$HTLV1_04         CAGGCGTTGACGACAACCCCTC R00780 T00846; TREB-1;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_06         ACCCTGCTT R00782
+HCMV$IE1_03          TGGCACATGGCCAA R00789 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_04          TGGCTAATGGCCAA R00790 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_05          TGGCCAATAGCCAA R00791 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_06          TTGGACATGAGCCAA R00792 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_08          GTAAGTTATGTAACGCGGAACT R00794
+HCMV$IE1_10          GCCCATTGACGTCAATAAT R00796
+HCMV$IE1_11          CTATTGGCGTTACTATGGGAACATA R00797 T00963; MDBP;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_12          ctTTCCATTGACGTCAATGGG R00798
+HCMV$IE1_13          ACTTGGCAGTACATCAA R00799 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_14          GTCATTGACGTCAATAGGG R00800
+HCMC$IE1_16          TTGGCAGTACATCTA R00802 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMC$IE1_16          CTTTCC R00802 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_17          TTTTGGCAGTACATCAA R00803 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IE1_19          ttTGACTCAcggggatttccaag R00805 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+HCMV$IE1_20          CTTGGAAATCCCCGTGAGTCAAA R00806 T00590; NF-kappaB;Quality: 4; Species: human, Homo sapiens.
+HCMV$IE1_21          cccatTGACGTCAatggg R00807 T00167; CRE-BP1;Quality: 2; Species: human, Homo sapiens.
+HCMV$IE1_22          gatccatcaacGGGACTTTCCaagatc R00808 T00590; NF-kappaB;Quality: 4; Species: human, Homo sapiens.
+HCMV$IE1_23          TTGGCTATATGCCAA R00809 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HSV1$IE1_01          TGCATGCTAATGAGAT R00810 T01863; Oct-1C;Quality: 2; Species: mouse, Mus musculus.
+HSV1$IE1_02          GGGGAATCGTCACTGCCGCCCCTTTG R00811 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE2_01          ATATGCTAATTAAATACATGCCACG R00812 T00894; Vmw65;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE3_02          CCCTGCCCGTTCCTCGTTAGCATGC R00814 T00894; Vmw65;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE3_03          ggTAATGAGATGCc R00815 T01103; Cx;Quality: 6; Species: human, Homo sapiens.
+HSV1$IE3_04          GGGCGG R00816 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE3_05          CCGCCC R00817 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE3_06          GGCGGG R00818 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE3_07          GGGCGG R00819 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE3_08          TAATGGAAT R00820 T00894; Vmw65;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE3_09          GGGCGG R00821 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE3_10          ATCGTC R00822 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE4_01          GGGCGG R00823 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_02          GGTAATGAGATACG R00824 T00894; Vmw65;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV1$IE4_03          CCGCCC R00825 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_03          CCGCCC R00825 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_03          GGGCGG R00825 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_04          GGGCGG R00826 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_04          GGGCGG R00826 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_04          GGGCGG R00826 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$IE4_04          CCGCCC R00826 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+JCV$JCV_01           GGATGGCTgccAGCCAAG R00951 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+JCV$JCV_02           GGATGGCTgccAGCCAAG R00952 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+JCV$JCV_03           AGTGGAAagcAGCCAAG R00953 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+LPV$LPV_01           CCACCAAACCGAAAGTCCAGG R00971
+AD$MLP_02            GCATCAAG R00987 T00697; PR;Quality: 2; Species: rabbit, Oryctolagus cuniculus.
+AD$MLP_03            ATTGGTT R00988 T00157; CP1B;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_06            GGCCACGTGA R00991 T00586; NF-InsE3;Quality: 6; Species: hamster.
+AD$MLP_07            TGTAGGCCACGTGACCGG R00992 T02115; USF2;Quality: 2; Species: rat, Rattus norvegicus.
+AD$MLP_08            GTGTAGGCCACGTGACCGGGT R00993
+AD$MLP_09            GGCCACGTGACC R00994 T00874; USF;Quality: 4; Species: human, Homo sapiens.
+AD$MLP_10            CACGTGACC R00995 T00873; USF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+AD$MLP_11            TATAAAA R00996 T02169; TFIIF-beta;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_12            TATAAAA R00997
+AD$MLP_13            TATAAAA R00998 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_14            TATAAAA R00999 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_15            TATAAAA R01000
+AD$MLP_16            TATAAAA R01001 T00849; TRF;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AD$MLP_17            actctctTCCGCATCGCTGTCTGCGA R01002 T02169; TFIIF-beta;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_19            GGCCAGC R01004 T00190; DF-1;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_20            TGGGGTGAGTACTCCCTCTCAAAAGCGGGCA R01005 T00711; R1;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_22            CTAAGATTGTCAGTTTCCAAAAACGA R01007 T00712; R2;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_23            TTGTCAGTTT R01008 T00953; DEF;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_25            AGGAGGATTTGATATTCACCT R01010 T00192; DF-3;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_26            TTGATATTC R01011 T00953; DEF;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_27            GGTGGCCGCGTCCATCTGGT R01012 T00200; DTF;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_28            AGGCATTTCCAGGTGGGGAAAATGGTGGTGCGC R01013
+AD$MLP_29            TATAAA R01014 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+MMTV$MMTV_02         AGAACAT R01100 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_03         TGTTCT R01101 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_05         TGTTCT R01103 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_06         tgGTTACAaacTGTTCTt R01104 T00697; PR;Quality: 1; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_08         TGTTCT R01106 T00697; PR;Quality: 6; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_09         TGTTCT R01107 T00697; PR;Quality: 6; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_10         TGTTCT R01108 T00697; PR;Quality: 6; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_11         ACTGTTCT R01109 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_12         TGTTCT R01110 T01660; PR A;Quality: 1; Species: chick, Gallus gallus.
+MMTV$MMTV_14         ACAgacTGTTCT R01112 T00697; PR;Quality: 2; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_17         GTGAGACAAGTGGTTTCCT R01115 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_19         TGTTCT R01117 T00697; PR;Quality: 2; Species: rabbit, Oryctolagus cuniculus.
+MMTV$MMTV_21         AGTGTTCT R01119 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_22         TGTTCT R01120 T01660; PR A;Quality: 1; Species: chick, Gallus gallus.
+MMTV$MMTV_23         TGTTCT R01121 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MMTV$MMTV_24         TGTTCT R01122 T01660; PR A;Quality: 1; Species: chick, Gallus gallus.
+MMTV$MMTV_27         tTGGAatctATCCAA R01125 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_28         tTGGAatctATCCAA R01126 T00832; TGGCA-binding protein;Quality: 6; Species: chick, Gallus gallus.
+MMTV$MMTV_30         TATA R01128 T00286; factor i;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_31         TATA R01129 T00286; factor i;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_34         AGATCAGTAGATCAGA R01132 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+MOMLV$MOMULV_01      GAACAG R01134 T00475; LVa;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_02      GAACAG R01135 T00475; LVa;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_03      TGAATATGGGCCA R01136 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_04      TGAATATGGGCCA R01137 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_05      CAGGATA R01138 T00477; LVb-binding factor;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_06      CAGGATA R01139 T00477; LVb-binding factor;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_07      TGTGGTAAG R01140 T01530; core-binding factor;Quality: 6; Species: cattle, Bos taurus.
+MOMLV$MOMULV_08      TGTGGTAAG R01141 T01073; MECA;Quality: 6; Species: rat, Rattus norvegicus.
+MOMLV$MOMULV_09      CCTGC R01142 T00478; LVc;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_10      CCTGC R01143 T00478; LVc;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_11      CGGCTCAGGGCCA R01144 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_12      CGGCTCAGGGCCA R01145 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_13      AGAACAGATG R01146 T00335; GR;Quality: 4; Species: mouse, Mus musculus.
+MOMLV$MOMULV_14      AGAACAGATG R01147 T00335; GR;Quality: 4; Species: mouse, Mus musculus.
+MULV$MULV_01         CGCCAT R01148 T00864; UCRF-L;Quality: 6; Species: mouse, Mus musculus.
+MULV$MULV_02         CGCCATTTT R01149 T00865; UCRBP;Quality: 2; Species: mouse, Mus musculus.
+MSV$MSV_02           tatttgaACTAAGCAATcagttcg R01154 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+MSV$MSV_03           CGCGCGCTTCCGCTCTCCGAG R01155 T02130; p49erg;Quality: 2; Species: human, Homo sapiens.
+MSV$MSV_04           TCCCAAACAGGATATCTGTGGTAAGCAGTT R01156 T00111; c-Ets-1;Quality: 2; Species: mouse, Mus musculus.
+TDNA$NOS_01          TGAGCtaagcacataCGTCAG R01174 T00830; TGA1b;Quality: 6; Species: tobacco, Nicotiana tabacum.
+AD$ORI_01            TTGGattgaaGCCAAT R01175 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+AD$ORI_02            TATGCAAAT R01176 T01870; Oct-2.1;Quality: 6; Species: rat, Rattus rattus.
+AD$ORI_03            ATATGATAAT R01177 T00641; Oct-1;Quality: 2; Species: human, Homo sapiens.
+EBV$ORIP_01          cccGGGgtagcatATGCtatcctaGAtc R01178 T00211; EBNA-1;Quality: 6; Species: EBV, Epstein-Barr virus.
+PA$PY_01             GATGGCGG R01219 T00555; NF-D;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_02             agTGACTAAcTGA R01220 T00032; AP-1;Quality: 4; Species: mouse, Mus musculus.
+PA$PY_03             ACTAACTGACCGCAGCTGGCC R01221 T00683; PEBP2;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_04             acTGACCGCag R01222 T01065; PEBP2beta2;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_05             TGACTAA R01223 T00029; AP-1;Quality: 2; Species: human, Homo sapiens.
+PA$PY_06             GCAGGAAGTG R01224 T02130; p49erg;Quality: 2; Species: human, Homo sapiens.
+PA$PY_07             TGACTAA R01225 T00437; Jun-D;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_08             GACATCCTCTTTTAATTAGTTG R01226 T00687; PEB1;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_09             CCGCAGCTGG R01227 T00036; AP-4;Quality: 6; Species: human, Homo sapiens.
+PA$PY_10             GACCGCA R01228 T00683; PEBP2;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_11             ACTGCCCTCcaGAGGGCAGT R01229
+PA$PY_12             AGAGG R01230
+PA$PY_14             ACTGCCCTCcaGAGGGCAGT R01232 T00687; PEB1;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_15             AGTTGCTagGCAACT R01233
+PA$PY_17             AGTGTGGTTTTGCAAGAGGAAGC R01235 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+PA$PY_19             AGTTGCtagGCAACT R01237 T00231; EF-C;Quality: 6; Species: mouse, Mus musculus.
+PA$PY_21             CCAATCA R01239 T00029; AP-1;Quality: 2; Species: human, Homo sapiens.
+PA$PY_22             CAACAGCTGT R01240 T00036; AP-4;Quality: 6; Species: human, Homo sapiens.
+PA$PY_23             GCCCC R01241 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_23             GGGGC R01241 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_24             GAGGC R01242 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_25             GGGGC R01243 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_25             GAGGC R01243 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_26             GCCTC R01244 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PY_26             GCCCC R01244 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+PA$PYNB11_01         TGGCGGGCCTCCA R01245 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+PA$PYNB11_02         TGGCGGGCCTCCA R01246 T00537; NF-1;Quality: 6; Species: mouse, Mus musculus.
+DIDI$CP2_01          aGCGGGTGTGttaagttaGGGGTGGGttt R01288 T00315; GBF;Quality: 6; Species: slime mould, Dictyostelium discoideum.
+RAV0$RAV0_01         TGacGCAAG R01314 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+RSV$RSV_02           TATGCA R01342 T00238; EFII;Quality: 6; Species: quail, Coturnix coturnix.
+RSV$RSV_03           AAGCACCGTGCATGCCGATTGGTGGAAG R01343 T00234; EFI;Quality: 6; Species: quail, Coturnix coturnix.
+RSV$RSV_04           CTTGCaaCA R01344 T01386; C/EBP;Quality: 2; Species: Aplysia, Aplysia californica.
+RSV$RSV_04           TTatGCAAT R01344 T01386; C/EBP;Quality: 2; Species: Aplysia, Aplysia californica.
+RSV$RSV_05           ATTGG R01345
+RSV$RSV_06           TAAAACCGTTGGCACATCCTGCTATCATTGCGGAACAG R01346
+RSV$RSV_07           GGCTGCAATTGCGCCACCGCCAC R01347 T00399; IBF;Quality: 6; Species: hamster.
+SL3$SL3_01           ctagggccCCGGCCCAGGGCCAAgaacagat R01357 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HBV$SA_01            acTGGCcagcaGCCAAC R01367 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_01           TAGGCCTCcaaaaaaGCCTC R01369 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+SV$SV40_02           GCCTCctcactacttctggaatagctcaGAGGCcGAGGC R01370 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+SV$SV40_03           ATAAATA R01371 T00270; ETF;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_04           TGGGC R01372 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+SV$SV40_04           GGGGC R01372 T00788; T-Ag;Quality: 6; Species: SV40, simian virus 40.
+SV$SV40_06           gagaatGGGCGGaactGGGCGGagttaggg R01374 T00474; LSF;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_07           GGGCGG R01375 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_13           GGGCGG R01381 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_15           CTGACTAA R01383 T00676; Pap1+;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+SV$SV40_17           CTGACTAA R01385 T00028; AP-1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+SV$SV40_19           TGCATGCTTTGCATACTT R01387 T00029; AP-1;Quality: 1; Species: human, Homo sapiens.
+SV$SV40_20           CTTTGCATA R01388 T00641; Oct-1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_21           TGCTTTGCAT R01389 T01225; octamer-binding factor;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_24           ACTTTCCACACC R01392 T00035; AP-2;Quality: 4; Species: human, Homo sapiens.
+SV$SV40_25           CTTTCCA R01393
+SV$SV40_26           CTGACTAA R01394 T00893; v-Jun;Quality: 6; Species: ASV, avian sarcoma virus.
+SV$SV40_27           TGACTAATTGA R01395 T00039; AP-3 (2);Quality: 6; Species: human, Homo sapiens.
+SV$SV40_28           CTTTGCATA R01396 T00641; Oct-1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_29           TGCTTTGCAT R01397 T01225; octamer-binding factor;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_30           TGCATGCTTTGCATACTT R01398 T00039; AP-3 (2);Quality: 6; Species: human, Homo sapiens.
+SV$SV40_31           CTTTGCAT R01399 T00641; Oct-1;Quality: 4; Species: human, Homo sapiens.
+SV$SV40_32           CTTTGCAT R01400 T00641; Oct-1;Quality: 4; Species: human, Homo sapiens.
+SV$SV40_33           CTTTGCAT R01401 T00641; Oct-1;Quality: 4; Species: human, Homo sapiens.
+SV$SV40_34           CTTTGCAT R01402 T00664; oct-B3;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_35           TGCATGCTT R01403 T00806; TEF-1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_36           TGCTGGGGaGCCTGGGGacttt R01404 T00035; AP-2;Quality: 1; Species: human, Homo sapiens.
+SV$SV40_37           CTGGG R01405
+SV$SV40_38           TGGGGACTTTCC R01406 T01458; NP-TCII;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_39           ACTTTCCACACC R01407
+SV$SV40_40           GGGACTTTCCACACCCTAAC R01408 T00591; NF-kappaB(-like);Quality: 5; Species: human, Homo sapiens.
+SV$SV40_41           ACTTTCCACACC R01409 T00213; EBP-1;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_42           TGGAAAG R01410
+SV$SV40_43           TTTCCACACCCTAACTG R01411 T00807; TEF-2;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_44           TGTGTCA R01412 T00893; v-Jun;Quality: 6; Species: ASV, avian sarcoma virus.
+SV$SV40_45           ACATTCCACAGC R01413
+SV$SV40_46           ACATTCCACAG R01414 T00806; TEF-1;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_47           ACATTCCACAGC R01415
+SV$SV40_48           CCACAGCTGG R01416 T00036; AP-4;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_49           ACATTCCACAGC R01417 T00806; TEF-1;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_50           ACAGCTG R01418 T00342; GT-IIBalpha;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_51           ACAGCTG R01419 T00343; GT-IIBbeta;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_52           AGCTGGTTCTTTCC R01420 T00341; GT-IIA;Quality: 6; Species: human, Homo sapiens.
+SV$SV40_53           GctggttctttcCGCCTCAG R01421 T00474; LSF;Quality: 6; Species: human, Homo sapiens.
+HSV1$TK_01           ACCCCGCCCA R01442 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$TK_02           ATTGGCT R01443 T00536; NF-1;Quality: 6; Species: clawed frog, Xenopus.
+HSV1$TK_03           GGGGCGGCGC R01444 T00759; Sp1;Quality: 5; Species: human, Homo sapiens.
+HSV1$TK_04           ATTGG R01445 T00108; C/EBPalpha;Quality: 5; Species: rat, Rattus norvegicus.
+HSV1$TK_05           ATTGG R01446 T00614; NF-Y';Quality: 6; Species: mouse, Mus musculus.
+AS$TR_01             GTAAGATTCAGGTCATGACCTGAGGAGA R01465 T01693; T3R-beta2;Quality: 1; Species: chick, Gallus gallus.
+SP$U7SN_01           GACTTAA R01511
+SP$U7SN_02           CTAAAATATAC R01512
+SP$U7SN_03           ATTAT R01513
+SP$U7SN_03           AAATATAC R01513
+SP$U7SN_04           ATTGA R01514
+SP$U7SN_05           CCATTTATCTTT R01515
+DIDI$UDPGPP_01       TACACCCCAAATGGGGTAGT R01531 T00315; GBF;Quality: 6; Species: slime mould, Dictyostelium discoideum.
+VAV$VAV_01           TATTACTGAATTAATA R01557
+VAV$VGF_01           ttGTCAta R01558 T00887; VETF;Quality: 6; Species: vaccinia virus.
+VAV$VGF_01           ATTACTGAATTAATAA R01558 T00887; VETF;Quality: 6; Species: vaccinia virus.
+VIV$VISNA_01         AAATGTAACCGCAAGTTCT R01565
+VIV$VISNA_02         TTTTTTG R01566
+VIV$VISNA_03         cagctgATGCTTGAGTCATAACCGC R01567 T00036; AP-4;Quality: 5; Species: human, Homo sapiens.
+TDNA$NOS_02          tgagctaagcacatACGTCAg R01609 T00938; HBP-1b;Quality: 6; Species: wheat, Triticum aestivum.
+AD$MLP_36            TATAAAA R01619 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+SV$MLP_01            CCGGCTGTCACGCCAGGCC R01627 T00181; DAP;Quality: 6; Species: human, Homo sapiens.
+RADLV$RLV_01         CAGGATA R01642 T00477; LVb-binding factor;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_02         TGTGGTAT R01643 T00145; core-binding factor;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_03         CCTGC R01644 T00478; LVc;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_04         CCAAGAACAGATG R01645 T00335; GR;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_05         CAGGATA R01646 T00477; LVb-binding factor;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_06         TGTGGTCA R01647 T00145; core-binding factor;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_07         GCACCTG R01648 T00713; Rad-1;Quality: 6; Species: mouse, Mus musculus.
+RADLV$RLV_08         TCTCACAAGTTACAAAGAAGTTTA R01649
+RADLV$RLV_09         AAGGCTGGATAATACTGA R01650
+RADLV$RLV_10         gaactaaCCAATcagctcgcttctcgctt R01651
+MULV$MULV_03         ctaaCCAATcagctcgcttctcgcttct R01652
+LPV$LPV_02           cTGAAAGAGGAAGcTGTGGTTAGact R01653 T00705; Pu box binding factor (BJA-B);Quality: 6; Species: human, Homo sapiens.
+LPV$LPV_03           ATCAAcTGAAAGAGGAAGcTGTGGTTAGact R01654 T00704; Pu box binding factor;Quality: 6; Species: human, Homo sapiens.
+LPV$LPV_04           GACTTCAATAACAGGT R01655
+FELV$FELV_01         CAGGATA R01656 T00477; LVb-binding factor;Quality: 6; Species: mouse, Mus musculus.
+FELV$FELV_02         CTGTGGTTAAG R01657 T00144; core-binding factor;Quality: 6; Species: cat, Felis catus.
+FELV$FELV_03         CCGGCTTGAGGCCAA R01658 T00533; NF-1;Quality: 6; Species: cat, Felis catus.
+FELV$FELV_04         AGAACAG R01659 T00336; GR;Quality: 6; Species: cat, Felis catus.
+FELV$FELV_05         CGCTGCCAGCAG R01660 T00290; FLV-1;Quality: 6; Species: cat, Felis catus.
+SU$H2B21_01          CGCGGAGCACTGATGCAGCGCGGAT R01661 T00855; TSAP;Quality: 6; Species: sea urchin.
+SU$H2B21_02          CGCGGAGCACTGATGCAGCGCGGAT R01662 T01201; Pax-5;Quality: 6; Species: mouse, Mus musculus.
+SU$H2B22_01          CAATACGCAACGAAGCGAAGACGGA R01663 T01201; Pax-5;Quality: 6; Species: mouse, Mus musculus.
+SU$H2B22_02          CAATACGCAACGAAGCGAAGACGGA R01664 T00855; TSAP;Quality: 6; Species: sea urchin.
+SU$H2A21_01          GTTGACACGCTTGAAGAAATAGTTG R01665 T00855; TSAP;Quality: 6; Species: sea urchin.
+SU$H2A21_02          GTTGACACGCTTGAAGAAATAGTTG R01666 T01201; Pax-5;Quality: 6; Species: mouse, Mus musculus.
+SU$H2A22_01          TGTGACGCAGCGGTGGGTGACGACT R01667 T01201; Pax-5;Quality: 6; Species: mouse, Mus musculus.
+SU$H2A22_02          TGTGACGCAGCGGTGGGTGACGACT R01668 T00855; TSAP;Quality: 6; Species: sea urchin.
+AS$FTZ_47            TCAATTAAAT R01669 T02099; Zen-2;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+AS$EN_01             TCAATTAAAT R01670 T00253; En;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+AD$E1B_04            TATATAAT R01732 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+PL$H2A_01            CACCGTGTC R01741
+PL$H2A_02            CCAACAGAGGGAG R01742
+HIV1$HIV1_15         gggACTTTCC R01745 T00497; MBP-1 (1);Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_16         gggACTTTCC R01746 T00497; MBP-1 (1);Quality: 6; Species: human, Homo sapiens.
+AS$NFKB_01           GGGAATTCCC R01748 T01925; NF-kappaB1 precursor;Quality: 2; Species: human, Homo sapiens.
+AD$E1B_02            TATATAAT R01764 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+AD$E1B_02            GGGGCGGGGC R01764 T00820; TFIID;Quality: 6; Species: human, Homo sapiens.
+AS$KBF_01            cagagGGGACTTTCCCagag R01766 T00439; KBF1;Quality: 2; Species: mouse, Mus musculus.
+PA$PYF_01            GCATTCCATTGTT R01767
+HSV1$TK_07           ACCCCGCCCA R01771 T00759; Sp1;Quality: 1; Species: human, Homo sapiens.
+HSV1$TK_08           GGGGCGGCGC R01772 T00759; Sp1;Quality: 1; Species: human, Homo sapiens.
+AS$HSF_01            CTaGAAcgTTCTAGAAgcTTCgAG R01773 T00385; HSTF;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+BKV$BKV_08           TGGAATGCAGCCA R01774 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+BKV$BKV_05           AACCATGACCTCA R01775
+BKV$BKV_07           TGACTCA R01776 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+BKV$BKV_06           TGACTCA R01777 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+MOMLV$MOMULV_15      CTTCTCGC R01788
+MOMLV$MOMULV_15      CCAAT R01788
+MOMLV$MOMULV_16      taaCGCCattt R01789 T00460; LBP;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_17      CAAGGTC R01790 T00251; ELP;Quality: 1; Species: mouse, Mus musculus.
+SV$SV40_54           TCCTCACTACTTCTGGAAT R01792
+AD$E1A_09            ACAGGAAGT R01805 T00226; EF-1A;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_10            TTAGGCGGATGT R01806 T00226; EF-1A;Quality: 6; Species: human, Homo sapiens.
+HBV$SP_01            TAGTTAATCATTACTTC R01807 T01951; HNF-1C;Quality: 4; Species: human, Homo sapiens.
+ALV$LTR_06           aaaTGTAGTCTTATGCAATactc R01824 T00239; EFII;Quality: 6; Species: chick, Gallus gallus.
+ALV$LTR_02           TGTAGTCTTgc R01825 T00239; EFII;Quality: 6; Species: chick, Gallus gallus.
+ALV$LTR_01           ttgcaacatgCTTATGTAac R01826 T00239; EFII;Quality: 6; Species: chick, Gallus gallus.
+ALV$LTR_03           ATGTAACACGATGAGC R01827
+ALV$LTR_05           CCGTGCATG R01828
+ALV$LTR_04           CCGATTGGTG R01829
+HSV1$IE3_11          GGAACGGAAGCGGAAA R01837 T00407; IEFga;Quality: 6; Species: rat, Rattus norvegicus.
+SV$SV40_57           acacCCTAACTGACAcaca R01849 T00138; c-Myb;Quality: 1; Species: mouse, Mus musculus.
+TDNA$OCS_01          ACGTAAGCGCTTACGT R01850
+SP$H3_01             TTGCCATGTAACCCATGTT R01895 T00577; NFH3-4;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+SP$H3_02             CATTTTATTGACTTTGCAC R01896 T00576; NFH3-3;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+SP$H3_03             CCTTCCCGTCA R01897 T00575; NFH3-2;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+SP$H3_04             AAACAAAAGAG R01898 T00574; NFH3-1;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+SP$H3_05             GGTTGACCAATCAAG R01899 T00093; CCAAT-binding factor;Quality: 6; Species: sea urchin.
+HCMV$IEMP_01         TATACATTGAATCAATATG R01910 T00029; AP-1;Quality: 4; Species: human, Homo sapiens.
+HCMV$IEMP_02         GATTTTTGGGCATACG R01911 T00492; MBF1;Quality: 6; Species: human, Homo sapiens.
+HCMV$IEMP_03         CTGATATCGCCATTTTT R01912 T00494; MBF3;Quality: 6; Species: human, Homo sapiens.
+HBV$SA_02            GTTAATCATTAC R01913 T01951; HNF-1C;Quality: 3; Species: human, Homo sapiens.
+CAMV$35SR_02         AGACGTtccaaccACGTCT R01914 T00354; HBP-1;Quality: 6; Species: wheat, Triticum aestivum.
+CAMV$35SR_03         TGACGT R01915 T01395; HBP-1a(c14);Quality: 6; Species: wheat, Triticum aestivum.
+HSV1$IE1_03          TGCATGCTAATGATATTCTTTG R01917 T00894; Vmw65;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+CAMV$35SR_04         TGACGTAAGGGATGACGCAC R01918 T01134; OCSTF;Quality: 6; Species: maize, Zea mays.
+TDNA$OCS_02          AAACGTAAGCGCTTACGTAC R01919 T01134; OCSTF;Quality: 6; Species: maize, Zea mays.
+BAF1$CONS            TCNNNNNNNACG R01923 T00056; BAF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_14            cAAACCCATACATcg R01924 T00715; RAP1;Quality: 4; Species: yeast, Saccharomyces cerevisiae.
+AS$HSF_02            cctcGAAtgTTCtaGAAaagg R01925 T00384; HSF;Quality: 4; Species: mouse, Mus musculus.
+SV$SV40_58           AGAGGTTATTTCAGGCC R01929 T00366; HIP1;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_12            TGGATTGAAGCCA R01988 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_13            CCAATATATGATAAT R01989 T00641; Oct-1;Quality: 4; Species: human, Homo sapiens.
+AD$E1A_14            GTGACGT R01990 T00051; ATF;Quality: 5; Species: human, Homo sapiens.
+AD$E1A_15            GGGCGG R01991 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+AD$E1A_16            GTGACGT R01992 T00051; ATF;Quality: 5; Species: human, Homo sapiens.
+AD$E1A_17            CGGAAGT R01993 T01143; E1A-F;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_19            CGGATGT R01995 T01143; E1A-F;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_20            CGGATGT R01996 T01143; E1A-F;Quality: 6; Species: human, Homo sapiens.
+AD$E1A_21            GTGACGT R01997 T00051; ATF;Quality: 5; Species: human, Homo sapiens.
+AD$E1A_23            AGGAAGT R01999 T01143; E1A-F;Quality: 2; Species: human, Homo sapiens.
+AD$E1A_25            TGAAATCTGAATAA R02001 T00641; Oct-1;Quality: 4; Species: human, Homo sapiens.
+AD$E1A_26            TGTTACTCATAG R02002
+AD$E1A_27            TCTCAGGTG R02003
+AD$E1A_28            GTCAAAGT R02004
+AD$E1A_29            GGCGTTTTATTATTATAGTCA R02005
+AD$E1A_30            AGTGTATTTATAC R02006
+AD$E1A_31            TCAAGAGGCCACTCTTGAGTGCCAGCGAGTAGA R02007
+AD$E1A_32            CCTCAAGAGGCCACTCTTGAG R02008
+AD$IVA2_02           gtgtgaaGACAcaTGTCgccctc R02015 T00874; USF;Quality: 2; Species: human, Homo sapiens.
+HSV1$IE3_12          ATCGTC R02017 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+AS$TR_02             TCAGGTCAgggacgTGACCTGA R02019 T00837; T3R;Quality: 1; Species: chick, Gallus gallus.
+AS$VERBA_01          TCAGGTCAgggacgTGACCTGA R02020 T00886; v-ErbA;Quality: 1; Species: AEV, avian erythroblastosis virus.
+AS$BGP1_01           aattgcagagctgggaatcattGGGGGGGGGGGGaaatttggtggtgtgg R02054 T00062; BGP1;Quality: 2; Species: chick, Gallus gallus.
+AS$BGP1_02           aattgcagagctgggaatcattGGGGGGGttaaatttggtggtgtgg R02055 T00062; BGP1;Quality: 2; Species: chick, Gallus gallus.
+HBV$HBVE_13          GCCTGGTCTGTGCC R02056 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+AS$AP4_01            gatcacCAGCTGtggaatgtgtgt R02076 T00036; AP-4;Quality: 2; Species: human, Homo sapiens.
+SP$SPEC1_01          gcgtatggtCACGTGctttat R02080 T00871; USF;Quality: 3; Species: sea urchin, Strongylocentrotus purpuratus.
+AD$MLP_37            CTCACTCTCTTC R02081 T00824; TFII-I;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_38            CTCACTCTCTTC R02082 T00874; USF;Quality: 2; Species: human, Homo sapiens.
+AS$MYC_01            cccccacCACGTGgtgcctga R02092 T00489; Max1;Quality: 2; Species: human, Homo sapiens.
+AS$MYC_02            GACCACGTGGTC R02094 T00812; TFEB;Quality: 2; Species: human, Homo sapiens.
+HT1$HTLV1_08         CCTCCgggaagCCACCaagaaCCACCcatttCCTCCccatgtttg R02099 T00115; c-Ets-1 68;Quality: 6; Species: chick, Gallus gallus.
+AS$SP1_01            TTGGGGCGGGGCTT R02101 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_02            GGGGCGGGGC R02102 T00759; Sp1;Quality: 6; Species: human, Homo sapiens.
+AS$SP1_03            GAGGCGCGGA R02103 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_04            GAGGGGTGGT R02104 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_05            TCGGGGTGGT R02105 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_06            AGGGCAGGCT R02106 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_07            AGGGCGTATA R02107 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_08            GTGGCGGTGT R02108 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_09            TGGGTAGGGA R02109 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_10            GAGGCGGGCC R02110 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_11            CGGGCTGGAT R02111 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_12            GGGGCTGTGT R02112 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AS$SP1_13            GGGGCAGGGC R02113 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+AACRYBP1$CONS        GGGAAATCCC R02115 T00007; alphaA-CRYBP1;Quality: 4; Species: mouse, Mus musculus.
+AAF$CONS             TTTCATATTACTCT R02116 T00001; AAF;Quality: 6; Species: human, Homo sapiens.
+AHR$CONS_01          TGCGTGAGAAGA R02117 T01795; AhR;Quality: 6; Species: human, Homo sapiens.
+AGIEBP1$CONS         GGTTGGGAAATCCC R02118 T00016; AGIE-BP1;Quality: 2; Species: rat, Rattus norvegicus.
+ANF$CONS             CTTTATCTGG R02119 T01184; ANF;Quality: 6; Species: rat, Rattus norvegicus.
+AP1$CONS             TGASTMA R02120 T01140; AP-1;Quality: 6; Species: chick, Gallus gallus.
+AP2$CONS             CCCMNSSS R02121 T01142; AP-2;Quality: 6; Species: chick, Gallus gallus.
+AP3$CONS             TGTGGWWW R02122 T00039; AP-3 (2);Quality: 2; Species: human, Homo sapiens.
+AP4$CONS             YCAGCTGYGG R02123 T00036; AP-4;Quality: 2; Species: human, Homo sapiens.
+AR$CONS              AGAACANNNTGTTCT R02124 T00042; AR;Quality: 6; Species: rat, Rattus norvegicus.
+ATF$CONS             TGACGYMR R02126 T00968; ATF-1;Quality: 6; Species: human, Homo sapiens.
+BGP1$CONS            GGGGGGGGGGGGGGGG R02127 T00062; BGP1;Quality: 6; Species: chick, Gallus gallus.
+BSAP$CONS            GACGCANYGRWNNNMG R02128 T01201; Pax-5;Quality: 6; Species: mouse, Mus musculus.
+CBF$CONS             ACACCCAAATATGGGCGAC R02129 T00765; SRF;Quality: 1; Species: mouse, Mus musculus.
+CBP1$CONS            TCACRTGATA R02130 T00091; CBP-1;Quality: 2; Species: mouse, Mus musculus.
+CD28RC$CONS          AAAGAAATTCC R02131 T00102; CD28RC;Quality: 1; Species: human, Homo sapiens.
+CEBP$CONS_01         ATTGC R02132 T00108; C/EBPalpha;Quality: 1; Species: rat, Rattus norvegicus.
+CEBP$CONS_01         GTGGWWWG R02132 T00108; C/EBPalpha;Quality: 1; Species: rat, Rattus norvegicus.
+CF1$CONS             ANATGG R02133 T00517; myc-CF1;Quality: 1; Species: mouse, Mus musculus.
+COUP$CONS            GTGTCAAAGGTCA R02134
+CP1$CONS             YNNNNNNRRCCAATCANYK R02135
+CP2$CONS_01          YAGYNNNRRCCAATCNNNR R02136
+CTCF$CONS            CCCTC R02137 T00172; CTCF;Quality: 6; Species: chick, Gallus gallus.
+DBP$CONS_01          TGATTTTGT R02138 T00183; DBP;Quality: 1; Species: rat, Rattus norvegicus.
+E2A$CONS             RCAGNTG R02139 T00207; E47;Quality: 1; Species: human, Homo sapiens.
+E2BP$CONS            TGCAAYAY R02140 T00212; E2BP;Quality: 4; Species: chick, Gallus gallus.
+E2F$CONS             TTTTSSCGS R02141 T00221; E2F;Quality: 1; Species: human, Homo sapiens.
+E4F$CONS             TGACGTAAC R02142 T00222; E4F;Quality: 1; Species: human, Homo sapiens.
+E4TF1$CONS           CGGAAGTG R02143 T00268; GABP;Quality: 2; Species: human, Homo sapiens.
+EBP1$CONS            GGGACTTTCC R02144 T00213; EBP-1;Quality: 2; Species: human, Homo sapiens.
+EF1A$CONS            CGGAAGTG R02145 T01207; EF-1A;Quality: 6; Species: rat, Rattus norvegicus.
+EFC$CONS             GTTGCYNGRCAAC R02146 T00231; EF-C;Quality: 6; Species: mouse, Mus musculus.
+EGR1$CONS            CGCCCSCGC R02147 T00454; Krox-20;Quality: 1; Species: mouse, Mus musculus.
+EGR2$CONS            CCGCCCCCGC R02148 T00242; EGR2;Quality: 1; Species: human, Homo sapiens.
+ELP$CONS             CAAGGTCA R02149 T00251; ELP;Quality: 1; Species: mouse, Mus musculus.
+ER$CONS              AGGTCANNNTGACCT R02150 T00264; ER;Quality: 6; Species: chick, Gallus gallus.
+VERBA$CONS           GTGTCAAAGGTCA R02151 T00886; v-ErbA;Quality: 1; Species: AEV, avian erythroblastosis virus.
+ETF$CONS             CAGCCCCCGCGCAGC R02152 T00270; ETF;Quality: 2; Species: human, Homo sapiens.
+ETS1$CONS            SMGGAWGY R02153 T00686; PEA3;Quality: 1; Species: rat, Rattus norvegicus.
+FACT1$CONS           TGGCGA R02154 T00275; F-ACT1;Quality: 6; Species: chick, Gallus gallus.
+GAF$CONS             TTCATATTACTCT R02155 T00300; GAF;Quality: 6; Species: human, Homo sapiens.
+GATA1$CONS           WGATAR R02156 T00306; GATA-1;Quality: 2; Species: human, Homo sapiens.
+GATA2$CONS           WGATAR R02157 T00567; NF-E1b;Quality: 2; Species: chick, Gallus gallus.
+GATA3$CONS           WGATAR R02158 T00568; NF-E1c;Quality: 2; Species: chick, Gallus gallus.
+GCF$CONS_01          SCGSSSC R02159 T00320; GCF;Quality: 6; Species: human, Homo sapiens.
+GHF1$CONS            WTATYCAT R02160 T00707; PUF-I;Quality: 6; Species: rat, Rattus norvegicus.
+GHF5$CONS            WTATYCAT R02161 T00326; GHF-5;Quality: 6; Species: rat, Rattus norvegicus.
+GHF7$CONS            WTATYCAT R02162 T00327; GHF-7;Quality: 6; Species: rat, Rattus norvegicus.
+GR$CONS              AGAACANNNTGTTCT R02163 T01920; GR beta;Quality: 1; Species: human, Homo sapiens.
+H1TF1$CONS           AACAAACACAAA R02164 T00387; H1TF1;Quality: 6; Species: human, Homo sapiens.
+H1TF2$CONS           GCACCAATCACAGCGCGC R02165 T00388; H1TF2;Quality: 6; Species: human, Homo sapiens.
+H2RIIBP$CONS         TCAGGTCACAGTGACCTGA R02166 T00380; H2RIIBP;Quality: 2; Species: human, Homo sapiens.
+H2TF1$CONS           TGGGGATTCCCCA R02167 T01213; KBF1;Quality: 6; Species: human, Homo sapiens.
+H4TF1$CONS           GGGGGAGGG R02168 T00391; H4TF-1;Quality: 6; Species: human, Homo sapiens.
+H4TF2$CONS           GGTTCTCNNNNCGGTCCG R02169 T00392; H4TF-2;Quality: 6; Species: human, Homo sapiens.
+HAPF1$CONS           CTGGRAA R02170 T00017; C/EBPbeta;Quality: 6; Species: mouse, Mus musculus.
+HINFA$CONS           ATTTNNNNATTT R02171 T00360; HiNF-A;Quality: 6; Species: human, Homo sapiens.
+HIP1$CONS            ATTC(1,30)GCCA R02172 T00366; HIP1;Quality: 6; Species: human, Homo sapiens.
+HIVEN86A$CONS        TGGGGATTCCCCA R02173 T00169; c-Rel;Quality: 6; Species: mouse, Mus musculus.
+HNF1$CONS            GTTAATNATTAAC R02174 T01951; HNF-1C;Quality: 6; Species: human, Homo sapiens.
+VHNF1$CONS           GTTAATNATTAAC R02175 T01955; vHNF-1;Quality: 6; Species: domestic pig, Sus scrofa.
+HNF3A$CONS           TATTGAYTTWG R02176 T00371; HNF-3;Quality: 6; Species: rat, Rattus norvegicus.
+HNF3B$CONS           TATTGAYTTWG R02177 T01049; HNF-3B;Quality: 6; Species: rat, Rattus norvegicus.
+HNF3C$CONS           TATTGAYTTWG R02178 T01050; HNF-3gamma;Quality: 6; Species: rat, Rattus norvegicus.
+HNF4$CONS            KGCWARGKYCAY R02179 T00373; HNF-4;Quality: 4; Species: human, Homo sapiens.
+HNF5$CONS            TRTTTGY R02180 T00371; HNF-3;Quality: 6; Species: rat, Rattus norvegicus.
+HSF$CONS             NGAANNGAANNGAAN R02181 T02104; HSF1 (short);Quality: 6; Species: human, Homo sapiens.
+IAF$CONS             GCCATCTGCT R02182 T01189; INSAF;Quality: 6; Species: mouse, Mus musculus.
+IGEBP1$CONS          WGNATTNTGYAATRNTNW R02183 T00216; C/EBPgamma;Quality: 6; Species: mouse, Mus musculus.
+IREBF1$CONS          CGGGAAATGGAAACTG R02184 T00421; IREBF-1;Quality: 6; Species: mouse, Mus musculus.
+IRBP$CONS            AGTGCACT R02185 T00420; IRBP;Quality: 6; Species: mouse, Mus musculus.
+ISGF1$CONS           CTTTCAGTTT R02186 T00427; ISGF-1;Quality: 6; Species: human, Homo sapiens.
+ISGF2$CONS           CTTTCTCTTT R02187 T00424; IRF-1;Quality: 6; Species: rat, Rattus norvegicus.
+ISGF3$CONS           GCTTCAGTTT R02188 T00428; ISGF-3;Quality: 6; Species: human, Homo sapiens.
+KBF1$CONS            TGGGGATTCCCCA R02189 T01925; NF-kappaB1 precursor;Quality: 6; Species: human, Homo sapiens.
+KER1$CONS            GCCTGCAGGC R02190 T00444; Ker1;Quality: 6; Species: human, Homo sapiens.
+LBP$CONS             TAACGCCATTT R02191 T00460; LBP;Quality: 6; Species: mouse, Mus musculus.
+LFA1$CONS            TGGACYYNNNNTGGCCC R02192 T00468; LF-A1;Quality: 6; Species: rat, Rattus norvegicus.
+LFA1$CONS            TGGACYYNNNTGGCCC R02192 T00468; LF-A1;Quality: 6; Species: rat, Rattus norvegicus.
+LFA1$CONS            TGGACYYNNTGGCCC R02192 T00468; LF-A1;Quality: 6; Species: rat, Rattus norvegicus.
+LFA1$CONS            TGGACYYNTGGCCC R02192 T00468; LF-A1;Quality: 6; Species: rat, Rattus norvegicus.
+LFA1$CONS            TGGACYYTGGCCC R02192 T00468; LF-A1;Quality: 6; Species: rat, Rattus norvegicus.
+LFB3$CONS            GTTAATNATTAAC R02193 T01955; vHNF-1;Quality: 6; Species: domestic pig, Sus scrofa.
+LIT1$CONS            GCGCCCTTTGGACCT R02194 T00473; LIT-1;Quality: 6; Species: human, Homo sapiens.
+LSF$CONS             GGTTCTTTCCGCC R02195 T00474; LSF;Quality: 6; Species: human, Homo sapiens.
+LSF$CONS             GGGCGGNNNNGGGCGG R02195 T00474; LSF;Quality: 6; Species: human, Homo sapiens.
+LYF1$CONS            YYTGGGAGR R02196 T00479; LyF-1;Quality: 6; Species: mouse, Mus musculus.
+MBF1$CONS            YTAAAAATAAYYY R02197 T00491; MBF-1;Quality: 6; Species: mouse, Mus musculus.
+MBFI$CONS            TGCRCRC R02198 T00495; MBF-I;Quality: 6; Species: mouse, Mus musculus.
+MBP1$CONS            TGGGGATTCCCCA R02199 T00497; MBP-1 (1);Quality: 6; Species: human, Homo sapiens.
+MCBF$CONS            CATTCCT R02200 T00499; MCBF;Quality: 6; Species: chick, Gallus gallus.
+MEF2$CONS            YTWWAAATAR R02201 T01784; MEF-2;Quality: 6; Species: clawed frog, Xenopus laevis.
+MEP1$CONS            TGCRCNC R02202 T00970; MEP-1;Quality: 6; Species: mouse, Mus musculus.
+MR$CONS              AGAACANNNTGTTCT R02203 T00513; MR;Quality: 1; Species: human, Homo sapiens.
+MTF1$CONS            TGCRCNC R02204 T00515; MTF-1;Quality: 6; Species: mouse, Mus musculus.
+MTTF1$CONS           TTAACAGTCACCCCCAAC R02205 T00516; mtTF1;Quality: 6; Species: human, Homo sapiens.
+MYB$CONS_01          YAACKG R02206 T00139; c-Myb;Quality: 6; Species: chick, Gallus gallus.
+MYC$CONS             TCTCTTA R02207 T00143; c-Myc;Quality: 6; Species: mouse, Mus musculus.
+MYC$CONS             CACGTG R02207 T00143; c-Myc;Quality: 6; Species: mouse, Mus musculus.
+MYOD$CONS            CAACTGAC R02208 T01128; MyoD;Quality: 6; Species: chick, Gallus gallus.
+NF1$CONS             YGGMNNNNNNGCCAA R02209 T01908; NF-1C4;Quality: 6; Species: chick, Gallus gallus.
+NF1$CONS             YGGMNNNNNGCCAA R02209 T01908; NF-1C4;Quality: 6; Species: chick, Gallus gallus.
+NFAT$CONS            GGAGGAAAAACTGTTTCAT R02210 T01944; NF-ATp;Quality: 6; Species: mouse, Mus musculus.
+NFE2$CONS_01         TGACTCAG R02211 T01141; NF-E2;Quality: 6; Species: chick, Gallus gallus.
+NFD$CONS             GATGGCGG R02212 T00555; NF-D;Quality: 6; Species: mouse, Mus musculus.
+NFE$CONS             GTGTCAGTCA R02213 T00566; NFe;Quality: 6; Species: human, Homo sapiens.
+NFGMA$CONS           GRGRTTKCAY R02214 T01217; NF-GMa;Quality: 6; Species: mouse, Mus musculus.
+NFGMB$CONS           TCAGRTA R02215 T01218; NF-GMb;Quality: 6; Species: mouse, Mus musculus.
+NFIL6$CONS           TKNNGNAAK R02216 T00583; C/EBPdelta;Quality: 6; Species: human, Homo sapiens.
+NFKB$CONS            GGGAMTNYCC R02217 T01925; NF-kappaB1 precursor;Quality: 6; Species: human, Homo sapiens.
+NFME3$CONS           GCCACATGACC R02218 T01215; NF-muE3;Quality: 6; Species: mouse, Mus musculus.
+NFS$CONS             YGTCAGC R02219 T00605; NF-S;Quality: 6; Species: human, Homo sapiens.
+NFW1$CONS            GTTGCATC R02220 T00608; NF-W1;Quality: 6; Species: mouse, Mus musculus.
+NFW2$CONS            GTTGCATC R02221 T00609; NF-W2;Quality: 6; Species: mouse, Mus musculus.
+NGFIB$CONS           AGGTCATGACCT R02222 T00619; NGFI-B;Quality: 6; Species: rat, Rattus norvegicus.
+NRF1$CONS            YGCGCAYGCGCR R02223 T01197; NRF-1;Quality: 6; Species: monkey, Cercopithecus aethiops.
+NTF$CONS             GGAACCTCCCCC R02224 T00638; NTF;Quality: 6; Species: human, Homo sapiens.
+OCT1$CONS            CTCATGA R02225 T01863; Oct-1C;Quality: 6; Species: mouse, Mus musculus.
+OCT1$CONS            ATGCAAAT R02225 T01863; Oct-1C;Quality: 6; Species: mouse, Mus musculus.
+OCT2$CONS            CTCATGA R02226 T01871; Oct-2B;Quality: 6; Species: rat, Rattus rattus.
+OCT2$CONS            ATGCAAAT R02226 T01871; Oct-2B;Quality: 6; Species: rat, Rattus rattus.
+OCT4$CONS            TTAAAATTCA R02227 T01872; Oct-4B;Quality: 6; Species: human, Homo sapiens.
+OCT4$CONS            ATGCWAAT R02227 T01872; Oct-4B;Quality: 6; Species: human, Homo sapiens.
+OCT6$CONS            TAATGARAT R02228 T00969; Oct-6;Quality: 6; Species: rat, Rattus norvegicus.
+OCT6$CONS            ATGCAAAT R02228 T00969; Oct-6;Quality: 6; Species: rat, Rattus norvegicus.
+OCTR$CONS            ATGCAAAY R02229 T00666; Oct-R;Quality: 6; Species: cat, Felis catus.
+PAX1$CONS            CACCGTTCCGCTCTAGATATCTC R02230 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+PCF$CONS             AGAAAGGGAAAGGA R02231 T00518; myc-PRF;Quality: 6; Species: mouse, Mus musculus.
+PEA3$CONS            AGGAAR R02232 T00686; PEA3;Quality: 6; Species: rat, Rattus norvegicus.
+PPAR$CONS            AGGTCA R02233 T00991; PPAR;Quality: 6; Species: rat, Rattus norvegicus.
+PR$CONS              AGAACANNNTGTTCT R02234 T01661; PR A;Quality: 2; Species: human, Homo sapiens.
+PRDIBF1$CONS         AAGTGAAAGT R02235 T00929; PRDI-BF1;Quality: 6; Species: human, Homo sapiens.
+PTF$CONS             TCAGAGTATAAATACT R02236 T00700; PTF;Quality: 6; Species: rat, Rattus norvegicus.
+PTF1$CONS            ATGGGA.CTCAGCTGTGC R02237 T01227; PTF1;Quality: 6; Species: mouse, Mus musculus.
+PU1$CONS             AGAGGAACT R02238 T02068; PU.1;Quality: 6; Species: human, Homo sapiens.
+PUF$CONS             GGGTGGG R02239 T00706; PuF;Quality: 6; Species: human, Homo sapiens.
+RAR$CONS             AGGTCATGACCT R02240 T00721; RAR-beta;Quality: 1; Species: human, Homo sapiens.
+RFX$CONS             CCCCTAGCAACAGATG R02241 T01673; RFX1;Quality: 6; Species: human, Homo sapiens.
+RVF$CONS             AAGATAAAACC R02242 T00736; RVF;Quality: 6; Species: rat, Rattus norvegicus.
+SEF1$CONS            TCTGTGGTTAA R02243 T00743; SEF-1;Quality: 6; Species: mouse, Mus musculus.
+SIF$CONS             CCCGTM R02244 T00749; SIF;Quality: 6; Species: rat, Rattus norvegicus.
+SP1$CONS             KRGGCKRRK R02245 T01228; Sp1;Quality: 6; Species: hamster.
+SRF$CONS             GGATGTCCATATTAGGACATCT R02246 T00766; SRF;Quality: 6; Species: rat, Rattus norvegicus.
+TBP$CONS             TATAAA R02247 T00796; TBP;Quality: 6; Species: mouse, Mus musculus.
+TCF1$CONS            MAMAG R02248 T01982; TCF-1G;Quality: 6; Species: human, Homo sapiens.
+TCF2ALPHA$CONS       SAGGAAGY R02249 T00803; TCF-2alpha;Quality: 6; Species: human, Homo sapiens.
+TEF1$CONS            TGGAATGT R02250 T00806; TEF-1;Quality: 6; Species: human, Homo sapiens.
+TEF1$CONS            AAGYATGCA R02250 T00806; TEF-1;Quality: 6; Species: human, Homo sapiens.
+TEF2$CONS            GGGTGTGG R02251 T00807; TEF-2;Quality: 6; Species: human, Homo sapiens.
+TFE3$CONS            GCCACATGACC R02252 T00814; TFE3-S;Quality: 6; Species: mouse, Mus musculus.
+TFEB$CONS            GGCCACGTGACC R02253 T00812; TFEB;Quality: 6; Species: human, Homo sapiens.
+TGT3$CONS            AAGTGTTTGC R02254 T00833; TGT3;Quality: 6; Species: human, Homo sapiens.
+TIN1$CONS            AGGAAGTTC R02255 T00834; TIN-1;Quality: 6; Species: rat, Rattus norvegicus.
+TTF1$CONS            GNNCACTCAAG R02257 T02098; TTF-1;Quality: 6; Species: dog, Canis canis.
+UBP1$CONS            CTCTCTGG R02258 T00862; UBP-1;Quality: 6; Species: human, Homo sapiens.
+USF$CONS             GGSCACRTGAC R02259 T00877; USF;Quality: 6; Species: mouse, Mus musculus.
+VBP$CONS             GTTTACATAAAC R02260 T00881; VBP;Quality: 6; Species: chick, Gallus gallus.
+VDR$CONS_01          AGGTCATGACCT R02261 T00885; VDR;Quality: 1; Species: human, Homo sapiens.
+WTZFP$CONS           CGCCCCCGC R02262 T01842; WT1 I-del2;Quality: 6; Species: human, Homo sapiens.
+XF12$CONS            TCTTCTCACGCAACT R02263 T00904; XF1/2;Quality: 6; Species: mouse, Mus musculus.
+XPF1$CONS            CACCTGNNNNTTCCC R02264 T00906; XPF-1;Quality: 6; Species: dog, Canis canis.
+YB1$CONS             ATTTTTCTGATTGGCCAAAG R02265 T00910; YB-1;Quality: 2; Species: human, Homo sapiens.
+TTK88$CONS           AGGGYGG R02273 T00844; Ttk 88K;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+EVI1$CONS            TGACAAGATAA R02305 T00273; Evi-1;Quality: 6; Species: mouse, Mus musculus.
+AS$CF21_01           GTATATTAT R02317 T00119; CF2-I;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$CF22_01           GTATATATA R02318 T00120; CF2-II;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+MOMLV$MOMULV_18      TGGGGGCTCGTCCGGGATCGGGAGACCCC R02335
+ABF1$CONS            RTCRYYNNNNACG R02377 T01379; 120-kDa CRE-binding protein;Quality: 1; Species: human, Homo sapiens.
+SUHW$CONS            YRYTGCATAYYY R02385 T00774; su(Hw);Quality: 6; Species: fruit fly, Drosophila melanogaster.
+E74A$CONS            aaycMGGAAgt R02389 T00208; E74A;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HIV1$HIV1_17         aagctagtacCAGTTGagccag R02392 T00138; c-Myb;Quality: 1; Species: mouse, Mus musculus.
+AS$TEL_01            CCCACACACCCACACACCCACACACACCCACACACCACACATGACGCGT R02393 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TEL_02            CCCACACACACACACACCCACACACACACACACACCACACATGACGCGT R02394 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TEL_03            CCAACACACCCACACACCCAAACACACCCACACACCAAACATGACGCGT R02395 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AD$E4_23             TGACGATTT R02403 T00051; ATF;Quality: 2; Species: human, Homo sapiens.
+SV$SV40_59           accctAACTGACa R02411
+HIV1$HIV1_25         GGUUCUCUGGUUAGCCAGAUCUGAGCCUGGGAGCUCUCUGGCUAACUAGGGAACC R02421 T00792; tat;Quality: 6; Species: HIV-1, human immunodeficiency virus type 1.
+AS$FTZ_01            gagaaaAAGCCATTAGAG R02449 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_02            AACACATTACGC R02450 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_03            GAGCAATTACAG R02451 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+MMTV$MMTV_36         actatgttaagaaaTGAATCAttatctttt R02454 T00133; c-Jun;Quality: 6; Species: human, Homo sapiens.
+SP$H2BL1_01          AAGCTGCCAATCATA R02455 T00352; H2B abp 1;Quality: 6; Species: sea urchin, Lytechinus pictus.
+AS$UBX_01            CGAGTTAATGGCTTTAATGGCTATGTTAATGGCTTTAATGGCTA R02477 T00863; Ubx;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$UBX_02            GATAATGCGATT R02478 T00863; Ubx;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$UBX_03            GAGTTAATCGACTTAATCGACGTTTTAATCGACTTAATCGAC R02479 T00863; Ubx;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+UBX$CONS             TTAATKRCC R02480 T00863; Ubx;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+DFD$CONS             YTAATKRAC R02481 T00193; Dfd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$PRD_01            TTTGACGT R02485 T00699; Prd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+EN$CONS              TCAATTAAAT R02507 T00253; En;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$UBX_04            AGAGTCCATTAAGAT R02508 T00863; Ubx;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_04            CCTTAATTGATCAATTAAGG R02511 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_05            CCTTAATTGATCC R02512 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_06            CCTTAATTGCAATTAAGG R02513 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_07            CCTTAATTGATATCAATTAAGG R02514 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_08            CCGCAATTAAGATCC R02515 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_09            CCGCAATTAATTAATTGCGG R02516 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_10            CCGCAATTAACGTTAATTGCGG R02517 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_11            CCGCAATTAAGATCTTAATTGCGG R02518 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_12            AAGCAATTAAGAAGCAATTAAGG R02519 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_13            AAGCAATTAAGGAAGCAATTAAGG R02520 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_14            AAGCAATTAAGG R02521 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_15            AAGCAATTAAG R02522 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_16            CAGCAATTAAG R02523 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_17            GAGCAATTAAG R02524 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_18            TAGCAATTAAG R02525 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_19            ACGCAATTAAG R02526 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_20            AGGCAATTAAG R02527 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_21            ATGCAATTAAG R02528 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_22            AAACAATTAAG R02529 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_23            AACCAATTAAG R02530 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_24            AATCAATTAAG R02531 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_25            AAGAAATTAAG R02532 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_26            AAGGAATTAAG R02533 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_27            AAGTAATTAAG R02534 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_28            AAGCCATTAAG R02535 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_29            AAGCGATTAAG R02536 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_30            AAGCTATTAAG R02537 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_31            AAGCACTTAAG R02538 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_32            AAGCAGTTAAG R02539 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_33            AAGCATTTAAG R02540 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_34            AAGCAAATAAG R02541 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_35            AAGCAACTAAG R02542 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_36            AAGCAAGTAAG R02543 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_37            AAGCAATAAAG R02544 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_38            AAGCAATCAAG R02545 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_39            AAGCAATGAAG R02546 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_40            AAGCAATTCAG R02547 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_41            AAGCAATTTAG R02548 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_42            AAGCAATTACG R02549 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_43            AAGCAATTAGG R02550 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_44            AAGCAATTATG R02551 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_45            AAGCAATTAAC R02552 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$FTZ_46            AAGCAATTAAT R02553 T00295; Ftz;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HBV$HBVE_14          GTTGCccGGCAAC R02570 T00231; EF-C;Quality: 6; Species: mouse, Mus musculus.
+GFI$CONS             RTCRYNNNNNACG R02579 T00778; TAF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$KBF_02            TGGGGAATCCCCT R02591 T00440; KBF2;Quality: 6; Species: mouse, Mus musculus.
+AS$KBF_03            TGGGGATTCCGGA R02592 T00440; KBF2;Quality: 6; Species: mouse, Mus musculus.
+MOMLV$MOMULV_19      CAAGGACCTGAAATGACCCTG R02595 T01693; T3R-beta2;Quality: 6; Species: chick, Gallus gallus.
+AS$CMYB_01           CAGTTAatagCAGTTA R02603 T00138; c-Myb;Quality: 6; Species: mouse, Mus musculus.
+AS$CMYB_02           CAGTTAatagTAACTG R02604 T00138; c-Myb;Quality: 6; Species: mouse, Mus musculus.
+KR$CONS_01           AACGGGTTAA R02605 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HB$CONS_01           SMATAAAAAA R02606 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HB$CONS_02           ACNCAAAAAANTA R02607 T00395; Hb;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+KR$CONS_02           AAGGGGTTAA R02608 T00456; Kr;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HOX13$CONS           CYYNATTAKY R02638 T00377; HOXA5;Quality: 6; Species: mouse, Mus musculus.
+GCF$CONS_02          NNGCGGGGCN R02644 T00320; GCF;Quality: 6; Species: human, Homo sapiens.
+AHR$CONS_02          YNSNRNSTNGCGTGNNW R02656 T00018; AhR;Quality: 6; Species: mouse, Mus musculus.
+AS$AP1_01            aTGACTCAt R02666 T00437; Jun-D;Quality: 6; Species: mouse, Mus musculus.
+AS$CRE_01            aTGACGTCAt R02667 T00437; Jun-D;Quality: 6; Species: mouse, Mus musculus.
+AS$NFKB_02           CTCTCGGAAAGTCCCCTCTGTTG R02668 T01924; NF-kappaB1 precursor;Quality: 6; Species: mouse, Mus musculus.
+AD$E2AE1_19          CCGCTGGAGATGACG R02686 T00809; TF68;Quality: 6; Species: mouse, Mus musculus.
+AD$E2AE1_20          GTAGTTTTCGCG R02687 T00198; DRTF1;Quality: 6; Species: mouse, Mus musculus.
+AD$E2AE1_21          CTTAAATTTGA R02688 T00795; TBP;Quality: 6; Species: fission yeast, Schizosaccharomyces pombe.
+HT1$HTLV1_09         AGGCTCTGACGTCTCCC R02697 T00358; HEF-1T;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_10         GACGTCTCCCCCCGGAGGGCAGCTCA R02698 T00356; HEF-1B;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_11         GACGTCTCCCCCCGGAG R02699 T00356; HEF-1B;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_12         CTAGGCCCTGACGTGTCCCCCT R02700 T00358; HEF-1T;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_13         AGGCCCTGACGTGTCCCCCTGAAGACAAAT R02701 T00356; HEF-1B;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_14         AAGCCGTCCTCAGGCGTTGACG R02702 T00035; AP-2;Quality: 2; Species: human, Homo sapiens.
+HT1$HTLV1_15         CAGGCGTTGACGACAACCCCTCA R02703 T00358; HEF-1T;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_16         GAACCACCCA R02704 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+HT1$HTLV1_17         CTTTTCATGGCACGCATATGG R02705 T00539; NF-1;Quality: 6; Species: human, Homo sapiens.
+HT1$HTLV1_18         CACGCATATGGCTCAATAAA R02706 T00357; HEF-4C;Quality: 6; Species: human, Homo sapiens.
+AS$ER_02             tcAGGTCACAGTGACCTga R02715 T00261; ER;Quality: 2; Species: human, Homo sapiens.
+AHR$CONS_03          CNWNWCACGCWW R02720 T01795; AhR;Quality: 4; Species: human, Homo sapiens.
+HSV1$IE2_02          GATTGGTCCTTG R02732 T01151; NRD I;Quality: 6; Species: chick, Gallus gallus.
+HSV1$IE2_03          GATTGGTCCTTG R02733 T01155; alphaH0;Quality: 6; Species: human, Homo sapiens.
+HBV$HBVE_15          CTGCACGTTGCATGGAG R02737 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_16          ACCGTGAACGCCCA R02738
+HBV$HBVE_17          TCTTACATAAGA R02739 T00986; protein b;Quality: 6; Species: rat, Rattus norvegicus.
+HBV$HBVE_18          CCCAGCAATGTCAACG R02740 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_20          CTTCAAAGACTGTGTGTTTATGGACTGGGAGGAGCT R02742 T00988; protein d;Quality: 6; Species: rat, Rattus norvegicus.
+HBV$HBVE_21          CTTCAAAGACTGTGTGTTTATGGACTGGGAGGAGCT R02743 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_22          aggagatTAGGTTAAag R02744 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_23          ACCAGCACCATGCAACTTTTT R02745 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_24          CCTAATCATCTCTT R02746 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+HBV$HBVE_25          tgtttaagGACTGGGAGGAGCTGGGGGAGGAGATTaggtt R02747
+AS$TUF_01            ACACCCATACATTT R02761 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_02            CCACCCATACATTT R02762 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_03            TCACCCATACATTT R02763 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_04            AAACCCATACATTT R02764 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_05            ACACCCAAACATTT R02765 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_06            ACACCCACTCATTT R02766 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_07            ACACCCATGCATTT R02767 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_08            ACACCCATTCATTT R02768 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_09            ACACCCATACACTT R02769 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_10            ACACCCATACATCT R02770 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_11            ACACCCATACATTA R02771 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_12            ACACCCATACATTC R02772 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TUF_13            ACACCCATACATTG R02773 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+JCVE$JCVE_04         GAGCTCATGCTGGCTGGCAGCCATCCCT R02777 T01121; GF1;Quality: 6; Species: human, Homo sapiens.
+JCVE$JCVE_05         TTCCCTTTTTTTTATATATACAG R02778
+AS$PAX1_01           GATTAGCACCGTTCCGCTCTAGATATCTCGA R02802 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_02           TGGGCTCACCGTTCCGCTCTAGATATCTCGA R02803 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_03           GATTGGAACCGTTCCGCTCTAGATATCTCGA R02804 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_04           GATTAGCACCGTTACGGTCTAGATATCTCGA R02805 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_05           GTAGTACAACGTTCCGCTCTAGATATCTCGA R02806 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_06           CTAGTACAACGTTCCGCTCTAGATATATCGA R02807 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PAX1_07           CTAGTACAACGTTCCGCTCTAGGAACCGGGA R02808 T00677; Pax-1;Quality: 6; Species: mouse, Mus musculus.
+AS$PRD_02            AGCACCGTTCCGCTCCC R02810 T00699; Prd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$PRD_03            CACCGCACGATTAGGG R02811 T00699; Prd;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+EBV$IR4_01           TCCTAAAGGCGGGGCTCATG R02813
+EBV$IR4_02           CTTAGTGTGTCATGGTGAGGCA R02814
+EBV$IR4_03           GCGAGCAACGGGGGCTT R02815
+EBV$IR4_04           aagtgatgcatcccaaaggcagcCACCACgctggaGGGAC R02816 T00710; R;Quality: 6; Species: EBV, Epstein-Barr virus.
+EBV$IR4_05           aagtgatgcatcccaaaggcagcCACCACgctggaGGGACattGTCCACgggacaaGGCAC R02817 T00710; R;Quality: 6; Species: EBV, Epstein-Barr virus.
+EBV$IR4_06           attGTCCACgggacaaGGCAC R02818 T00710; R;Quality: 6; Species: EBV, Epstein-Barr virus.
+JCVE$JCVE_06         CTGGGTGACAAGCCAAAACAGCTCTGGCTCG R02833
+AS$CP2_01            CAAGTTTTACTCGGTAGAGCAAGCACAAACCAG R02866 T00152; CP2;Quality: 6; Species: mouse, Mus musculus.
+AS$FRGY_01           AGACGTGGGAATCCTACTGATTGGCCAAGGTGCTGGTGGTGTGTGG R02868 T00294; FRG Y2;Quality: 2; Species: clawed frog, Xenopus laevis.
+AS$HAP23_01          ctcatttggcgagcATTGGt R02869 T00351; HAP4;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$ACP1_01           CACAACACAGCCAATGAGTAACTGCTCCAAGGGC R02874 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_02           CACAAACCCTCCAATGAGTAACTGCTCCAAGGGC R02875 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_03           CACAAACCAGCCAATGAGTACATGCTCCAAGGGC R02876 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_04           CACAAACCAGCCAATGAGTAACTGAGAAAAGGGC R02877 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_05           CACAAACCAGCCAATGAGTAACTGCTCCAATCGC R02878 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_06           CACAAACCAGCCAATGAGTAACTGAGAAAATCGC R02879 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_07           aattcccCACAAACCCTCATTGGCTTAACTGCTCCAAGGGC R02880 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AS$ACP1_08           TCCAAATTAACCAATCAGCGCACTCTCGAAGGCC R02881 T00153; alpha-CP1;Quality: 6; Species: mouse, Mus musculus.
+AD$E3_09             CCAGGAAAGTCCCGCTCCC R02913 T00591; NF-kappaB(-like);Quality: 5; Species: human, Homo sapiens.
+AD$E3_10             CACTGTGGTACTTCCCAGAGAC R02914 T00591; NF-kappaB(-like);Quality: 5; Species: human, Homo sapiens.
+AS$NFKB_03           GGGACGTCCC R02915 T00590; NF-kappaB;Quality: 6; Species: human, Homo sapiens.
+AS$NFKB_04           GGAAATTTCC R02916 T00590; NF-kappaB;Quality: 6; Species: human, Homo sapiens.
+AS$NFKB_05           GGGACTTTCC R02921 T01925; NF-kappaB1 precursor;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_12         TAAGGGCGTA R02922 T00759; Sp1;Quality: 3; Species: human, Homo sapiens.
+PA$PY_27             CAGGAAGTGAC R02924 T01166; PEBP5;Quality: 6; Species: mouse, Mus musculus.
+EBV$BCR2_01          AACGTGTTCGATTTCGGGGTCACTTCCCCTTTTATAAGTGTGTGAAC R02928
+EBV$BCR2_02          GTCACTTCCGC R02929
+HSV$GD_01            ctATCGTCcataCCGAC R02930 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+HSV$GD_02            GACCACACCGACGAAT R02931 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+AS$ISRE_01           AGTAGAGGAGAAAC R02933
+O2$CONS              GATGAYRTGR R02939 T00668; Opaque-2;Quality: 6; Species: maize, Zea mays.
+AS$AP1_02            ATTAGCATGACTCATTGT R02963 T00888; v-Fos;Quality: 6; Species: FBR MuLV, FBR murine osteosarcoma virus.
+SP$EH4_01            AGGGGGCGCACTC R02983 T00867; UHF-1;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+SP$LH4_01            GTAGGCGGCTCACTC R02984 T00867; UHF-1;Quality: 6; Species: sea urchin, Strongylocentrotus purpuratus.
+HBV$SA_03            cattATTTACAT R03010 T00641; Oct-1;Quality: 3; Species: human, Homo sapiens.
+ECR$CONS_01          RGKTCANTGAMCY R03021 T00217; EcR;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$LAC09             CGGAATACTGTATTCCG R03056 T00458; LAC9;Quality: 6; Species: yeast, Kluyveromyces lactis.
+AS$NF1_01            gatcatttTGGCTTGAAGCCAatatga R03066 T00535; NF-1;Quality: 6; Species: rat, Rattus norvegicus.
+AS$AP1_03            CTAGTGATGAGTCAGCCG R03082 T00133; c-Jun;Quality: 6; Species: human, Homo sapiens.
+VAV$VAVI_01          TTCTCAAAT R03086 T00892; VITF;Quality: 6; Species: vaccinia virus/human, Homo sapiens.
+MMTV$MMTV_38         CCATCAGACAAAGACATTCAT R03110 T01174; MP4;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_39         AGGACCACAGCCAA R03111 T01463; MAF;Quality: 6; Species: mouse, Mus musculus.
+AD$E4_24             AAGCTCCGTTACGTCATTTT R03153 T00108; C/EBPalpha;Quality: 2; Species: rat, Rattus norvegicus.
+YI$CONS              CCCNCNNNCT R03154 T00913; Yi;Quality: 6; Species: mouse, Mus musculus.
+HT1$HTLV1_19         GCGTCTTTGTTTCGTTTTC R03155
+AD$MLP_39            TATAAAA R03156 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+SV$MLP_02            CAGAAGGTACCTAACCAAGT R03157 T00794; TBP;Quality: 6; Species: human, Homo sapiens.
+AD$IVA2_03           TATAGAAA R03165 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+HIV1$HIV1_18         AGATGCTGCATATAAGCAGCTG R03168 T00461; LBP-1;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_19         CTTTTTGCCTGTACTGGGTCTCTCTGGTTAGACCAGATCTGAG R03169 T00461; LBP-1;Quality: 6; Species: human, Homo sapiens.
+AD$IVA2_04           GTCTCAGAGTGGTCC R03170 T02169; TFIIF-beta;Quality: 6; Species: human, Homo sapiens.
+AAV$P5_01            GTTTTGCGACATTTTGCGACAC R03174 T00915; YY1;Quality: 6; Species: human, Homo sapiens.
+AAV$P5_02            AGGGTCTCCATTTTGAAGCGGG R03175 T00915; YY1;Quality: 6; Species: human, Homo sapiens.
+EBV$BHLF1_05         GATAA R03182 T00794; TBP;Quality: 6; Species: human, Homo sapiens.
+MYB$CONS_02          YGRCNGTTGG R03185 T00138; c-Myb;Quality: 6; Species: mouse, Mus musculus.
+AS$GR_01             gaccctagaggatcAGAACAGGATGTTCTagatcgaattcg R03199 T01920; GR beta;Quality: 2; Species: human, Homo sapiens.
+AS$MYC_03            GAGCACGTGCTC R03222 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_04            TAGCACGTGCTA R03223 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_05            GAACACGTGTTC R03224 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_06            AACCACGTGGTT R03225 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_07            CACCACGTGGTG R03226 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_08            GGCCACGTGGCC R03227 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_09            GTCCACGTGGAC R03228 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_10            TACCACGTGGTA R03229 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$MYC_11            GCCCACGTGGGC R03230 T00140; c-Myc;Quality: 6; Species: human, Homo sapiens.
+AS$TFEB_01           GCGCACGTGCGC R03231 T00812; TFEB;Quality: 6; Species: human, Homo sapiens.
+AS$TFEB_02           GGTCACGTGACC R03232 T00812; TFEB;Quality: 6; Species: human, Homo sapiens.
+AS$TFEB_03           GATCACGTGATC R03233 T00812; TFEB;Quality: 6; Species: human, Homo sapiens.
+AS$ISRE_02           AAAGTGAAACTGAACCCCTCCAAAGTGAAACTGAACC R03274 T00929; PRDI-BF1;Quality: 6; Species: human, Homo sapiens.
+AS$CARG_01           gctaCCAAATTTGGtagcgtac R03278 T00935; ECF3;Quality: 6; Species: clawed frog, Xenopus.
+BPV1$BPV1_24         GGGTGGtagaGGTGG R03282 T00759; Sp1;Quality: 2; Species: human, Homo sapiens.
+HAP1$CONS            aaCttCCGWTAWCtCCNtNCNNNNT R03327 T00346; HAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+ECR$CONS_02          KNTCANTNNMM R03328 T00217; EcR;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$HSF_03            GAAacTTCtgGAAtaTTCccGAActTTC R03331 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$NGFIC_01          GCGGGGGCG R03332 T00620; NGFI-C;Quality: 6; Species: rat, Rattus norvegicus.
+AS$OCT_01            ATGCAAATGATAT R03333 T01870; Oct-2.1;Quality: 6; Species: rat, Rattus rattus.
+AS$OCT_02            ATGCTAATGATAT R03334 T01870; Oct-2.1;Quality: 6; Species: rat, Rattus rattus.
+AS$OCT_03            ATGCTAATGAGAT R03335 T01870; Oct-2.1;Quality: 6; Species: rat, Rattus rattus.
+EBV$BZLF1_04         atgcaTGAGCCAcagg R03344 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+EBV$BZLF1_05         ggcaTTGCTAAtgtacc R03345 T00923; Zta;Quality: 2; Species: EBV, Epstein-Barr virus.
+AD$E1B_05            CCATTTTCGCGGGAAAACTGAATAAG R03346
+HMCV$IE1_24          CCCCATTGACGTCAATGGG R03377
+HMCV$IE1_25          CCAATAGGGACTTTCCAT R03378
+HMCV$IE1_26          ATCAACGGGACTTTCCAA R03379
+HMCV$IE1_27          CCTTATGGGACTTTCCTA R03380
+SRYB$CONS            YCAGAGATGCGCA R03394 T00769; Sry-beta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+SRYD$CONS            YTAGAGATGGRAA R03400 T00767; Sry-delta;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+HIV1$HIV1_20         CACTGACCTTTGGA R03405 T00149; COUP;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_21         ggccaggGGTCagatatccactGACCtttgga R03406 T00149; COUP;Quality: 6; Species: human, Homo sapiens.
+HSV1$ORI_01          AGCGTTCGCACTTCGTCC R03407 T00957; OBP;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+DHBV$DHBV_01         GTTGtctcttatctgattCAAC R03409 T00230; EF-C;Quality: 6; Species: human, Homo sapiens.
+BACU$BACV_01         ctcataaccgaactggctTTACGAGTAGAATTCTACTTGTAAcgcacgatcagtggatga R03410 T00958; IE1;Quality: 6; Species: baculovirus, Autographa californica.
+EBV$BZLF1_06         CCTAAGGGAGATGGCTGAC R03411
+EBV$BZLF1_07         AAGCAGCCATATGTGGACA R03412 T00764; SRF;Quality: 1; Species: human, Homo sapiens.
+PRV$IE_01            CAAGATGGCCGCA R03416 T00561; NF-muE1;Quality: 6; Species: human, Homo sapiens.
+PRV$IE_02            GGGCATGCAA R03417 T00641; Oct-1;Quality: 5; Species: human, Homo sapiens.
+PRV$IE_03            CCGAGATGGCCGCCGCGGGGGCCGGACATGCAAAGTAGACGC R03418 T00641; Oct-1;Quality: 5; Species: human, Homo sapiens.
+PRV$IE_04            TCGAGGGGCCAAGATGGCGCCCTCGGGGCCGGACATGCAAAGTAGA R03419 T00641; Oct-1;Quality: 5; Species: human, Homo sapiens.
+PRV$IE_05            TCGAGTGGGCAAGATGGCCGCCGCGGGGGCCGGGCATGCAAATG R03420 T00641; Oct-1;Quality: 5; Species: human, Homo sapiens.
+PRV$IE_06            GCGGCCGCCATCTTGGGCCGG R03421 T00561; NF-muE1;Quality: 6; Species: human, Homo sapiens.
+PRV$IE_07            CCATTGGTCCGCTtaCCTGGGGGCGGGCTCTCC R03422 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+PRV$IE_08            CAGCATCGTTCTCTGCCAA R03423
+HCMV$IE1_28          ATTACCATGGTGAT R03424 T00963; MDBP;Quality: 6; Species: human, Homo sapiens.
+HPV$HPV16_13         CTAATTGCATatttggcat R03429
+AD$E4_25             ttaaccGTTACGTCAttttttagt R03430 T00051; ATF;Quality: 2; Species: human, Homo sapiens.
+AS$ATF_01            ttaaccGATACGTCAttttttagt R03431 T00051; ATF;Quality: 6; Species: human, Homo sapiens.
+AS$ATF_02            ttaaccGTTACATCAttttttagt R03432 T00051; ATF;Quality: 6; Species: human, Homo sapiens.
+AS$ATF_03            ttaaccGTTACGTTAttttttagt R03433 T00167; CRE-BP1;Quality: 2; Species: human, Homo sapiens.
+DORSAL$CONS_01       GGGARAWMCM R03463 T00196; Dl;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+AS$HSF_04            CTAGAAGCTTCTAGAAGCTTCTAG R03465 T01046; HSF3;Quality: 6; Species: chick, Gallus gallus.
+AS$ABF1_01           TCGTTATTAACGATA R03476 T00056; BAF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+HPV$HPV18_04         TATTAGTCATTTTC R03489 T00029; AP-1;Quality: 3; Species: human, Homo sapiens.
+HPV$HPV18_05         TGCATAACTATATCCACTCCCTA R03490 T00984; KRF-1;Quality: 6; Species: human, Homo sapiens.
+AD$MLP_40            CACATG R03501 T00874; USF;Quality: 2; Species: human, Homo sapiens.
+TR$CONS_02           AGGTCATGACCT R03523 T01693; T3R-beta2;Quality: 6; Species: chick, Gallus gallus.
+VDR$CONS_02          AGGTCANNNAGGTCA R03524 T00885; VDR;Quality: 6; Species: human, Homo sapiens.
+AS$PR_01             GGGACAcagTGTCCT R03525 T00697; PR;Quality: 6; Species: rabbit, Oryctolagus cuniculus.
+AS$GR_02             cAGAACAggaTGTTCTagctacg R03526 T01920; GR beta;Quality: 6; Species: human, Homo sapiens.
+AS$GR_03             AGAACAcagTGTTCTctagag R03530 T01920; GR beta;Quality: 6; Species: human, Homo sapiens.
+AS$GR_04             aaagtcAGAACAcagTGTTCTgatcaaag R03531 T01920; GR beta;Quality: 1; Species: human, Homo sapiens.
+AS$AP1_04            agcttgATGAGTCAGccggatc R03533 T00333; GR;Quality: 1; Species: rat, Rattus norvegicus.
+AS$AP1_05            aagcaTGAGTCAgacac R03540 T00131; c-Jun;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_41         CCAGAGCTAGA R03541
+MMTV$MMTV_42         AAGAAGAAAAAGACGACAT R03542
+HIV1$HIV1_22         AGAACAccaGCTTGT R03543 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_05             AGAACAtcgaTGTTCT R03544 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_06             TGTACAgaTGATCT R03545 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_07             TGTTCAggaTGTTCT R03546 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_08             TGTACAgaTGTTCT R03547 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_09             TGTACAgagaTGTTCT R03548 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$GR_10             TGTACAggaccctagaggaTGTTCT R03549 T00333; GR;Quality: 2; Species: rat, Rattus norvegicus.
+AS$USF_01            acagctgcggtCACGTGgccaggaattcgg R03550
+AS$PR_02             TGCTCTGTTACAaac R03559 T00697; PR;Quality: 2; Species: rabbit, Oryctolagus cuniculus.
+AS$PR_03             GTTACAaacTGTTCC R03560 T00697; PR;Quality: 2; Species: rabbit, Oryctolagus cuniculus.
+AS$GR_11             AGAACAtgaTGTTCT R03561 T01920; GR beta;Quality: 1; Species: human, Homo sapiens.
+AS$GR_12             AGGTCAtgaTGACCT R03562 T01920; GR beta;Quality: 1; Species: human, Homo sapiens.
+AS$ER_03             gatcgctaatAGGTCACAGTGACCTgatgccgtcc R03564 T00851; T3R-beta;Quality: 6; Species: human, Homo sapiens.
+AS$TR_03             GATCGCTAATCAGGTCATGACCTGGATGCCGTCC R03565 T00851; T3R-beta;Quality: 6; Species: human, Homo sapiens.
+AS$SRY_01            gttaacgtCACAAAGaatctggtaga R03579 T00997; SRY;Quality: 2; Species: human, Homo sapiens.
+AS$SRY_02            gttaacgtAAGAAAGaatctggtaga R03580 T00997; SRY;Quality: 2; Species: human, Homo sapiens.
+AS$SRY_03            gttaacgtAACAAATaatctggtaga R03581 T00997; SRY;Quality: 2; Species: human, Homo sapiens.
+AS$MEF2_01           cgctCTATAAATAAccct R03583 T01784; MEF-2;Quality: 6; Species: clawed frog, Xenopus laevis.
+ELK1$CONS_01         mrMMGGAWry R03591 T00250; Elk-1;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_01           tcacactacatgcacgagcctaacaaCAGGAACCATATAAGG R03592 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_02           tcagcaccagacatcaccgccaaCCGGAAggtCCATATAAGG R03593 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_03           cattgcgaaagccgcccaatgCCGGAAattgcCCATATAAGG R03594 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_04           cagcggtgctgcagccaaaCCGGAAatgatgtCCATATAAGG R03595 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_05           aacttcaccgtccgtgtcCCGGAAgtcgtgttCCATATAAGG R03596 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_06           tctactagctccCCGGAAacgctgcatactgaCCATATAAGG R03597 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_07           agggacgcaaCCGGATataaatgggacactgtCCATATAAGG R03598 T02128; SAP-1b;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_08           CCGGAAgctctgacaaagaggtgaagcataagaCCATATAAGG R03599 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_09           aataatctataaatatctaggacTTCCGTtgaCCATATAAGG R03600 T02128; SAP-1b;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_10           atTTCCGGctcacaaatatacgtcacgctagaCCATATAAGG R03601 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_11           ccgtgaggtaccacTTCCGGAAtggcttaacgCCATATAAGG R03602 T00764; SRF;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_12           ctgatcATCCACCGGAAgagctaatgtaatngCCATATAAGG R03603 T02128; SAP-1b;Quality: 6; Species: human, Homo sapiens.
+AS$ELK1_13           ccagacataatacCCGGAAgcTTCCTGtagtaCCATATAAGG R03604 T02128; SAP-1b;Quality: 6; Species: human, Homo sapiens.
+AS$SRF_01            tcgaaggaaaaCCATTTATGGatcaaat R03605 T00801; TCF;Quality: 6; Species: human, Homo sapiens.
+AS$RSRF4_01          tcgaaggaaaaCTATTTATAGatcaaat R03606 T01009; RSRFC4;Quality: 6; Species: human, Homo sapiens.
+RSRF4$CONS_01        rckcTAWWWWTAgrwy R03607 T01009; RSRFC4;Quality: 6; Species: human, Homo sapiens.
+AS$SRF_02            cagaatttCCATATTAGGtaaggacatgATGAAACA R03608 T00772; STE12;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+OLF1$CONS_01         TCCCCWNGGAG R03617 T01040; Olf-1;Quality: 6; Species: rat, Rattus norvegicus.
+AS$HSF_05            CTAGAAGCTTCTAGAAGCTTCTAGAGGATCCCCG R03624 T00383; HSF;Quality: 6; Species: human, Homo sapiens.
+AS$HNF3_01           GACTAAGTCAACC R03625 T01050; HNF-3gamma;Quality: 6; Species: rat, Rattus norvegicus.
+CAMV$35SR_05         ttcatcaaAAGGACAGTAGAAaagg R03626 T01060; MNB1b;Quality: 2; Species: maize, Zea mays, strain H84.
+CAMV$35SR_06         acaGTAGAAaaggaaggTGGCACta R03627 T01060; MNB1b;Quality: 2; Species: maize, Zea mays, strain H84.
+LP$LPS1B_01          AGCCCCCCT R03631
+LP$LPS1B_02          TGGGGGGCG R03632 T01081; IF1;Quality: 6; Species: human, Homo sapiens.
+NFMR$CONS_01         TNTAAAATATTTNNNAATNNNNTNA R03637 T01083; NF-muNR;Quality: 6; Species: mouse, Mus musculus.
+HIV1$HIV1_23         GAAGAGGCCAATGAAGGAGAGAACAACA R03641 T01088; ILF;Quality: 6; Species: human, Homo sapiens.
+HIV1$HIV1_24         GAGGACGCGGAGAAAGAAGTGTTAGTGTG R03642 T01088; ILF;Quality: 6; Species: human, Homo sapiens.
+SEF3$CONS_01         RTTTTTR R03650 T01101; SEF4;Quality: 6; Species: soybean, Glycine max.
+SBF1$CONS_01         GGTTAAWWW R03651 T00739; SBF-1;Quality: 6; Species: french bean, Phaseolus vulgaris.
+AS$TAF1_01           GCAACGTGGC R03653 T01090; TAF-1;Quality: 6; Species: tobacco, Nicotiana tabacum.
+AS$DSC1_01           ACGCGT R03655 T01094; DSC1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$AP1_06            tatcgataagctaTGACTCATCCGGGGGA R03668 T01095; LRF-1;Quality: 6; Species: rat, Rattus norvegicus.
+MASV$RPE1_01         AAATGGGCCGGACCGGGCCGGCCCAGCAG R03672
+SV$SV40_62           TTCCTCTTTCAG R03675 T02068; PU.1;Quality: 2; Species: human, Homo sapiens.
+HPV$HPV18_06         ACCGAAAACGGTgtaTATAAAAgatgtg R03701 T00794; TBP;Quality: 6; Species: human, Homo sapiens.
+AS$E2TBP_01          ACCGAAAACGGTgatccgtaTATAAAAgatgtg R03702 T00794; TBP;Quality: 6; Species: human, Homo sapiens.
+AS$E2TBP_02          ACCGAAAACCCTgTATATAAAAgatgtg R03703 T00794; TBP;Quality: 6; Species: human, Homo sapiens.
+AS$E2TBP_03          ACCGAAAACGGTgtaCCTAAAAgatgtg R03704 T00205; E2;Quality: 6; Species: BPV-1, bovine papilloma virus type 1.
+ICP4$CONS_01         ATCGTNNNNNYSG R03705 T00401; ICP4;Quality: 6; Species: HSV-1, herpes simplex virus type 1.
+AS$E2SP1_01          ACCGAAAACGGTgtgcaggtcgactctagaggatctaaaCCCCGCCC R03720 T00759; Sp1;Quality: 6; Species: human, Homo sapiens.
+TUF$CONS_01          aCAcCCataCAt R03739 T00715; RAP1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+CCBF$CONS_01         RNNYCACGAAAA R03740 T00096; CCBF;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_01            TCGACTATAAAAGtcga R03747 T00798; TBP;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$TBF01             TTAGGG R03755 T01246; TBF1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+ABAA$CONS            CATTCY R03779 T01085; abaA;Quality: 6; Species: Aspergillus nidulans (Emericella nidulans).
+AS$ARSC_01           TTTATTTATGTTTTCTTCTGCA R03786 T01254; PAB1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$HSO_01            GATGTaattaattACAT R03799 T00488; MATa1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$MCM1_01           ctcgacTTTCCTAATTAGGAAAgtcgag R03821 T00500; MCM1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$MCM1_02           ctcgacTTTCCTAATTAGGAAAACAATGACAGtcgag R03822 T00501; MCM1+MATalpha1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$HSE_06            CTTCTAGAAG R03823 T00385; HSTF;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+AS$HSE_07            CTTCTAGAAGCTTCTAGAAG R03824 T00385; HSTF;Quality: 1; Species: yeast, Saccharomyces cerevisiae.
+HYPOX$CONS           YYYATTGTTCTC R03836
+AS$INO2_01           GATGTGAAAT R03839 T01241; INO2;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_02            ggagtagcaTATAAAtc R03840 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_03            ggggggtAAATAAAgca R03841 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_04            gggaggtaggTATAGTA R03842 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_05            ggcggaggggTAATTAA R03843 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$TBP_06            gggtagtgggcTTTAAGA R03844 T00798; TBP;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$ANTP_01           GAGAAAAAGCCATTAGAGGAGAAAAAGCCATTAGAGGAGAAAAAGCCATTAGAG R03849 T01278; HOXA7;Quality: 2; Species: mouse, Mus musculus.
+GFII$CONS            RTCACRTG R03856 T01293; GFII;Quality: 6; Species: yeast, Kluyveromyces lactis.
+AS$CDE1_01           gatccaaataaGTCACATGatgata R03857 T00080; CBF1;Quality: 5; Species: yeast, Saccharomyces cerevisiae.
+AS$ROX1_01           CAGCCCATTGTTCTCGAG R03858 T01286; Rox1;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$ER_04             CCAGGTCACAGTGACCTGAGCTAAAATAACACATTCAG R03869 T00261; ER;Quality: 2; Species: human, Homo sapiens.
+MPBF$CONS            CCAGGAACCG R03878 T01299; MPBF;Quality: 6; Species: sheep, Ovis aries.
+AD$E2AE1_24          TTTCGCGcttaaattgagaaagggCGCGAAA R03879 T01301; E4;Quality: 6; Species: adenovirus type 2.
+HBV$S_01             CATTCGGAGCCAACTCAAAC R03892
+HBV$S_02             CCACTGGCCAGCAGCCAACCAG R03893
+HBV$S_03             TTGACCACAGTGTCAACAATTCC R03894
+HBV$S_04             cctccaCCAATcggcagt R03895
+HBV$S_05             GGAAGGC R03896
+AS$ATF_04            CTGACGCAAT R03906 T01303; CREB-2;Quality: 6; Species: human, Homo sapiens.
+AS$SKO1_01           tcgtcatggtaaaaaTGACGTCAtggtaattatcg R03908 T01306; SKO1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$CRE_02            tcgagctcctagccTGACGTCAgagagagagctcg R03909 T01308; CRE-BPa;Quality: 2; Species: human, Homo sapiens.
+AS$AP1_07            tcgagtataaagcaTGAGTCAgacacctctgctcg R03910 T01308; CRE-BPa;Quality: 2; Species: human, Homo sapiens.
+ISL1$CONS            CTAATG R03915 T01957; Isl-1;Quality: 6; Species: human, Homo sapiens.
+AS$AP1_08            tcgacgTGACTCAgcgcgcatcgTGACTCAgcgcgc R03924 T01313; ATF-3;Quality: 6; Species: human, Homo sapiens.
+AS$RAR_01            GGTTCAgAGTTCA R03930 T01331; RXR-alpha;Quality: 2; Species: mouse, Mus musculus.
+AS$RAR_02            tcAGGTCAtcctcAGGTCA R03933 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+HBV$HBVE_05          TGAACCTTTACCC R03934 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RXR_01            AGGTCAgAGGTCA R03937 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RXR_02            AGGTCAggAGGTCA R03938 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$TR_04             TGACCTGAgatcTCAGGTCA R03939 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$TR_05             TCAGGTCA R03940 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_03            tcAGGTCActgtcAGGTCAc R03941 T01349; RXR-beta;Quality: 2; Species: rat, Rattus norvegicus.
+AS$RAR_04            cagGGTCAttttcaGGTCAttgc R03943 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$RAR_05            cagGTTCAttttcaGTTCAttgc R03944 T00719; RAR-alpha1;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_06            cagGGTCAttttcaGTTCAttgc R03945 T00719; RAR-alpha1;Quality: 2; Species: human, Homo sapiens.
+AS$TR_06             cagGTTCAtttcaGTTCAttgc R03946 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_07             cagGTTCAtttcaGTTCCttgc R03947 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_08             cagGGTCAtttcaGTTCAttgc R03948 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_09             cagGGTCAtttcaGGTCAttgc R03949 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_10             cagGGTCAtttcaGTTCCttgc R03950 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_11             cagGTTCAtttcaGGTCCttgc R03951 T01351; T3R-alpha;Quality: 2; Species: chick, Gallus gallus.
+AS$TR_12             TGACCTGActgTCAGGTCA R03952 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$TR_13             TCAGGTCATGACCTGA R03953 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$TR_14             TCAGGTCATCAGGTCA R03954 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$NGFIB_01          aaAGGTCA R03961 T00619; NGFI-B;Quality: 2; Species: rat, Rattus norvegicus.
+AS$RAR_07            taAGGTCAacGGGTGGgcactc R03964 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_08            taAGGTCAagAGTTCAatcctc R03965 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_09            taAGGTCAaaAGGTCGttgctc R03966 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_10            taAGGTCAaaAGTTGAcgcctc R03967 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_11            taAGGTCAatccgAAGTCActc R03968 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_12            taAGGTCAagcagTGGTCCctc R03969 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_13            taAGGTCAataagGGGTGActc R03970 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_14            taAGGTCAacaagAGGCCGctc R03971 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_15            taAGGTCAaggaaAGGACActc R03972 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_16            taAGGTCAacgatAGGGCActc R03973 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_17            taAGGTCAacataGGGTCTctc R03974 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_18            taAGGTCAaagggCGGACActc R03975 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_19            taAGGTCAGCACCAtgtcactc R03976 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_20            taAGGTAAcCGACCCctccctc R03977 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_21            taAGGTCAaGGGTCGacngctc R03978 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_22            taAGGTCAAGAGGGATGCGctc R03979 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$TR_15             cgggtaAGGTCAaataAGGTCAcgaagatc R03980 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$RAR_23            cgggtAAGGTCAccgaaAGGTCAcacgaa R03981 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$TR_16             TGACCTgatcAGGTCA R03982 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$TR_17             TGACCTgactcAGGTCA R03983 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$TR_18             TGACCTgacgtcAGGTCA R03984 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$RXR_03            tcgacgaccAGGTCAaAGGTCAcgttctag R03985 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$ECR_01            CTAGAAGGTTCAATGCACTTAGATC R03988 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+ARP1$CONS_01         TGANCCCTTGACCCCT R03989 T00045; ARP-1;Quality: 2; Species: human, Homo sapiens.
+HSV2$VMW65_01        ggggaagtCACGAGgt R03990 T00874; USF;Quality: 4; Species: human, Homo sapiens.
+HBV$HBVE_26          TTTCTAAGTAAACAG R03992 T00759; Sp1;Quality: 4; Species: human, Homo sapiens.
+HT1$HTLV1_20         tcgagaaggcccTGACGTctcccccagatctgggcgtTGACGAcaacccctcacctcaaaaaactttccatg R03997 T00793; Tax;Quality: 2; Species: HTLV-I, human T-cell lymphotropic virus type I.
+HT1$HTLV1_21         AAGCGCGGAGACAGTTCAGGAG R03999 T00138; c-Myb;Quality: 2; Species: mouse, Mus musculus.
+HT1$HTLV1_22         ATCCACGCCGGTTGAGTCGCG R04000 T00138; c-Myb;Quality: 2; Species: mouse, Mus musculus.
+HT1$HTLV1_23         TCTTTGTTTCGTTTTCTGTT R04001 T00138; c-Myb;Quality: 2; Species: mouse, Mus musculus.
+HT1$HTLV1_24         CGGCGACTCCGTTGGCTCGG R04002 T00138; c-Myb;Quality: 2; Species: mouse, Mus musculus.
+EBV$BMLF1_01         CTGCGCCATGATAGAGGGACATCTGGG R04003 T00710; R;Quality: 2; Species: EBV, Epstein-Barr virus.
+MVM$P4_01            GTGGGCGTGGT R04025 T00752; Sp1;Quality: 2; Species: mouse, Mus musculus.
+GRF2$CONS_01         YNNYYACCCG R04026 T00725; REB1;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+DIDI$ALF_01          AACATGATTGGTTAGATAGATT R04037
+HBV$HBVE_27          TGACGCAA R04045 T01384; pX;Quality: 2; Species: EBV, Epstein-Barr virus.
+AS$CEBP_02           GATCCTCTTAGAGATTGCTCAATCTTCCCA R04048 T01388; C/EBP;Quality: 6; Species: clawed frog, Xenopus laevis.
+AS$PU1_01            tgaaAGAGGAACTtggt R04049 T02068; PU.1;Quality: 6; Species: human, Homo sapiens.
+AS$ETS1_01           tgaaGCAGGAAGTtggt R04050 T02068; PU.1;Quality: 6; Species: human, Homo sapiens.
+AS$ETS1_02           tcgaGGAGGAAGTgacg R04051 T02068; PU.1;Quality: 6; Species: human, Homo sapiens.
+AS$ETS1_03           tcgaACAGGAAGTgacg R04052 T02068; PU.1;Quality: 6; Species: human, Homo sapiens.
+AS$ETS1_04           tcgaGCCGGAAGTgacg R04053 T01400; Ets-1 deltaVII;Quality: 6; Species: human, Homo sapiens.
+AS$ETS1_05           ACCGGAAGCA R04054 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_06           ACCGGATGTA R04055 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_07           ACCGGAAGCT R04056 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_08           ACCGGATATA R04057 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_09           CCCGGAAGTG R04058 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_10           ACAGGAAGTC R04059 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_11           GCCGGATGCA R04060 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_12           TCCGGAAGTA R04061 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_13           ACAGGAAGCG R04062 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+AS$ETS1_14           ACAGGATATG R04063 T00111; c-Ets-1;Quality: 6; Species: mouse, Mus musculus.
+FLI1$CONS_01         CMGGAAGT R04070 T01408; Fli-1;Quality: 6; Species: mouse, Mus musculus.
+YY1$CONS_01          GCNGCCATC R04078 T00278; delta factor;Quality: 6; Species: mouse, Mus musculus.
+STE11$CONS_01        TTCTTTGTTY R04089 T01422; Ste11;Quality: 2; Species: fission yeast, Schizosaccharomyces pombe.
+AS$P300_01           TAGGGACTGCATT R04097 T01427; p300;Quality: 6; Species: human, Homo sapiens.
+P300$CONS_0          GGGAGTG R04098 T01427; p300;Quality: 6; Species: human, Homo sapiens.
+AS$P53_01            GGACATGCCCGGGCATGTCC R04099 T00671; p53;Quality: 3; Species: human, Homo sapiens.
+E4BP4$CONS_01        RTKAYGTAAY R04100 T01428; E4BP4;Quality: 2; Species: human, Homo sapiens.
+SNAIL$CONS_01        GTRCACCTGTY R04107 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+DORSAL$CONS_02       GGGTTTTTCC R04108 T00196; Dl;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+AS$SOX5_01           gcactaaAACAATtcaagcccg R04109 T01429; Sox-5;Quality: 2; Species: mouse, Mus musculus.
+CREB$CONS_01         TGACGTMW R04110 T01311; deltaCREB;Quality: 2; Species: mouse, Mus musculus.
+CREBP1$CONS_01       TTACGTAA R04111 T00167; CRE-BP1;Quality: 2; Species: human, Homo sapiens.
+CRPJUN$CONS_01       TGACGTYA R04112 T00167; CRE-BP1;Quality: 2; Species: human, Homo sapiens.
+GCN4$CONS_01         SKRTGASTCAYMS R04113 T00321; GCN4;Quality: 2; Species: yeast, Saccharomyces cerevisiae.
+AS$VMAF_01           TGCCGACTCGGCA R04114 T01430; v-Maf;Quality: 2; Species: AS42, avian musculoaponeurotic fibrosarcoma virus.
+NFE2$CONS_02         YGCTGASTCAY R04115 T00557; NF-E2;Quality: 6; Species: mouse, Mus musculus.
+AS$VMAF_02           TGATGACTCATCA R04116 T01430; v-Maf;Quality: 2; Species: AS42, avian musculoaponeurotic fibrosarcoma virus.
+ADR1$CONS_0          KYGGRG R04141
+YY1$CONS_02          CCWTNTTNNNW R04142 T00915; YY1;Quality: 6; Species: human, Homo sapiens.
+YY1$CONS_03          SSGCCATCTTSNCTS R04143 T00915; YY1;Quality: 6; Species: human, Homo sapiens.
+AS$SNAIL_01          ggatgaCAGGTGcatag R04144 T00751; Sn;Quality: 2; Species: fruit fly, Drosophila melanogaster.
+AS$TAL1_01           acctgaaCAGATGgtcggct R04157 T01800; Tal-1;Quality: 2; Species: chick, Gallus gallus.
+CP2$CONS_02          GCNMNANCMAG R04171 T00152; CP2;Quality: 2; Species: mouse, Mus musculus.
+SV$SV40_61           aCACATTCCACAGCTGGTTCTTTCCGCCT R04172 T01458; NP-TCII;Quality: 6; Species: human, Homo sapiens.
+NPTCII$CONS          ANANTTTCC R04173 T01458; NP-TCII;Quality: 6; Species: human, Homo sapiens.
+RSV$RSV_08           cgatcgtgCCTTATTAGGAAGGcaac R04185 T00761; SRF;Quality: 3; Species: chick, Gallus gallus.
+MMTV$MMTV_43         TGCAAACTTGGCATAGCTC R04187 T00537; NF-1;Quality: 4; Species: mouse, Mus musculus.
+MMTV$MMTV_44         GGAAGTTGCG R04188 T01463; MAF;Quality: 6; Species: mouse, Mus musculus.
+MMTV$MMTV_45         CAAGATTACAATCTAAACGATTC R04189
+MMTV$MMTV_46         ACTCGA R04190
+MMTV$MMTV_47         GATTATTAGTCACTATGT R04191
+MAF$CONS_01          GRRGSAAGK R04194 T01463; MAF;Quality: 6; Species: mouse, Mus musculus.
+AS$TRF_01            GGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGG R04202 T01465; TRF (2);Quality: 6; Species: human, Homo sapiens.
+AS$GAL4_02           GCATCGGAGGACWGTCCTCCGATGC R04203 T00303; GAL80;Quality: 6; Species: yeast, Saccharomyces cerevisiae.
+AS$IK_01             tcagctttTGGGAATaccctgtca R04204 T01471; Ik-3;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_02             tcagctttTGGGAATctcctgtca R04205 T01472; Ik-4;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_03             tcagctttTGGGAATtccctgtca R04206 T01471; Ik-3;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_04             tcagctttTGGGAATgtattccctgtca R04207 T01472; Ik-4;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_05             tcagctttTGGGATTaccctgtca R04208 T01470; Ik-2;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_06             tcagctttTGGGAAaaacctgtca R04209 T01470; Ik-2;Quality: 2; Species: mouse, Mus musculus.
+AS$IK_07             tcagcggggGGGAATaccctgtca R04210 T01470; Ik-2;Quality: 2; Species: mouse, Mus musculus.
+AS$IRF_01            AAGTGAAAGTGAAAGTGA R04222 T01491; IRF-2;Quality: 3; Species: human, Homo sapiens.
+AS$COUPA_01          TCAGGTCATCTCAGGTCA R04224 T00149; COUP;Quality: 2; Species: human, Homo sapiens.
+IUF1$CONS_01         CATYAS R04228 T00434; IUF-1;Quality: 6; Species: human, Homo sapiens.
+AS$TAXCREB_01        GATCTGAAAAGTTGACGCATACAAAACCG R04240 T00793; Tax;Quality: 2; Species: HTLV-I, human T-cell lymphotropic virus type I.
+AS$TAXCREB_02        GATCTATGACGCATATCCCCCCATGG R04241 T00793; Tax;Quality: 2; Species: HTLV-I, human T-cell lymphotropic virus type I.
+AS$TAXCREB_03        CATGGGGGGGGGGTTGACGTAGATCC R04242 T00793; Tax;Quality: 2; Species: HTLV-I, human T-cell lymphotropic virus type I.
+AS$CACCC_01          gatccccCACCCcCACCCACCCcCACCCCACCCcca R04243 T00077; CACCC-binding factor;Quality: 2; Species: human, Homo sapiens.
+AS$HEN1_01           aggacgCAGCTGatcccc R04244 T01655; HEN1;Quality: 2; Species: mouse, Mus musculus.
+ADF1$CONS_01         GCYGYYGYCGY R04245 T00008; Adf-1;Quality: 6; Species: fruit fly, Drosophila melanogaster.
+CEBP$CONS_02         TCNTACTC R04246 T01388; C/EBP;Quality: 6; Species: clawed frog, Xenopus laevis.
+CEBP$CONS_03         TKNNGYAAK R04247 T01388; C/EBP;Quality: 6; Species: clawed frog, Xenopus laevis.
+DBP$CONS_02          RTTAYGTAAR R04248 T00183; DBP;Quality: 6; Species: rat, Rattus norvegicus.
+AKV$AKV_01           caagaACAGATGGtccccag R04249 T01496; ALF1B;Quality: 2; Species: mouse, Mus musculus.
+EBV$BMRF1_01         gtggtagatgaccttTGAGTCAg R04261 T00923; Zta;Quality: 1; Species: EBV, Epstein-Barr virus.
+PUR$CONS_01          GGNNGAGGGAGARRRR R04302 T01515; Pur factor;Quality: 6; Species: human, Homo sapiens.
+BRN2$CONS_01         MATNNNWAAT R04327 T01873; N-Oct-3;Quality: 6; Species: mouse, Mus musculus.
+BRN2$CONS_01         MATNNWAAT R04327 T01873; N-Oct-3;Quality: 6; Species: mouse, Mus musculus.
+BRN2$CONS_01         MATWAAT R04327 T01873; N-Oct-3;Quality: 6; Species: mouse, Mus musculus.
+BRACH$CONS_01        TSACACCTAGGTGTGAAATT R04328
+AG$CONS_01           TTWCCWWWWNNGGHWW R04329
+SIV$SIV_01           gCTAGCCGCAAgagg R04331 T01530; core-binding factor;Quality: 6; Species: cattle, Bos taurus.
+AS$RXR_04            ctagtctatgAGGTCAaAGGTCAaacttc R04403 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$TR_19             ctagtctatgAGGTCATGACCTaacttc R04404 T00851; T3R-beta;Quality: 2; Species: human, Homo sapiens.
+AS$RXR_05            ctagtctatgAGGTCAccaggAGGTCAaacttc R04405 T01345; RXR-alpha;Quality: 2; Species: human, Homo sapiens.
+AS$ALF1B_01          ACAGGTGC R04410 T01496; ALF1B;Quality: 2; Species: mouse, Mus musculus.
+AS$ALF1B_02          ACAGATGC R04411 T01496; ALF1B;Quality: 2; Species: mouse, Mus musculus.
+AS$HLF_01            GTTACGTAAT R04434 T01071; Hlf;Quality: 2; Species: human, Homo sapiens.
+AS$HLF_02            ATTGCGCAAT R04435 T01071; Hlf;Quality: 2; Species: human, Homo sapiens.
+VZV$EARL_01          AGTGTAATCACGTGATTTGT R04439 T01555; USF2;Quality: 1; Species: mouse, Mus musculus.

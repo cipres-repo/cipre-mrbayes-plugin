@@ -1,0 +1,118 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Align DNA via Muscle, ClustalW and Geneious" geneiousVersion="7.0.2" uniqueId="477eaa6e-5fca-4c5b-85e3-1b2fb4857706" revisionNumber="11" description="&lt;html&gt;&lt;center&gt;Aligns DNA sequences via 3 different algorithms: MUSCLE, ClustalW, and Geneious&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementGroupSequences" />
+    <workflowElement id="MUSCLE" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="true" groupNameForExposedOptions="MUSCLE:" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="-maxiters">8</option>
+        <option name="useCustomLocation">false</option>
+        <option name="muscleLocation">M:\src\g2\plugins\muscle\resources\com\biomatters\plugins\muscle\muscle.exe</option>
+        <option name="-maxtrees">1</option>
+        <option name="-stable">group</option>
+        <option name="-diags">false</option>
+        <option name="-noanchors">true</option>
+        <option name="keepTree1">false</option>
+        <option name="keepTree2">false</option>
+        <option name="-sp">false</option>
+        <option name="-center">-1.0</option>
+        <option name="amino acid-distance1">kmer6_6</option>
+        <option name="amino acid-distance2">pctidkimura</option>
+        <option name="nucleotide-distance1">kmer4_6</option>
+        <option name="nucleotide-distance2">pctidkimura</option>
+        <option name="-cluster1">upgmb</option>
+        <option name="-cluster2">upgmb</option>
+        <option name="-root1">pseudo</option>
+        <option name="-root2">pseudo</option>
+        <option name="-weight1">clustalw</option>
+        <option name="-weight2">clustalw</option>
+        <option name="-termgaps">half</option>
+        <option name="-objscore">spm</option>
+        <option name="-anchorspacing">32</option>
+        <option name="-gapopen">-1.0</option>
+        <option name="-diaglength">24</option>
+        <option name="-diagmargin">5</option>
+        <option name="amino acid-minbestcolscore">2.0</option>
+        <option name="amino acid-minsmoothscore">1.0</option>
+        <option name="nucleotide-minbestcolscore">90.0</option>
+        <option name="nucleotide-minsmoothscore">90.0</option>
+        <option name="-hydrofactor">1.2</option>
+        <option name="-hydro">5</option>
+        <option name="-maxmb">500</option>
+        <option name="restrictRuntime">false</option>
+        <option name="-maxhours">1.0</option>
+        <option name="extraOptions" />
+      </Options>
+      <optionToExpose optionName="-maxiters" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">MUSCLE Aligned </option>
+        <option name="middle">2</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementSaveAndContinue">
+      <options>
+        <option name="save">true</option>
+        <option name="saveInSubFolder">false</option>
+        <option name="subFolderName" />
+        <option name="selectDocuments">false</option>
+        <option name="doWhat">branchFrom</option>
+        <option name="back">3</option>
+      </options>
+    </workflowElement>
+    <workflowElement id="Clustal_Alignment_NUCLEOTIDE_" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="true" groupNameForExposedOptions="ClustalW:" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="useCustomLocation">false</option>
+        <option name="executableLocation">M:\src\g2\plugins\clustal\resources\com\biomatters\plugins\clustal\clustalw2.exe</option>
+        <childOption name="programOptions">
+          <option name="NUCLEOTIDE_multiple_MATRIX" extra="">IUB</option>
+          <option name="NUCLEOTIDE_multiple_GAPOPEN">15.0</option>
+          <option name="NUCLEOTIDE_multiple_GAPEXT">6.66</option>
+          <option name="NUCLEOTIDE_multiple_ENDGAPS">false</option>
+          <option name="NUCLEOTIDE_multiple_PRESERVE_OUTORDER">false</option>
+          <option name="NUCLEOTIDE_multiple_EXTRA_OPTIONS" />
+        </childOption>
+      </Options>
+      <optionToExpose optionName="useCustomLocation" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">ClustalW Aligned </option>
+        <option name="middle">5</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementSaveAndContinue">
+      <options>
+        <option name="save">true</option>
+        <option name="saveInSubFolder">false</option>
+        <option name="subFolderName" />
+        <option name="selectDocuments">false</option>
+        <option name="doWhat">branchFrom</option>
+        <option name="back">6</option>
+      </options>
+    </workflowElement>
+    <workflowElement id="Geneious" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="true" groupNameForExposedOptions="Geneious:" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="determineDirection">false</option>
+        <option name="alignmentType">globalFreeEndGaps</option>
+        <option name="nucleotideCostMatrix">65% similarity</option>
+        <option name="proteinCostMatrix">Blosum62</option>
+        <option name="gapOpenPenalty">12.0</option>
+        <option name="gapExtensionPenalty">3.0</option>
+        <option name="refinementIterations">2</option>
+        <option name="fastGuideTree">false</option>
+        <option name="dontAlign">false</option>
+      </Options>
+      <optionToExpose optionName="determineDirection" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">Geneious Aligned </option>
+        <option name="middle">8</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABaUlEQVR42u2WyW3DMBBF2YHdQdKBlO2uDpQOpIuXm9OB04Fzy3JRCU4HuWdjCS6BJSjzgaExYOhYcYZWAHuADxgU4Df8Gn7KmGMdQo2eRvn4cXxLGuwNOr2fnjJ0RXKTh0mG9dyaYWroDcmSWtYafvVq8vMPM1eF1k09JItr0rOARuEX78adfZpMBUx/fr0BuhFOWqnYTOAZAeaB3BZ4e/lmFknePcGabXCI7D/pDU6y6sNHwGVHODTTDhb7C7ie/Zj+YOCsT7gI3Knaz0FTCfh6qpFwAbxB6PDvSmPn2KmjJgo0QZaX8jl2KeFYEw0M/hStPO0ZW/8tSnG+BfzFr3MDS40jtmAX2gi8kEdN7pYbqLrutiDgHW4vZLtoovzpGgXAD1yY89RcubP9XQo7JNVoArBIc23SO19kfNHLlw4sD9/7Xgpn3t9syW2OFQ+Xbr7v8P6bJNfrvy8fs3024A7bAbXP6mNxfQFO12mgAlG3qAAAAABJRU5ErkJggg==</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

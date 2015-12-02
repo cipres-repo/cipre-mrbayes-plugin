@@ -1,0 +1,8 @@
+Build RNAfold for Linux on a 32-bit CentOS 5 system using ./configure LDFLAGS="-static"
+to get a 32 bit static linked executable compatible with newer and 64 bit systems
+Windows needs ./configure --disable-openmp
+setting to compile with minGW otherwise the resulting binaries won't run on a standard
+Windows install.
+Mac can be simple ./configure if it is built on a 32-bit machine running the oldest MacOS
+we currently support.
+On all platforms, then run make to produce the executables in the Progs directory.

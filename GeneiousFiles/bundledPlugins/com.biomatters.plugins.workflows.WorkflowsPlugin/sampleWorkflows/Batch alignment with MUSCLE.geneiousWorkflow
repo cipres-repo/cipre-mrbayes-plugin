@@ -1,0 +1,48 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Batch alignment with MUSCLE" geneiousVersion="7.0.0" uniqueId="4b49d5f4-811f-4b5e-9171-b8866f1dc3dd" revisionNumber="7" description="&lt;html&gt;&lt;center&gt;Builds an independent MUSCLE alignment for each selected sequence list&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementForEach" />
+    <workflowElement id="MUSCLE" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="-maxiters">8</option>
+        <option name="useCustomLocation">false</option>
+        <option name="muscleLocation">M:\src\g2\plugins\muscle\resources\com\biomatters\plugins\muscle\muscle.exe</option>
+        <option name="-maxtrees">1</option>
+        <option name="-stable">group</option>
+        <option name="-diags">false</option>
+        <option name="-noanchors">true</option>
+        <option name="keepTree1">false</option>
+        <option name="keepTree2">false</option>
+        <option name="-sp">false</option>
+        <option name="-center">-1.0</option>
+        <option name="amino acid-distance1">kmer6_6</option>
+        <option name="amino acid-distance2">pctidkimura</option>
+        <option name="nucleotide-distance1">kmer4_6</option>
+        <option name="nucleotide-distance2">pctidkimura</option>
+        <option name="-cluster1">upgmb</option>
+        <option name="-cluster2">upgmb</option>
+        <option name="-root1">pseudo</option>
+        <option name="-root2">pseudo</option>
+        <option name="-weight1">clustalw</option>
+        <option name="-weight2">clustalw</option>
+        <option name="-termgaps">half</option>
+        <option name="-objscore">spm</option>
+        <option name="-anchorspacing">32</option>
+        <option name="-gapopen">-1.0</option>
+        <option name="-diaglength">24</option>
+        <option name="-diagmargin">5</option>
+        <option name="amino acid-minbestcolscore">2.0</option>
+        <option name="amino acid-minsmoothscore">1.0</option>
+        <option name="nucleotide-minbestcolscore">90.0</option>
+        <option name="nucleotide-minsmoothscore">90.0</option>
+        <option name="-hydrofactor">1.2</option>
+        <option name="-hydro">5</option>
+        <option name="-maxmb">500</option>
+        <option name="restrictRuntime">false</option>
+        <option name="-maxhours">1.0</option>
+        <option name="extraOptions" />
+      </Options>
+      <optionToExpose optionName="-maxiters" label="" />
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACVElEQVR42rWWz0sbURDH31FKRSm0Rw091UtNf0IxJYWWniqIB09C9mKMICpRSJuD7qnH5mSqbSSxNFpYNaVSUKmkxkP6Y3dfNXlv20Mo/QNKCjnUQ+h2ZslCkE3cjevAsD/5zMx3Zt9bQlyy0POQJ7gYFEdejPjdYhIhKXQCdAqcguvR19FppjExcjA8eSooZCmAv0Wo6au7q7+4xvUwHXx5XSFzmqbdcwQGyAB4qh5q+trHNd2E35CJLrGlaQgw50TbDGScDafChZnlmd/N4H7lglEJ57zbdvaQjYd/5xmloOxHXkUqjeDoscMnOrxLW20obQZHz/EPGMBZk0Eerx34ML2tO5an1twygscT49WdTzuWcPTFwlN8lnUqS7k249U9eQ/LL+Ocm9BB9Qp4j3Eu88869Ctgd3Lo6MJoUlwRffOb80e0QI3mRb8FhgBWNuEIHVKvVgTq+4OVlUqljpPAU3g+sTQhza7MVnJyTir+KPYCPCayYBeAKcLvKu3/EI5B+9Rz8WeHjzWctIZS1PQOoBzxzXgar+GzT6KmZtNufiUxhPuU89UtljHkwozh3iQmYCkPyoAfUuJ9woDk1XwISz3+spcSzzWV9N6R246MZgIcK8NncL+74WgyxrxGplAepdSoxEpHyDLrlzuk9WKqD+HHE3A0mlYGAZL3lYt/82w/3bSRrRisjgIet9mGBPL9dDUAaN+JjR07eJh2RQoreyBfGmtpjbGTfd2KGnA9e9yZ+pXLj8hZGQZ4V3wTc7z92bVbX4gft74zaWyd9qf6DfkPl6QGRNTZ8RwAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

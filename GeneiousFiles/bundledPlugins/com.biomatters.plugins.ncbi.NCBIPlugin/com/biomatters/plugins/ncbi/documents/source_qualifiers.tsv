@@ -1,0 +1,38 @@
+altitude	geographical altitude of the location from which the sample was collected
+bio_material	identifier for the biological material from which the nucleic acid sequenced was obtained, with optional institution code and collection code for the place where it is currently stored.
+cell_line	cell line from which the sequence was obtained
+cell_type	cell type from which the sequence was obtained
+chromosome	chromosome (e.g. Chromosome number) from which the sequence was obtained
+citation	reference to a citation listed in the entry reference field
+clone	clone from which the sequence was obtained
+clone_lib	clone library from which the sequence was obtained
+collection_date	date that the specimen was collected
+country	locality of isolation of the sequenced organism indicated in terms of political names for nations, oceans or seas, followed by regions and localities
+cultivar	cultivar (cultivated variety) of plant from which sequence was  obtained.
+culture_collection	institution code and identifier for the culture from which the nucleic acid sequenced was obtained, with optional collection code.
+db_xref	database cross-reference: pointer to related information in  another database.
+dev_stage	if the sequence was obtained from an organism in a specific  developmental stage, it is specified with this qualifier
+haplogroup	name for a group of similar haplotypes that share some sequence variation. Haplogroups are often used to track migration of population groups.
+haplotype	name for a combination of alleles that are linked together on the same physical chromosome. In the absence of recombination, each haplotype is inherited as a unit, and may be used to track gene flow in populations.
+host	natural (as opposed to laboratory) host to the organism from which sequenced molecule was obtained
+isolate	individual isolate from which the sequence was obtained
+isolation_source	describes the physical, environmental and/or local geographical source of the biological sample from which the sequence was derived
+lab_host	scientific name of the laboratory host used to propagate the source organism from which the sequenced molecule was obtained
+map	genomic map position of feature
+mating_type	mating type of the organism from which the sequence was obtained; mating type is used for prokaryotes, and for eukaryotes that undergo meiosis without sexually dimorphic gametes
+note	any comment or additional information
+PCR_primers	PCR primers that were used to amplify the sequence. A single /PCR_primers qualifier should contain all the primers used for a single PCR reaction. If multiple forward or reverse primers are present in a  single PCR reaction, multiple sets of fwd_name/fwd_seq or rev_name/rev_seq values will be  present.
+plasmid	name of naturally occurring plasmid from which the sequence was  obtained, where plasmid is defined as an independently replicating genetic unit that cannot be described by /chromosome or /segment
+pop_variant	name of subpopulation or phenotype of the sample from which the sequence was derived
+segment	name of viral or phage segment sequenced
+serotype	serological variety of a species characterized by its antigenic properties
+serovar	serological variety of a species (usually a prokaryote) characterized by its antigenic properties
+sex	sex of the organism from which the sequence was obtained; sex is used for eukaryotic organisms that undergo meiosis and have sexually dimorphic gametes
+specimen_voucher	identifier for the specimen from which the nucleic acid sequenced was obtained
+strain	strain from which sequence was obtained
+sub_clone	sub-clone from which sequence was obtained
+sub_species	name of sub-species of organism from which sequence was obtained
+sub_strain	name or identifier of a genetically or otherwise modified  strain from which sequence was obtained, derived from a parental strain (which should be annotated in the /strain qualifier).sub_strain from which sequence was obtained
+tissue_lib	tissue library from which sequence was obtained
+tissue_type	tissue type from which the sequence was obtained
+variety	variety (= varietas, a formal Linnaean rank) of organism  from which sequence was derived.

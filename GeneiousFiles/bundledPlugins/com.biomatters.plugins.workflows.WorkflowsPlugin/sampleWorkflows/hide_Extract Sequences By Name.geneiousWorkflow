@@ -1,0 +1,54 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Extract Sequences By Name" geneiousVersion="8.0.0" uniqueId="1d967440-0c47-4387-bdfc-7a1581087165" revisionNumber="9" description="&lt;html&gt;&lt;center&gt;Takes a list of sequence names and extracts all those whose names match&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>// An example operation that filters out a subset of sequences based on their names
+
+public static Options getOptions() throws DocumentOperationException {
+	Options options = new Options(getThisClass());
+	options.addMultipleLineStringOption("listOfNames","Names to Extract:","",10,true).setFillHorizontalSpace(true);
+	options.addStringOption("separator","Separator:",",");
+	options.addBooleanOption("matchPartialNames","Match partial names",false);
+    options.addBooleanOption("extractInverse","Extract inverse instead (names that don't match)",false);
+ 	return options;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+															 ProgressListener progressListener) throws DocumentOperationException {
+	String listOfNames = options.getOption("listOfNames").getValueAsString().toLowerCase();
+	final Set&lt;String&gt; namesWanted = new HashSet&lt;String&gt;();
+	final boolean matchPartialNames = ((Options.BooleanOption)options.getOption("matchPartialNames")).getValue();
+	final boolean extractInverse = ((Options.BooleanOption)options.getOption("extractInverse")).getValue();
+    for(String name:listOfNames.split(options.getOption("separator").getValueAsString())) {
+		namesWanted.add(name.trim());
+		namesWanted.add(name.trim()+SequenceExtractionUtilities.REVERSED_NAME_SUFFIX);
+	}
+
+	SequenceDocument.Transformer transformer = new SequenceDocument.Transformer() {
+		public SequenceDocument transformSequence(SequenceDocument originalSequence) {
+			String name = originalSequence.getName().toLowerCase();
+			boolean matches = false;
+			if (matchPartialNames) {
+				for(String nameWanted:namesWanted) {
+					if (name.contains(nameWanted)) {
+						matches = true;
+					}
+				}
+			}
+			else {
+				matches = namesWanted.contains(name);
+			}
+			if (extractInverse)
+				matches = !matches;
+			if (matches)
+				return originalSequence;
+			else
+				return null;
+		}
+	};
+	return SequenceUtilities.createNewDocumentsByTransformingSequences(
+			documents, transformer, progressListener, "filtered ");
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEH0lEQVR42q2XSUscURSFJQkYCDiA5A8EspGsogQRRcVtIEjITkyyMKgRFd0LISvjD3AA0YBL3SoiCM4jgvPYzvPU3bb9Wtv25p6nt6m01W1Va8GhqKKt971zp2dMzP0rsbi4+FdlZWVtRUVFDVRWVqZVWlpaU1JSolVUVKRVWFhYU1BQ8Cc/P/93cnJyasxjr8TExHdbW1sXfJHL7SKXy0XOMyednp7S8fExHRwc0P7+Pu3s7NDm5iY5HA6anp6mgYEBamtrc2dkZHx+FEBcXNyH2dlZtbe3RwyihYU2NjZobW1NL7iyskKLi4s0Pz9P/FuanJyk3t5eam9vh1zZ2dl5jwKYm5tT2OX29nZQArK+vh6EWFpaooWFBeLf08TEhAZgFwDkyszMzIsagHemYDVsNgogRjdWV1eDEAhDZ2cnNTc30/n5OU1NTbnT09PzogLgD94B7N6DgIxuAGJ5eVm70NPTQ01NTaSUIlwzMzNu204AgOOrjo6OCHkA7e7u/idxAyBwAyFBTvT392sHePfaGcCNjIzYCwcAeEfq5OREL8IfMNXw8DANDQ3R4OCgroDx8XEaGxuj1tZWqq6upvLycqqqqqLa2lpAudLS0j5ZBuAEUyi7w8NDLYQjVEhScQegCAdbTl1dXdTyt4XqG+qpoaGB6urqtCuNjY2bSUlJby0BsHXq7OyMEAaRwIRKQAAhPWF0dFS7A5f6+vqou7ubOjo6KDU19aslAM5whQaEncLaUMFqo7AgwiIhQS6gL+AuFYL3KSkpJZYAOLEUSgkuQAiHCLkhQmcUSajghq4UqZK7ngEIzoOflgC4xJTHc0FOpzMogYkEhVBJfkhuoEoAAgjuC9YA+A8VahlhwAdE+BCEJiRyrDl07CGUHRZCX5AGhVKVJOU5YQ2A6dXl5SVhIHk8nqAQFpHb7Q4KoHpo3bklrsARuCFtPSsryxoA/4Hy+/3k9Xo1hNd7KyOMx3MeEQhhEgjkB3LDNgAWN84B42AyTkqZD6FCiJCgcAQgOTk51gA4kdT19TX5fD4t5IMIrogAKAoXJgkNQGwB3AQChDwQiEgwkUAAgTsg7AHc3OhFQoeQmczCI6GBAwACiC0AjNOrqystOGHUQ44YXcHieMY9Nzc3OgCjwoH4lO9+aLy3EHiHu20ALCJ1LGcD0zOCycFFQoKdC5RtAJSimcxc8V36bhUSGq/yBp8tA3Dj0AAoRZFVELMcwTtbANw0NECAS9EoI5AZWLhc8fMzYCxXATcNDYBShEJBwgGFg8EzQKIGMCoaELyzBcBD5PZc/YQX4C3lQHx8/Hue7U4unxueaP5I4iFzTwwfFDupxe8DnFcBPp7/sHIwfs3/oH5MSEj49oT6zhv7Ehsb+4a//+whgOesWNarJ9ZL1ovQxf4B6U4w6F+szxIAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

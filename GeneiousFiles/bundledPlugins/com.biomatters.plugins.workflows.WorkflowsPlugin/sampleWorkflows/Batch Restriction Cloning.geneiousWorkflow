@@ -1,0 +1,14 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Batch Restriction Cloning" geneiousVersion="9.0.0" uniqueId="d84fed8c-069d-4056-a273-868faffeb58c" revisionNumber="10" description="&lt;html&gt;&lt;center&gt;Given a vector and two or more other sequences, runs &lt;i&gt;Restriction Cloning&lt;/i&gt;&lt;br&gt;with default settings on each sequence combined with the vector.&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement forEachSequenceInsteadOfDocument="true" type="com.biomatters.plugins.workflows.WorkflowElementForEach" />
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementAddInputDocument">
+      <options>
+        <option name="optionName">Vector:</option>
+        <option name="fromWhere">fromSelectedDocuments</option>
+        <option name="type">Nucleotide Sequence</option>
+      </options>
+    </workflowElement>
+    <workflowElement id="com.biomatters.plugins.cloning.insertoperation.InsertOperation" exposeNoOptions="true" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement" />
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADmElEQVR42uWVa2yMWRjH/6hRluq6hKXWvXG/bIumdE3R0elMa0zL9DIt2rJfJL7xhZAQEhu7H7BfSFyCtEVcQhGSdrVjs0ql0Sp1mWmLTpVZVbXM7fGcM2+qqtPO+rIfPMkv7zvnnPf5n/Oc/zkD/G+hLhqClNqNMDVcRPrLOpjfEMzNr2F2lCKjcSMSbw352tS9kGLdCZO9GWkvCekOQsZrkgKZLYRVrYTV75i3zch07JTjA46YgqEw1lqwspFgekFIZYG0zgT+Jax5T8h28nurBdrrQ+X3az2HukqvgtFWiZQGwgq7ItDEAq8+CWS99c1+DQtkfyDkuAi5bm5z5CHXeQRrveS/LLo7vyL5GSHlOUkRsQpDdS0id+1GyKQ0HpPIz3TEHPgD5hdNbclF0vZ0GjO2hcFgfQPjU5IiySyiKSrmnsXMNGY0M5IZw8zE4GlGmO22L5L7EegFjWUrDLWE5XVMPUFfYeP2aGYE05fp2TYW+E4KjUtND1SgHxIqymCwkQ8Wivh9i5I8yE9J+yCz8XSgAoOgr2lB0hOSLLOSUpa+fu0g3NJZcj8Cw6B/RJLExz6AUe3K4i9Ef7B6/6HhXaxUxg/QPyTo2iHaAos+OVYv/VLvpfV2og1NRNLuHWI4NDcqkPCAfNwnzC/ICWQFunMVq7JqvJT9xEvr6ryUe89xm9u/7zhwMGIunIS2mqC9R4hn4m5Xd7kHvgg2WP65mVrpIfN9D61+5CV9XtFeuacdoj9+NOll4vgqwtJKPgN3CYv+yof6hL8LLSjualP+sjI3Jd/xkOmuhzKqPRSetV6r2Piz6M2MRfSps23JxVMIaivrsbR8E+LKI3lMD1GWeXnPNAsvtVji/nSR1uKmpJtuMpZ7KPbo9WPKgex0wwcidGYsYktschUyOZdMV+Nzl67qhphZREFLadQFJy247CL1NRctKXZRfKmbNFcardz/ExPir55B8mCFTE7AIotNJhcbLhwlBJYUHxdXxdTD9rKIM06ae95J0YVOWnjVRTFnGmwh4ZFaafdurm6V4v+fEXWkgMvTKu0rzoX64gFxPUzcZyuZnv+BZp920pxzTpr+W2lhv/DIBOU7VSC+VikzmY2Bk5Ixa88+ROefwIKTm8UKRm3/++CEvdaq8TtKCkPnJWVz2xzlSlH9t380YAATxkxRro0wxX4TmSgmQhpD7F03p7g7oWDFdsGK28R7qLS27/c3EB8Bk9ftmQMyncMAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

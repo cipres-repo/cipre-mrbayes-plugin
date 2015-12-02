@@ -1,0 +1,70 @@
+    <target name="copyPluginAndRename"> 
+        <!-- This task renames this plugin, including source code files and build scripts.
+        To use it, enter the appropriate values for the first 3 properties and then run it.
+        The 3rd property value must be identical to the second except with "." replaced with "/" -->
+        <property name="newPluginName" value="BackTranslation"/>
+        <property name="newPluginPackageName" value="com.biomatters.backTranslation"/>
+        <property name="newPluginPackagePath" value="com/biomatters/backTranslation"/>
+	
+        <property name="oldPluginName" value="BackTranslation"/>
+        <property name="oldPluginPackageName" value="com.biomatters.backTranslation"/>
+        <property name="oldPluginPackagePath" value="com/biomatters/backTranslation"/>
+        <!--It doesn't appear we can automatically replace "." with "/" in a property in basic ant without relying on the ant-contrib package being installed-->
+
+        <property name="destDir" value="../${newPluginName}"/>
+
+        <fail message="You must set the newPluginName property in the ant task XML before running this">
+            <condition><equals arg1="${oldPluginName}" arg2="${newPluginName}"/></condition>
+        </fail>
+        <fail message="You must set the newPluginPackageName property in the ant task XML before running this">
+            <condition><equals arg1="${oldPluginPackageName}" arg2="${newPluginPackageName}"/></condition>
+        </fail>
+        <fail message="You must set the newPluginPackagePath property in the ant task XML before running this">
+            <condition><equals arg1="${oldPluginPackagePath}" arg2="${newPluginPackagePath}"/></condition>
+        </fail>
+
+        <copy todir="${destDir}">
+            <fileset dir="."/>
+        </copy>
+
+        <replace dir="${destDir}" token="${oldPluginPackageName}" value="${newPluginPackageName}"/>
+        <replace dir="${destDir}" token="${oldPluginPackagePath}" value="${newPluginPackagePath}"/>
+        <replace dir="${destDir}" token="${oldPluginName}" value="${newPluginName}"/>
+
+        <move todir="${destDir}/src/${newPluginPackagePath}">
+            <fileset dir="${destDir}/src/${oldPluginPackagePath}"/>
+        </move>
+
+        <move todir="${destDir}/src/${newPluginPackagePath}">
+            <fileset dir="${destDir}/src/${newPluginPackagePath}"/>
+            <mapper type="glob" from="${oldPluginName}*.java" to="${newPluginName}*.java"/>
+        </move>
+
+        <move todir="${destDir}">
+            <fileset dir="${destDir}"/>
+            <mapper type="glob" from="${oldPluginName}.*" to="${newPluginName}.*"/>
+        </move>
+
+        <!-- edit intellij project files -->
+
+        <copy todir="../.ideaBackup" overwrite="true">
+            <fileset dir="../.idea"/>
+        </copy>
+        
+        <copy file="../.idea/modules.xml" tofile="../.idea/modules.xml.new" overwrite="true">
+            <filterchain>
+                <tokenfilter>
+                    <replaceregex byline="true" flags="s"
+                                  pattern="(.*)${oldPluginName}/${oldPluginName}(.*)${oldPluginName}/${oldPluginName}(.*)$"
+                                  replace="\0&#10;\1${newPluginName}/${newPluginName}\2${newPluginName}/${newPluginName}\3"/>
+                </tokenfilter>
+            </filterchain>
+        </copy>
+        <fixcrlf file="../.idea/modules.xml.new"/>
+        <move file="../.idea/modules.xml.new" tofile="../.idea/modules.xml" overwrite="true"/>
+
+        <copy file="../.idea/runConfigurations/${oldPluginName}.xml" tofile="../.idea/runConfigurations/${newPluginName}.xml" overwrite="true"/>
+        <replace file="../.idea/runConfigurations/${newPluginName}.xml" token="${oldPluginPackageName}" value="${newPluginPackageName}"/>
+        <replace file="../.idea/runConfigurations/${newPluginName}.xml" token="${oldPluginName}" value="${newPluginName}"/>
+       
+    </target>
