@@ -1,0 +1,32 @@
+package com.cipres.mrBayesPlugin;
+
+import com.biomatters.geneious.publicapi.plugin.Options;
+import com.biomatters.geneious.publicapi.plugin.Options.BooleanOption;
+import com.biomatters.geneious.publicapi.plugin.Options.IntegerOption;
+import com.biomatters.geneious.publicapi.plugin.Options.StringOption;
+
+public class LoginGUI extends Options {
+    private StringOption annotationType;
+    private BooleanOption trimEnds;
+    private IntegerOption numberOfBasesToTrim;
+
+    public OptionsExample1() {
+        annotationType = addStringOption("annotationType","Annotation Type","CDS");
+        annotationType.setDescription("The type of annotation to add to the sequence");
+        trimEnds = addBooleanOption("trimEnds","Trim Ends",false);
+        numberOfBasesToTrim = addIntegerOption("numberOfBasesToTrim","Number Of Bases To Trim",5);
+    }
+
+    public String getAnnotationType() {
+        return annotationType.getValue();
+    }
+
+    public int getNumberOfBasesToTrim() {
+        if (trimEnds.getValue()) {
+            return numberOfBasesToTrim.getValue();
+        }
+        else {
+            return 0;
+        }
+    }
+}

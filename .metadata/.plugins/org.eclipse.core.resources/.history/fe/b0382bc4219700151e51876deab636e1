@@ -1,7 +1,0 @@
-package com.cipres.mrBayesPlugin;
-
-public class CipresMrBayes extends GeneiousPlugin {
-	public SequenceAnnotationGenerator[] getSequenceAnnotationGenerators() {
-		return new SequenceAnnotationGenerator[] { new PhobosAnnotationGenerator()
-		} };
-}

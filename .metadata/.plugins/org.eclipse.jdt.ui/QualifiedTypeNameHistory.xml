@@ -4,4 +4,10 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.DocumentOperation"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 </qualifiedTypeNameHistroy>
