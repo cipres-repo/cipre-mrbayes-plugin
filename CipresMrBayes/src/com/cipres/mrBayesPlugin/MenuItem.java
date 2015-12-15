@@ -1,21 +1,24 @@
 package com.cipres.mrBayesPlugin;
 
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.Collection;
 import java.util.List;
 
+import org.ngbw.directclient.CiCipresException;
+import org.ngbw.directclient.CiClient;
+import org.ngbw.directclient.CiJob;
+
 import com.biomatters.geneious.publicapi.documents.AnnotatedPluginDocument;
-import com.biomatters.geneious.publicapi.documents.DocumentUtilities;
-import com.biomatters.geneious.publicapi.documents.sequence.AminoAcidSequenceDocument;
-import com.biomatters.geneious.publicapi.implementations.sequence.DefaultAminoAcidSequence;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperation;
+import com.biomatters.geneious.publicapi.plugin.DocumentOperationException;
 import com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature;
 import com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions;
 import com.biomatters.geneious.publicapi.plugin.Options;
 
 import jebl.util.ProgressListener;
 
+
 public class MenuItem extends DocumentOperation{
+	private static CiClient myClient;
 	
 	public String getUniqueId(){
 		return "Cipres_MrBayes";
@@ -38,34 +41,57 @@ public class MenuItem extends DocumentOperation{
 		return new DocumentSelectionSignature[0];
 	}
 	
+	
 	//Geneious will display the Options returned from this method as a panel before calling performOperation().
-    public Options getOptions(AnnotatedPluginDocument[] docs){
+	@Override
+	public Options getOptions(final AnnotatedPluginDocument[] docs) throws DocumentOperationException{
         Options options = new LoginGUI();
+//        options.restoreDefaults();
+        options.canRestoreDefaults();
         return options;
     }
 
     //This is the method that does all the work.  Geneious passes a list of the documents that were selected when the user
     //started the operation, a progressListener, and the options panel that we returned in the getOptionsPanel() method above.
-//    public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options){
-//        //lets create the list that we're going to return...
-//        ArrayList sequenceList = new ArrayList();
-//
-//        //The options that we created in the getOptions() method above has been passed to us, hopefuly the user has filled in their sequence.
-//        //We get the option we added by using its name.  MultiLineStringOption has a String ValueType, so we can safely cast to a String object.
-//        String residues = (String)options.getValue("residues");
-//
-//        //lets construct a new sequence document from the residues that the user entered
-//        AminoAcidSequenceDocument sequence = new DefaultAminoAcidSequence("New Sequence","A new Sequence",residues,new Date());
-//
-//        //and add it to the list
-//        sequenceList.add(DocumentUtilities.createAnnotatedPluginDocument(sequence));
-//
-//        //normaly we would set the progress incrimentaly as we went, but this operation is quick so we just set it to finished when we're done.
-//        progress.setProgress(1.0);
-//
-//        //return the list containing the sequence we just created, and we're done!
-//        return sequenceList;
-//   }
+    public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options) throws DocumentOperationException{
+
+    	
+        String username = (String)options.getValue("username");
+        String password = (String)options.getValue("password");
+        String url = (String)options.getValue("url");
+        String appName = (String)options.getValue("appName");
+        String appKey = (String)options.getValue("appKey");
+        
+        System.out.println("Username is " + username);
+        System.out.println("Password is " + password);
+        System.out.println("REST URL is " + url);
+        System.out.println("App Name is " + appName);
+        System.out.println("App Key is " + appKey);
+        
+        myClient = new CiClient(appKey, username, password, url);
+        
+        try {
+			listJobs();
+		} catch (CiCipresException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
+        return null;
+   }
+    
+    private static void listJobs() throws CiCipresException
+	{
+
+		int count = 0;
+		Collection<CiJob> jobs = myClient.listJobs(); 
+		for (CiJob job : jobs)
+		{
+			count += 1;
+			System.out.print("\n" + count + ". ");
+			job.show(false);
+		}
+	}
 
 
 
