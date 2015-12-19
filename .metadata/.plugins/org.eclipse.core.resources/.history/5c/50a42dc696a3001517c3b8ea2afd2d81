@@ -1,0 +1,37 @@
+package com.cipres.mrBayesPlugin.models;
+
+import javax.swing.JTable;
+
+public class TableModel {
+	private static int row;
+	private static int col;
+	private static String[] columnNames = 
+			{" ",
+            "Job Name",
+            "Date Submitted",
+            "Job Status"
+            };
+	
+	
+	public JTable createTable(Object[][] data){
+	    JTable table = new JTable(data, columnNames);
+	    table.setEnabled(false);
+	    return table;
+	}
+	
+	public static int getRow() {
+		return row;
+	}
+
+	public static void setRow(int row) {
+		TableModel.row = row;
+	}
+
+	public static int getCol() {
+		return col;
+	}
+
+	public static void setCol(int col) {
+		TableModel.col = col;
+	}
+}

@@ -1,0 +1,31 @@
+package com.cipres.mrBayesPlugin.models;
+
+public class TableModel {
+	private static int row;
+	private static int col;
+	private static String[] colNames = 
+			{" ",
+            "Job Name",
+            "Date Submitted",
+            "Job Status"
+            };
+	
+	public TableModel(){
+	}
+	
+	public static int getRow() {
+		return row;
+	}
+
+	public static void setRow(int row) {
+		TableModel.row = row;
+	}
+
+	public static int getCol() {
+		return col;
+	}
+
+	public static void setCol(int col) {
+		TableModel.col = col;
+	}
+}

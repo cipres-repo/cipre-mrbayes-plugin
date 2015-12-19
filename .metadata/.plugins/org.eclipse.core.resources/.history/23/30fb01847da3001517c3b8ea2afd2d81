@@ -1,0 +1,165 @@
+package com.cipres.mrBayesPlugin;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.ngbw.directclient.CiCipresException;
+import org.ngbw.directclient.CiJob;
+import org.ngbw.directclient.CiResultFile;
+import org.ngbw.directclient.example.Example;
+
+public class CipresUtilities {
+
+	public static void validateJob() throws CiCipresException
+	{
+		System.out.println("Sending a canned clustalw job for validation ...");
+		sendCannedJob("fakeName", true);
+	}
+
+	public static void submitJob() throws CiCipresException
+	{
+		System.out.println("Will submit an example clustalw job.  Enter a name for the job or enter a single 'n' to cancel"); 
+		entry = console.readLine();
+		if (entry.equals("n"))
+		{
+			return;
+		}
+		sendCannedJob(entry, false);
+	} 
+
+	public static void sendCannedJob(String jobName, boolean validateOnly) throws CiCipresException
+	{
+		Map<String, Collection<String>> vParams = new HashMap<String, Collection<String>>();
+		HashMap<String, String> inputParams = new HashMap<String, String>();
+		HashMap<String, String> metadata = new HashMap<String, String>();
+
+		vParams.put("runtime_", Arrays.asList(".2"));
+		vParams.put("hgapresidues_", Arrays.asList("A", "D"));
+		inputParams.put("infile_", fastaFile);
+
+		// See https://www.phylo.org/restusers/docs/guide.html#UseOptionalMetadata for list of available
+		// metadata keys.   
+		metadata.put("statusEmail", "true");
+		metadata.put("clientJobName", jobName);
+
+		CiJob jobStatus;
+		if (validateOnly)
+		{
+			jobStatus = myClient.validateJob("mrbayes_xsede", vParams, inputParams, metadata);
+		} else
+		{
+			jobStatus = myClient.submitJob("mrbayes_xsede", vParams, inputParams, metadata);
+		}
+		jobStatus.show(true);
+	} 
+
+	public static void listJobs() throws CiCipresException
+	{
+
+		int count = 0;
+		Collection<CiJob> jobs = myClient.listJobs(); 
+		for (CiJob job : jobs)
+		{
+			count += 1;
+			System.out.print("\n" + count + ". ");
+			job.show(false);
+		}
+	}
+
+	public static void deleteJob() throws CiCipresException
+	{
+		System.out.println("Enter url of job to delete or n(no, cancel)");
+		entry = console.readLine();
+		if (!entry.startsWith("http"))
+		{
+			return;
+		}
+		CiJob job = myClient.getJob(entry);
+		job.delete();
+	} 
+
+	public static void retrieveResults() throws CiCipresException, IOException
+	{
+		boolean finalResults = true;
+		System.out.println("Enter url of job or n(no, cancel)");
+		entry = console.readLine();
+		if (!entry.startsWith("http"))
+		{
+			return;
+		}
+		CiJob job = myClient.getJob(entry);
+		if (job.isDone() == false)
+		{
+			System.out.println("Job is not finished. Enter y(yes, get working dir contents) or n(no, cancel)"); 
+			entry = console.readLine();
+			if (entry.equals("n"))
+			{
+				return;
+			} else
+			{
+				finalResults = false;
+			}
+		}
+		Collection<CiResultFile> files = job.listResults(finalResults);
+		int count = 0;
+		for (CiResultFile file: files)
+		{
+			count = count + 1;
+			System.out.println(count + ". " + file.getName() + " (" + file.getLength() + " bytes )" );
+		}
+		System.out.println("Enter name of file to download or a(all) or n(no, cancel)");
+		entry = console.readLine();
+		boolean all = false;
+		if (entry.equals("a"))
+		{
+			all = true;
+		} else if (entry.equals("n"))
+		{
+			return;
+		}
+		File directory = new File(new File("."), job.getJobHandle());
+		if (!directory.exists())
+		{
+			directory.mkdir();
+		}
+		for (CiResultFile file : files)
+		{
+			if (all == true || file.getName().equals(entry))
+			{
+				System.out.println("Downloading " + file.getName() + " to " + directory.getAbsolutePath()); 
+				file.download(directory);
+			}
+		}
+	}
+
+	public static void jobStatus() throws CiCipresException
+	{
+		System.out.println("Enter url of job or n(no, cancel)");
+		entry = console.readLine();
+		if (!entry.startsWith("http"))
+		{
+			return;
+		}
+		CiJob job = myClient.getJob(entry);
+		job.show(true);
+	}
+
+	public static String copyResource(String name) throws IOException
+	{
+		InputStream is;
+
+		is = Example.class.getResourceAsStream("/" + name);
+		File dest = File.createTempFile("Example", ".txt"); 
+		dest.deleteOnExit();
+
+		CiResultFile.copyInputStreamToFile(is, dest);
+		return dest.getAbsolutePath();
+	}
+
+}
+

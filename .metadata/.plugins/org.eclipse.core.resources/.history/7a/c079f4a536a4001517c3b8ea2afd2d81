@@ -1,0 +1,66 @@
+package com.cipres.mrBayesPlugin.models;
+
+import javax.swing.JTable;
+import javax.swing.table.AbstractTableModel;
+
+public class TableModel extends AbstractTableModel{
+//	super(new GridLayout(1, 0));
+//	 
+//    JTable table = new JTable(new MyTableModel());
+//    table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+//    table.setFillsViewportHeight(true);
+//
+//    //Create the scroll pane and add the table to it.
+//    JScrollPane scrollPane = new JScrollPane(table);
+//
+//    //Add the scroll pane to this panel.
+//    add(scrollPane);
+	 
+    public TableModel(Object[][] data) {
+    	String[] columnNames = 
+    		{" ",
+            "Job Name",
+            "Date Submitted",
+            "Job Status"
+            };
+    	JTable table = new JTable(data, columnNames);
+    }
+
+ 
+	        /*
+     * Don't need to implement this method unless your table's
+     * editable.
+     */
+    public boolean isCellEditable(int row, int col) {
+        //Note that the data/cell address is constant,
+        //no matter where the cell appears onscreen.
+            if (col < 2) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+
+	@Override
+	public int getRowCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public int getColumnCount() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	@Override
+	public Object getValueAt(int rowIndex, int columnIndex) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+    
+} 
+

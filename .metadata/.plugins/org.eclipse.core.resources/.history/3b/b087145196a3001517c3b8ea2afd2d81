@@ -1,0 +1,10 @@
+package com.cipres.mrBayesPlugin.models;
+
+public class TableModel {
+	private static int row;
+	private static int col;
+	
+	public TableModel(){
+		
+	}
+}

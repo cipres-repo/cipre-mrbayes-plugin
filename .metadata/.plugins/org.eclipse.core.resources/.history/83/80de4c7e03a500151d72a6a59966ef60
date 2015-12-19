@@ -1,0 +1,57 @@
+package com.cipres.mrBayesPlugin.models;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+import com.biomatters.geneious.publicapi.plugin.Options;
+
+public class DisplayGUIModel extends Options{
+	String[] columnNames = 
+		{" ",
+        "Job Name",
+        "Date Submitted",
+        "Job Status"
+        };
+    
+    Object[][] data = {
+    	    {" ", "Test1", "10/12/15", new Boolean(false)},
+    	    {" ", "Test2", "12/01/15", new Boolean(true)}
+    	};
+    
+    public DisplayGUIModel() {
+	    super(DisplayGUIModel.class);
+	    
+    }
+    
+    protected JPanel createPanel(){
+    	GridLayout full = new GridLayout(0,1);
+    	
+    	JPanel panel =new JPanel();
+	    panel.setLayout(full);
+    	JCheckBox box1 = new JCheckBox();
+	    JButton updateButton = new JButton("Update List");
+	    JButton downloadButton = new JButton("Download Job");
+	    JButton deleteButton = new JButton("Delete Job");
+	    
+
+	    JTable table = createTable(data, columnNames);
+	    JScrollPane scroll = new JScrollPane(table);
+	    panel.add(scroll);
+	    panel.add(updateButton);
+	    panel.add(downloadButton);
+	    panel.add(deleteButton);
+	    
+	    return panel;
+    }
+
+    private JTable createTable(Object[][] data, String[] columnNames){
+    	JTable table = new JTable(data, columnNames);
+    	table.setEnabled(false);
+    	return table;
+    }
+}
