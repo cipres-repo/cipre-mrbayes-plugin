@@ -1,9 +1,11 @@
 package com.cipres.mrBayesPlugin;
 
+import java.io.IOException;
 import java.util.List;
 
 import javax.swing.JPanel;
 
+import org.json.simple.JSONObject;
 import org.ngbw.directclient.CiApplication;
 import org.ngbw.directclient.CiCipresException;
 import org.ngbw.directclient.CiClient;
@@ -18,7 +20,9 @@ import com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions;
 import com.biomatters.geneious.publicapi.plugin.Options;
 import com.cipres.mrBayesPlugin.models.DisplayGUIModel;
 import com.cipres.mrBayesPlugin.models.LoginGUIModel;
+import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.utilities.CipresUtilities;
+import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
 
 import jebl.util.ProgressListener;
 
@@ -61,6 +65,8 @@ public class MenuItem extends DocumentOperation{
     public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options) throws DocumentOperationException{
 
     	CiApplication app = CiApplication.getInstance();
+    	DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+    	JSONObject data = new JSONObject();
     	
         String username = (String)options.getValue("username");
         String password = (String)options.getValue("password");
@@ -68,24 +74,29 @@ public class MenuItem extends DocumentOperation{
         String appName = app.getAppname();
         String appKey = app.getAppKey();
         
-        System.out.println("Username is " + username);
-        System.out.println("Password is " + password);
-        System.out.println("REST URL is " + url);
-        System.out.println("App Name is " + appName);
-        System.out.println("App Key is " + appKey);
+        UserModel user = new UserModel(username, password, url, appKey, appName);
+        handler.addUser(user);
         
         myClient = new CiClient(appKey, username, password, url);
-        
+//        System.out.println("Results Before: "
+//				+ user.getJobs());
         try {
-			CipresUtilities.listJobs(myClient);
+			CipresUtilities.listJobs(myClient, user);
 		} catch (CiCipresException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        
+//        System.out.println("Results After: "
+//				+ handler.getUserJSON());
+       
+        handler.saveData("test2.json", handler.getUserJSON());
+        
+        
+        
         JPanel displayGuiModel = new DisplayGUIModel().createPanel();
         DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
         Dialogs.showDialog(dialogOptions, displayGuiModel);
-        
         
         return null;
    }

@@ -228,3 +228,137 @@ org.eclipse.core.runtime.CoreException: Launch configuration CipresMrBayesPlugin
 2015-12-15 12:57:15,599 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2015-12-16 22:48:50,847 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
 2015-12-18 17:58:57,563 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2015-12-19 11:21:37,691 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2015-12-19 11:21:37,767 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2015-12-19 11:21:37,776 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2015-12-19 11:21:37,782 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2015-12-19 11:23:09,739 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/rjzheng/Documents/cipres-mrbayes-plugin/plugin/pom.xml
+2015-12-19 11:23:11,867 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cipres.mrBayesPlugin:plugin:0.0.1-SNAPSHOT @ /Users/rjzheng/Documents/cipres-mrbayes-plugin/plugin/pom.xml.
+2015-12-19 11:23:12,429 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /plugin/src/main/java
+2015-12-19 11:23:12,434 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /plugin/src/test/java
+2015-12-19 11:23:12,508 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2015-12-19 11:23:13,015 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:13,015 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/plugin/src/main/resources
+2015-12-19 11:23:13,019 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:13,019 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/plugin/src/test/resources
+2015-12-19 11:23:34,140 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CipresMrBayesPlugin (64 bit) references non-existing project CipresMrBayes.
+org.eclipse.core.runtime.CoreException: Launch configuration CipresMrBayesPlugin (64 bit) references non-existing project CipresMrBayes.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setContainer(LaunchConfigurationWorkingCopy.java:682) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.jdt.internal.debug.core.refactoring.LaunchConfigurationProjectMainTypeChange.perform(LaunchConfigurationProjectMainTypeChange.java:137) [org.eclipse.jdt.debug.ui_3.7.0.v20150505-1916.jar:na]
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119) [org.eclipse.jface_3.11.0.v20150602-1400.jar:na]
+2015-12-19 11:23:34,375 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CipresMrBayesPlugin (32 bit) references non-existing project ExampleAlignmentOperation.
+org.eclipse.core.runtime.CoreException: Launch configuration CipresMrBayesPlugin (32 bit) references non-existing project ExampleAlignmentOperation.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:223) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2139) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2233) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:375) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:63) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:74) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:47) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2307) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:528) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119) [org.eclipse.jface_3.11.0.v20150602-1400.jar:na]
+2015-12-19 11:23:47,220 [Worker-21] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cipres.mrBayesPlugin:plugin:0.0.1-SNAPSHOT @ /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/pom.xml.
+2015-12-19 11:23:47,305 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:47,305 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/main/resources
+2015-12-19 11:23:47,307 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:47,307 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/test/resources
+2015-12-19 11:23:48,354 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:48,355 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/main/resources
+2015-12-19 11:23:48,357 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:23:48,357 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/test/resources
+2015-12-19 11:24:13,857 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:24:13,858 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/main/resources
+2015-12-19 11:24:13,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-19 11:24:13,859 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/src/test/resources
+2015-12-19 11:25:20,327 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CipresMrBayesPlugin (64 bit) references non-existing project CipresMrBayes0.
+org.eclipse.core.runtime.CoreException: Launch configuration CipresMrBayesPlugin (64 bit) references non-existing project CipresMrBayes0.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:229) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setContainer(LaunchConfigurationWorkingCopy.java:682) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.jdt.internal.debug.core.refactoring.LaunchConfigurationProjectMainTypeChange.perform(LaunchConfigurationProjectMainTypeChange.java:137) [org.eclipse.jdt.debug.ui_3.7.0.v20150505-1916.jar:na]
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119) [org.eclipse.jface_3.11.0.v20150602-1400.jar:na]
+2015-12-19 11:25:20,373 [ModalContext] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration CipresMrBayesPlugin (32 bit) references non-existing project ExampleAlignmentOperation.
+org.eclipse.core.runtime.CoreException: Launch configuration CipresMrBayesPlugin (32 bit) references non-existing project ExampleAlignmentOperation.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1408) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1283) ~[org.eclipse.jdt.launching_3.8.0.v20150527-0946.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationAdded(MavenLaunchConfigurationListener.java:34) [org.eclipse.m2e.jdt_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:223) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationAdded(LaunchManager.java:2139) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.projectOpened(LaunchManager.java:2233) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchManagerVisitor.visit(LaunchManager.java:375) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:63) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:74) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:47) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.debug.internal.core.LaunchManager.resourceChanged(LaunchManager.java:2307) [org.eclipse.debug.core_3.10.0.v20150303-1130.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:528) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:263) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218) [org.eclipse.ltk.core.refactoring_3.6.201.v20150819-1034.jar:na]
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241) [org.eclipse.core.resources_3.10.1.v20150725-1910.jar:na]
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87) [org.eclipse.ltk.ui.refactoring_3.7.200.v20140625-1835.jar:na]
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119) [org.eclipse.jface_3.11.0.v20150602-1400.jar:na]
+2015-12-19 11:46:07,336 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2015-12-20 11:01:33,544 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2015-12-20 11:56:33,546 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2015-12-21 11:40:34,427 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.

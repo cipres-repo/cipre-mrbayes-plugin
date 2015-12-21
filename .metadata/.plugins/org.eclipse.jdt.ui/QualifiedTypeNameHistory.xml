@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayes"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresUtilities"/>
@@ -30,4 +29,9 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogAction"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+package com.cipres.mrBayesPlugin.utilities;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class DataHandlingUtilities {
+
+	private static final Logger log = LoggerFactory.getLogger(DataHandlingUtilities.class.getName());
+	
+	private static DataHandlingUtilities SINGLETON;
+	
+	private boolean saveData(String filename, String jobName, String date, String jobStage){
+		
+		return true;
+	}
+	
+}

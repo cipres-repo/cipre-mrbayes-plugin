@@ -1,0 +1,28 @@
+package com.cipres.mrBayesPlugin.models;
+
+public class JobModel {
+	
+	public String jobName;
+	public String data;
+	public String jobStage;
+	
+	public String getJobName() {
+		return jobName;
+	}
+	public void setJobName(String jobName) {
+		this.jobName = jobName;
+	}
+	public String getData() {
+		return data;
+	}
+	public void setData(String data) {
+		this.data = data;
+	}
+	public String getJobStage() {
+		return jobStage;
+	}
+	public void setJobStage(String jobStage) {
+		this.jobStage = jobStage;
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.cipres.mrBayesPlugin.utilities;
+
+public class DataHandlingUtilities {
+	
+	private static DataHandlingUtilities SINGLETON;
+	private List<JobModel>
+	
+	public static synchronized DataHandlingUtilities getInstance(){
+		if(SINGLETON == null)
+			SINGLETON = new DataHandlingUtilities();
+		return SINGLETON;
+	}
+	
+	private boolean saveData(String filename){
+		
+		return true;
+	}
+	
+	
+}

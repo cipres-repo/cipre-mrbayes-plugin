@@ -1,0 +1,26 @@
+package com.cipres.mrBayesPlugin.utilities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.cipres.mrBayesPlugin.models.UserModel;
+
+public class DataHandlingUtilities {
+	
+	private static DataHandlingUtilities SINGLETON;
+	private List<UserModel> users = new ArrayList<UserModel>();
+	
+	
+	public static synchronized DataHandlingUtilities getInstance(){
+		if(SINGLETON == null)
+			SINGLETON = new DataHandlingUtilities();
+		return SINGLETON;
+	}
+	
+	private boolean saveData(String filename){
+		
+		return true;
+	}
+	
+	
+}
