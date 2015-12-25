@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayes"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
@@ -17,7 +16,6 @@
 <fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.TableModel"/>
 <fullyQualifiedTypeName name="javax.swing.JTable"/>
-<fullyQualifiedTypeName name="javax.swing.table.TableModel"/>
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.LoginGUIModel"/>
 <fullyQualifiedTypeName name="org.ngbw.directclient.CiApplication"/>
@@ -31,7 +29,13 @@
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="javax.swing.table.TableModel"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel.TableModel"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel.Job"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.ParseException"/>
 </qualifiedTypeNameHistroy>

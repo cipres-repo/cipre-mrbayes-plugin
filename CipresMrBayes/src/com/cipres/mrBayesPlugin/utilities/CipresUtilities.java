@@ -14,10 +14,11 @@ public class CipresUtilities {
 	public static void listJobs(CiClient myClient, UserModel user) throws CiCipresException
 	{
 		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
-		Job newJob = user.new Job();
+		
 		Collection<CiJob> jobs = myClient.listJobs(); 
 		for (CiJob job : jobs)
 		{
+			Job newJob = user.new Job();
 			newJob.setJobName(job.getClientJobName());
 			newJob.setJobStage(job.getJobStage());
 			newJob.setDate(job.getDateSubmitted());
@@ -30,7 +31,6 @@ public class CipresUtilities {
 //					+ newJob.getDate());
 			
 		}
-		
 		user.setJobs(handler.getJobs());
 	}
 

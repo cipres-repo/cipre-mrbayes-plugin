@@ -1,10 +1,10 @@
 package com.cipres.mrBayesPlugin;
 
-import java.io.IOException;
 import java.util.List;
 
 import javax.swing.JPanel;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.ngbw.directclient.CiApplication;
 import org.ngbw.directclient.CiCipresException;
@@ -90,11 +90,14 @@ public class MenuItem extends DocumentOperation{
 //        System.out.println("Results After: "
 //				+ handler.getUserJSON());
        
-        handler.saveData("test2.json", handler.getUserJSON());
+        handler.saveData("test.json", handler.getUserJSON());
+        JSONObject retObj = handler.loadData("test.json");
         
         
         
-        JPanel displayGuiModel = new DisplayGUIModel().createPanel();
+        JSONArray retJSONArray = handler.getJobs(retObj);
+        
+        JPanel displayGuiModel = new DisplayGUIModel().createPanel(retJSONArray);
         DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
         Dialogs.showDialog(dialogOptions, displayGuiModel);
         
