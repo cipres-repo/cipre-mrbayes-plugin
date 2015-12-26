@@ -11,6 +11,6 @@ org.eclipse.ant.ui.processingInstructionsColor_bold=true
 org.eclipse.ant.ui.tagsColor=167,236,33
 org.eclipse.ant.ui.tagsColor_bold=true
 org.eclipse.ant.ui.textColor=207,191,173
-overriddenByCSS=,org.eclipse.ant.ui.constantStringsColor_italic,org.eclipse.ant.ui.processingInstructionsColor_bold,org.eclipse.ant.ui.tagsColor_bold,org.eclipse.ant.ui.debugColor,org.eclipse.ant.ui.errorColor,org.eclipse.ant.ui.informationColor,
+overriddenByCSS=,org.eclipse.ant.ui.commentsColor,org.eclipse.ant.ui.constantStringsColor,org.eclipse.ant.ui.constantStringsColor_italic,org.eclipse.ant.ui.dtdColor,org.eclipse.ant.ui.processingInstructionsColor,org.eclipse.ant.ui.processingInstructionsColor_bold,org.eclipse.ant.ui.tagsColor,org.eclipse.ant.ui.tagsColor_bold,org.eclipse.ant.ui.textColor,org.eclipse.ant.ui.debugColor,org.eclipse.ant.ui.errorColor,org.eclipse.ant.ui.informationColor,
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

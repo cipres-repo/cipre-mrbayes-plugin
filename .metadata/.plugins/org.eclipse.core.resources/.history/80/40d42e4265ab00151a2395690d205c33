@@ -96,10 +96,10 @@ public class MenuItem extends DocumentOperation{
         
         JSONArray retJSONArray = handler.getJobs(retObj);
     	
-        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
+        displayGuiModel = new DisplayGUIModel().createPanel(retJSONArray);
     	}
         DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
-        Dialogs.showDialog(dialogOptions, getPanel());
+        Dialogs.showDialog(dialogOptions, displayGuiModel);
         
         first = false;
         
@@ -107,11 +107,11 @@ public class MenuItem extends DocumentOperation{
    }
     
     public JPanel getPanel(){
-    	return this.displayGuiModel;
+    	return this.panel;
     }
     
-    public void setPanel(JPanel display){
-    	this.displayGuiModel = display;
+    public void setPanel(){
+    	
     }
     
     

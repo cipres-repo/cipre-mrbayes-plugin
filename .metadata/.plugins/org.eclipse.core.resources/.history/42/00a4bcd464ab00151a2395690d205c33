@@ -28,8 +28,7 @@ import jebl.util.ProgressListener;
 
 public class MenuItem extends DocumentOperation{
 	private static CiClient myClient;
-	JPanel displayGuiModel;
-	private Boolean first = true;
+	private Boolean first = false;
 	
 	public String getUniqueId(){
 		return "Cipres_MrBayes";
@@ -66,7 +65,6 @@ public class MenuItem extends DocumentOperation{
     //started the operation, a progressListener, and the options panel that we returned in the getOptionsPanel() method above.
     public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options) throws DocumentOperationException{
 
-    	
     	if(first == true){
     	CiApplication app = CiApplication.getInstance();
     	DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
@@ -95,24 +93,15 @@ public class MenuItem extends DocumentOperation{
         JSONObject retObj = handler.loadData("jobs.json");
         
         JSONArray retJSONArray = handler.getJobs(retObj);
-    	
-        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
     	}
+        JPanel displayGuiModel = new DisplayGUIModel().createPanel(retJSONArray);
         DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
-        Dialogs.showDialog(dialogOptions, getPanel());
+        Dialogs.showDialog(dialogOptions, displayGuiModel);
         
         first = false;
         
         return null;
    }
-    
-    public JPanel getPanel(){
-    	return this.displayGuiModel;
-    }
-    
-    public void setPanel(JPanel display){
-    	this.displayGuiModel = display;
-    }
     
     
 

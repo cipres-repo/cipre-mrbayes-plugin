@@ -28,8 +28,6 @@ import jebl.util.ProgressListener;
 
 public class MenuItem extends DocumentOperation{
 	private static CiClient myClient;
-	JPanel displayGuiModel;
-	private Boolean first = true;
 	
 	public String getUniqueId(){
 		return "Cipres_MrBayes";
@@ -66,8 +64,6 @@ public class MenuItem extends DocumentOperation{
     //started the operation, a progressListener, and the options panel that we returned in the getOptionsPanel() method above.
     public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options) throws DocumentOperationException{
 
-    	
-    	if(first == true){
     	CiApplication app = CiApplication.getInstance();
     	DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
     	JSONObject data = new JSONObject();
@@ -82,7 +78,8 @@ public class MenuItem extends DocumentOperation{
         handler.addUser(user);
         
         myClient = new CiClient(appKey, username, password, url);
-        
+//        System.out.println("Results Before: "
+//				+ user.getJobs());
         try {
 			CipresUtilities.listJobs(myClient, user);
 		} catch (CiCipresException e) {
@@ -90,29 +87,20 @@ public class MenuItem extends DocumentOperation{
 			e.printStackTrace();
 		}
         
+//        System.out.println("Results After: "
+//				+ handler.getUserJSON());
        
-        handler.saveData("jobs.json", handler.getUserJSON());
-        JSONObject retObj = handler.loadData("jobs.json");
+        handler.saveData("test.json", handler.getUserJSON());
+        JSONObject retObj = handler.loadData("test.json");
         
         JSONArray retJSONArray = handler.getJobs(retObj);
-    	
-        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
-    	}
-        DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
-        Dialogs.showDialog(dialogOptions, getPanel());
         
-        first = false;
+        JPanel displayGuiModel = new DisplayGUIModel().createPanel(retJSONArray);
+        DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
+        Dialogs.showDialog(dialogOptions, displayGuiModel);
         
         return null;
    }
-    
-    public JPanel getPanel(){
-    	return this.displayGuiModel;
-    }
-    
-    public void setPanel(JPanel display){
-    	this.displayGuiModel = display;
-    }
     
     
 
