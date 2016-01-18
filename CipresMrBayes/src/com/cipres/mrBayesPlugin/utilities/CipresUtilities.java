@@ -9,13 +9,28 @@ import org.ngbw.directclient.CiJob;
 import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
 
+/**
+ * Utility class that handles any CIPRES actions such as submit, and list jobs
+ * @author rjzheng
+ *
+ */
 public class CipresUtilities {
 	
+	/**
+	 * Fetch and save user's jobs
+	 * @param myClient
+	 * @param user
+	 * @throws CiCipresException
+	 */
 	public static void listJobs(CiClient myClient, UserModel user) throws CiCipresException
 	{
+		//Create a handler instance
 		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
 		
+		//Fetch jobs from CIPRES
 		Collection<CiJob> jobs = myClient.listJobs(); 
+		
+		//Save jobs
 		for (CiJob job : jobs)
 		{
 			Job newJob = user.new Job();
@@ -25,13 +40,19 @@ public class CipresUtilities {
 			
 			handler.addJob(newJob);
 			
-//			System.out.println("Results: "
-//					+ newJob.getJobName() + "\n" 
-//					+ newJob.getJobStage() + "\n" 
-//					+ newJob.getDate());
-			
 		}
+		
+		//Set user's jobs
 		user.setJobs(handler.getJobs());
+	}
+	
+	public static void deleteJobs(CiClient myClient, UserModel user) throws CiCipresException
+	{
+		//Create a handler instance
+		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+		
+		//Fetch jobs from CIPRES
+		Collection<CiJob> jobs = myClient.listJobs();
 	}
 
 }

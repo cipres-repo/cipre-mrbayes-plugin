@@ -10,6 +10,8 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import org.json.simple.JSONArray;
@@ -17,92 +19,58 @@ import org.json.simple.JSONObject;
 
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
 
+/**
+ * Display user's jobs and allow users to submit/modify jobs
+ * @author rjzheng
+ *
+ */
+@SuppressWarnings("serial")
 public class DisplayGUIModel extends JPanel{
-	
-	class TableModel extends AbstractTableModel {
-		private String[] columnNames = 
-    		{
-            "Job Name",
-            "Date Submitted",
-            "Job Status"
-            };
-		
-		private List<Job> jobs = new ArrayList<Job>();
-		
-		public TableModel(){}
-		
-		public TableModel(List<Job> jobs){
-			this.jobs = jobs;
-		}
-    	
 
-        public int getColumnCount() {
-          return columnNames.length;
-        }
+	/**
+	 * Create and layout the job list table and buttons
+	 * @param json
+	 * @return panel
+	 */
+	public JPanel createPanel(JSONArray json){
 
-        public int getRowCount() {
-          return jobs.size();
-        }
-
-        public String getColumnName(int col) {
-          return columnNames[col];
-        }
-
-        public Object getValueAt(int row, int col) {
-        	Object jobAttribute = null;
-        	Job jobObj = jobs.get(row);
-        	switch(col){
-        		case 0: jobAttribute = jobObj.getJobName(); break;
-        		case 1: jobAttribute = jobObj.getDate(); break;
-        		case 2: jobAttribute = jobObj.getJobStage(); break;
-        	}
-          return jobAttribute;
-        }
-
-        /*
-         * JTable uses this method to determine the default renderer/ editor for
-         * each cell. If we didn't implement this method, then the last column
-         * would contain text ("true"/"false"), rather than a check box.
-         */
-        public Class getColumnClass(int c) {
-          return getValueAt(0, c).getClass();
-        }
-
-        public void addJob(Job job){
-        	jobs.add(job);
-        	fireTableDataChanged();
-        }
-    }
-	
-    
-    public JPanel createPanel(JSONArray json){
-
+		//Create the Panel
     	JPanel panel = new JPanel();
+    	//Add layout to panel
     	GroupLayout layout = new GroupLayout(panel);
+    	//Create the buttons
+    	JButton submitButton = new JButton("Submit Job");
     	JButton updateButton = new JButton("Update List");
 	    JButton downloadButton = new JButton("Download Job");
 	    JButton deleteButton = new JButton("Delete Job");
+	    //Create the table
 	    JTable table = createTable(json);
+	    //Add the table to a scroll panel
 	    JScrollPane scroll = new JScrollPane(table);
 
+	    //Set the layout
     	panel.setLayout(layout);
 	    layout.setAutoCreateContainerGaps(true);
 	    layout.setAutoCreateGaps(true);
     	
+	    //Set the horizontal grouping
 	    layout.setHorizontalGroup(
 	    	layout.createSequentialGroup()
 	    		.addComponent(scroll)
 	    		.addGroup(layout.createParallelGroup(GroupLayout.Alignment.LEADING)
 	    			.addComponent(updateButton)
+	    			.addComponent(submitButton)
 	    			.addComponent(downloadButton)
 	    			.addComponent(deleteButton))
 		);
 	    
+	    //Set the vertical grouping
 	    layout.setVerticalGroup(
 	    	layout.createParallelGroup()
 			.addComponent(scroll)
     		.addGroup(layout.createSequentialGroup()
     			.addComponent(updateButton)
+    			.addComponent(submitButton)
     			.addComponent(downloadButton)
     			.addComponent(deleteButton))
 	    );
@@ -110,7 +78,12 @@ public class DisplayGUIModel extends JPanel{
 	    return panel;
     }
 
-    private JTable createTable(JSONArray json){
+	/**
+	 * Create the table with user's job list
+	 * @param json
+	 * @return table
+	 */
+    public JTable createTable(JSONArray json){
     	try{
 	    	List<Job> jobs = new ArrayList<Job>();
 	    	UserModel temp = new UserModel();
@@ -118,13 +91,14 @@ public class DisplayGUIModel extends JPanel{
 	    	for(int i = 0; i < json.size(); i++){
 	    		Job job = temp.new Job();
 	    		JSONObject obj = (JSONObject) json.get(i);
+	    		job.setSelected(false);
 	    		job.setJobName(obj.get("jobName").toString());
 	    		job.setDate(df.parse(obj.get("date").toString()));
 	    		job.setJobStage(obj.get("jobStage").toString());
 	    		jobs.add(job);
 	    	}
 	    	JTable table = new JTable(new TableModel(jobs));
-	    	table.setEnabled(false);
+//	    	table.setEnabled(false);
 	    	return table;
     	}catch (ParseException e) {
     		e.printStackTrace();
@@ -132,5 +106,112 @@ public class DisplayGUIModel extends JPanel{
     	return null;
     }
     
+    /**
+     * Customized table model
+     * @author rjzheng
+     *
+     */
+	class TableModel extends AbstractTableModel {
+		
+		//Default table column names
+		private String[] columnNames = 
+    		{
+			"Select",
+            "Job Name",
+            "Date Submitted",
+            "Job Status"
+            };
+		
+		private List<Job> jobs = new ArrayList<Job>();
+		
+		/**
+		 * Empty constructor
+		 */
+		public TableModel(){}
+		
+		/**
+		 * Constructor with job list input
+		 * @param jobs
+		 */
+		public TableModel(List<Job> jobs){
+			this.jobs = jobs;
+		}
+
+		/**
+		 * Get the column count
+		 * @return column count
+		 */
+        public int getColumnCount() {
+          return columnNames.length;
+        }
+
+        /**
+         * Get the row count
+         * @return job list size
+         */
+        public int getRowCount() {
+          return jobs.size();
+        }
+
+        /**
+         * Get the column name at a given column
+         * @param col
+         * @return column name
+         */
+        public String getColumnName(int col) {
+          return columnNames[col];
+        }
+        
+        /**
+         * Get and set the value of a given row and column
+         * @param row
+         * @param col
+         * @return job object
+         */
+        public Object getValueAt(int row, int col) {
+        	Object jobAttribute = null;
+        	Job jobObj = jobs.get(row);
+        	switch(col){
+        		case 0: jobAttribute = jobObj.getSelected();break;
+        		case 1: jobAttribute = jobObj.getJobName(); break;
+        		case 2: jobAttribute = jobObj.getDate(); break;
+        		case 3: jobAttribute = jobObj.getJobStage(); break;
+        	}
+        	return jobAttribute;
+        }
+        
+        @Override
+        public void setValueAt(Object aValue, int rowIndex, int columnIndex)
+        {
+            Job job = jobs.get(rowIndex);
+            if(columnIndex == 0) {
+                job.setSelected((Boolean)aValue);
+            }
+            
+        }
+
+        /**
+         * Display checkbox instead of true/false
+         */
+		public Class getColumnClass(int c) {
+	    	if(c == 0){
+	            return Boolean.class;
+	        }else{
+	        	return String.class;
+	        }
+        }
+
+        /**
+         * Add job and update changes to table
+         * @param job
+         */
+        public void addJob(Job job){
+        	jobs.add(job);
+        }
+        
+        public boolean isCellEditable(int row, int column) {
+            return column==0;
+        }
+    }
     
 }

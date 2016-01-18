@@ -13,7 +13,6 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel.RoundedLineBorder"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.DisplayGUI"/>
-<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.TableModel"/>
 <fullyQualifiedTypeName name="javax.swing.JTable"/>
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
@@ -38,4 +37,6 @@
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel.Job"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
+<fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
+<fullyQualifiedTypeName name="javax.swing.event.TableModelListener"/>
 </qualifiedTypeNameHistroy>

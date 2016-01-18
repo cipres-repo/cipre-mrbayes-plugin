@@ -35,6 +35,6 @@ public class CipresMrBayesPlugin extends GeneiousPlugin{
     
     @Override
 	public DocumentOperation[] getDocumentOperations() {
-		return new DocumentOperation[]{new MenuItem()};
+		return new DocumentOperation[]{new CipresMrBayes()};
 	}
 }
