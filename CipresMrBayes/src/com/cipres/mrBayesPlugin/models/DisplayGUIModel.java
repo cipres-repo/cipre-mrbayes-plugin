@@ -1,5 +1,7 @@
 package com.cipres.mrBayesPlugin.models;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -10,14 +12,17 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.event.TableModelEvent;
-import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.ngbw.directclient.CiClient;
 
+import com.cipres.mrBayesPlugin.CipresMrBayes;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
+import com.cipres.mrBayesPlugin.utilities.CipresUtilities;
+import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
 
 /**
  * Display user's jobs and allow users to submit/modify jobs
@@ -26,13 +31,23 @@ import com.cipres.mrBayesPlugin.models.UserModel.Job;
  */
 @SuppressWarnings("serial")
 public class DisplayGUIModel extends JPanel{
+	
+	public static JTable table;
+
+	public static JTable getTable() {
+		return table;
+	}
+
+	public static void setTable(JTable table) {
+		DisplayGUIModel.table = table;
+	}
 
 	/**
 	 * Create and layout the job list table and buttons
 	 * @param json
 	 * @return panel
 	 */
-	public JPanel createPanel(JSONArray json){
+	public static JPanel createPanel(JSONArray json){
 
 		//Create the Panel
     	JPanel panel = new JPanel();
@@ -43,11 +58,11 @@ public class DisplayGUIModel extends JPanel{
     	JButton updateButton = new JButton("Update List");
 	    JButton downloadButton = new JButton("Download Job");
 	    JButton deleteButton = new JButton("Delete Job");
+	    updateButton.addActionListener(new updateListener());
 	    //Create the table
-	    JTable table = createTable(json);
+	    table = createTable(json);
 	    //Add the table to a scroll panel
 	    JScrollPane scroll = new JScrollPane(table);
-
 	    //Set the layout
     	panel.setLayout(layout);
 	    layout.setAutoCreateContainerGaps(true);
@@ -74,16 +89,16 @@ public class DisplayGUIModel extends JPanel{
     			.addComponent(downloadButton)
     			.addComponent(deleteButton))
 	    );
-	   
 	    return panel;
     }
 
+	
 	/**
 	 * Create the table with user's job list
 	 * @param json
 	 * @return table
 	 */
-    public JTable createTable(JSONArray json){
+    public static JTable createTable(JSONArray json){
     	try{
 	    	List<Job> jobs = new ArrayList<Job>();
 	    	UserModel temp = new UserModel();
@@ -97,9 +112,8 @@ public class DisplayGUIModel extends JPanel{
 	    		job.setJobStage(obj.get("jobStage").toString());
 	    		jobs.add(job);
 	    	}
-	    	JTable table = new JTable(new TableModel(jobs));
-//	    	table.setEnabled(false);
-	    	return table;
+	    	JTable new_table = new JTable(new TableModel(jobs));
+	    	return new_table;
     	}catch (ParseException e) {
     		e.printStackTrace();
     	}
@@ -111,7 +125,7 @@ public class DisplayGUIModel extends JPanel{
      * @author rjzheng
      *
      */
-	class TableModel extends AbstractTableModel {
+	static class TableModel extends AbstractTableModel {
 		
 		//Default table column names
 		private String[] columnNames = 
@@ -183,9 +197,9 @@ public class DisplayGUIModel extends JPanel{
         @Override
         public void setValueAt(Object aValue, int rowIndex, int columnIndex)
         {
-            Job job = jobs.get(rowIndex);
+            Job jobObj = jobs.get(rowIndex);
             if(columnIndex == 0) {
-                job.setSelected((Boolean)aValue);
+                jobObj.setSelected((Boolean)aValue);
             }
             
         }
@@ -214,4 +228,32 @@ public class DisplayGUIModel extends JPanel{
         }
     }
     
+	static class updateListener implements ActionListener{
+
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+			System.out.println("JSON:" + handler.getUserJSON());
+			JSONParser parser = new JSONParser();
+			JSONObject json = null;
+			try {
+				json = (JSONObject) parser.parse(handler.getUserJSON());
+			} catch (org.json.simple.parser.ParseException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+			
+			System.out.println("JSON: " + json.toJSONString());
+			System.out.println((String)json.get("restUrl"));
+			UserModel user = new UserModel((String)json.get("username"), 
+					(String)json.get("password"), (String)json.get("url"),
+					(String)json.get("appKey"), (String)json.get("appName"));
+			JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
+			DisplayGUIModel.setTable(DisplayGUIModel.createTable(retJSONArray));
+			//Update table
+	        
+	        System.out.println("done");
+		}
+		
+	}
 }

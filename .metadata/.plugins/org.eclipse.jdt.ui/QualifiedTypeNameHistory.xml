@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayes"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel"/>
@@ -25,7 +24,6 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogAction"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel"/>
@@ -39,4 +37,9 @@
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
 <fullyQualifiedTypeName name="javax.swing.event.TableModelListener"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel.updateListener"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayes"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
 </qualifiedTypeNameHistroy>

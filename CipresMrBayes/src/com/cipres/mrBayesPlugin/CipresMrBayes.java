@@ -27,8 +27,8 @@ import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
 import jebl.util.ProgressListener;
 
 public class CipresMrBayes extends DocumentOperation{
-	private static CiClient myClient;
-	JPanel displayGuiModel;
+	public static CiClient myClient;
+	public static JPanel displayGuiModel;
 	private Boolean first = true;
 	
 	public String getUniqueId(){
@@ -72,7 +72,6 @@ public class CipresMrBayes extends DocumentOperation{
     	if(first == true){
 	    	CiApplication app = CiApplication.getInstance();
 	    	DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
-	    	JSONObject data = new JSONObject();
 	    	
 	        String username = (String)options.getValue("username");
 	        String password = (String)options.getValue("password");
@@ -84,20 +83,7 @@ public class CipresMrBayes extends DocumentOperation{
 	        handler.addUser(user);
 	        
 	        myClient = new CiClient(appKey, username, password, url);
-	        
-	        try {
-				CipresUtilities.listJobs(myClient, user);
-			} catch (CiCipresException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        
-	       
-	        handler.saveData("jobs.json", handler.getUserJSON());
-	        JSONObject retObj = handler.loadData("jobs.json");
-	        
-	        JSONArray retJSONArray = handler.getJobs(retObj);
-	    	
+	        JSONArray retJSONArray = CipresUtilities.updateList(myClient, user);
 	        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
     	}
     	
@@ -113,8 +99,8 @@ public class CipresMrBayes extends DocumentOperation{
     	return this.displayGuiModel;
     }
     
-    public void setPanel(JPanel display){
-    	this.displayGuiModel = display;
+    public static void setPanel(JPanel display){
+    	displayGuiModel = display;
     }
     
     

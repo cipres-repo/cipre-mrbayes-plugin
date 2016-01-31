@@ -2,10 +2,13 @@ package com.cipres.mrBayesPlugin.utilities;
 
 import java.util.Collection;
 
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.ngbw.directclient.CiCipresException;
 import org.ngbw.directclient.CiClient;
 import org.ngbw.directclient.CiJob;
 
+import com.cipres.mrBayesPlugin.models.DisplayGUIModel;
 import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
 
@@ -44,6 +47,27 @@ public class CipresUtilities {
 		
 		//Set user's jobs
 		user.setJobs(handler.getJobs());
+	}
+	
+	public static JSONArray updateList(CiClient myClient, UserModel user){
+		
+		//Create a handler instance
+		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+				
+		try {
+			CipresUtilities.listJobs(myClient, user);
+		} catch (CiCipresException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+       
+        handler.saveData("jobs.json", handler.getUserJSON());
+        JSONObject retObj = handler.loadData("jobs.json");
+        
+        JSONArray retJSONArray = handler.getJobs(retObj);
+    	
+        return retJSONArray;
+        
 	}
 	
 	public static void deleteJobs(CiClient myClient, UserModel user) throws CiCipresException
