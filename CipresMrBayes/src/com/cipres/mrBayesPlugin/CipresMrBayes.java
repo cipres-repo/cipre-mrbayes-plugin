@@ -81,8 +81,7 @@ public class CipresMrBayes extends DocumentOperation{
 	        
 	        UserModel user = new UserModel(username, password, url, appKey, appName);
 	        handler.addUser(user);
-	        
-	        myClient = new CiClient(appKey, username, password, url);
+	        myClient = handler.getClient();
 	        JSONArray retJSONArray = CipresUtilities.updateList(myClient, user);
 	        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
     	}
@@ -102,9 +101,5 @@ public class CipresMrBayes extends DocumentOperation{
     public static void setPanel(JPanel display){
     	displayGuiModel = display;
     }
-    
-    
-
-
 
 }

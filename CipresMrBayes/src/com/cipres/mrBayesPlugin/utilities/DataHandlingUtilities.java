@@ -15,6 +15,7 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import org.ngbw.directclient.CiClient;
 
 import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
@@ -42,10 +43,24 @@ public class DataHandlingUtilities {
 		return jobs;
 	}
 	
+	public void clearJobs(){
+		jobs.clear();
+	}
+	
 	public void addUser(UserModel user){
 		synchronized (user){
 			this.user = user;
 		}
+	}
+	
+	public UserModel getUser(){
+		return user;
+	}
+	
+	public CiClient getClient(){
+		CiClient client = new CiClient(user.getAppKey(), user.getUsername(),
+				user.getPassword(), user.getRestUrl());
+		return client;
 	}
 	
 	@SuppressWarnings("unchecked")
@@ -56,7 +71,7 @@ public class DataHandlingUtilities {
 		obj.put("password", user.getPassword());
 		obj.put("restUrl", user.getRestUrl());
 		obj.put("appName", user.getAppName());
-		obj.put("appKey", user.getAppName());
+		obj.put("appKey", user.getAppKey());
 		
 		DateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
  
@@ -67,7 +82,8 @@ public class DataHandlingUtilities {
 			jobData.put("jobName", job.getJobName());
 			jobData.put("date", df.format(job.getDate()));
 			jobData.put("jobStage", job.getJobStage() + "");
- 
+			jobData.put("url", job.getUrl());
+			
 			jobJson.add(jobData);
 		}
 		obj.put("jobs", jobJson);

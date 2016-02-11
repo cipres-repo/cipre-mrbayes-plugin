@@ -148,6 +148,15 @@ public class UserModel {
 		public String jobName;
 		public Date date;
 		public String jobStage;
+		public String url;
+		
+		public String getUrl(){
+			return url;
+		}
+		
+		public void setURL(String url){
+			this.url = url;
+		}
 		
 		/**
 		 * Get the selected field

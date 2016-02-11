@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
 import java.util.List;
 
 import javax.swing.GroupLayout;
@@ -12,12 +14,17 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.ngbw.directclient.CiApplication;
+import org.ngbw.directclient.CiCipresException;
 import org.ngbw.directclient.CiClient;
+import org.ngbw.directclient.CiJob;
 
 import com.cipres.mrBayesPlugin.CipresMrBayes;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
@@ -30,9 +37,23 @@ import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
  *
  */
 @SuppressWarnings("serial")
-public class DisplayGUIModel extends JPanel{
+public class DisplayGUIModel extends JPanel implements ActionListener, TableModelListener{
 	
 	public static JTable table;
+	
+	public static TableModel table_model;
+	
+	public static List<String> selected_jobs = new ArrayList<String>();
+	
+	public static Boolean fire = true;
+
+	public static TableModel getTable_model() {
+		return table_model;
+	}
+
+	public static void setTable_model(TableModel table_model) {
+		DisplayGUIModel.table_model = table_model;
+	}
 
 	public static JTable getTable() {
 		return table;
@@ -47,7 +68,7 @@ public class DisplayGUIModel extends JPanel{
 	 * @param json
 	 * @return panel
 	 */
-	public static JPanel createPanel(JSONArray json){
+	public JPanel createPanel(JSONArray json){
 
 		//Create the Panel
     	JPanel panel = new JPanel();
@@ -58,9 +79,13 @@ public class DisplayGUIModel extends JPanel{
     	JButton updateButton = new JButton("Update List");
 	    JButton downloadButton = new JButton("Download Job");
 	    JButton deleteButton = new JButton("Delete Job");
-	    updateButton.addActionListener(new updateListener());
+	    updateButton.addActionListener(this);
+	    submitButton.addActionListener(this);
+	    updateButton.addActionListener(this);
+	    deleteButton.addActionListener(this);
 	    //Create the table
 	    table = createTable(json);
+	    table.getModel().addTableModelListener(this);
 	    //Add the table to a scroll panel
 	    JScrollPane scroll = new JScrollPane(table);
 	    //Set the layout
@@ -91,6 +116,17 @@ public class DisplayGUIModel extends JPanel{
 	    );
 	    return panel;
     }
+	
+	public void tableChanged(TableModelEvent e) {
+		if(fire == true){
+			int row = e.getFirstRow();
+	        int column = e.getColumn();
+	        TableModel model = (TableModel)e.getSource();
+	        Object data = model.getValueAt(row, column+1);
+	        System.out.println(data);
+        	selected_jobs.add((String)data);
+		}
+    }
 
 	
 	/**
@@ -98,9 +134,9 @@ public class DisplayGUIModel extends JPanel{
 	 * @param json
 	 * @return table
 	 */
-    public static JTable createTable(JSONArray json){
+    public JTable createTable(JSONArray json){
     	try{
-	    	List<Job> jobs = new ArrayList<Job>();
+	    	List<Job> jobList = new ArrayList<Job>();
 	    	UserModel temp = new UserModel();
 	    	SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
 	    	for(int i = 0; i < json.size(); i++){
@@ -110,9 +146,10 @@ public class DisplayGUIModel extends JPanel{
 	    		job.setJobName(obj.get("jobName").toString());
 	    		job.setDate(df.parse(obj.get("date").toString()));
 	    		job.setJobStage(obj.get("jobStage").toString());
-	    		jobs.add(job);
+	    		jobList.add(job);
 	    	}
-	    	JTable new_table = new JTable(new TableModel(jobs));
+	    	table_model = new TableModel(jobList);
+	    	JTable new_table = new JTable(table_model);
 	    	return new_table;
     	}catch (ParseException e) {
     		e.printStackTrace();
@@ -136,7 +173,7 @@ public class DisplayGUIModel extends JPanel{
             "Job Status"
             };
 		
-		private List<Job> jobs = new ArrayList<Job>();
+		private List<Job> jobList = new ArrayList<Job>();
 		
 		/**
 		 * Empty constructor
@@ -148,7 +185,7 @@ public class DisplayGUIModel extends JPanel{
 		 * @param jobs
 		 */
 		public TableModel(List<Job> jobs){
-			this.jobs = jobs;
+			this.jobList = jobs;
 		}
 
 		/**
@@ -164,7 +201,7 @@ public class DisplayGUIModel extends JPanel{
          * @return job list size
          */
         public int getRowCount() {
-          return jobs.size();
+          return jobList.size();
         }
 
         /**
@@ -184,7 +221,7 @@ public class DisplayGUIModel extends JPanel{
          */
         public Object getValueAt(int row, int col) {
         	Object jobAttribute = null;
-        	Job jobObj = jobs.get(row);
+        	Job jobObj = jobList.get(row);
         	switch(col){
         		case 0: jobAttribute = jobObj.getSelected();break;
         		case 1: jobAttribute = jobObj.getJobName(); break;
@@ -195,18 +232,26 @@ public class DisplayGUIModel extends JPanel{
         }
         
         @Override
-        public void setValueAt(Object aValue, int rowIndex, int columnIndex)
+        public void setValueAt(Object val, int row, int col)
         {
-            Job jobObj = jobs.get(rowIndex);
-            if(columnIndex == 0) {
-                jobObj.setSelected((Boolean)aValue);
+            Job jobObj = jobList.get(row);
+            switch(col){
+            	case 0: jobObj.setSelected((Boolean)val); break;
+            	case 1: jobObj.setJobName((String)val); break;
+            	case 2: jobObj.setDate((Date)val);
+            	case 3: jobObj.setJobStage((String)val);
             }
-            
+            fireTableCellUpdated(row, col);
+        }
+        
+        public boolean isCellEditable(int row, int column) {
+            return column==0;
         }
 
         /**
          * Display checkbox instead of true/false
          */
+		@SuppressWarnings({ "unchecked", "rawtypes" })
 		public Class getColumnClass(int c) {
 	    	if(c == 0){
 	            return Boolean.class;
@@ -220,40 +265,73 @@ public class DisplayGUIModel extends JPanel{
          * @param job
          */
         public void addJob(Job job){
-        	jobs.add(job);
+        	jobList.add(job);
+        	fire = false;
+        	fireTableDataChanged();
+        	fire = true;
         }
         
-        public boolean isCellEditable(int row, int column) {
-            return column==0;
+        public void deleteJob(int index){
+        	jobList.remove(index);
+        	fire = false;
+        	fireTableDataChanged();
+        	fire = true;
         }
+        
+        public void clearTable(){
+        	while(!jobList.isEmpty()){
+        		this.deleteJob(0);
+        	}
+        	fire = false;
+        	fireTableDataChanged();
+        	fire = true;
+        }
+        
     }
-    
-	static class updateListener implements ActionListener{
-
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
-			System.out.println("JSON:" + handler.getUserJSON());
-			JSONParser parser = new JSONParser();
-			JSONObject json = null;
-			try {
-				json = (JSONObject) parser.parse(handler.getUserJSON());
-			} catch (org.json.simple.parser.ParseException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
+	
+	public void updateTable(JSONArray json){
+		try {
+			table_model.clearTable();
+			SimpleDateFormat df = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+			UserModel temp = new UserModel();
+	    	for(int i = 0; i < json.size(); i++){
+	    		Job job = temp.new Job();
+	    		JSONObject obj = (JSONObject) json.get(i);
+	    		job.setSelected(false);
+	    		job.setJobName(obj.get("jobName").toString());
+				job.setDate(df.parse(obj.get("date").toString()));
+	    		job.setJobStage(obj.get("jobStage").toString());
+	    		table_model.addJob(job);
+	    	}
+		}catch (ParseException e1) {
+			e1.printStackTrace();
+		}
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		try {
+			DataHandlingUtilities handler = DataHandlingUtilities.getInstance();   
+			UserModel user = handler.getUser();
+			CiClient client = handler.getClient();
+			Collection<CiJob> allJobs = client.listJobs();
 			
-			System.out.println("JSON: " + json.toJSONString());
-			System.out.println((String)json.get("restUrl"));
-			UserModel user = new UserModel((String)json.get("username"), 
-					(String)json.get("password"), (String)json.get("url"),
-					(String)json.get("appKey"), (String)json.get("appName"));
-			JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
-			DisplayGUIModel.setTable(DisplayGUIModel.createTable(retJSONArray));
-			//Update table
-	        
-	        System.out.println("done");
+			if(e.getActionCommand() == "Update List"){
+				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
+				updateTable(retJSONArray);
+			} 
+			else if(e.getActionCommand() == "Delete Job"){
+				CipresUtilities.deleteJobs(selected_jobs, allJobs);
+				
+				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
+				updateTable(retJSONArray);
+			}
+		
+		
+		} catch (CiCipresException e1) {
+			e1.printStackTrace();
 		}
 		
 	}
+
 }

@@ -33,13 +33,14 @@
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel.TableModel"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.UserModel.Job"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.text.ParseException"/>
 <fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
 <fullyQualifiedTypeName name="javax.swing.event.TableModelListener"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel.updateListener"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayes"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
+<fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
 </qualifiedTypeNameHistroy>

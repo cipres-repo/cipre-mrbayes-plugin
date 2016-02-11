@@ -1,6 +1,7 @@
 package com.cipres.mrBayesPlugin.utilities;
 
 import java.util.Collection;
+import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -29,6 +30,7 @@ public class CipresUtilities {
 	{
 		//Create a handler instance
 		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+		handler.clearJobs();
 		
 		//Fetch jobs from CIPRES
 		Collection<CiJob> jobs = myClient.listJobs(); 
@@ -47,6 +49,17 @@ public class CipresUtilities {
 		
 		//Set user's jobs
 		user.setJobs(handler.getJobs());
+	}
+	
+	public static Collection<CiJob> getJobs(CiClient myClient) throws CiCipresException{
+		//Create a handler instance
+		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+		handler.clearJobs();
+		
+		//Fetch jobs from CIPRES
+		Collection<CiJob> jobs = myClient.listJobs();
+		
+		return jobs;
 	}
 	
 	public static JSONArray updateList(CiClient myClient, UserModel user){
@@ -70,13 +83,21 @@ public class CipresUtilities {
         
 	}
 	
-	public static void deleteJobs(CiClient myClient, UserModel user) throws CiCipresException
+	public static void deleteJobs(List<String> selected_jobs,
+			Collection<CiJob> allJobs) throws CiCipresException
 	{
-		//Create a handler instance
-		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
-		
-		//Fetch jobs from CIPRES
-		Collection<CiJob> jobs = myClient.listJobs();
+		for(int i = 0; i < selected_jobs.size(); i++){
+			for(int x = 0; x < allJobs.size(); x++){
+				CiJob job = (CiJob) allJobs.toArray()[x];
+				System.out.println("local: " + selected_jobs.get(i));
+				System.out.println("cloud" + job.getClientJobName());
+				if(selected_jobs.get(i).equals(job.getClientJobName())){
+					job.delete();
+					selected_jobs.remove(i);
+					System.out.println(job.getClientJobName() + " deleted");
+				}
+			}
+		}
 	}
 
 }
