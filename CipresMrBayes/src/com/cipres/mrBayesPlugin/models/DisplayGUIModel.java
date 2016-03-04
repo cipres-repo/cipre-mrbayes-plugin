@@ -26,7 +26,7 @@ import org.ngbw.directclient.CiCipresException;
 import org.ngbw.directclient.CiClient;
 import org.ngbw.directclient.CiJob;
 
-import com.cipres.mrBayesPlugin.CipresMrBayes;
+import com.cipres.mrBayesPlugin.CipresMrBayesToolbar;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
 import com.cipres.mrBayesPlugin.utilities.CipresUtilities;
 import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
@@ -317,18 +317,18 @@ public class DisplayGUIModel extends JPanel implements ActionListener, TableMode
 			Collection<CiJob> allJobs = client.listJobs();
 			
 			if(e.getActionCommand() == "Update List"){
-				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
+				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayesToolbar.myClient, user);
 				updateTable(retJSONArray);
 			} 
 			else if(e.getActionCommand() == "Delete Job"){
 				CipresUtilities.deleteJobs(selected_jobs, allJobs);
 				
-				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayes.myClient, user);
+				JSONArray retJSONArray = CipresUtilities.updateList(CipresMrBayesToolbar.myClient, user);
 				updateTable(retJSONArray);
 			}
 		
 		
-		} catch (CiCipresException e1) {
+		} catch (CiCipresException | org.json.simple.parser.ParseException e1) {
 			e1.printStackTrace();
 		}
 		

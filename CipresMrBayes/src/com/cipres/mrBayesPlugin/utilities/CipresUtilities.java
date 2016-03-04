@@ -5,11 +5,12 @@ import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.ngbw.directclient.CiCipresException;
 import org.ngbw.directclient.CiClient;
 import org.ngbw.directclient.CiJob;
 
-import com.cipres.mrBayesPlugin.models.DisplayGUIModel;
 import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.models.UserModel.Job;
 
@@ -62,7 +63,7 @@ public class CipresUtilities {
 		return jobs;
 	}
 	
-	public static JSONArray updateList(CiClient myClient, UserModel user){
+	public static JSONArray updateList(CiClient myClient, UserModel user) throws ParseException{
 		
 		//Create a handler instance
 		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
@@ -74,10 +75,12 @@ public class CipresUtilities {
 			e.printStackTrace();
 		}
        
-        handler.saveData("jobs.json", handler.getUserJSON());
-        JSONObject retObj = handler.loadData("jobs.json");
+//        handler.saveData("jobs.json", handler.getUserJSON());
+//        JSONObject retObj = handler.loadData("jobs.json");
+		JSONParser parser = new JSONParser();
+		Object obj = parser.parse(handler.getUserJSON());
         
-        JSONArray retJSONArray = handler.getJobs(retObj);
+        JSONArray retJSONArray = handler.getJobs((JSONObject)obj);
     	
         return retJSONArray;
         

@@ -1,0 +1,78 @@
+package com.cipres.mrBayesPlugin.models;
+
+import java.awt.ComponentOrientation;
+import java.awt.FlowLayout;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+
+import com.biomatters.geneious.publicapi.plugin.Options;
+
+/**
+ * Login display model where it asks for the user's CIPRES login information
+ * @author rjzheng
+ *
+ */
+public class LoginGUIModel extends Options {
+
+    final JPasswordField passwordField;
+    final StringOption username;
+    JLabel passwordLabel;
+    
+//    public LoginGUIModel() {
+//    	
+////      username = addStringOption("username","User Name","Please enter your username");
+//      usernameField = new JTextField();
+//      passwordField = new JPasswordField();
+//      
+//      panel.addComponentWithLabel("User Name", usernameField, false);
+//      panel.addComponentWithLabel("Password", passwordField, false);
+////      password = addStringOption("password","Password","Please enter your password");
+//  }
+    
+    
+    public LoginGUIModel() {
+	    super(LoginGUIModel.class);
+	    username = addStringOption("username","User Name","Please enter your username");
+	    passwordField = new JPasswordField();
+    }
+    protected JPanel createPanel() {
+        JPanel panel = new JPanel();
+        FlowLayout layout = new FlowLayout();
+        panel.setComponentOrientation(
+                ComponentOrientation.LEFT_TO_RIGHT);
+        panel.setLayout(layout);
+        
+        passwordLabel = new JLabel("Password");
+        		
+        //Add both the label and the component:
+        panel.add(new JLabel(username.getLabel()));
+        panel.add(username.getComponent());
+
+        panel.add(passwordLabel);
+        panel.add(passwordField);
+        return panel;
+   }
+    
+    /**
+     * Add username and password fields to the Login interface
+     */
+    
+
+    /**
+     * Get the user name
+     * @return user name
+     */
+    public String getUsername() {
+        return username.getValue();
+    }
+
+    /**
+     * Get the password
+     * @return password
+     */
+    String getPassword() {
+        return new String(passwordField.getPassword());
+     }
+}

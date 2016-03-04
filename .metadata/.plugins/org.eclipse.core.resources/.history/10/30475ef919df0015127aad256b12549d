@@ -1,0 +1,50 @@
+package com.cipres.mrBayesPlugin.models;
+
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+import com.biomatters.geneious.publicapi.components.OptionsPanel;
+import com.biomatters.geneious.publicapi.plugin.Options;
+
+/**
+ * Login display model where it asks for the user's CIPRES login information
+ * @author rjzheng
+ *
+ */
+public class LoginGUIModel extends OptionsPanel {
+	
+	OptionsPanel panel = new OptionsPanel();
+    JPasswordField passwordField;
+    JTextField usernameField;
+
+    
+    
+    /**
+     * Add username and password fields to the Login interface
+     */
+    public LoginGUIModel() {
+//        username = addStringOption("username","User Name","Please enter your username");
+        usernameField = new JTextField();
+        passwordField = new JPasswordField();
+        
+        panel.addComponentWithLabel("User Name", usernameField, false);
+        panel.addComponentWithLabel("Password", passwordField, false);
+//        password = addStringOption("password","Password","Please enter your password");
+    }
+
+    /**
+     * Get the user name
+     * @return user name
+     */
+    public String getUsername() {
+        return new String(usernameField.getText());
+    }
+
+    /**
+     * Get the password
+     * @return password
+     */
+    String getPassword() {
+        return new String(passwordField.getPassword());
+     }
+}

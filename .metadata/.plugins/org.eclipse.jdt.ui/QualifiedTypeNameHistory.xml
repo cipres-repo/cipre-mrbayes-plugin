@@ -8,18 +8,14 @@
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresUtilities"/>
-<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
-<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel.RoundedLineBorder"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.DisplayGUI"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.TableModel"/>
 <fullyQualifiedTypeName name="javax.swing.JTable"/>
 <fullyQualifiedTypeName name="java.awt.GridLayout"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.LoginGUIModel"/>
 <fullyQualifiedTypeName name="org.ngbw.directclient.CiApplication"/>
 <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
 <fullyQualifiedTypeName name="javax.swing.JButton"/>
-<fullyQualifiedTypeName name="javax.swing.GroupLayout.Alignment"/>
 <fullyQualifiedTypeName name="java.awt.Dialog"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogOptions"/>
@@ -43,4 +39,10 @@
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
+<fullyQualifiedTypeName name="javax.swing.GroupLayout.Alignment"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.LoginGUIModel"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesTree"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature"/>
 </qualifiedTypeNameHistroy>
