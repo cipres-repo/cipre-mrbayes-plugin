@@ -1,0 +1,42 @@
+#Fri Sep 19 08:52:48 NZST 2008
+FAQ=http\://desktop-links.geneious.com/web/geneious/faq
+FEATURE_COMPARISON=http\://desktop-links.geneious.com/web/geneious/faq
+JABBER_HOST=talk.geneious.com
+USER_FORUM=http\://support.geneious.com
+MANUAL=http\://desktop-links.geneious.com/assets/documentation/geneious/GeneiousManual.pdf
+HTML_MANUAL=http\://assets.geneious.com/manual
+SEQUENCE_CLASSIFIER_MANUAL=http://desktop-links.geneious.com/assets/documentation/geneious/Sequence_Classifier_Manual.pdf
+QUICKSTART=http\://desktop-links.geneious.com/assets/documentation/geneious/Quickstart
+TALKBACK=http\://talkback.geneious.com\:80/talkback/submit
+WEBSITE=http\://www.geneious.com
+TUTORIALS=http\://desktop-links.geneious.com/web/geneious/tutorials
+STORE=http\://desktop-links.geneious.com/store
+CHAT_SERVICE=conference.talk.geneious.com
+INSTALLERS=http\://desktop-links.geneious.com/installers/geneious/
+LICENSE_AGREEMENT=http\://desktop-links.geneious.com/web/geneious/licence-agreement
+RELEASE_NOTES=http\://desktop-links.geneious.com/assets/documentation/geneious/release_notes.html
+PUBLIC_API=http\://desktop-links.geneious.com/web/geneious/plugin-writing
+PLUGIN_DEVELOPMENT=http\://desktop-links.geneious.com/plugin-development
+PUBLIC_API_JAVADOC=http\://desktop-links.geneious.com/assets/developer/geneious/javadoc/
+PLUGINS=http\://desktop-links.geneious.com/web/geneious/download-plugins
+DEFAULT_BLAST_LOCATION2=http\://blast.ncbi.nlm.nih.gov/
+DEFAULT_BLAST_LOCATION=http\://www.ncbi.nlm.nih.gov/blast/
+KNOWN_NCBI_BLAST_LOCATIONS=http\://blast.ncbi.nlm.nih.gov/ http\://www.ncbi.nlm.nih.gov/blast/
+NCBI_LOCATION=http\://www.ncbi.nlm.nih.gov/
+UNIPROT_LOCATION=http\://www.ebi.ac.uk/Tools/dbfetch/dbfetch?db=uniprot&id=
+UNIPROT_LOCATION_SUFFIX=&style=raw
+PFAM_DOMAIN=ftp.sanger.ac.uk
+PFAM_PATH=pub/databases/Pfam//releases/Pfam23.0
+REBASE_WITHREFM=ftp\://ftp.neb.com/pub/rebase/withrefm.txt
+REBASE_PROTO=ftp\://ftp.neb.com/pub/rebase/proto.txt
+REBASE_MSBUFFMIN=ftp\://ftp.neb.com/pub/rebase/msbuffmin.out
+JAVA6_DETAILS=http://desktop-links.geneious.com/web/geneious/java-6
+PRIVACY=http\://desktop-links.geneious.com/web/geneious/legal-policies#privacy
+16S_WEBSERVICE_LOCATION=https\://16s.geneious.com
+16S_WEBSERVICE_HELPTEXT=<html><b>This is a cloud service for analysis of bacterial diversity in environmental samples.</b><br><br><b>How does it work?</b> We upload your data securely to our servers and analyze it using <a href="http://www.ncbi.nlm.nih.gov/pubmed/17586664">RDP</a><br>to produce a graph of bacterial diversity in your browser.<br><br><b>How much does it cost?</b> It's free, but you have to have a valid Geneious license to use it.<br><br><b>What data does it work with?</b> Full length 16S rRNA sequences will give the best results, but any<br>sub-region of 16S may be used. It assumes you have already pre-processed your data by:<br>\u2022 Barcode splitting (Use Sequence -> Separate Reads by Barcode)<br>\u2022 Primer trimming (Use Annotate & Predict -> Trim Ends)<br>\u2022 Low quality trimming (Use Annotate & Predict -> Trim Ends)<br>\u2022 Merging paired reads (Use Sequence -> Merge Paired Reads (in R9) or the <a href=\"http://www.geneious.com/plugins/flash\">FLASH plugin</a>)<br>\u2022 Removing reads shorter than 50 bp (Use Tools -> Workflows -> Filter)<br>\u2022 Chimera removal<div align=\"right\"> <a href="https\://16s.geneious.com/16s/results/fc069f33-ec1d-4991-ae96-ccbadbc7b851.html">Demo Results</a> | <a href="https://16s.geneious.com/16s/help.html">Help</a> | <a href="http\://www.biomatters.com/webapps-terms-of-service">Terms of Service</a> | <a href="http\://www.biomatters.com/webapps-privacy-policy">Privacy Policy</a></div></html>
+16S_WEBSERVICE_MAXIMUM_SEQUENCE_LENGTH=10000
+16S_WEBSERVICE_MAXIMUM_SEQUENCE_COUNT=5000000
+16S_WEBSERVICE_MAXIMUM_FILE_SIZE=1073741824
+WEBAPPS_PRIVACY_POLICY=http\://www.biomatters.com/webapps-privacy-policy
+WEBAPPS_TERMS_OF_SERVICE=http\://www.biomatters.com/webapps-terms-of-service
+EXTRA_PLUGINS_MESSAGE=<html><div style="text-align:right">More plugins at <a href="http://www.geneious.com/plugins">geneious.com</a></div></html>

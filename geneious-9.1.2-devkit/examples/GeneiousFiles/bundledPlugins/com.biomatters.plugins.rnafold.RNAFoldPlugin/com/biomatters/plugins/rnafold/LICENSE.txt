@@ -1,0 +1,22 @@
+The RNAfold and RNAcofold executable files are built from source code
+in the Vienna RNA Package downloaded from
+http://www.tbi.univie.ac.at/RNA/
+
+See source code package files for copyright notices and licensing terms
+for the Vienna RNA Package and third party library software that is
+compiled with it to build the executable files.
+
+The package comes with the following text in its copyright notice:
+
+"Permission is granted for research, educational, and commercial use
+and modification so long as 1) the package and any derived works are not
+redistributed for any fee, other than media costs, 2) proper credit is
+given to the authors and the Institute for Theoretical Chemistry of the
+University of Vienna."
+
+The complete source package contains software whose copyrights are owned by
+third parties, made available by them for distribution under the terms of the
+GNU General Public License version 2.0. As per those terms the source
+code of the complete Vienna RNA Package used to build these executables
+is also available for download from the same web location from which Geneious
+and this Geneious plugin are available.

@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Geneious Plugin Development Kit - Setup</title>
+</head>
+<body>
+<h2>Geneious Plugin Development Kit - Setup</h2>
+<p>
+    Geneious plugins can be developed in whatever Java development environment you are comfortable using.
+    Note that <em>Geneious still supports Java 6</em>, so for maximum compatibility you should avoid using APIs or
+    language features from Java 7 or later.
+    The included Eclipse, IntelliJ and Ant examples should already be set up to use Java 6.<br>
+    <br>
+    Once you have downloaded and installed the Java Development Kit (JDK) for your platform follow the instructions below for
+    setting up Geneious plugin development in <a href="http://www.eclipse.org">Eclipse</a> or <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a>.
+    There is also an explanation of what is required to run Geneious if you want to set everything up yourself,
+    and a brief discussion of building and distributing your plugins once you have something you want to share with the world!<br>
+    <br>
+    Also be aware that this version of Geneious does not bundle licence activation code for size reasons,
+    so if you want to activate a Geneious licence you will need to <a href="http://desktop-links.geneious.com/download">download</a>
+    the standard Geneious release for your platform.
+</p>
+<h3>Eclipse</h3>
+<p>
+    These instructions are for version 3.6 of Eclipse (Helios); the exact steps may differ in other versions.<br>
+    <br>
+    Open Eclipse. From the <b>File</b> menu, select <b>Import...</b><br>
+    Expand the <b>General</b> folder and select <b>Existing Projects into Workspace</b>.<br>
+    Click the <b>Next</b> button, then click the <b>Browse...</b> button next to the "Select root directory:" field.<br>
+    Navigate to the "examples" directory (which should be in the same place as this document) and select it.<br>
+    Click <b>OK</b> and a dozen or so projects should appear in the Projects textfield.<br> 
+    Click <b>Finish</b> and they should appear in the Package Explorer navigation pane in Eclipse.<br>
+    You may need to close the Eclipse welcome screen to get to the workbench and see the newly imported projects.<br>
+    Select the <b>Run</b> menu and click <b>Debug Configurations</b>. <br>
+    Under "Java Applications" select one of the preconfigured applications, we suggest "ExampleDocumentViewer" to get started.<br>
+    Select one with "32 bit" or "64 bit" in the name to match the bit size of your Java VM.<br>
+    Click <b>Debug</b> to launch Geneious with this sample plugin enabled.<br>
+    When you select a sequence you should see the "Ludicrously Giant Sequence Viewer" as an option in the lower panel in Geneious.<br>
+    If you set a breakpoint within the code (by right clicking in the margin and selecting <b>Toggle Breakpoint</b>) execution should stop at that line so you can debug.<br>
+    (To view the source code for the examples expand them in the Package Explorer in Eclipse)<br>
+    A good place to test this is in the "paintComponent" method of the "ExampleDocumentViewer.java" file.<br>
+    Switching back to Geneious and selecting the "Ludicrously Giant Sequence Viewer" should trigger the breakpoint.<br>
+    <ul><li>
+    If you are using 32 bit Windows (or a 32 bit Java VM on 64 bit Windows) and a Geneious FLEXnet licence to get Pro features you will need to copy the contents of the "examples\GeneiousFiles\native_libs\win32" directory to the "examples\GeneiousFiles" directory. The 4 pre-existing files in the GeneiousFiles directory are 64 bit.
+    </li></ul>
+</p>
+<h3>IntelliJ IDEA</h3>
+<p>
+    These instructions are for version 13 of IntelliJ IDEA; the exact steps may differ in other versions.<br>
+    <br>
+    Open IntelliJ IDEA. From the <b>File</b> menu, select <b>Open...</b><br>
+    Navigate to the "examples" directory (which should be in the same place as this document), select it and click <b>OK</b>.<br>
+    The "ExampleDocumentViewerPlugin.java" file should now be open in the editor. If there are errors (eg some text is red) you may need to set up your JDK.<br>
+    To set up your JDK click <b>File</b>, then <b>Project Structure</b>, then either select a preconfigured SDK or create a new one (must be Java 6).<br>
+    To create a new SDK click <b>New</b>, then <b>JSDK</b> and select the location where the Java Development Kit is installed (you may need to use a <a href="http://google.com/search?q=java+jdk+installation+directory">search engine</a> if you don't know where this is on your operating system).<br>
+    Click OK and the JDK should appear in the combobox to the left. Click <b>OK</b> again and you should be returned to the editor.<br>
+    You may see a warning similar to "Class ISeekMain not found in module". This can be ignored as the class is provided at runtime.<br>
+    You should now be able to click <b>Run</b> in the menu then <b>Debug</b> to start Geneious with the "ExampleDocumentViewer" Debug Configuration.<br>
+    Select a debug configuration with "32 bit" or "64 bit" in the name to match the bit size of your Java VM.<br>
+    Note you may need to wait for IntelliJ to index the project before this option becomes available.<br>
+    When you select a sequence you should see the "Ludicrously Giant Sequence Viewer" as an option in the lower panel in Geneious.<br>
+    If you set a breakpoint within the code (by clicking in the margin) execution should stop at that line so you can debug.<br>
+    A good place to test this is in the "paintComponent" method of the "ExampleDocumentViewer.java" file.<br>
+    Switching back to Geneious and selecting the "Ludicrously Giant Sequence Viewer" should trigger the breakpoint.<br>
+    <ul><li>
+    If you are using 32 bit Windows (or a 32 bit Java VM on 64 bit Windows) and a Geneious FLEXnet licence to get Pro features you will need to copy the contents of the "examples\GeneiousFiles\native_libs\win32" directory to the "examples\GeneiousFiles" directory. The 4 pre-existing files in the GeneiousFiles directory are 64 bit.
+    </li></ul>
+</p>
+<h3>Setting it up yourself</h3>
+<p>
+    This description is fairly generic and should allow you to set up a debugging environment yourself.<br>
+    <br>
+    All the files required to run Geneious are in the "GeneiousFiles" directory. This should be set as the Java VM working directory.<br>
+    The main class (in the java sense of the word) is com.biomatters.iseek.application.ISeekMain which is in the ISeek.jar file.<br>
+    We use the following VM arguments with the examples: "-ea -Xss512K -Xms256M -Xmx768M -XX:MaxPermSize=96M", we also use "-XX:+UseConcMarkSweepGC" to increase performance on 64 bit VMs.<br>
+    You may need to tweak the memory settings (Xmx and MaxPermSize) depending on your machine specs and what you're trying to do with Geneious.<br>
+    The jars in the lib directory will need to be on the java classpath, as will the resources directory.<br>
+    You may code against GeniousPublicAPI.jar, jebl.jar and jdom.jar.<br>
+    Geneious will automatically pick up its plugins from the bundledPlugins directory.<br>
+    There are several ways to get Geneious to load an external plugin:<br>
+    <ul>
+    <li>
+    Have your class that extends GeneiousPlugin on the classpath and pass its fully qualified name as an argument to Geneious, using the parameter "extraPlugins"<br>
+    eg extraPlugins="com.biomatters.exampleDocumentViewerPlugin.ExampleDocumentViewerPlugin"<br>
+    This is used in the supplied examples.
+    </li>
+    <li>
+    On startup Geneious also searches several directories and loads any plugins it finds there. There is one that is global for all users and one that is user specific.
+    These vary by system, but the user specific one can be found in the "plugins" folder of their user data directory.<br>
+    This is where plugins are put when they are dragged'n'dropped into Geneious. If the global location is not writable by the current user
+    the plugin is put in their data directory and is available for them only.
+    </li>
+    </ul>
+    In order to use a Geneious FLEXnet licence to get Pro features you will have to do the following:<br>
+    <ul>
+    <li>
+    If you are using 64 bit Windows with a 64 bit Java VM you should be good to go
+    </li>
+    <li>
+    If you are using 32 bit Windows (or a 32 bit Java VM on 64 bit Windows) copy the contents of the "examples\GeneiousFiles\native_libs\win32" directory to the "examples\GeneiousFiles" directory. The 4 pre-existing files in the GeneiousFiles directory are 64 bit.
+    </li>
+    <li>
+    If you are using MacOS add "./activation/macos:./native_libs/macos" to the DYLD_LIBRARY_PATH environment variable.<br>
+    </li>
+    <li>
+    If you are using Linux add the Linux equivalents of the MacOS example above to the LD_LIBRARY_PATH environment variable.<br>
+    </li>
+    </ul>
+</p>
+
+<h3>Building and distributing your plugin</h3>
+<p>
+    The easiest way to make your own plugin is to edit one of the examples and go from there.<br>
+    The provided examples all come with Ant build scripts which include a task which will rename everything to a name you choose.<br>
+    In both Eclipse and IntelliJ the Ant file may be opened by double clicking on the "build.xml" file.<br>
+    Both also have a dedicated tool for running Ant scripts, to make this visible:
+    <ul>
+    <li>
+    in Eclipse select "Window" from the main menu, then "Show View" and "Ant". You may also need to add the build.xml file by dragging it in.
+    </li>
+    <li>
+    in Intellij select "Window" from the main menu, then "Tool Windows" and "Ant Build". You may also need to add the build.xml file using the "+" icon.
+    </li>
+    </ul>
+    The "copyPluginAndRename" task will make a copy of the example, follow the instructions in the XML to give it a new name and package.<br>
+    The resulting directory will be in the same place as the examples so it can reference the GeneiousFiles project.<br>
+    If you want to move it elsewhere you will need to copy this project too, or set up the references using the description above.<br>
+    In Eclipse you should be able to import it into the workspace as you did with the other examples.<br>
+    IntelliJ should automatically pick up the new project.<br>
+    <br>
+    The Ant scripts also include a task that will build a gplugin file, which can then be dragged'n'dropped into Geneious to install the plugin.<br>
+    Geneious will recognize plugins distributed in one of two ways:
+    <ul>
+    <li>
+    A jar file with extension .gplugin containing:<br>
+    - a plugin.properties file which has at least one property "plugin-name" which must
+    be equal to the fully qualified name of your GeneiousPlugin class.<br>
+    - the compiled class structure for your plugin
+    </li>
+    <li>
+    A zip file with extension .gplugin containing only a single folder named exactly the same
+    as the fully qualified name of your GeneiousPlugin class. This folder must then contain
+    your plugin jar file (can have any name) and any other files your plugin uses. This folder
+    will be given to your plugin at runtime through the pluginDirectory parameter of the
+    initialize method.
+    </li>
+    </ul>
+    If your plugin is installed as a folder and contains a readme.txt or readme.html file then Geneious
+    will automatically display the text (or html) in the file to users when the plugin is first installed.
+    This is a good place to include a short introduction to the features of your plugin and any papers that
+    should be cited when publishing results.
+
+</p>
+
+</body>
+</html>

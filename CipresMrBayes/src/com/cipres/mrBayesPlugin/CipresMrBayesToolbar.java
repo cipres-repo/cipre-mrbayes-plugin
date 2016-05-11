@@ -17,10 +17,12 @@ import com.biomatters.geneious.publicapi.plugin.DocumentOperation;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperationException;
 import com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature;
 import com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions;
+import com.biomatters.geneious.publicapi.plugin.Icons;
 import com.biomatters.geneious.publicapi.plugin.Options;
-import com.cipres.mrBayesPlugin.models.DisplayGUIModel;
-import com.cipres.mrBayesPlugin.models.LoginGUIModel;
+import com.biomatters.geneious.publicapi.utilities.IconUtilities;
 import com.cipres.mrBayesPlugin.models.UserModel;
+import com.cipres.mrBayesPlugin.ui.JobManagePanel;
+import com.cipres.mrBayesPlugin.ui.LoginOptions;
 import com.cipres.mrBayesPlugin.utilities.CipresUtilities;
 import com.cipres.mrBayesPlugin.utilities.DataHandlingUtilities;
 
@@ -28,8 +30,8 @@ import jebl.util.ProgressListener;
 
 public class CipresMrBayesToolbar extends DocumentOperation{
 	public static CiClient myClient;
-	public static JPanel displayGuiModel;
-	private Boolean first = true;
+	private JPanel displayGuiModel;
+	private Boolean newUser = true;
 	
 	public String getUniqueId(){
 		return "Cipres_MrBayes";
@@ -55,8 +57,8 @@ public class CipresMrBayesToolbar extends DocumentOperation{
 	//Geneious will display the Options returned from this method as a panel before calling performOperation().
 	public Options getOptions(final AnnotatedPluginDocument[] docs) throws DocumentOperationException{
         Options options = null;
-		if(first == true){
-			options = new LoginGUIModel();
+		if(newUser == true){
+			options = new LoginOptions();
 	        options.canRestoreDefaults();
         }
         
@@ -68,11 +70,11 @@ public class CipresMrBayesToolbar extends DocumentOperation{
     public List performOperation(AnnotatedPluginDocument[] docs, ProgressListener progress, Options options) throws DocumentOperationException{
 
     	
-    	if(first == true){
+    	if(newUser == true){
 	    	CiApplication app = CiApplication.getInstance();
 	    	DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
 	    	
-	    	LoginGUIModel model = (LoginGUIModel)options;
+	    	LoginOptions model = (LoginOptions)options;
 	        String username = (String)options.getValue("username");
 	        String password = model.getPassword();
 	        String url = app.getRestUrl();
@@ -83,29 +85,25 @@ public class CipresMrBayesToolbar extends DocumentOperation{
 	        handler.addUser(user);
 	        myClient = handler.getClient();
 	        
-	        JSONArray retJSONArray = null;
-			try {
-				retJSONArray = CipresUtilities.updateList(myClient, user);
-			} catch (ParseException e) {
-				e.printStackTrace();
-			}
-	        setPanel(new DisplayGUIModel().createPanel(retJSONArray));
+	        if(CipresUtilities.clientCheck(myClient) == true){
+		        JSONArray retJSONArray = null;
+				try {
+					retJSONArray = CipresUtilities.updateList(myClient, user);
+				} catch (ParseException e) {
+					e.printStackTrace();
+				}
+		        displayGuiModel = new JobManagePanel().createPanel(retJSONArray);
+	        }
     	}
-    	
-        DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
-        Dialogs.showDialog(dialogOptions, getPanel());
-        
-        first = false;
+    	DialogOptions dialogOptions = new DialogOptions(Dialogs.OK_CANCEL, "");
+    	if(CipresUtilities.clientCheck(myClient) == true){
+	        Dialogs.showDialog(dialogOptions, displayGuiModel);
+	        newUser = false;
+    	} else{
+    		Dialogs.showContinueCancelDialog("Incorrect user information", "Error!", null, Dialogs.DialogIcon.ERROR);
+    	}
         
         return null;
    }
     
-    public JPanel getPanel(){
-    	return this.displayGuiModel;
-    }
-    
-    public static void setPanel(JPanel display){
-    	displayGuiModel = display;
-    }
-
 }

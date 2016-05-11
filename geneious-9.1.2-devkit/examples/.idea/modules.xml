@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackTranslationPlugin/BackTranslationPlugin.iml" filepath="$PROJECT_DIR$/BackTranslationPlugin/BackTranslationPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleAlignmentOperation/ExampleAlignmentOperation.iml" filepath="$PROJECT_DIR$/ExampleAlignmentOperation/ExampleAlignmentOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleAssembler/ExampleAssembler.iml" filepath="$PROJECT_DIR$/ExampleAssembler/ExampleAssembler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleDocumentViewer/ExampleDocumentViewer.iml" filepath="$PROJECT_DIR$/ExampleDocumentViewer/ExampleDocumentViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleFastaExporter/ExampleFastaExporter.iml" filepath="$PROJECT_DIR$/ExampleFastaExporter/ExampleFastaExporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleFastaImporter/ExampleFastaImporter.iml" filepath="$PROJECT_DIR$/ExampleFastaImporter/ExampleFastaImporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleGeneiousService/ExampleGeneiousService.iml" filepath="$PROJECT_DIR$/ExampleGeneiousService/ExampleGeneiousService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleSequenceAnnotationGenerator/ExampleSequenceAnnotationGenerator.iml" filepath="$PROJECT_DIR$/ExampleSequenceAnnotationGenerator/ExampleSequenceAnnotationGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleSequenceGraph/ExampleSequenceGraph.iml" filepath="$PROJECT_DIR$/ExampleSequenceGraph/ExampleSequenceGraph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleSequenceGraph2/ExampleSequenceGraph2.iml" filepath="$PROJECT_DIR$/ExampleSequenceGraph2/ExampleSequenceGraph2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleSequenceViewerStatistics/ExampleSequenceViewerStatistics.iml" filepath="$PROJECT_DIR$/ExampleSequenceViewerStatistics/ExampleSequenceViewerStatistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleTreeViewerExtensionPlugin/ExampleTreeViewerExtensionPlugin.iml" filepath="$PROJECT_DIR$/ExampleTreeViewerExtensionPlugin/ExampleTreeViewerExtensionPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExampleWorkflowPlugin/ExampleWorkflowPlugin.iml" filepath="$PROJECT_DIR$/ExampleWorkflowPlugin/ExampleWorkflowPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" filepath="$PROJECT_DIR$/GeneiousFiles/GeneiousFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavadocExamplesPlugin/JavadocExamplesPlugin.iml" filepath="$PROJECT_DIR$/JavadocExamplesPlugin/JavadocExamplesPlugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseSequence/ReverseSequence.iml" filepath="$PROJECT_DIR$/ReverseSequence/ReverseSequence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextFiles/TextFiles.iml" filepath="$PROJECT_DIR$/TextFiles/TextFiles.iml" />
+    </modules>
+  </component>
+</project>
+

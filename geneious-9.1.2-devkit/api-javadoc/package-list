@@ -1,0 +1,11 @@
+com.biomatters.geneious.publicapi.components
+com.biomatters.geneious.publicapi.databaseservice
+com.biomatters.geneious.publicapi.documents
+com.biomatters.geneious.publicapi.documents.sequence
+com.biomatters.geneious.publicapi.documents.types
+com.biomatters.geneious.publicapi.implementations
+com.biomatters.geneious.publicapi.implementations.sequence
+com.biomatters.geneious.publicapi.implementations.structure
+com.biomatters.geneious.publicapi.plugin
+com.biomatters.geneious.publicapi.utilities
+com.biomatters.geneious.publicapi.utilities.xml

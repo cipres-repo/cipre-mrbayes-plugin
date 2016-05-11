@@ -1,0 +1,488 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Identify Organism" geneiousVersion="9.1.0" uniqueId="9d765131-fefb-4fa4-a3e3-573563fc73ff" revisionNumber="30" description="&lt;html&gt;&lt;center&gt;For each sequence, BLASTs it against a database, copying the organism property from the top hit&lt;br&gt;&#xA;to the query sequence as long as it meets minimum similarity requirements.&lt;br&gt;&lt;br&gt;&#xA;&lt;b&gt;To view the results, select 'Show Organism' in the General section of the Sequence View controls.&lt;/b&gt;&lt;br&gt;&lt;br&gt;&#xA;Note: For large data sets you should use the &lt;b&gt;Classify Sequences&lt;/b&gt; plugin&lt;br&gt;or for 16S data, &lt;b&gt;16S Biodiversity&lt;/b&gt; from the Tools menu.&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement forEachSequenceInsteadOfDocument="true" type="com.biomatters.plugins.workflows.WorkflowElementForEach" />
+    <workflowElement id="sequenceSearch" exposeNoOptions="false" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="tabbedQueryTypeChooser">nucleotideQueryOption</option>
+        <childOption name="nucleotideQueryOption">
+          <option name="database">NCBI_nr.nt</option>
+          <option name="addRemoveDatabases">Add/Remove Databases</option>
+          <option name="program">Megablast</option>
+          <option name="typeOfSearchCombo">standardSearchOptionValue</option>
+          <option name="customComponent1" />
+          <option name="whatToRetrieve">matchingRegionWithAnnotations</option>
+          <option name="extendedRegionSize">20</option>
+          <option name="maxHits">1</option>
+          <option name="searchName">Sequence Search</option>
+          <childOption name="queryInputMethod">
+            <option name="queryInputMethod">use nucleotide</option>
+          </childOption>
+          <childOption name="manualQuery">
+            <option name="manuallySpecifiedQuery" />
+            <option name="queryAlphabet">nucleotide</option>
+            <childOption name="subsequence">
+              <option name="useSubsequence">false</option>
+              <option name="subsequenceFrom">1</option>
+              <option name="subsequenceTo">1</option>
+            </childOption>
+          </childOption>
+          <childOption name="Custom BLAST_blastn">
+            <option name="ALGORITHM">&lt;html&gt;Moderate similarity (&lt;b&gt;Standard blastn&lt;/b&gt;, &lt;i&gt;slower but more sensitive&lt;/i&gt;)&lt;/html&gt; </option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_Megablast">
+            <option name="ALGORITHM">&lt;html&gt;High similarity (&lt;b&gt;Megablast&lt;/b&gt;, &lt;i&gt;very fast, only finds similar sequences&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">28</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="GAPCOSTS">linear</option>
+            <option name="NUCLEOTIDE_SCORING">1 -2</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastx">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="GENETIC_CODE">Standard</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_Discontiguous Megablast">
+            <option name="ALGORITHM">&lt;html&gt;Some dissimilarity (&lt;b&gt;Discontiguous Megablast&lt;/b&gt;, &lt;i&gt;very sensitive, intended for cross-species comparison&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="HUMAN_REPEATS">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="TEMPLATE_LENGTH">18</option>
+            <option name="TEMPLATE_TYPE">Coding</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="NCBI_BLAST_Megablast">
+            <option name="ALGORITHM">&lt;html&gt;High similarity (&lt;b&gt;Megablast&lt;/b&gt;, &lt;i&gt;very fast, only finds similar sequences&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="WORD_SIZE">28</option>
+            <option name="HUMAN_REPEATS">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">linear</option>
+            <option name="NUCLEOTIDE_SCORING">1 -2</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="Custom BLAST_tblastx">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_tblastx">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="GENETIC_CODE">Standard</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_Discontiguous Megablast">
+            <option name="ALGORITHM">&lt;html&gt;Some dissimilarity (&lt;b&gt;Discontiguous Megablast&lt;/b&gt;, &lt;i&gt;very sensitive, intended for cross-species comparison&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="TEMPLATE_LENGTH">18</option>
+            <option name="TEMPLATE_TYPE">Coding</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastn">
+            <option name="ALGORITHM">&lt;html&gt;Moderate similarity (&lt;b&gt;Standard blastn&lt;/b&gt;, &lt;i&gt;slower but more sensitive&lt;/i&gt;)&lt;/html&gt; </option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="HUMAN_REPEATS">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="Custom BLAST_tblastn">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastp">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="COMPOSITION_BASED_STATISTICS">Conditional compositional score matrix adjustment</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+            <option name="PHI_PATTERN" />
+          </childOption>
+          <childOption name="NCBI_BLAST_tblastn">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="COMPOSITION_BASED_STATISTICS">Conditional compositional score matrix adjustment</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_blastx">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_blastp">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+        </childOption>
+        <childOption name="proteinQueryOption">
+          <option name="database">NCBI_nr.nt</option>
+          <option name="addRemoveDatabases">Add/Remove Databases</option>
+          <option name="program">blastp</option>
+          <option name="typeOfSearchCombo">standardSearchOptionValue</option>
+          <option name="customComponent1" />
+          <option name="whatToRetrieve">matchingRegionWithAnnotations</option>
+          <option name="extendedRegionSize">20</option>
+          <option name="maxHits">1</option>
+          <option name="searchName">Sequence Search</option>
+          <childOption name="queryInputMethod">
+            <option name="queryInputMethod">use protein</option>
+          </childOption>
+          <childOption name="manualQuery">
+            <option name="manuallySpecifiedQuery" />
+            <option name="queryAlphabet">amino acid</option>
+            <childOption name="subsequence">
+              <option name="useSubsequence">false</option>
+              <option name="subsequenceFrom">1</option>
+              <option name="subsequenceTo">1</option>
+            </childOption>
+          </childOption>
+          <childOption name="Custom BLAST_blastn">
+            <option name="ALGORITHM">&lt;html&gt;Moderate similarity (&lt;b&gt;Standard blastn&lt;/b&gt;, &lt;i&gt;slower but more sensitive&lt;/i&gt;)&lt;/html&gt; </option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_Megablast">
+            <option name="ALGORITHM">&lt;html&gt;High similarity (&lt;b&gt;Megablast&lt;/b&gt;, &lt;i&gt;very fast, only finds similar sequences&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">28</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="GAPCOSTS">linear</option>
+            <option name="NUCLEOTIDE_SCORING">1 -2</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastx">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="GENETIC_CODE">Standard</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_Discontiguous Megablast">
+            <option name="ALGORITHM">&lt;html&gt;Some dissimilarity (&lt;b&gt;Discontiguous Megablast&lt;/b&gt;, &lt;i&gt;very sensitive, intended for cross-species comparison&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="HUMAN_REPEATS">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="TEMPLATE_LENGTH">18</option>
+            <option name="TEMPLATE_TYPE">Coding</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="NCBI_BLAST_Megablast">
+            <option name="ALGORITHM">&lt;html&gt;High similarity (&lt;b&gt;Megablast&lt;/b&gt;, &lt;i&gt;very fast, only finds similar sequences&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="WORD_SIZE">28</option>
+            <option name="HUMAN_REPEATS">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">linear</option>
+            <option name="NUCLEOTIDE_SCORING">1 -2</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="Custom BLAST_tblastx">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_tblastx">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="GENETIC_CODE">Standard</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_Discontiguous Megablast">
+            <option name="ALGORITHM">&lt;html&gt;Some dissimilarity (&lt;b&gt;Discontiguous Megablast&lt;/b&gt;, &lt;i&gt;very sensitive, intended for cross-species comparison&lt;/i&gt;)&lt;/html&gt;</option>
+            <option name="maxHits">100</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="TEMPLATE_LENGTH">18</option>
+            <option name="TEMPLATE_TYPE">Coding</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastn">
+            <option name="ALGORITHM">&lt;html&gt;Moderate similarity (&lt;b&gt;Standard blastn&lt;/b&gt;, &lt;i&gt;slower but more sensitive&lt;/i&gt;)&lt;/html&gt; </option>
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="WORD_SIZE">11</option>
+            <option name="HUMAN_REPEATS">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">true</option>
+            <option name="GAPCOSTS">5 2</option>
+            <option name="NUCLEOTIDE_SCORING">2 -3</option>
+            <option name="OTHER_ADVANCED" />
+            <option name="ENTREZ_QUERY" />
+          </childOption>
+          <childOption name="Custom BLAST_tblastn">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="NCBI_BLAST_blastp">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="COMPOSITION_BASED_STATISTICS">Conditional compositional score matrix adjustment</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+            <option name="PHI_PATTERN" />
+          </childOption>
+          <childOption name="NCBI_BLAST_tblastn">
+            <option name="maxHits">100</option>
+            <option name="getHitAnnos">false</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="MASK_LOOKUP_TABLE">false</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="COMPOSITION_BASED_STATISTICS">Conditional compositional score matrix adjustment</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="ENTREZ_QUERY" />
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_blastx">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">true</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+          <childOption name="Custom BLAST_blastp">
+            <option name="maxHits">100</option>
+            <option name="LOW_COMPLEXITY">false</option>
+            <option name="EXPECT" extra="">1e-1</option>
+            <option name="WORD_SIZE">3</option>
+            <option name="MATRIX_NAME">BLOSUM62</option>
+            <option name="NUMBER_OF_CPUS">1</option>
+            <option name="GAPCOSTS">11 1</option>
+            <option name="OTHER_ADVANCED" />
+          </childOption>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="nucleotideQueryOption.database" label="Database:" />
+    </workflowElement>
+    <workflowElement id="FilterOperation" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="Same Organism Requirements:" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="match">all</option>
+        <multiOption name="filter">
+          <value>
+            <option name="field">percentage_similarity</option>
+            <option name="condition">greater_than</option>
+            <option name="value">98</option>
+          </value>
+        </multiOption>
+      </Options>
+      <optionToExpose optionName="match" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCombineWithEarlierDocuments">
+      <options>
+        <option name="back">2</option>
+      </options>
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCopyField">
+      <options>
+        <option name="copyDirection">copyFromFirst</option>
+        <multiOption name="copyFields">
+          <value>
+            <option name="field">organism</option>
+          </value>
+          <value>
+            <option name="field">percentage_similarity</option>
+          </value>
+          <value>
+            <option name="field">taxonomy</option>
+          </value>
+        </multiOption>
+      </options>
+    </workflowElement>
+    <workflowElement id="FilterOperation" exposeNoOptions="true" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="match">all</option>
+        <multiOption name="filter">
+          <option name="field">anyField</option>
+          <option name="condition">contains</option>
+          <option name="value" />
+          <value>
+            <option name="field">organism</option>
+            <option name="condition">is</option>
+            <option name="value" />
+          </value>
+        </multiOption>
+      </Options>
+      <optionToExpose optionName="match" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementGroupSequences" />
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">Unidentified Sequences</option>
+        <option name="middle">nothing</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementSaveAndContinue">
+      <options>
+        <option name="back">4</option>
+        <option name="saveInSubFolder">false</option>
+        <option name="subFolderName" />
+        <option name="selectDocuments">true</option>
+      </options>
+    </workflowElement>
+    <workflowElement id="FilterOperation" exposeNoOptions="true" exposeAllOptions="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="match">all</option>
+        <multiOption name="filter">
+          <option name="field">anyField</option>
+          <option name="condition">contains</option>
+          <option name="value" />
+          <value>
+            <option name="field">organism</option>
+            <option name="condition">is_not</option>
+            <option name="value" />
+          </value>
+        </multiOption>
+      </Options>
+      <optionToExpose optionName="match" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementGroupSequences" />
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">Identified Sequences</option>
+        <option name="middle">nothing</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFXElEQVR42u1Xa0xTZxj+OC20gA4EYuacUpHpIhrAazRmRVyyMLcJusXMuchMNDGGScwMc3MpykLAaSqCA8FZryAKFJEiYuH0ApT7caA4BS0RBgrIAQunVX88O+0uGcilCPGXb9KcP985z/u87/M+71dCXiHAMu6W6rWMSfs+nhTNPk1eZ4A1unN1nzOsdina8r3Rku2O+nSJdLR3WCPtbjRESiYH/OaXTJfaHw3nPaFNFLE/bXP1H61SpuqNyrbCQNzNnM5OCnhncSDqTk9DfhzFbvuEjAj+rDkm1FTxEduS74/SE9PZqC0jJzpmPG+7EMDVhrJdxQE28NxYAbtpzfDgVtYDtZuUT7SrcTd7Pm4kuPGJOvpPiL2F4XuuW4X68164EkuNCG5jXRnCPry2GIaT7+DiAVfGx4e4TQj8eVtqAFe5Bq35vtaeI3YH2foS645rEkv9FqXJEIwHVxagONEdqXsFyqHg5o4MiUkfSHcW+YXbncCzhi2yPl0g/siYhqtxDsqXqtMYEcnVrGN7tCvRnOOLkkQ3HI+kZEPPmRvCowcqpGxHgQ+aM6fA/vJXS5W9Je/hXoYzjkWQ/8bN3BQdZKn7jBmoDEZ7oR9qTnkiL17Exu4QbB1aQQsTxpjKpWhVzUdF6hQUHXag7U6AMyyjn9IStCvFqE0Tyhoz54aa9Ivo/vIV6NEsxX3lXNBJbjjzA2UMWz1YG9bqDFSHsE80K3AvyweapLeQskcoXzIeXVgqP2D6NXPAFojRlSdAt2oqugtnoDVvJs+ab0u8GIooapDYbE75jyZari5AaYoHMg86G3eGCaXjHj++b+hVe6MzT4RHSge0XBKi/rQT1HInXJRRkEcQ+eB3LgVwdRuN1qlp4jWhTnDDsd2UYtzTYGVhtdxO9SLcOu8GQzKF8uMEmgQCVRzBqb2E/iaEDGL0vPlgOFcXxlrN6uZZL+QfErFRmwXrX2n8nt3eIevTr+Qt1wuqeArp+wmdvIfIdoYR6ceriPfQ8y+M8iCu5lP865SZ0RQTHPjyuXH0fjXbrV6A8hQXnN1HxlStuS7U2Kv/26yyYqiJGZC5QyHh1Y/u67NQcUKE+GHMZ1C1mn5cz1WtRXuBL/THRexoKjc1RAZ16UODRu9/zw03rnQhr/a3wfzmiH1fE+lY7TKVLedXswd0icJhq2W+831Qf0UQ3aleiIZMX9nY86+fh56imbh1xgmx20dPgN8VdH+pP9pzXXE/QwBjjsdRVhcQyVUHR3JVwUf7S5cYu0v88SB3LipPeiDhW5exhcmV+TO9agmaMkS4cYQMmzE6lBKb8qs+BFs8Dx25znh4WYA/lS7oLPBCV+G76CiYg+bs2TCkeUJ1SMyLmWLsMiJzldRo0s7nWbngwUXK+lHmafEsDVe2SMPrQ2Nl3Kdbhh7tMjwqnIc76e6oSROgKsXB9qw76QhDigiaRDFKjjrh3H4HpXWC7BLhC2NikLn6QwxofdGd74zWLAFac5zxWOXJs5plY2XMnW0b0dpTU1GWLMb1wxRyYgidH0fowl8InRlN5NaxjbAX9P83H8vvmxmufDH6ijz5kgpRk+oAfZKANyNHlP0qgi5JzP+coD1GwQqY9h2RDecNr2hAuxTmqjXoU8/AwywekHe/7BiC5EiisLKxljHii3Gyshv8VrjCXLsO/To/vuSuNuu9fIBg31ej+8CkhJnZoDDXhIArD0RXgSe/egVQ/kwQs53sfi33fc6wHP2lAegp9MK9dCEK4gnku4jitf3heKrzox+rZqDxHL9qj/DbLooYJ3yhHE80qjZ4374wVVGZ4sDyyh7x5vsm3sRkx19txUgaT4Xo9AAAAABJRU5ErkJggg==</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

@@ -6,7 +6,6 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions.MainMenu"/>
-<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel.RoundedLineBorder"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.DisplayGUI"/>
@@ -38,11 +37,20 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.DisplayGUIModel"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONArray"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.OptionsPanel"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.StringOption"/>
 <fullyQualifiedTypeName name="javax.swing.GroupLayout.Alignment"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.models.LoginGUIModel"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesTree"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesToolbar"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogIcon"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.ui.LoginOptions.PasswordOption"/>
+<fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.INTERNAL"/>
+<fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesPlugin"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.ui.MrBayesOptions"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.MrBayesUtilities"/>
 </qualifiedTypeNameHistroy>

@@ -21,6 +21,15 @@ import com.cipres.mrBayesPlugin.models.UserModel.Job;
  */
 public class CipresUtilities {
 	
+	public static Boolean clientCheck(CiClient myClient){
+		try {
+			myClient.listJobs();
+			return true;
+		} catch (CiCipresException e) {
+			return false;
+		}
+	}
+	
 	/**
 	 * Fetch and save user's jobs
 	 * @param myClient

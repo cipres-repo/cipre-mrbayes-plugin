@@ -1,0 +1,30 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ExampleTreeViewerExtensionPlugin (32 bit)" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.biomatters.iseek.application.ISeekMain" />
+    <option name="VM_PARAMETERS" value="-ea -Xss512K -Xms256M -Xmx768M -XX:MaxPermSize=96M -Djava.util.logging.config.file=no_logging.properties" />
+    <option name="PROGRAM_PARAMETERS" value="extraPlugins=&quot;com.biomatters.exampleTreeViewerExtensionPlugin.ExampleTreeViewerExtensionPlugin&quot;" />
+    <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$/../GeneiousFiles" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" value="" />
+    <option name="ENABLE_SWING_INSPECTOR" value="false" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <module name="ExampleTreeViewerExtensionPlugin" />
+    <envs>
+      <env name="LD_LIBRARY_PATH" value="./activation/linux32:./native_libs/linux32" />
+      <env name="DYLD_LIBRARY_PATH" value="./activation/macos:./native_libs/macos" />
+    </envs>
+    <RunnerSettings RunnerId="Debug">
+      <option name="DEBUG_PORT" value="48879" />
+      <option name="TRANSPORT" value="0" />
+      <option name="LOCAL" value="true" />
+    </RunnerSettings>
+    <RunnerSettings RunnerId="JProfiler">
+      <option name="WINDOW" value="false" />
+      <option name="JVMPI" value="false" />
+      <option name="INTERPRETED" value="false" />
+    </RunnerSettings>
+    <ConfigurationWrapper RunnerId="Debug" />
+    <method />
+  </configuration>
+</component>

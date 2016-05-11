@@ -1,0 +1,224 @@
+package com.cipres.mrBayesPlugin.models;
+
+import java.util.Date;
+import java.util.List;
+
+/**
+ * The user model that makes logging the user's information and jobs
+ * @author rjzheng
+ *
+ */
+public class UserModel {
+	public String username;
+	public String password;
+	public String restUrl;
+	public String appKey;
+	public String appName;
+	
+	public List<Job> jobs;
+	
+	/**
+	 * UserModel empty constructor 
+	 */
+	public UserModel(){
+		this.username = null;
+		this.password = null;
+		this.restUrl = null;
+		this.appKey = null;
+		this.appName = null;
+	}
+	
+	/**
+	 * UserModel constructor with given fields
+	 * @param username user name
+	 * @param password password
+	 * @param restUrl CIPRES REST URL
+	 * @param appKey CIPRES app Key/ID
+	 * @param appName CIPRES app name
+	 */
+	public UserModel(String username, String password, String restUrl, String appKey, String appName){
+		this.username = username;
+		this.password = password;
+		this.restUrl = restUrl;
+		this.appKey = appKey;
+		this.appName = appName;
+	}
+	
+	/**
+	 * Get the user name
+	 * @return username
+	 */
+	public String getUsername() {
+		return username;
+	}
+
+	/**
+	 * Set the user name
+	 * @param username
+	 */
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	/**
+	 * Get the password
+	 * @return password
+	 */
+	public String getPassword() {
+		return password;
+	}
+
+	/**
+	 * Set the password
+	 * @param password
+	 */
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	/**
+	 * Get the REST URL
+	 * @return REST URL
+	 */
+	public String getRestUrl() {
+		return restUrl;
+	}
+
+	/**
+	 * Set the REST URL
+	 * @param restUrl
+	 */
+	public void setRestUrl(String restUrl) {
+		this.restUrl = restUrl;
+	}
+
+	/**
+	 * Get the App key/ID
+	 * @return App key/ID
+	 */
+	public String getAppKey() {
+		return appKey;
+	}
+
+	/**
+	 * Set the App key/ID
+	 * @param appKey
+	 */
+	public void setAppKey(String appKey) {
+		this.appKey = appKey;
+	}
+
+	/**
+	 * Get the App name
+	 * @return App name
+	 */
+	public String getAppName() {
+		return appName;
+	}
+
+	/**
+	 * Set the App name
+	 * @param appname
+	 */
+	public void setAppName(String appname) {
+		this.appName = appname;
+	}
+
+	/**
+	 * Get the list of jobs
+	 * @return jobs
+	 */
+	public List<Job> getJobs() {
+		return jobs;
+	}
+
+	/**
+	 * Set the list of jobs
+	 * @param jobs
+	 */
+	public void setJobs(List<Job> jobs) {
+		this.jobs = jobs;
+	}
+
+	/**
+	 * Job class with the job attributes to be displayed
+	 */
+	public class Job{
+		public Boolean selected;
+		public String jobName;
+		public Date date;
+		public String jobStage;
+		public String url;
+		
+		public String getUrl(){
+			return url;
+		}
+		
+		public void setURL(String url){
+			this.url = url;
+		}
+		
+		/**
+		 * Get the selected field
+		 * @return selected
+		 */
+		public Boolean getSelected() {
+			return selected;
+		}
+		
+		/**
+		 * Set the selected field
+		 */
+		public void setSelected(Boolean selected) {
+			this.selected = selected;
+		}
+		
+		/**
+		 * Get the job name
+		 * @return job name
+		 */
+		public String getJobName() {
+			return jobName;
+		}
+		
+		/**
+		 * Set the job name
+		 * @param jobName
+		 */
+		public void setJobName(String jobName) {
+			this.jobName = jobName;
+		}
+		
+		/**
+		 * Get the submitted date
+		 * @return date
+		 */
+		public Date getDate() {
+			return date;
+		}
+		
+		/**
+		 * Set the submitted date
+		 * @param date
+		 */
+		public void setDate(Date date) {
+			this.date = date;
+		}
+		
+		/**
+		 * Get the job stage
+		 * @return job stage
+		 */
+		public String getJobStage() {
+			return jobStage;
+		}
+		
+		/**
+		 * Set the job stage
+		 * @param jobStage
+		 */
+		public void setJobStage(String jobStage) {
+			this.jobStage = jobStage;
+		}
+	}
+}

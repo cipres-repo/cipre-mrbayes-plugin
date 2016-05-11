@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="getGenerated" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="9.0.4"/>
-			<item value="9.0"/>
-			<item value="mainClass"/>
-			<item value="getvalueAt"/>
-			<item value="getvalue"/>
-			<item value="setenable"/>
-			<item value="set"/>
-			<item value="getValue"/>
+			<item value="getGenerated"/>
+			<item value="getgenerated"/>
+			<item value="command"/>
+			<item value="getCommand"/>
+			<item value="MrBayesUti"/>
+			<item value="MrBayesUtil"/>
+			<item value="json"/>
+			<item value="Nu"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -24,7 +24,7 @@
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
 		<item value="399" key="DIALOG_HEIGHT"/>
-		<item value="881" key="DIALOG_X_ORIGIN"/>
-		<item value="98" key="DIALOG_Y_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="220" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -1,0 +1,7 @@
+package com.cipres.mrBayesPlugin.ui;
+
+import com.biomatters.geneious.publicapi.plugin.Options;
+
+public class MrBayesOptions extends Options{
+
+}

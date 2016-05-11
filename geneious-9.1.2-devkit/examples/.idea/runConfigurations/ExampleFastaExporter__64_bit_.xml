@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ExampleFastaExporter (64 bit)" type="Application" factoryName="Application">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="MAIN_CLASS_NAME" value="com.biomatters.iseek.application.ISeekMain" />
+    <option name="VM_PARAMETERS" value="-XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -ea -Xss512K -Xms256M -Xmx768M -XX:MaxPermSize=256M -Djava.util.logging.config.file=no_logging.properties" />
+    <option name="PROGRAM_PARAMETERS" value="extraPlugins=&quot;com.biomatters.exampleFastaExporterPlugin.ExampleFastaExporterPlugin&quot;" />
+    <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$/../GeneiousFiles" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" value="" />
+    <option name="ENABLE_SWING_INSPECTOR" value="false" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <module name="ExampleFastaExporter" />
+    <envs>
+      <env name="LD_LIBRARY_PATH" value="./activation/linux64:./native_libs/linux64" />
+      <env name="DYLD_LIBRARY_PATH" value="./activation/macos:./native_libs/macos" />
+    </envs>
+    <method />
+  </configuration>
+</component>

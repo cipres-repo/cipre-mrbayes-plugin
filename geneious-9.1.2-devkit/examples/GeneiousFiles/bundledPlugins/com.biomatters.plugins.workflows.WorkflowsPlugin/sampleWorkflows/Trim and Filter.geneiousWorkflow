@@ -1,0 +1,76 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Trim and Filter" geneiousVersion="9.1.0" uniqueId="53ea3eb2-fae2-4e2c-882f-bce43ffd1900" revisionNumber="4" description="&lt;html&gt;&lt;center&gt;Trims and then filters out some of the trimmed sequences&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement id="Operation_com.biomatters.plugins.alignment.TrimAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="Trimming" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="action">annotate</option>
+        <childOption name="vectorTrim">
+          <option name="vectorScreening">false</option>
+          <option name="minHit">16</option>
+          <multiOption name="vectorDatabaseOption">
+            <value>
+              <option name="vectorDatabaseOption">UniVec</option>
+            </value>
+          </multiOption>
+        </childOption>
+        <childOption name="primerTrim">
+          <option name="primerScreening">false</option>
+          <childOption name="primerTrim">
+            <option name="primers"></option>
+            <option name="allowMismatches">true</option>
+            <option name="maxMismatches">5</option>
+            <option name="minLength">5</option>
+          </childOption>
+        </childOption>
+        <childOption name="errorProbability">
+          <option name="errorProbability">true</option>
+          <option name="errorLimit">0.05</option>
+        </childOption>
+        <childOption name="lowQualityTrim">
+          <option name="lowQuality">false</option>
+          <option name="lowQualityLimit">0</option>
+        </childOption>
+        <childOption name="ambiguityTrim">
+          <option name="ambiguity">false</option>
+          <option name="ambiguityLimit">2</option>
+        </childOption>
+        <childOption name="trimStart">
+          <option name="startTrim">true</option>
+          <option name="startTrimAtLeast">false</option>
+          <option name="startTrimMinimum">0</option>
+        </childOption>
+        <childOption name="trimEnd">
+          <option name="endTrim">true</option>
+          <option name="endTrimAtLeast">false</option>
+          <option name="endTrimMinimum">0</option>
+        </childOption>
+        <childOption name="maxLength">
+          <option name="use">false</option>
+          <option name="maxLength">1000</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="action" label="" />
+    </workflowElement>
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementRename">
+      <options>
+        <option name="prefix">&amp; Trimmed </option>
+        <option name="middle">2</option>
+        <option name="suffix" />
+      </options>
+    </workflowElement>
+    <workflowElement id="FilterOperation" exposeNoOptions="false" exposeAllOptions="true" showButtonForExposedGroup="false" groupNameForExposedOptions="Filtering" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="filterWhat">eachSequence</option>
+        <option name="match">all</option>
+        <multiOption name="filter">
+          <value>
+            <option name="field">postTrimLength</option>
+            <option name="condition">greater_than</option>
+            <option name="value">50</option>
+          </value>
+        </multiOption>
+      </Options>
+      <optionToExpose optionName="filterWhat" label="" />
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABuElEQVR42mNgGAhgbGy8Hoj/Y8HrqWUBPxC/RzP8Pkicmr7IR7bA1NTUnhZBtR9kuJGRUT1N4sLQ0FAeZAlFhvxfv/4/PszQ+OE/Q9vP/wyd//4zTf//h7v3z1fhiX/eyEz9/VRlxp+72rN/XTOe/+us9cKfx5yX/tjrtfTHpqClH2sC5z1wAhrPwvBzzZr/+DBD0WWIJUALmLv+/OXq+f1NqP/ne6lJ318qT/32SGv65zsGMz5eMZ/94azj/HdH3We/2e015UaXe8s+f6AFvAxfli//jw8zZB35z1D/Gm4Bd8+v70J93z9KTfz6WnHSp6da0z7eM5z+7rrFzNcX7Wa/POk289kB977zExzL14QBLRBieL948X98mGILXi5Y8B8fptiCx3Pm/MeHKbbg3owZ//Fhii24MWXKf3yYYgsuTZjwHx+m2IKzvb3/8WGKLTje0fEfH6bYgoOtrf/xYYot2NPY+B8fptiCbbW1//Fhii0AAj4g1gZiKxzYHIpBbEsgtoDyTUFVBhAbAbE+EOtBzdECYlUglgIXdkDACrVEmAQsBMWCQCwAxfxQc0CYB4g5wcX1kAcA6eZ5qpv2zwkAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>

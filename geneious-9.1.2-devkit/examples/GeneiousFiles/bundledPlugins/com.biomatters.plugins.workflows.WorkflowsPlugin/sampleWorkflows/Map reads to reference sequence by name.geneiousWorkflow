@@ -1,0 +1,95 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="Map reads to reference sequence by name" geneiousVersion="9.1.0" uniqueId="468edd55-a764-47a0-81a1-dfc7608b5e5f" revisionNumber="20" description="&lt;html&gt;&lt;center&gt;Maps each sequence list to the stand-alone reference sequence with matching name.&lt;br&gt;&lt;br&gt;Sequence list names must either be the same as their reference sequence, or include the reference sequence&lt;br&gt;name as a prefix. Equal numbers of sequence lists and stand-alone reference sequences must be selected.&lt;/center&gt;&lt;/html&gt;">
+    <workflowElement type="com.biomatters.plugins.workflows.WorkflowElementCustomCode">
+      <code>/**
+ * @return a map from a stand-alone sequence (the reference sequence) to a SequenceList (the reads to map)
+ */
+private static Map&lt;AnnotatedPluginDocument, AnnotatedPluginDocument&gt; groupDocumentsByName(List&lt;AnnotatedPluginDocument&gt; documents) throws DocumentOperationException {
+    Map&lt;String,AnnotatedPluginDocument&gt; standAloneSequencesByName = new LinkedHashMap&lt;String, AnnotatedPluginDocument&gt;();
+    Map&lt;String,AnnotatedPluginDocument&gt; sequenceListsByName = new LinkedHashMap&lt;String, AnnotatedPluginDocument&gt;();
+    Map&lt;AnnotatedPluginDocument, AnnotatedPluginDocument&gt; matchingDocuments = new LinkedHashMap&lt;AnnotatedPluginDocument, AnnotatedPluginDocument&gt;();
+    int minSequenceNameLength = Integer.MAX_VALUE;
+    int maxSequenceNameLength = 0;
+    for (AnnotatedPluginDocument document : documents) {
+        String name = document.getName();
+        name = name.replace(' ','_').replace('-','_');
+        if (SequenceListDocument.class.isAssignableFrom(document.getDocumentClass())) {
+            if (sequenceListsByName.put(name, document) != null)
+                throw new DocumentOperationException("Found duplicate sequence lists called '" + name + "'");
+        }
+        else if (SequenceDocument.class.isAssignableFrom(document.getDocumentClass())) {
+            if (standAloneSequencesByName.put(name, document) != null)
+                throw new DocumentOperationException("Found duplicate sequence called '" + name + "'");
+            minSequenceNameLength = Math.min(name.length(),minSequenceNameLength);
+            maxSequenceNameLength = Math.max(name.length(), maxSequenceNameLength);
+        }
+        else {
+            throw new DocumentOperationException("This operation doesn't work on documents of type "+document.getDocumentClass().getName());
+        }
+    }
+    if (sequenceListsByName.size()!=standAloneSequencesByName.size())
+        throw new DocumentOperationException("An equal number of sequences and sequence lists must be selected");
+
+    for (Map.Entry&lt;String, AnnotatedPluginDocument&gt; entry : sequenceListsByName.entrySet()) {
+        String name = entry.getKey();
+        AnnotatedPluginDocument sequenceList = entry.getValue();
+        AnnotatedPluginDocument standAloneSequence = null;
+        for(int prefixLength=maxSequenceNameLength;prefixLength&gt;=minSequenceNameLength &amp;&amp; standAloneSequence==null;prefixLength--) {
+			if (prefixLength&gt;name.length())
+				continue;
+            standAloneSequence = standAloneSequencesByName.get(name.substring(0,prefixLength));
+        }
+        if (standAloneSequence==null)
+            throw new DocumentOperationException("Can't find matching stand-alone sequence for sequence list called '"+name+"'");
+        AnnotatedPluginDocument existingSequenceList = matchingDocuments.put(standAloneSequence, sequenceList);
+        if (existingSequenceList !=null)
+            throw new DocumentOperationException("Sequence lists '"+sequenceList.getName()+"' and '"+existingSequenceList.getName()+"' both match sequence '"+standAloneSequence.getName()+"'");
+    }
+    return matchingDocuments;
+}
+
+public static Options getOptions() throws DocumentOperationException {
+    Options options = getMapToReferenceOperation().getGeneralOptions();
+    options.getChildOptions().get("data").setVisible(false); // These options aren't applicable when there is just a sequence and a list as input
+    options.getOption("results.resultsInSubfolder").setVisible(false); // Not supported by this workflow
+    return options;
+}
+
+private static DocumentOperation getMapToReferenceOperation() throws DocumentOperationException {
+    DocumentOperation documentOperation = PluginUtilities.getDocumentOperation("com.biomatters.plugins.alignment.AssemblyOperation_Reference");
+    if (documentOperation==null)
+        throw new DocumentOperationException("Can't find map to reference operation");
+    return documentOperation;
+}
+
+public static List&lt;AnnotatedPluginDocument&gt; performOperation(List&lt;AnnotatedPluginDocument&gt; documents, Options options,
+                                                             ProgressListener progressListener) throws DocumentOperationException {
+
+    Map&lt;AnnotatedPluginDocument, AnnotatedPluginDocument&gt; matchingDocuments = groupDocumentsByName(documents);
+    DocumentOperation mapToReference = getMapToReferenceOperation();
+
+    List&lt;AnnotatedPluginDocument&gt; results = new ArrayList&lt;AnnotatedPluginDocument&gt;();
+    CompositeProgressListener compositeProgressListener = new CompositeProgressListener(progressListener, matchingDocuments.size());
+    int setNumber = 1;
+    for (Map.Entry&lt;AnnotatedPluginDocument, AnnotatedPluginDocument&gt; entry : matchingDocuments.entrySet()) {
+        compositeProgressListener.beginSubtask("Set "+(setNumber++)+" of "+matchingDocuments.size());
+        if (compositeProgressListener.isCanceled())
+            throw new DocumentOperationException.Canceled();
+        AnnotatedPluginDocument referenceSequence = entry.getKey();
+        AnnotatedPluginDocument readsToMap = entry.getValue();
+        Options mapToReferenceOptions = mapToReference.getOptions(referenceSequence, readsToMap);
+        mapToReferenceOptions.valuesFromXML(options.valuesToXML("options"));
+        String invalidMessage = mapToReferenceOptions.verifyOptionsAreValid();
+        if (invalidMessage!=null)
+            throw new DocumentOperationException("The options are invalid: "+invalidMessage);
+        if (!mapToReferenceOptions.areValuesGoodEnoughToContinue())
+            throw new DocumentOperationException("The options are invalid");
+
+        results.addAll(mapToReference.performOperation(compositeProgressListener, mapToReferenceOptions, referenceSequence, readsToMap));
+    }
+    return results;
+}</code>
+    </workflowElement>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAgElEQVR42mNgGAUjArgCcTkQzwHi/1TCc6Bmug4PCwY/UPXe85+gAnyYWL1UtwAmh05TBah472nFFkTI4vSLg0FvAVWBms/+z8RisizQCDh1mlhMlgVaYZeXEIvJskA74l4NsZgsC/TiXoUQi8mywDjhiy6xmDwL0v6zEovpkqwBswcKCK18zDYAAAAASUVORK5CYII=</icon>
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>
