@@ -1,13 +1,22 @@
 package com.cipres.mrBayesPlugin.utilities;
 
+import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.json.simple.JSONObject;
 
 import com.biomatters.geneious.publicapi.documents.sequence.SequenceAlignmentDocument;
 import com.biomatters.geneious.publicapi.documents.sequence.SequenceDocument;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperationException;
 import com.biomatters.geneious.publicapi.plugin.Options;
 import com.cipres.mrBayesPlugin.ui.MrBayesOptions;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * @author Steven Stones-Havas
@@ -82,39 +91,39 @@ public class MrBayesUtilities {
         sb.append("lset ");
         if (modelString.equals(MrBayesOptions.JC69)){
             sb.append(" Nst=1");
-        	MrBayesOptions.setJson("Nst", 1);
+        	MrBayesOptions.setJsonCommand("nstopts_", 1);
         }
         else if (modelString.equals(MrBayesOptions.HKY85)){
             sb.append(" Nst=2");
-        	MrBayesOptions.setJson("Nst", 2);
+        	MrBayesOptions.setJsonCommand("nstopts_", 2);
         }
         else if (modelString.equals(MrBayesOptions.GTR)){
             sb.append(" Nst=6");
-            MrBayesOptions.setJson("Nst", 6);
+            MrBayesOptions.setJsonCommand("nstopts_", 6);
         }
         else if (modelString.equals(MrBayesOptions.CODON)){
             sb.append(" Nucmodel=Codon");
-            MrBayesOptions.setJson("Nucmodel", "Codon");
+            MrBayesOptions.setJsonCommand("nucmodelopts_", "Codon");
         //else do nothing, we are probably dealing with protein sequences
         }
         if (rateString.equals(MrBayesOptions.EQUAL)){
             sb.append(" rates=equal");
-            MrBayesOptions.setJson("Rate", "equal");
+            MrBayesOptions.setJsonCommand("rateopts_", "equal");
         }
         else if (rateString.equals(MrBayesOptions.PROPINV)){
             sb.append(" rates=propinv");
-            MrBayesOptions.setJson("Rate", "propinv");
+            MrBayesOptions.setJsonCommand("rateopts_", "propinv");
         }
         else if (rateString.equals(MrBayesOptions.GAMMA)) {
             sb.append(" rates=gamma");
-            MrBayesOptions.setJson("Rate", "gamma");
+            MrBayesOptions.setJsonCommand("rateopts_", "gamma");
             sb.append(" ngammacat=").append(options.getValueAsString(MrBayesOptions.GAMMA_CATS));
-            MrBayesOptions.setJson("ngammacat", options.getValueAsString(MrBayesOptions.GAMMA_CATS));
+//            MrBayesOptions.setJsonCommand("ngammacat", options.getValueAsString(MrBayesOptions.GAMMA_CATS));
         } else if (rateString.equals(MrBayesOptions.INVGAMMA)) {
             sb.append(" rates=invgamma");
-            MrBayesOptions.setJson("Rate", "invgamma");
+            MrBayesOptions.setJsonCommand("rateopts_", "invgamma");
             sb.append(" ngammacat=").append(options.getValueAsString(MrBayesOptions.GAMMA_CATS));
-            MrBayesOptions.setJson("ngammacat", options.getValueAsString(MrBayesOptions.GAMMA_CATS));
+//            MrBayesOptions.setJsonCommand("ngammacat", options.getValueAsString(MrBayesOptions.GAMMA_CATS));
         } else throw new DocumentOperationException("Rate model '" + rateString + "' is not implemented.");
         sb.append(";\n");
 
@@ -131,12 +140,13 @@ public class MrBayesUtilities {
         String aminoAcidMatrix = ((MrBayesOptions) options).getAminoAcidRateMatrix();
         if (aminoAcidMatrix != null) {
             sb.append(" aamodelpr=fixed(").append(aminoAcidMatrix).append(")");
-            MrBayesOptions.setJson("aamodelpr", "fixed(".concat(aminoAcidMatrix).concat(")"));
+            MrBayesOptions.setJsonCommand("aamodelpropts_", "fixed(".concat(aminoAcidMatrix).concat(")"));
         }
         if (rateString.equals(MrBayesOptions.GAMMA) ||
                 rateString.equals(MrBayesOptions.INVGAMMA))
             sb.append(" shapepr=exponential(").append(alphaPrior).append(")");
-        	MrBayesOptions.setJson("shaper", "exponential(".concat(String.valueOf(alphaPrior)).concat(")"));
+        	MrBayesOptions.setJsonCommand("shapepropts_", "exponential");
+        	MrBayesOptions.setJsonCommand("shapeprexp1_", String.valueOf(alphaPrior));
         if (modelString.equals(MrBayesOptions.JC69))
             sb.append(" statefreqpr=fixed(equal)");
         sb.append(";\n");
@@ -155,12 +165,12 @@ public class MrBayesUtilities {
                 .append(" savebrlens=yes starttree=random;\nset seed=")
                 .append(options.getValue(MrBayesOptions.SEED))
                 .append(";\n");
-        MrBayesOptions.setJson("mcmc ngen", numIterations);
-        MrBayesOptions.setJson("samplefreq", options.getValueAsString(MrBayesOptions.SUB_FREQ));
-        MrBayesOptions.setJson("printfreq", options.getValueAsString(MrBayesOptions.NUM_CHAINS));
-        MrBayesOptions.setJson("temp", new DecimalFormat("0.0").format(options.getValue(MrBayesOptions.TEMP)));
-        MrBayesOptions.setJson("savebrlens", "yes");
-        MrBayesOptions.setJson("starttree", "random");
+        MrBayesOptions.setJsonCommand("ngenval_", numIterations);
+        MrBayesOptions.setJsonCommand("samplefreqval_", options.getValueAsString(MrBayesOptions.SUB_FREQ));
+//        MrBayesOptions.setJsonCommand("printfreq", options.getValueAsString(MrBayesOptions.NUM_CHAINS));
+        MrBayesOptions.setJsonCommand("tempval_", new DecimalFormat("0.0").format(options.getValue(MrBayesOptions.TEMP)));
+        MrBayesOptions.setJsonCommand("sbrlensval_", "Savebrlens=Yes");
+//        MrBayesOptions.setJsonCommand("starttree", "random");
         
         
         int burninvalue = (Integer) options.getValue(MrBayesOptions.BURNIN);
@@ -171,7 +181,7 @@ public class MrBayesUtilities {
         sb.append("sumt burnin=")
                 .append(burninvalue / (Integer) options.getValue(MrBayesOptions.SUB_FREQ))
                 .append(";\n");
-        MrBayesOptions.setJson("sumt burnin", burninvalue / (Integer) options.getValue(MrBayesOptions.SUB_FREQ));
+        MrBayesOptions.setJsonCommand("sumtburnin_", burninvalue / (Integer) options.getValue(MrBayesOptions.SUB_FREQ));
         sb.append("End;\n");
         
         return sb.toString();
@@ -198,4 +208,27 @@ public class MrBayesUtilities {
         return (Integer) options.getValue(MrBayesOptions.LENGTH);
     }
 
+    public static HashMap<String, String> getMetadata(String jobName){
+    	HashMap<String, String> metadata = new HashMap<String,String>();
+    	metadata.put("statusEmail", "true");
+    	metadata.put("clientJobName", jobName);
+    	return metadata;
+    }
+
+    
+    public static Map<String, Collection<String>> getVParams(JSONObject json){
+    	ObjectMapper mapper = new ObjectMapper();
+    	Map<String, Collection<String>> vParams = 
+    			new HashMap<String, Collection<String>>();
+    	mapper.enable(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY);
+    	try {
+			vParams = mapper.readValue(json.toString(), new TypeReference<Map<String, Collection<String>>>(){});
+		} catch (IOException e) {
+			
+			System.err.println("getVParam exception caught in Utilities");
+			e.printStackTrace();
+		}
+    
+    	return vParams;
+    }
 }

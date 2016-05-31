@@ -7,7 +7,6 @@ import java.awt.Image;
 import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -123,32 +122,41 @@ public class MrBayesOptions extends Options {
     private ButtonOption restoreButton;
     ButtonOption restoreButton2;
     
-    public static JSONObject json = new JSONObject();
+    public static JSONObject jsonCommand = new JSONObject();
+    public static JSONObject jsonInterface = new JSONObject();
 
-    public static JSONObject getJson() {
-    	setFields(json);
-		return json;
+    public static JSONObject getJsonCommand() {
+		return jsonCommand;
 	}
 
-	public static void setJson(String key, Object value) {
-		MrBayesOptions.json.put(key, value);
+	@SuppressWarnings("unchecked")
+	public static void setJsonCommand(String key, Object value) {
+		jsonCommand.put(key, value);
+	}
+	
+	@SuppressWarnings("unchecked")
+	public static JSONObject getJsonInterface(){
+		jsonInterface.put("Gamma Categories", gammaCategories.getValue());
+    	jsonInterface.put("Length", length.getValue());
+    	jsonInterface.put("Burning", burnin.getValue());
+    	jsonInterface.put("SubsampleFrequency", subsampleFrequency.getValue());
+    	jsonInterface.put("Rate Variation", rateVariation.getValue());
+    	jsonInterface.put("Prior Tasks", priorTasks.getValue());
+    	jsonInterface.put("Branch Length", branchLength.getValue());
+    	jsonInterface.put("Tree Age Alpha", treeAgeAlpha.getValue());
+    	jsonInterface.put("Tree Age Beta", treeAgeBeta.getValue());
+    	jsonInterface.put("Shape Parameter", shapeAlpha.getValue());
+    	jsonInterface.put("Random Seed", randomSeed.getValue());
+		return jsonInterface;
 	}
 
+	@SuppressWarnings("unchecked")
+	public static void setJsonInterface(String key, Object value){
+		jsonInterface.put(key, value);
+	}
 	private boolean panelCreated = false;
     
-    public static void setFields(JSONObject json){
-    	json.put("Gamma Categories", gammaCategories.getValue());
-    	json.put("Length", length.getValue());
-    	json.put("Burning", burnin.getValue());
-    	json.put("SubsampleFrequency", subsampleFrequency.getValue());
-    	json.put("Rate Variation", rateVariation.getValue());
-    	json.put("Prior Tasks", priorTasks.getValue());
-    	json.put("Branch Length", branchLength.getValue());
-    	json.put("Tree Age Alpha", treeAgeAlpha.getValue());
-    	json.put("Tree Age Beta", treeAgeBeta.getValue());
-    	json.put("Shape Parameter", shapeAlpha.getValue());
-    	json.put("Random Seed", randomSeed.getValue());
-    }
+
 
     public MrBayesOptions(Element e) throws XMLSerializationException {
         super(e);
@@ -221,7 +229,6 @@ public class MrBayesOptions extends Options {
             }
         }
  
-///////////////////////////DON'T KNOW WHAT THIS IS
         DocumentOperation clustalOperation = PluginUtilities.getDocumentOperation("com.biomatters.plugins.clustal.ClustalOperation");
         if (clustalOperation == null && selectedDocuments.length > 1) {
             addLabel("Please enable the ClustalW Plugin in preferences to run MrBayes on unaligned sequences");
@@ -246,7 +253,6 @@ public class MrBayesOptions extends Options {
             });
             addLabel(" ");
         }
-///////////////////////////
         
 //////////Command block option code block begins
         beginAlignHorizontally(null, false);
@@ -385,7 +391,7 @@ public class MrBayesOptions extends Options {
             model.addChangeListener(codonListener);
             useCustomCommandBlock.addChangeListener(codonListener);
             codonListener.objectChanged();
-            setJson("Substitution Model", model.getValue());
+            setJsonInterface("Substitution Model", model.getValue());
         }
 
         OptionValue[] rateVariations = new OptionValue[4];
@@ -493,9 +499,9 @@ public class MrBayesOptions extends Options {
             addLabel(s, true, true);
         }
         
-        setJson("Outgroup", outgroupOption.getValue());
-        setJson("Heated Chains", numberOfChains.getValue());
-        setJson("Heated Chain Temp", chainTemp.getValue());
+        setJsonInterface("Outgroup", outgroupOption.getValue());
+        setJsonInterface("Heated Chains", numberOfChains.getValue());
+        setJsonInterface("Heated Chain Temp", chainTemp.getValue());
         
         
     }

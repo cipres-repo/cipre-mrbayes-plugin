@@ -2,6 +2,7 @@ package com.cipres.mrBayesPlugin.utilities;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.Map;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -111,6 +112,25 @@ public class CipresUtilities {
 			}
 		}
 	}
+	
+	public static void submitJob(
+			Map<String,Collection<String>> vParams, Map<String,String> inputParams, 
+			Map<String,String> metadata) throws CiCipresException{
+
+		System.err.println("SubmitJob enter");
+		DataHandlingUtilities handler = DataHandlingUtilities.getInstance();
+		CiClient myClient = handler.getClient();
+		CiJob jobStatus = null;
+		if(CipresUtilities.clientCheck(myClient) == true){
+			jobStatus = myClient.submitJob("MRBAYES_XSEDE", vParams, inputParams, metadata);
+		} else{
+			System.err.println("No Client Found");
+		}
+		
+		
+		jobStatus.show(true);
+	} 
+	
 
 }
 

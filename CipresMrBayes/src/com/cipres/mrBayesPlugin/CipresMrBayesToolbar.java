@@ -11,15 +11,12 @@ import org.ngbw.directclient.CiClient;
 
 import com.biomatters.geneious.publicapi.components.Dialogs;
 import com.biomatters.geneious.publicapi.components.Dialogs.DialogOptions;
-import com.biomatters.geneious.publicapi.components.OptionsPanel;
 import com.biomatters.geneious.publicapi.documents.AnnotatedPluginDocument;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperation;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperationException;
 import com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature;
 import com.biomatters.geneious.publicapi.plugin.GeneiousActionOptions;
-import com.biomatters.geneious.publicapi.plugin.Icons;
 import com.biomatters.geneious.publicapi.plugin.Options;
-import com.biomatters.geneious.publicapi.utilities.IconUtilities;
 import com.cipres.mrBayesPlugin.models.UserModel;
 import com.cipres.mrBayesPlugin.ui.JobManagePanel;
 import com.cipres.mrBayesPlugin.ui.LoginOptions;

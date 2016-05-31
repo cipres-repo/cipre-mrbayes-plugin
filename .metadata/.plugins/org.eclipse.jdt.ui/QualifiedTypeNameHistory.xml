@@ -44,13 +44,13 @@
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesTree"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.DocumentSelectionSignature"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesToolbar"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.components.Dialogs.DialogIcon"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.ui.LoginOptions.PasswordOption"/>
 <fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.INTERNAL"/>
 <fullyQualifiedTypeName name="com.biomatters.geneious.publicapi.plugin.Options.IntegerOption"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.CipresMrBayesPlugin"/>
-<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.ui.MrBayesOptions"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.CipresUtilities"/>
 <fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.utilities.MrBayesUtilities"/>
+<fullyQualifiedTypeName name="com.cipres.mrBayesPlugin.ui.MrBayesOptions"/>
 </qualifiedTypeNameHistroy>
