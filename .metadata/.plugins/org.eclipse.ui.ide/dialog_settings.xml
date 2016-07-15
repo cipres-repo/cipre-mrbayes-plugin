@@ -12,6 +12,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/rjzheng/Documents/java_direct"/>
 			<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/geneious-9.1.2-devkit/examples/GeneiousFiles"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_0d8BAB9LEeagmYQggOhMgw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0d8BAR9LEeagmYQggOhMgw" bindingContexts="_0d_Ewh9LEeagmYQggOhMgw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobManagePanel.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/JobManagePanel.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/JobManagePanel.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesOptions.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Example.java&quot; tooltip=&quot;java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;>&#xA;&lt;persistable path=&quot;/java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Readme.txt&quot; tooltip=&quot;java_direct_client/Readme.txt&quot;>&#xA;&lt;persistable path=&quot;/java_direct_client/Readme.txt&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesToolbar.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesToolbar.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesToolbar.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DataHandlingUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/DataHandlingUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/DataHandlingUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesTree.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Options$OptionValue.class&quot; tooltip=&quot;com.biomatters.geneious.publicapi.plugin.Options$OptionValue&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=GeneiousFiles/lib\/GeneiousPublicAPI.jar&amp;lt;com.biomatters.geneious.publicapi.plugin(Options$OptionValue.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesPlugin.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesPlugin.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesPlugin.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Icons.class&quot; tooltip=&quot;com.biomatters.geneious.publicapi.plugin.Icons&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=GeneiousFiles/lib\/GeneiousPublicAPI.jar&amp;lt;com.biomatters.geneious.publicapi.plugin(Icons.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesDocumentOperation.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesDocumentOperation.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesDocumentOperation.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;WebTarget.class&quot; tooltip=&quot;javax.ws.rs.client.WebTarget&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=java_direct_client/\/Users\/rjzheng\/.m2\/repository\/javax\/ws\/rs\/javax.ws.rs-api\/2.0\/javax.ws.rs-api-2.0.jar&amp;lt;javax.ws.rs.client(WebTarget.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CiCommunicator.java&quot; tooltip=&quot;java_direct_client/src/main/java/org/ngbw/directclient/CiCommunicator.java&quot;>&#xA;&lt;persistable path=&quot;/java_direct_client/src/main/java/org/ngbw/directclient/CiCommunicator.java&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesToolbar.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesToolbar.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesToolbar.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LoginOptions.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/LoginOptions.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/LoginOptions.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Readme.txt&quot; tooltip=&quot;java_umbrella/Readme.txt&quot;>&#xA;&lt;persistable path=&quot;/java_umbrella/Readme.txt&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Example.java&quot; tooltip=&quot;java_umbrella/src/main/java/org/ngbw/directclient/example/Example.java&quot;>&#xA;&lt;persistable path=&quot;/java_umbrella/src/main/java/org/ngbw/directclient/example/Example.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;JobManagePanel.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/JobManagePanel.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/JobManagePanel.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesOptions.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Example.java&quot; tooltip=&quot;java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;>&#xA;&lt;persistable path=&quot;/java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Readme.txt&quot; tooltip=&quot;java_direct_client/Readme.txt&quot;>&#xA;&lt;persistable path=&quot;/java_direct_client/Readme.txt&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;DataHandlingUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/DataHandlingUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/DataHandlingUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesTree.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Options$OptionValue.class&quot; tooltip=&quot;com.biomatters.geneious.publicapi.plugin.Options$OptionValue&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=GeneiousFiles/lib\/GeneiousPublicAPI.jar&amp;lt;com.biomatters.geneious.publicapi.plugin(Options$OptionValue.class&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesPlugin.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesPlugin.java&quot;>&#xA;&lt;persistable path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesPlugin.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditorNoSource&quot; name=&quot;Icons.class&quot; tooltip=&quot;com.biomatters.geneious.publicapi.plugin.Icons&quot;>&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=GeneiousFiles/lib\/GeneiousPublicAPI.jar&amp;lt;com.biomatters.geneious.publicapi.plugin(Icons.class&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>ModelMigrationProcessor.001</tags>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_0d8BAR9LEeagmYQggOhMgw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0d8BAh9LEeagmYQggOhMgw" label="%trimmedwindow.label.eclipseSDK" x="331" y="23" width="640" height="773">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_0d8BAR9LEeagmYQggOhMgw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_0d8BAh9LEeagmYQggOhMgw" label="%trimmedwindow.label.eclipseSDK" x="0" y="23" width="640" height="773">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -164,7 +164,8 @@
               <children xsi:type="basic:PartSashContainer" xmi:id="_0d8BJx9LEeagmYQggOhMgw" containerData="7500" selectedElement="_0d8BKB9LEeagmYQggOhMgw" horizontal="true">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_0d8BKB9LEeagmYQggOhMgw" containerData="7500" selectedElement="_0d8BKR9LEeagmYQggOhMgw">
                   <children xsi:type="advanced:Placeholder" xmi:id="_0d8BKR9LEeagmYQggOhMgw" elementId="org.eclipse.ui.editorss" containerData="7482" ref="_0d8pGx9LEeagmYQggOhMgw"/>
-                  <children xsi:type="basic:PartStack" xmi:id="_0d8BKh9LEeagmYQggOhMgw" elementId="PartStack@54733b9c" containerData="2518" selectedElement="_0d8BKx9LEeagmYQggOhMgw">
+                  <children xsi:type="basic:PartStack" xmi:id="_0d8BKh9LEeagmYQggOhMgw" elementId="PartStack@54733b9c" visible="false" containerData="2518" selectedElement="_0d8BKx9LEeagmYQggOhMgw">
+                    <tags>Minimized</tags>
                     <children xsi:type="advanced:Placeholder" xmi:id="_0d8BKx9LEeagmYQggOhMgw" elementId="org.eclipse.ui.console.ConsoleView" ref="_0d92eR9LEeagmYQggOhMgw"/>
                   </children>
                 </children>
@@ -218,15 +219,17 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_0d8pGx9LEeagmYQggOhMgw" elementId="org.eclipse.ui.editorss" selectedElement="_0d8pHB9LEeagmYQggOhMgw">
-      <children xsi:type="basic:PartSashContainer" xmi:id="_0d8pHB9LEeagmYQggOhMgw" selectedElement="_0d8pHR9LEeagmYQggOhMgw">
-        <children xsi:type="basic:PartStack" xmi:id="_0d8pHR9LEeagmYQggOhMgw" elementId="PartStack@1383f7f2" containerData="5000" selectedElement="_0d9PLB9LEeagmYQggOhMgw">
+    <sharedElements xsi:type="advanced:Area" xmi:id="_0d8pGx9LEeagmYQggOhMgw" elementId="org.eclipse.ui.editorss" selectedElement="_-5yucDsvEeaOM4DeOK-Pxw">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_-5yucDsvEeaOM4DeOK-Pxw" selectedElement="_-5yucTsvEeaOM4DeOK-Pxw" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_-5yucTsvEeaOM4DeOK-Pxw" elementId="PartStack@d776dfe" containerData="5000" selectedElement="_0d8pHh9LEeagmYQggOhMgw">
           <tags>active</tags>
           <children xsi:type="basic:Part" xmi:id="_0d8pHh9LEeagmYQggOhMgw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CipresMrBayesTree.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesTree.java&quot; partName=&quot;CipresMrBayesTree.java&quot; title=&quot;CipresMrBayesTree.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;8&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5412&quot; selectionTopPixel=&quot;1464&quot;/>&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresMrBayesTree.java&quot; partName=&quot;CipresMrBayesTree.java&quot; title=&quot;CipresMrBayesTree.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/CipresMrBayesTree.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3275&quot; selectionTopPixel=&quot;470&quot;/>&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
+            <tags>active</tags>
+            <tags>activeOnClose</tags>
             <menus xsi:type="menu:PopupMenu" xmi:id="_0d8pHx9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
               <tags>menuContribution:popup</tags>
               <tags>popup:#CompilationUnitEditorContext</tags>
@@ -260,111 +263,11 @@
               <tags>popup:#OverviewRulerContext</tags>
             </menus>
           </children>
-          <children xsi:type="basic:Part" xmi:id="_0d9PKB9LEeagmYQggOhMgw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CipresUtilities.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CipresUtilities.java&quot; partName=&quot;CipresUtilities.java&quot; title=&quot;CipresUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/CipresUtilities.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3311&quot; selectionTopPixel=&quot;1922&quot;/>&#xA;&lt;/editor>"/>
+          <children xsi:type="basic:Part" xmi:id="_9RWUgDswEeaOM4DeOK-Pxw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="LoginOptions.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LoginOptions.java&quot; partName=&quot;LoginOptions.java&quot; title=&quot;LoginOptions.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/LoginOptions.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/LoginOptions.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;670&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PKR9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitEditorContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-              <tags>popup:#AbstractTextEditorContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PKh9LEeagmYQggOhMgw" elementId="#CompilationUnitRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitRulerContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-              <tags>popup:#AbstractTextEditorRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PKx9LEeagmYQggOhMgw" elementId="#OverviewRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#OverviewRulerContext</tags>
-            </menus>
-          </children>
-          <children xsi:type="basic:Part" xmi:id="_0d9PLB9LEeagmYQggOhMgw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MrBayesUtilities.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesUtilities.java&quot; partName=&quot;MrBayesUtilities.java&quot; title=&quot;MrBayesUtilities.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/utilities/MrBayesUtilities.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;6993&quot; selectionTopPixel=&quot;2454&quot;/>&#xA;&lt;/editor>"/>
-            <tags>Editor</tags>
-            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-            <tags>removeOnHide</tags>
-            <tags>active</tags>
-            <tags>activeOnClose</tags>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PLR9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitEditorContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-              <tags>popup:#AbstractTextEditorContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PLh9LEeagmYQggOhMgw" elementId="#CompilationUnitRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitRulerContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-              <tags>popup:#AbstractTextEditorRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PLx9LEeagmYQggOhMgw" elementId="#OverviewRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#OverviewRulerContext</tags>
-            </menus>
-          </children>
-          <children xsi:type="basic:Part" xmi:id="_0d9PIR9LEeagmYQggOhMgw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MrBayesOptions.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MrBayesOptions.java&quot; partName=&quot;MrBayesOptions.java&quot; title=&quot;MrBayesOptions.java&quot; tooltip=&quot;CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CipresMrBayes/src/com/cipres/mrBayesPlugin/ui/MrBayesOptions.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;8&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;26627&quot; selectionTopPixel=&quot;3397&quot;/>&#xA;&lt;/editor>"/>
-            <tags>Editor</tags>
-            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-            <tags>removeOnHide</tags>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PIh9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitEditorContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-              <tags>popup:#AbstractTextEditorContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PIx9LEeagmYQggOhMgw" elementId="#CompilationUnitRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitRulerContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-              <tags>popup:#AbstractTextEditorRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PJB9LEeagmYQggOhMgw" elementId="#OverviewRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#OverviewRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PJR9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitEditorContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-              <tags>popup:#AbstractTextEditorContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PJh9LEeagmYQggOhMgw" elementId="#CompilationUnitRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitRulerContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-              <tags>popup:#AbstractTextEditorRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9PJx9LEeagmYQggOhMgw" elementId="#OverviewRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#OverviewRulerContext</tags>
-            </menus>
-          </children>
-          <children xsi:type="basic:Part" xmi:id="_0d9POB9LEeagmYQggOhMgw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Example.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Example.java&quot; partName=&quot;Example.java&quot; title=&quot;Example.java&quot; tooltip=&quot;java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/java_direct_client/src/main/java/org/ngbw/directclient/example/Example.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;67&quot; selectionOffset=&quot;3711&quot; selectionTopPixel=&quot;2373&quot;/>&#xA;&lt;/editor>"/>
-            <tags>Editor</tags>
-            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-            <tags>removeOnHide</tags>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9POR9LEeagmYQggOhMgw" elementId="#CompilationUnitEditorContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitEditorContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
-              <tags>popup:#AbstractTextEditorContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9POh9LEeagmYQggOhMgw" elementId="#CompilationUnitRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#CompilationUnitRulerContext</tags>
-              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
-              <tags>popup:#AbstractTextEditorRulerContext</tags>
-            </menus>
-            <menus xsi:type="menu:PopupMenu" xmi:id="_0d9POx9LEeagmYQggOhMgw" elementId="#OverviewRulerContext">
-              <tags>menuContribution:popup</tags>
-              <tags>popup:#OverviewRulerContext</tags>
-            </menus>
           </children>
         </children>
         <children xsi:type="basic:PartStack" xmi:id="_0d9PPB9LEeagmYQggOhMgw" elementId="org.eclipse.e4.primaryDataStack" toBeRendered="false" containerData="5000">
@@ -585,7 +488,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0d92lx9LEeagmYQggOhMgw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2nAc8Ca3Eea38JZAoo75_Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0eBiTR9LEeagmYQggOhMgw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1khgcEmOEea7-r2uXXJk6g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_0eBiTR9LEeagmYQggOhMgw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0d92pR9LEeagmYQggOhMgw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -609,7 +512,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0d925x9LEeagmYQggOhMgw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2nEuYCa3Eea38JZAoo75_Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0eBhxR9LEeagmYQggOhMgw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_1kmY8EmOEea7-r2uXXJk6g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_0eBhxR9LEeagmYQggOhMgw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_0d928h9LEeagmYQggOhMgw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -664,7 +567,7 @@
       <children xsi:type="menu:ToolControl" xmi:id="_0d93Fh9LEeagmYQggOhMgw" elementId="bottom(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_0d93Fx9LEeagmYQggOhMgw" elementId="PartStack@54733b9c(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+      <children xsi:type="menu:ToolControl" xmi:id="_0d93Fx9LEeagmYQggOhMgw" elementId="PartStack@54733b9c(org.eclipse.jdt.ui.JavaPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
       </children>
       <children xsi:type="menu:ToolControl" xmi:id="_0d93GB9LEeagmYQggOhMgw" elementId="org.eclipse.ui.editorss(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
@@ -1026,7 +929,7 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_0d-eCx9LEeagmYQggOhMgw" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.cheatsheets.views.CheatSheetView"/>
     </bindings>
-    <bindings xmi:id="_2IjmYSa3Eea38JZAoo75_Q" keySequence="COMMAND+CTRL+F" command="_0eCIoR9LEeagmYQggOhMgw"/>
+    <bindings xmi:id="_05dKMEmOEea7-r2uXXJk6g" keySequence="COMMAND+CTRL+F" command="_0eCIoR9LEeagmYQggOhMgw"/>
   </bindingTables>
   <bindingTables xmi:id="_0d-eDR9LEeagmYQggOhMgw" elementId="org.eclipse.ui.textEditorScope" bindingContext="_0d_Exh9LEeagmYQggOhMgw">
     <bindings xmi:id="_0d-eDh9LEeagmYQggOhMgw" keySequence="COMMAND+SHIFT+ARROW_LEFT" command="_0eCHzB9LEeagmYQggOhMgw">
@@ -1212,7 +1115,7 @@
     <bindings xmi:id="_0d_EnB9LEeagmYQggOhMgw" keySequence="F5" command="_0eCH7x9LEeagmYQggOhMgw"/>
   </bindingTables>
   <bindingTables xmi:id="_0d_EnR9LEeagmYQggOhMgw" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_0d_E6R9LEeagmYQggOhMgw">
-    <bindings xmi:id="_2IkNcCa3Eea38JZAoo75_Q" keySequence="M1+W" command="_0eCIox9LEeagmYQggOhMgw"/>
+    <bindings xmi:id="_05dxQEmOEea7-r2uXXJk6g" keySequence="M1+W" command="_0eCIox9LEeagmYQggOhMgw"/>
   </bindingTables>
   <bindingTables xmi:id="_0d_Enx9LEeagmYQggOhMgw" bindingContext="_0d_E7x9LEeagmYQggOhMgw"/>
   <bindingTables xmi:id="_0d_EoB9LEeagmYQggOhMgw" bindingContext="_0d_E8B9LEeagmYQggOhMgw"/>

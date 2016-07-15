@@ -5,7 +5,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
@@ -17,6 +16,8 @@ import org.ngbw.restdatatypes.ErrorData;
 import org.ngbw.restdatatypes.LimitStatus;
 import org.ngbw.restdatatypes.ParamError;
 
+import com.biomatters.geneious.publicapi.components.Dialogs;
+import com.biomatters.geneious.publicapi.components.Dialogs.DialogOptions;
 import com.biomatters.geneious.publicapi.documents.AnnotatedPluginDocument;
 import com.biomatters.geneious.publicapi.documents.sequence.SequenceAlignmentDocument;
 import com.biomatters.geneious.publicapi.plugin.DocumentOperation;
@@ -28,12 +29,14 @@ import com.biomatters.geneious.publicapi.plugin.Options;
 import com.biomatters.geneious.publicapi.plugin.PluginUtilities;
 import com.biomatters.geneious.publicapi.utilities.FileUtilities;
 import com.biomatters.geneious.publicapi.utilities.IconUtilities;
+import com.cipres.mrBayesPlugin.ui.LoginOptions;
 import com.cipres.mrBayesPlugin.ui.MrBayesOptions;
 import com.cipres.mrBayesPlugin.utilities.CipresUtilities;
 import com.cipres.mrBayesPlugin.utilities.MrBayesUtilities;
 
 import jebl.util.ProgressListener;
 import jebl.util.SafePrintWriter;
+
 
 public class CipresMrBayesTree extends DocumentOperation{
 	static final String GENEIOUS_NEX = "geneious.nex";
@@ -60,7 +63,12 @@ public class CipresMrBayesTree extends DocumentOperation{
 	
 	public Options getOptions(final AnnotatedPluginDocument[] docs) throws DocumentOperationException{
         Options options = null;
-        options = new MrBayesOptions(docs);
+        if(CipresMrBayesToolbar.getNewUser() == true){
+        	
+        } else{
+        	options = new MrBayesOptions(docs);
+        }
+        
         return options;
     }
 	
@@ -70,7 +78,6 @@ public class CipresMrBayesTree extends DocumentOperation{
 		Map<String, Collection<String>> vParams = new HashMap<String, Collection<String>>();
 		Map<String, String> inputParams = new HashMap<String, String>();
 		Map<String, String> metadata = new HashMap<String, String>();
-		
 		
 		
 		List<File> files = new ArrayList<File>();

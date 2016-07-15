@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="shapepropts" key="selection"/>
+		<item value="newUser" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="newUser"/>
+			<item value="login"/>
 			<item value="shapepropts"/>
 			<item value="vparam"/>
 			<item value="sendCannedJob"/>
 			<item value="submitJob"/>
 			<item value="main"/>
 			<item value="sbrlensval"/>
-			<item value="setJsonCommand"/>
-			<item value="sumt burnin"/>
 		</list>
 		<list key="replacehistory">
 		</list>

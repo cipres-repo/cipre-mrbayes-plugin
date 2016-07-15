@@ -28,7 +28,11 @@ import jebl.util.ProgressListener;
 public class CipresMrBayesToolbar extends DocumentOperation{
 	public static CiClient myClient;
 	private JPanel displayGuiModel;
-	private Boolean newUser = true;
+	private static Boolean newUser = true;
+	
+	public static Boolean getNewUser(){
+		return newUser;
+	}
 	
 	public String getUniqueId(){
 		return "Cipres_MrBayes";

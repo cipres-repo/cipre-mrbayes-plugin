@@ -43,6 +43,43 @@
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
 	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/bin/javadoc" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="CipresMrBayes">
+				<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/javadoc.xml" key="antpath"/>
+				<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/CipresMrBayes/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="java_umbrella">
+				<item value="/Users/rjzheng/Documents/java_direct/javadoc.xml" key="antpath"/>
+				<item value="/Users/rjzheng/Documents/java_direct/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="GeneiousFiles">
+				<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/geneious-9.1.2-devkit/examples/GeneiousFiles/javadoc.xml" key="antpath"/>
+				<item value="/Users/rjzheng/Documents/cipres-mrbayes-plugin/geneious-9.1.2-devkit/examples/GeneiousFiles/doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
 	<section name="SourceActionDialog.methods">
 		<item value="false" key="SynchronizedModifier"/>
 		<item value="false" key="Comments"/>
@@ -61,6 +98,13 @@
 	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item value="600" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText-Regular" key="DIALOG_FONT_NAME"/>
+		<item value="534" key="DIALOG_HEIGHT"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="170" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
